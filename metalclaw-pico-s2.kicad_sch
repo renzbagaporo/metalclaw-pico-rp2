@@ -6940,12 +6940,12 @@
 		(uuid "bb315b11-fc59-4b6d-9989-279775940c77")
 	)
 	(label "3V3_EN"
-		(at 121.92 53.34 270)
+		(at 71.12 147.32 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bf90c86a-d949-4341-9bb7-c206f6a037f3")
 	)
@@ -7060,12 +7060,12 @@
 		(uuid "f138b8ec-c270-4278-ab15-b72fffb35fb8")
 	)
 	(label "RUN"
-		(at 71.12 147.32 90)
+		(at 121.92 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f38de4bf-7aba-47af-81b5-66b2e00474a2")
 	)
