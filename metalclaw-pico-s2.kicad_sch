@@ -5641,7 +5641,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 91.44) (xy 238.76 91.44)
+			(xy 237.49 91.44) (xy 252.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5728,16 +5728,6 @@
 			(type default)
 		)
 		(uuid "a46fee32-2711-47d4-afc6-e148917c95d4")
-	)
-	(wire
-		(pts
-			(xy 246.38 91.44) (xy 252.73 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b2b654-8041-426d-a694-76f10c37b9fa")
 	)
 	(wire
 		(pts
@@ -7139,7 +7129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 87.63 0)
 			(effects
 				(font
@@ -7149,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 87.884 90)
 			(effects
 				(font
@@ -7646,7 +7636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 92.71 0)
 			(effects
 				(font
@@ -7656,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 92.964 90)
 			(effects
 				(font
@@ -7783,7 +7773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 85.09 0)
 			(effects
 				(font
@@ -7793,7 +7783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 85.344 90)
 			(effects
 				(font
@@ -7855,7 +7845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 57.15 0)
 			(effects
 				(font
@@ -7865,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 57.404 90)
 			(effects
 				(font
@@ -7925,7 +7915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 120.65 152.4 0)
 			(effects
 				(font
@@ -7934,7 +7924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.396 151.384 90)
 			(effects
 				(font
@@ -7995,7 +7985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 64.77 0)
 			(effects
 				(font
@@ -8005,7 +7995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 65.024 90)
 			(effects
 				(font
@@ -8074,7 +8064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.176 67.056 90)
 			(effects
 				(font
@@ -8136,7 +8126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 85.09 0)
 			(effects
 				(font
@@ -8146,7 +8136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 85.344 90)
 			(effects
 				(font
@@ -8207,7 +8197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 62.23 0)
 			(effects
 				(font
@@ -8217,7 +8207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 62.484 90)
 			(effects
 				(font
@@ -8351,7 +8341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 70.104 162.306 90)
 			(effects
 				(font
@@ -8420,7 +8410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.724 162.306 90)
 			(effects
 				(font
@@ -8482,7 +8472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 64.77 0)
 			(effects
 				(font
@@ -8492,7 +8482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 65.024 90)
 			(effects
 				(font
@@ -8624,7 +8614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 80.01 0)
 			(effects
 				(font
@@ -8634,7 +8624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 80.264 90)
 			(effects
 				(font
@@ -8828,7 +8818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 67.31 0)
 			(effects
 				(font
@@ -8838,7 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 67.564 90)
 			(effects
 				(font
@@ -8900,7 +8890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 95.25 0)
 			(effects
 				(font
@@ -8910,7 +8900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 95.504 90)
 			(effects
 				(font
@@ -8980,7 +8970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 169.164 67.564 90)
 			(effects
 				(font
@@ -9111,7 +9101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 67.31 0)
 			(effects
 				(font
@@ -9121,7 +9111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 67.564 90)
 			(effects
 				(font
@@ -9231,77 +9221,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 242.57 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90138efe-77a7-42f1-aff1-955dd6db01ac")
-		(property "Reference" "R17"
-			(at 241.554 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "R_US"
-			(at 244.094 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.824 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 242.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd0bd835-b67b-4090-b8c6-6d96bdbc8579")
-		)
-		(pin "2"
-			(uuid "c50da254-4553-41af-821f-94d3b105289a")
-		)
-		(instances
-			(project "metalclaw-pico-s2"
-				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 262.89 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9327,7 +9246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 263.906 51.054 90)
 			(effects
 				(font
@@ -9521,7 +9440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 72.39 0)
 			(effects
 				(font
@@ -9531,7 +9450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 72.644 90)
 			(effects
 				(font
@@ -9829,7 +9748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 77.47 0)
 			(effects
 				(font
@@ -9839,7 +9758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 77.724 90)
 			(effects
 				(font
@@ -9901,7 +9820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 90.17 0)
 			(effects
 				(font
@@ -9911,7 +9830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 90.424 90)
 			(effects
 				(font
@@ -10039,7 +9958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 69.85 0)
 			(effects
 				(font
@@ -10049,7 +9968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 70.104 90)
 			(effects
 				(font
@@ -10177,7 +10096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 69.85 0)
 			(effects
 				(font
@@ -10187,7 +10106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 70.104 90)
 			(effects
 				(font
@@ -10476,7 +10395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.084 58.674 90)
 			(effects
 				(font
@@ -10611,7 +10530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.286 61.976 90)
 			(effects
 				(font
@@ -10672,7 +10591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 59.69 0)
 			(effects
 				(font
@@ -10682,7 +10601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 59.944 90)
 			(effects
 				(font
@@ -10964,7 +10883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 74.93 0)
 			(effects
 				(font
@@ -10974,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 75.184 90)
 			(effects
 				(font
@@ -11100,7 +11019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 72.39 0)
 			(effects
 				(font
@@ -11110,7 +11029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 72.644 90)
 			(effects
 				(font
@@ -11171,7 +11090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 74.93 0)
 			(effects
 				(font
@@ -11181,7 +11100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 75.184 90)
 			(effects
 				(font
@@ -11250,7 +11169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 258.826 59.944 90)
 			(effects
 				(font
@@ -11312,7 +11231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 62.23 0)
 			(effects
 				(font
@@ -11322,7 +11241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 62.484 90)
 			(effects
 				(font
@@ -11384,7 +11303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 59.69 0)
 			(effects
 				(font
@@ -11394,7 +11313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 59.944 90)
 			(effects
 				(font
@@ -11455,7 +11374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 244.094 87.63 0)
 			(effects
 				(font
@@ -11465,7 +11384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 242.824 87.884 90)
 			(effects
 				(font
@@ -11527,7 +11446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "220"
 			(at 185.166 82.55 0)
 			(effects
 				(font
@@ -11537,7 +11456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.436 82.804 90)
 			(effects
 				(font
