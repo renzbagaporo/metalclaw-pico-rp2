@@ -5244,12 +5244,6 @@
 		(uuid "0552a7a4-e5ba-40c9-bf19-a2266eae7fb2")
 	)
 	(junction
-		(at 123.19 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0568142f-a23f-40ed-ad85-e9779e8b7cf6")
-	)
-	(junction
 		(at 154.94 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5334,12 +5328,6 @@
 		(uuid "47025157-acdb-4b1d-9a4d-1db9b6e4ca85")
 	)
 	(junction
-		(at 123.19 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b0458b3-b1d8-44fb-84d3-659b4ff0dc23")
-	)
-	(junction
 		(at 190.5 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5392,6 +5380,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68de8078-15a5-45df-b61e-58b036922990")
+	)
+	(junction
+		(at 123.19 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d87cb59-734b-4df5-990f-8f9dfecdff11")
 	)
 	(junction
 		(at 158.75 163.83)
@@ -5568,12 +5562,6 @@
 		(uuid "cb67fb16-6c0e-409e-ae6b-0c5571da89ec")
 	)
 	(junction
-		(at 104.14 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf2889a6-4357-4aeb-93cf-bbce501fc650")
-	)
-	(junction
 		(at 60.96 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5616,6 +5604,12 @@
 		(uuid "ea878ddb-1181-4e04-9625-96f57206c038")
 	)
 	(junction
+		(at 124.46 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec2b015b-097d-4b3f-bf7d-41db69e5b4f2")
+	)
+	(junction
 		(at 33.02 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5646,10 +5640,22 @@
 		(uuid "f606fe14-5528-4a72-83c7-c206b1491437")
 	)
 	(junction
+		(at 104.14 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6526cef-6507-4312-b881-2984ada4378d")
+	)
+	(junction
 		(at 63.5 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f73134b4-530a-464f-a96e-1a55c999e01e")
+	)
+	(junction
+		(at 101.6 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc4ea4ca-b5c5-4cda-9b56-ce2c5ca2823b")
 	)
 	(no_connect
 		(at 166.37 46.99)
@@ -5665,6 +5671,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 147.32) (xy 104.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00915808-aeca-4119-9a00-d1d5581a5774")
+	)
+	(wire
+		(pts
 			(xy 44.45 170.18) (xy 48.26 170.18)
 		)
 		(stroke
@@ -5672,6 +5688,16 @@
 			(type default)
 		)
 		(uuid "0197fabf-ab4f-4d79-b445-0a512501aaf0")
+	)
+	(wire
+		(pts
+			(xy 123.19 146.05) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c53ec9-e15b-471d-8815-f787c41626b9")
 	)
 	(wire
 		(pts
@@ -5685,23 +5711,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 130.81) (xy 101.6 158.75)
+			(xy 101.6 130.81) (xy 101.6 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0380eab1-46ad-4139-85f7-38162ab0777b")
-	)
-	(wire
-		(pts
-			(xy 104.14 154.94) (xy 104.14 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03ff0713-2ddc-4691-85de-71b6f6ab1cb6")
 	)
 	(wire
 		(pts
@@ -5975,6 +5991,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 130.81) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1857c2a9-219c-4529-8e8b-eb5518f79e3e")
+	)
+	(wire
+		(pts
 			(xy 149.86 44.45) (xy 166.37 44.45)
 		)
 		(stroke
@@ -6102,16 +6128,6 @@
 			(type default)
 		)
 		(uuid "200a0c1b-d7bf-48be-b957-17763017e116")
-	)
-	(wire
-		(pts
-			(xy 123.19 173.99) (xy 135.89 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20751b6d-ed20-4701-8f7b-6364fb5df3e3")
 	)
 	(wire
 		(pts
@@ -6375,6 +6391,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 158.75) (xy 104.14 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39002015-a9df-4db1-a80c-3af36893fa5d")
+	)
+	(wire
+		(pts
 			(xy 77.47 156.21) (xy 83.82 156.21)
 		)
 		(stroke
@@ -6452,6 +6478,16 @@
 			(type default)
 		)
 		(uuid "3fca8129-aa68-4440-886b-88f5bd1ea1f4")
+	)
+	(wire
+		(pts
+			(xy 107.95 160.02) (xy 111.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe1d6e4-0eda-4cc1-b24b-c5581d039acf")
 	)
 	(wire
 		(pts
@@ -6592,6 +6628,16 @@
 			(type default)
 		)
 		(uuid "4c581d47-4eb8-467e-b17e-4c76d992b876")
+	)
+	(wire
+		(pts
+			(xy 121.92 173.99) (xy 124.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4533f3-2fc6-47ad-9878-c7b7b3fe3e00")
 	)
 	(wire
 		(pts
@@ -6785,16 +6831,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 146.05) (xy 109.22 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dc14724-7b1d-46b9-bb82-1e5db2484577")
-	)
-	(wire
-		(pts
 			(xy 68.58 77.47) (xy 68.58 53.34)
 		)
 		(stroke
@@ -6835,16 +6871,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 173.99) (xy 123.19 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e1735d-51e4-4aaa-a9a3-08511b6f932b")
-	)
-	(wire
-		(pts
 			(xy 259.08 91.44) (xy 259.08 80.01)
 		)
 		(stroke
@@ -6872,6 +6898,16 @@
 			(type default)
 		)
 		(uuid "676414e5-940b-4109-8498-858bc539495d")
+	)
+	(wire
+		(pts
+			(xy 101.6 156.21) (xy 101.6 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67dd9d0d-0a19-4d89-b46f-89ad4019b861")
 	)
 	(wire
 		(pts
@@ -6912,6 +6948,16 @@
 			(type default)
 		)
 		(uuid "6a8e7340-35a1-4674-aa32-c55b0684e1b3")
+	)
+	(wire
+		(pts
+			(xy 124.46 173.99) (xy 135.89 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a93bac0-ab48-40cf-8151-54e5cf4b2904")
 	)
 	(wire
 		(pts
@@ -7245,6 +7291,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 160.02) (xy 119.38 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e893a52-f9f7-4d46-951c-1304c0058d67")
+	)
+	(wire
+		(pts
 			(xy 48.26 138.43) (xy 48.26 144.78)
 		)
 		(stroke
@@ -7392,6 +7448,16 @@
 			(type default)
 		)
 		(uuid "9c0c2985-595e-4c9c-88cb-cc5027a8d20f")
+	)
+	(wire
+		(pts
+			(xy 107.95 160.02) (xy 107.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0ddff9-79ea-4c3f-8f50-58299835468c")
 	)
 	(wire
 		(pts
@@ -7645,7 +7711,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 130.81) (xy 104.14 147.32)
+			(xy 104.14 130.81) (xy 104.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7915,7 +7981,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 156.21) (xy 123.19 173.99)
+			(xy 124.46 160.02) (xy 124.46 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8285,16 +8351,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 146.05) (xy 109.22 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb0af6b-4e63-4b43-ad39-2d43fa856ead")
-	)
-	(wire
-		(pts
 			(xy 33.02 102.87) (xy 48.26 102.87)
 		)
 		(stroke
@@ -8322,6 +8378,16 @@
 			(type default)
 		)
 		(uuid "dea91d5d-caac-4bc7-8d5c-b115e96281e1")
+	)
+	(wire
+		(pts
+			(xy 104.14 147.32) (xy 104.14 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df384353-e5ec-4a74-b50d-174786238a8e")
 	)
 	(wire
 		(pts
@@ -8495,16 +8561,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 156.21) (xy 115.57 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee3f4e14-854b-4df0-9c01-ea11eb66e033")
-	)
-	(wire
-		(pts
 			(xy 73.66 130.81) (xy 73.66 147.32)
 		)
 		(stroke
@@ -8522,6 +8578,16 @@
 			(type default)
 		)
 		(uuid "eea6c37d-e301-498d-8302-18654fac7550")
+	)
+	(wire
+		(pts
+			(xy 104.14 156.21) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeef9ae1-253b-4675-ab56-315ee048141d")
 	)
 	(wire
 		(pts
@@ -8695,16 +8761,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 156.21) (xy 104.14 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa41dc20-fb71-487a-bfa3-57401fcc62ee")
-	)
-	(wire
-		(pts
 			(xy 147.32 114.3) (xy 158.75 114.3)
 		)
 		(stroke
@@ -8783,6 +8839,16 @@
 		)
 		(uuid "ffcfe75a-7831-4475-bb60-a547c5dfda28")
 	)
+	(wire
+		(pts
+			(xy 104.14 142.24) (xy 104.14 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffebf408-7f5a-4a4b-88a8-738bfe312484")
+	)
 	(label "GP20"
 		(at 270.51 111.76 180)
 		(effects
@@ -8804,7 +8870,7 @@
 		(uuid "0e1aa5b7-4cb4-4146-a5f2-cfbf7a836786")
 	)
 	(label "GP28"
-		(at 104.14 158.75 90)
+		(at 104.14 153.67 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9426,6 +9492,7 @@
 	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 123.19 139.7 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9433,7 +9500,7 @@
 		(dnp no)
 		(uuid "01eec64b-9bda-470a-99c2-b5b3173ef83f")
 		(property "Reference" "Y1"
-			(at 124.46 147.828 0)
+			(at 124.46 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9442,7 +9509,7 @@
 			)
 		)
 		(property "Value" "XRCGB40M000F1S2FR0"
-			(at 126.238 147.828 0)
+			(at 126.238 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +9615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 128.524 90)
 			(effects
 				(font
@@ -9567,6 +9634,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 129.54 0)
 			(effects
 				(font
@@ -9635,6 +9720,24 @@
 			)
 		)
 		(property "Description" "1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 233.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -9722,6 +9825,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 40.64 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcbe7a30-8dd2-4437-be79-a1a21ed2e5e0")
 		)
@@ -9764,7 +9885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.814 157.226 90)
 			(effects
 				(font
@@ -9784,6 +9905,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 163.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 163.83 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 163.83 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,6 +9993,24 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 209.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 209.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,6 +10208,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 99.06 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 99.06 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B9"
 			(uuid "29d35c11-4030-4cf5-a7b1-5014f83a9fcd")
 		)
@@ -10160,6 +10335,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 40.64 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e8a4243-7f83-4024-8be3-7f12d1d72a84")
 		)
@@ -10223,6 +10416,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +10551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 133.604 90)
 			(effects
 				(font
@@ -10359,6 +10570,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 134.62 0)
 			(effects
 				(font
@@ -10503,6 +10732,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 40.64 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da0e1a26-bc6d-46b8-af89-f11d7254ee0f")
 		)
@@ -10547,7 +10794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 125.984 90)
 			(effects
 				(font
@@ -10566,6 +10813,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 127 0)
 			(effects
 				(font
@@ -10619,7 +10884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 98.044 90)
 			(effects
 				(font
@@ -10638,6 +10903,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -10688,7 +10971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.734 148.336 90)
 			(effects
 				(font
@@ -10715,6 +10998,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 158.75 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 158.75 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "acba82dd-8ba2-4d2b-8fb5-26bdd0c51173")
 		)
@@ -10732,7 +11033,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 104.14 151.13 0)
+		(at 104.14 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10740,7 +11041,7 @@
 		(dnp no)
 		(uuid "46dcc233-1a45-4706-a60b-6462bda55dec")
 		(property "Reference" "R28"
-			(at 105.41 149.86 0)
+			(at 105.41 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10749,7 +11050,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 105.41 152.4 0)
+			(at 105.41 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,8 +11058,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 105.156 151.384 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 105.156 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +11068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 151.13 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +11077,25 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 104.14 151.13 0)
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +11147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 105.664 90)
 			(effects
 				(font
@@ -10847,6 +11166,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 106.68 0)
 			(effects
 				(font
@@ -10897,7 +11234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 122.936 67.056 90)
 			(effects
 				(font
@@ -10917,6 +11254,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 123.19 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10969,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 125.984 90)
 			(effects
 				(font
@@ -10988,6 +11343,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 127 0)
 			(effects
 				(font
@@ -11040,7 +11413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 103.124 90)
 			(effects
 				(font
@@ -11059,6 +11432,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 104.14 0)
 			(effects
 				(font
@@ -11174,7 +11565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.864 162.306 90)
 			(effects
 				(font
@@ -11194,6 +11585,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 55.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 55.88 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 55.88 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.484 162.306 90)
 			(effects
 				(font
@@ -11263,6 +11672,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 63.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 63.5 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 63.5 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11315,7 +11742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 105.664 90)
 			(effects
 				(font
@@ -11334,6 +11761,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 106.68 0)
 			(effects
 				(font
@@ -11421,6 +11866,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d7c3795-b660-42c6-9372-a8885b78e197")
 		)
@@ -11482,6 +11945,24 @@
 		)
 		(property "Description" "32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, SOIC-8 (SOP-8, 208 mil)"
 			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 73.66 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 73.66 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11577,6 +12058,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 40.64 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddcfcebd-b632-48ca-b28b-63bd9eb893c3")
 		)
@@ -11622,7 +12121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 120.904 90)
 			(effects
 				(font
@@ -11641,6 +12140,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 121.92 0)
 			(effects
 				(font
@@ -11709,6 +12226,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 173.99 41.91 0)
 			(effects
 				(font
@@ -11810,6 +12345,24 @@
 			)
 		)
 		(property "Mouser" "GRT1555C1H6R0DA02D"
+			(at 129.54 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 129.54 146.05 90)
 			(effects
 				(font
@@ -11995,7 +12548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 108.204 90)
 			(effects
 				(font
@@ -12014,6 +12567,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 109.22 0)
 			(effects
 				(font
@@ -12067,7 +12638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 136.144 90)
 			(effects
 				(font
@@ -12086,6 +12657,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 137.16 0)
 			(effects
 				(font
@@ -12268,7 +12857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.084 103.124 90)
 			(effects
 				(font
@@ -12288,6 +12877,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,6 +12981,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4237d849-5b1c-4594-a4ba-a7bdb0e5bfbd")
 		)
@@ -12418,7 +13043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 108.204 90)
 			(effects
 				(font
@@ -12437,6 +13062,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 109.22 0)
 			(effects
 				(font
@@ -12553,7 +13196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 248.666 95.504 90)
 			(effects
 				(font
@@ -12573,6 +13216,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 247.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 247.65 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 247.65 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12622,7 +13283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 253.746 86.614 90)
 			(effects
 				(font
@@ -12642,6 +13303,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 252.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 252.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 252.73 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12691,7 +13370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 265.176 86.614 90)
 			(effects
 				(font
@@ -12711,6 +13390,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 264.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 264.16 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 264.16 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +13593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 113.284 90)
 			(effects
 				(font
@@ -12915,6 +13612,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 114.3 0)
 			(effects
 				(font
@@ -12965,7 +13680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.894 148.336 90)
 			(effects
 				(font
@@ -12985,6 +13700,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 168.91 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 168.91 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13068,6 +13801,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 129.54 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 129.54 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e3944d7-962d-4788-9e08-ea3508c7d42e")
 		)
@@ -13131,6 +13882,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 40.64 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 40.64 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13202,6 +13971,24 @@
 		)
 		(property "Description" "Microcontroller, Wi-Fi 802.11b/g/n, Bluetooth, 32bit"
 			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 86.36 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 86.36 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +14206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 118.364 90)
 			(effects
 				(font
@@ -13438,6 +14225,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 119.38 0)
 			(effects
 				(font
@@ -13491,7 +14296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 131.064 90)
 			(effects
 				(font
@@ -13510,6 +14315,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 132.08 0)
 			(effects
 				(font
@@ -13629,7 +14452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 110.744 90)
 			(effects
 				(font
@@ -13648,6 +14471,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -13793,6 +14634,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 40.64 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f73d565-b9a6-475f-80cc-93b533c4afe4")
 		)
@@ -13837,7 +14696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 110.744 90)
 			(effects
 				(font
@@ -13856,6 +14715,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 111.76 0)
 			(effects
 				(font
@@ -13926,6 +14803,24 @@
 		)
 		(property "Description" "64 Mbit / 8M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8)"
 			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14126,7 +15021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 159.004 94.234 90)
 			(effects
 				(font
@@ -14146,6 +15041,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 160.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 160.02 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14286,6 +15199,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 152.4 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a5accd3-6fa7-4ced-bcd0-67409dc37581")
 		)
@@ -14337,7 +15268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.046 61.976 90)
 			(effects
 				(font
@@ -14357,6 +15288,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 114.3 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14408,7 +15357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 100.584 90)
 			(effects
 				(font
@@ -14435,6 +15384,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 237.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 237.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "069618ef-a4fd-4449-845d-da7f7f1984f1")
 		)
@@ -14452,7 +15419,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 156.21 90)
+		(at 115.57 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14460,7 +15427,7 @@
 		(dnp no)
 		(uuid "cfab26ac-e8f3-49ae-a205-bb57d60e4698")
 		(property "Reference" "C2"
-			(at 119.38 162.306 90)
+			(at 111.76 158.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14468,7 +15435,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 119.38 159.766 90)
+			(at 119.126 158.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +15443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 155.2448 0)
+			(at 119.38 159.0548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14485,7 +15452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 156.21 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,7 +15461,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 156.21 0)
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 115.57 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14679,7 +15664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 115.824 90)
 			(effects
 				(font
@@ -14698,6 +15683,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 116.84 0)
 			(effects
 				(font
@@ -14815,7 +15818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 113.284 90)
 			(effects
 				(font
@@ -14834,6 +15837,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 114.3 0)
 			(effects
 				(font
@@ -14886,7 +15907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 115.824 90)
 			(effects
 				(font
@@ -14905,6 +15926,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 116.84 0)
 			(effects
 				(font
@@ -14955,7 +15994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 260.096 95.504 90)
 			(effects
 				(font
@@ -14975,6 +16014,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 259.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 259.08 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15027,7 +16084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 103.124 90)
 			(effects
 				(font
@@ -15046,6 +16103,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -15099,7 +16174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 100.584 90)
 			(effects
 				(font
@@ -15118,6 +16193,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 101.6 0)
 			(effects
 				(font
@@ -15168,7 +16261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 152.654 157.226 90)
 			(effects
 				(font
@@ -15188,6 +16281,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 153.67 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 153.67 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15239,7 +16350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.744 128.524 90)
 			(effects
 				(font
@@ -15258,6 +16369,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 237.49 129.54 0)
 			(effects
 				(font
@@ -15336,6 +16465,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 40.64 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 40.64 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcc0ed4a-6dfd-4536-9149-5d2818e9a569")
 		)
@@ -15381,7 +16528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.356 123.444 90)
 			(effects
 				(font
@@ -15400,6 +16547,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 181.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 124.46 0)
 			(effects
 				(font
