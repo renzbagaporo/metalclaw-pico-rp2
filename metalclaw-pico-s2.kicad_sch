@@ -9977,7 +9977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_SMD_HandSolder"
+		(property "Footprint" "MetalClaw:RaspberryPi_Pico_SMD"
 			(at 209.55 161.29 0)
 			(effects
 				(font
