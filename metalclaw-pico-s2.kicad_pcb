@@ -217,32 +217,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "582057e8-c300-4fa5-a190-987a71f1c7db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ecce0ff-120d-4fef-9a16-c5788657b041")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 0)
 			(unlocked yes)
@@ -387,32 +361,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2dec80b-545b-4828-9dec-688acec04552")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f2cc52a-5447-40ab-b4c1-6a45386ddac1")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -565,32 +513,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "31540f02-4fd3-42c0-b9f9-44671c74d283")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8f23330-148b-41c7-a77e-d4216dbace6f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 0)
 			(unlocked yes)
@@ -735,32 +657,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e598775d-1793-44bb-b3b5-838ec0139f01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcea6a0d-45a8-4368-aded-592291c2a6e6")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -913,32 +809,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "418095e8-2d09-4d02-8db0-3923871bc4de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc1b2576-61d5-4a7e-8e8e-8fbc525bce2a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 270)
 			(unlocked yes)
@@ -1087,32 +957,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ddc4356f-2c79-405e-a746-b4b2effc9789")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9bec814c-b2bb-4825-8e36-b985c25c5324")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 270)
 			(unlocked yes)
@@ -1257,32 +1101,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d66b6d90-9c57-4c68-afac-21d6478bbba2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9be536bf-e9d8-4fb7-b358-32682fa994da")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1584,32 +1402,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93c332cd-7ccf-4878-8fe3-5b2e7afbb151")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b5b99f4-8c41-4e5c-87ad-3bbef305210e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c779df27-8635-4407-b5b7-9ae65fee36dd")
 		(sheetname "/")
@@ -1867,32 +1659,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "736e2a5f-2b73-46ef-83dc-a29f99ca6975")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "007a6127-c607-4ab1-ae80-25815c538443")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/5893c62b-b8bf-4ec6-b914-015613b5b67d")
 		(sheetname "/")
@@ -2024,32 +1790,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42453f08-f658-45c5-b34b-4e61f7ac6874")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ae3a344-1feb-41ef-afad-e2ce2600b980")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2202,32 +1942,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76c6650c-f26f-4612-a865-76856e590030")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e81c22a5-9b50-466b-a38f-d62abe5b7e5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 90)
 			(unlocked yes)
@@ -2372,32 +2086,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6d7b1fd-44c6-44af-9f96-ed5e59d94213")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d56096ed-e551-4330-b4e2-7e637af8b26d")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2550,32 +2238,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "85341c8a-b4ee-4133-b308-1ac5df46e2be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80432a98-8425-4033-af09-3b6e6706f3f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 180)
 			(unlocked yes)
@@ -2720,32 +2382,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6e23df0-0449-4427-a3ff-02938742c713")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8fbbb18d-2a6d-4a3c-acea-0e53ac2fd9b3")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3232,32 +2868,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4413ec8c-760f-4b81-877c-d3fa767bd47d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d8d5694-a382-4f8d-8a03-93007f300ea1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 0)
 			(unlocked yes)
@@ -3402,32 +3012,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c851ddee-897f-46c4-ba18-7a63624f01cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65001eb4-7c90-42cf-99a5-81d70f85f047")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3580,32 +3164,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ca6374c-8201-4292-bc1b-5140bacf7822")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "260cc305-efb8-4a55-92db-92bae24456f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 270)
 			(unlocked yes)
@@ -3750,32 +3308,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc10f8f8-8761-4aff-ae2a-242df83d548d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c1050d6-1548-4a92-bf50-bbf9acadac6f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3929,32 +3461,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2143091d-1b84-4bfa-9657-d2453e6a0e97")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5daacf3-d909-4f8a-9e89-69116a52ff38")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4320,32 +3826,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37a27108-e8c1-4cd1-85fd-65e20c1a2cf2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc8a9a03-36c7-4324-bd32-68f0683c5338")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5866,32 +5346,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9059b067-5da0-474c-ae3b-84242838e2d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b9205fb2-c016-4f85-bf46-5772ead36509")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 180)
 			(unlocked yes)
@@ -6036,32 +5490,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f943e04b-8d33-4bc2-9ca8-a08e6566ca4f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb2a2519-e626-4fa2-bb99-49e5617c9ca9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6214,32 +5642,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "35e0513d-0123-45cd-964c-aa04e7c30b78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8a2437a-641b-4e84-9ba1-bb2c962e47a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 270)
 			(unlocked yes)
@@ -6388,32 +5790,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de0b019b-d03d-4366-98c4-3febfc189432")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac215077-7f13-4723-9067-da99f94461eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/32077edd-67f2-496e-88f6-bc65387ee5b2")
 		(sheetname "/")
@@ -6545,32 +5921,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1291dec2-aa7d-4fe1-9794-8be34487e96f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d823e6a9-71cd-4e61-ab56-023280da59ee")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6723,32 +6073,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45a5d059-bc83-4d0f-96fb-399b87e5c7ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "051e608d-a1d3-4065-9086-68af4e8ad3ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0a961ea4-893d-4d42-aa25-36ed59d719e4")
 		(sheetname "/")
@@ -6880,32 +6204,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "883d84f7-8821-4ab6-9d9e-fa8c711f4213")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b359fbd-7feb-4012-9618-14d67fcb1e4a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7058,32 +6356,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55e97fb6-0612-408b-9406-53db9151ebaf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0132c8f3-2751-4c98-939e-7fd3464f8187")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 180)
 			(unlocked yes)
@@ -7228,32 +6500,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e707fb2-9a17-4e98-846b-9075e4bf6788")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f7378106-9f32-4e32-b40f-90b993e7830e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7406,32 +6652,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a57f546-3f15-4db4-b581-99c5456ff4c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "acffb03f-3a27-4210-8bf3-c09fa8c4f019")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 0)
 			(unlocked yes)
@@ -7576,32 +6796,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3c8f16b-312a-4c26-834f-42c9b13befde")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9623715-ad9c-4625-8d55-e73e7a377cd0")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7754,32 +6948,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd181e74-9a3c-49ce-8c22-2f6457d58ea8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99d8a999-ef54-4fb3-ae53-eee440a756e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/fa9f25f9-d99d-4dd0-aba4-1425e5a8efe8")
 		(sheetname "/")
@@ -7911,32 +7079,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea2c9f87-c81b-404e-95f2-763576aa772d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55577a26-fd9d-4b96-8b82-a6bf36f49eb5")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8606,32 +7748,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0644fd7-924f-4c9e-b504-f13f2edbb5a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "844ca6be-aba7-4717-84d3-bb57db618f8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 90)
 			(unlocked yes)
@@ -8793,32 +7909,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7cfb929-cad1-4a68-84d7-36754c34cc5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dca95d12-7dd1-4e56-9738-d10dfb7be33f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/5491bfc6-4fe2-4a05-8aa3-77a133833b6f")
 		(sheetname "/")
@@ -8956,32 +8046,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7cdf7695-1c7c-4d95-939b-b457ccb99ebb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8eb3c0c4-98bf-4453-993d-f9681ef5fab3")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9130,32 +8194,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a43ae16-09bd-452f-813a-81264514c457")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29c4e11a-253d-49a7-ab26-e973d1c5acb0")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9314,32 +8352,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6973dbcb-14b1-4b94-b902-38109b36279e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7879daa4-58a7-4dad-bc82-af41563f2926")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/80a312a6-9bd1-447d-bc9f-89420465fda2")
 		(sheetname "/")
@@ -9477,32 +8489,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d0360d7-a22e-4f16-9734-696e7c130958")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "def23440-a36d-413d-93e3-aa7dc1e2385a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9655,32 +8641,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18f9e197-ff24-4093-b3bb-995cb4fdd72d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "938df865-e43c-4acb-9a18-ce1c4833bff0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/594ba3ae-f44b-4c9d-8e74-cdc0ccf0ea33")
 		(sheetname "/")
@@ -9812,32 +8772,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e223836d-80a9-4ffb-8bfa-6ad8e0fe191f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44ee497f-8735-435c-bd17-ff62af0a0a93")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9990,32 +8924,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1057583c-8d86-445b-80b5-3dfe893c86e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "799931c4-ac6b-4fe1-8a7e-54961d6affa4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/23ade47b-d143-423e-af2b-53a15c702d66")
 		(sheetname "/")
@@ -10147,32 +9055,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f624a66-f4d8-4590-a91d-283c804b0936")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79cbf0e3-1e75-4aae-b1c0-da7723e91241")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10562,32 +9444,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96c88565-6c24-40b8-afcb-23d4853a10e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ce0d144-a6ce-4e07-a8b0-5e94155f86a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/22185172-1166-4f8d-88a8-7c8befd33ff0")
 		(sheetname "/")
@@ -10719,32 +9575,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9bb088d3-9885-45fe-a242-9eaf673c94b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e722d98-e574-4f5f-b68e-bef879b4d3b4")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10897,32 +9727,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70d2d271-ccc7-4072-83f2-c180dcf35851")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e83c8f33-a020-4721-ab65-75d935e08108")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 0)
 			(unlocked yes)
@@ -11067,32 +9871,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9aa7a0a-8de0-44fa-93e4-ad050a72e791")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3cf923a-9a25-4f7d-b6e0-49a121d75fe7")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11373,32 +10151,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6aec5cef-b1a6-43fd-b0cc-510cdb789eb3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44176167-be00-4d42-841c-eedfc1f34f71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 270)
 			(unlocked yes)
@@ -11543,32 +10295,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "200e94d2-be5b-4c83-9c18-0d9fff16b503")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f65bcb3a-15fb-42f1-a55f-e374569435aa")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12175,32 +10901,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5400c672-baa8-4d10-a7aa-f19a2dfee193")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "798e557a-1393-4e56-9505-138c5f845be7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 270)
 			(unlocked yes)
@@ -12345,32 +11045,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ede99961-c073-493b-97c7-706b9052d997")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf537385-107b-4131-8ca6-aa7b41bf093b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12523,32 +11197,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40ea6e52-1a81-40e8-9740-fb548974aea0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b341c744-10db-4387-b40b-65a01f2bd804")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/9df1ff33-e255-4fae-aa9d-2fa1e8557d67")
 		(sheetname "/")
@@ -12680,32 +11328,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b059c9f1-4478-45d4-a13c-63f51b694834")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d7ee872-b886-4c43-ba5b-bfaa1e8e8beb")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12854,32 +11476,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f6ea9a5-b02d-45ad-8bdc-a2a715720f8a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83e3290a-6520-4142-9f59-00c449669bd0")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13318,32 +11914,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd1ce43e-800d-4e00-b796-16d4f04cefc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1cd2b10a-f4ff-49ef-8eea-ce21b6d4dde9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/9d41e0b7-f6ca-4e33-951d-c2063633e5c2")
 		(sheetname "/")
@@ -13481,32 +12051,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "155f5082-e1e3-46c5-8594-9e15c299bdb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81573cf1-942e-4951-ab7e-59c0b8f03540")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13655,32 +12199,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b302fafb-8bd1-4d58-9306-7c4b9ffbe609")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff27b009-eef1-40aa-8a5f-accec9158433")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14315,32 +12833,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1806d83-52b3-4fc5-a774-036fe8caff71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06bcd2cb-587b-4c40-aaeb-54cbe21e37d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "603-AC0201FR-13220RL "
 			(at 0 0 180)
 			(unlocked yes)
@@ -14485,32 +12977,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9554e00-636c-4653-b8b6-39dd5cd4f29c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6472325c-655c-425a-a397-52a64840cda2")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14880,32 +13346,6 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "827994b4-ce42-48bd-99ff-95f8596fab07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57481b7a-8e20-4569-9571-49cb6af3fcbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
 			(at 0 0 0)
 			(unlocked yes)
@@ -15050,32 +13490,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b856a7f4-5b36-4afb-85ca-fd50ff9b1639")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "401e9d5e-545c-42be-8fa1-ad51b24968fa")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15225,32 +13639,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 135)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8df7714-0271-44a4-a27e-2e220c5501e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 135)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "acf8dbcc-7341-4aaf-bb07-c162c6e58dfc")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16931,32 +15319,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e3874b8-5a2e-46cd-b5e2-8fe41defeab0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b181dd6-7681-46ae-bfa5-29d602096756")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
