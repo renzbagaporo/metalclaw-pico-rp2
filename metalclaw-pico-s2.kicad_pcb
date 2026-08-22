@@ -1204,7 +1204,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "1db7f967-f53e-498b-ac2f-522df0650406")
-		(at 161.18 109.16)
+		(at 161.69 109.29)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -1253,7 +1253,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GJM0335C1H6R0CB1D"
+		(property "Mouser" "81-GRM0335C1E6R0BA1D "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1655,6 +1655,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68f94a87-7678-4dbb-afbb-c6164c7417a7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2783,7 +2796,7 @@
 			(net 4 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "15faeed2-92be-4a0e-a323-260583973e4c")
+			(uuid "0c6dfda9-a10e-44c8-b964-d185ba581971")
 		)
 		(pad "2" smd rect
 			(at -2.075 1.075)
@@ -2801,7 +2814,7 @@
 			(net 84 "Net-(C17-Pad1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c127ded1-5217-41eb-a06a-8b7e33f7d23d")
+			(uuid "6787c618-6bab-477f-9e6a-416af773fcda")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.step"
@@ -5790,6 +5803,19 @@
 				)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "607589ea-447f-445e-8a8c-c0ee51dedf59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/32077edd-67f2-496e-88f6-bc65387ee5b2")
 		(sheetname "/")
@@ -6069,6 +6095,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e6f42b5-01a0-48ae-8170-a24439ddaecc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6948,6 +6987,19 @@
 				)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca7f1011-a14d-4760-840e-6169b03725c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fa9f25f9-d99d-4dd0-aba4-1425e5a8efe8")
 		(sheetname "/")
@@ -7034,13 +7086,13 @@
 	(footprint "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "74469363-685e-4491-b429-d70d80ab5964")
-		(at 163.32 93.3975 180)
+		(at 163.32 94.3175 180)
 		(descr "SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1 FPT-8P-M08")
 		(property "Reference" "U2"
 			(at 0 -3.6 0)
 			(layer "F.SilkS")
-			(uuid "13dcd00c-f55e-45af-991d-2eaa47acba78")
+			(uuid "7bfd49c8-e2c4-4e8b-8bde-f312d7906ff8")
 			(effects
 				(font
 					(size 1 1)
@@ -7051,7 +7103,7 @@
 		(property "Value" "MX25L3236FM2I-08G-TR"
 			(at 0 3.6 0)
 			(layer "F.Fab")
-			(uuid "447531f7-919e-4564-a36c-e940d456b5cd")
+			(uuid "933ea10d-7f8e-4671-9c32-da28ba39bbeb")
 			(effects
 				(font
 					(size 1 1)
@@ -7063,7 +7115,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5c34190-a49e-4ee6-8146-f7c889393554")
+			(uuid "e804d409-e7fa-4cc4-a64a-7393bbbd6dca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7127,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed957564-a4ae-4198-87c4-69ee3264e2d3")
+			(uuid "fa0be7fe-643b-4623-9c63-7998c054ad37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,7 +7588,7 @@
 	(footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 		(layer "F.Cu")
 		(uuid "7e0079a1-d7b0-45a7-874b-97751e40b2e7")
-		(at 160.14 107.04 -90)
+		(at 159.56 108.09 -90)
 		(descr "SMD2016/4, Crystal, 2.0x1.6mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.q-crystal.com/upload/5/2015552223166229.pdf")
 		(property "Reference" "Y1"
 			(at 0 -2 90)
@@ -7896,7 +7948,7 @@
 				)
 			)
 		)
-		(property "Mouser" "0603X106M100CT"
+		(property "Mouser" "791-0603X106M100CT "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8198,6 +8250,19 @@
 				)
 			)
 		)
+		(property "Mouser" "791-0201X105M100CT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b7dc731-a78c-4ae8-a030-d3a98140c0e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b18ee8c5-b967-47d0-a9e7-6c614aa46b69")
 		(sheetname "/")
@@ -8339,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Mouser" "0603X106M100CT"
+		(property "Mouser" "791-0603X106M100CT "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8641,6 +8706,19 @@
 				)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d576defe-90cd-47b4-b4c6-7651b0fa834b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/594ba3ae-f44b-4c9d-8e74-cdc0ccf0ea33")
 		(sheetname "/")
@@ -8920,6 +8998,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80ce08b2-6b9e-4fe2-9913-1f62c84ee8c7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9444,6 +9535,19 @@
 				)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd01c12-6b56-4a6e-a53d-5f90ee696a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22185172-1166-4f8d-88a8-7c8befd33ff0")
 		(sheetname "/")
@@ -9871,6 +9975,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "791-0201X105M100CT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bf9e751-4e19-4cf7-9851-8a6f17b2d489")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11197,6 +11314,19 @@
 				)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f9da5ea-4c31-469e-8f50-14b48d6a9190")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9df1ff33-e255-4fae-aa9d-2fa1e8557d67")
 		(sheetname "/")
@@ -11914,6 +12044,19 @@
 				)
 			)
 		)
+		(property "Mouser" "791-0201X105M100CT "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4db0fd5-3395-407c-89ce-875bdb7db12c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9d41e0b7-f6ca-4e33-951d-c2063633e5c2")
 		(sheetname "/")
@@ -12302,7 +12445,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d87fed95-32b5-4a2d-af9f-77b66e0f92f4")
-		(at 159.37 104.93 180)
+		(at 159.41 105.84 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -12351,7 +12494,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GJM0335C1H6R0CB1D "
+		(property "Mouser" "81-GRM0335C1E6R0BA1D "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12748,7 +12891,7 @@
 			(net 4 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "24994f73-4450-4b6b-8670-bf19f2a43e7d")
+			(uuid "3d262dbb-d0c8-4874-a4e1-870ca08dc957")
 		)
 		(pad "2" smd rect
 			(at -2.075 1.075 180)
@@ -12766,7 +12909,7 @@
 			(net 85 "Net-(C16-Pad1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "56cc0fe6-f367-465f-8aaa-b6c6cf5e1752")
+			(uuid "7e1f2183-d792-4dcf-bd11-455b3002449f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.step"
@@ -12932,13 +13075,13 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "e1c72692-4724-4b4c-93c6-a565ce78be9a")
-		(at 161.55 87.46 180)
+		(at 161.55 87.925 180)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
 			(at 0 -3.4 0)
 			(layer "F.SilkS")
-			(uuid "5eafebc7-c58f-4d9f-a701-1047a408f68c")
+			(uuid "c775d953-3b73-4143-89d5-a410c1733d1d")
 			(effects
 				(font
 					(size 1 1)
@@ -12949,7 +13092,7 @@
 		(property "Value" "APS6404L-3SQRx-SN"
 			(at 0 3.4 0)
 			(layer "F.Fab")
-			(uuid "787a70b6-4a1e-4dff-a12f-8ea697c97064")
+			(uuid "9ce0869b-78c0-48da-84be-be48867d428c")
 			(effects
 				(font
 					(size 1 1)
@@ -12961,7 +13104,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad787fe5-6094-487f-b936-20045fd33d26")
+			(uuid "4a3190fc-ac3b-4fa9-9cf6-dbc699d778aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +13116,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01ea13ec-4ee7-4559-9f57-865c368c6e0f")
+			(uuid "67d0e9ba-de63-4718-967b-45ce24976dbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13591,16 +13734,15 @@
 		)
 	)
 	(footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "e89637ae-2594-456b-9c76-096bb1ff87a9")
-		(at 163.81 101.812004 135)
+		(at 163.789548 102.829548 135)
 		(descr "QFN, 56 Pin (https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf#page=41), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U1"
 			(at 0 -4.800001 135)
 			(layer "F.SilkS")
-			(uuid "63891b7b-fa8f-4dc9-bfb2-a457424a02c6")
+			(uuid "d2334630-3085-4055-b389-9a8ea195c465")
 			(effects
 				(font
 					(size 1 1)
@@ -13611,7 +13753,7 @@
 		(property "Value" "ESP32-S2"
 			(at 0 4.800001 135)
 			(layer "F.Fab")
-			(uuid "34bbc4ac-c797-4795-a4c5-d8a1613934f1")
+			(uuid "8db3869f-0005-4918-b271-d7de825574fb")
 			(effects
 				(font
 					(size 1 1)
@@ -13623,7 +13765,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c466c14d-fefe-43bb-a794-73f2d4a08ff4")
+			(uuid "e920f3e5-58c8-4c65-83ed-f0033b0ddd3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13635,7 +13777,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5df58ea8-5c71-4c87-8795-3d55ab44712c")
+			(uuid "3b6fe04b-39f1-4cd6-87b3-e17e9ac8904f")
 			(effects
 				(font
 					(size 1.27 1.27)

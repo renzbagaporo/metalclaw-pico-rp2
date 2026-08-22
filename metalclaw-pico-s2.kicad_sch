@@ -10876,6 +10876,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 40.64 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcbe7a30-8dd2-4437-be79-a1a21ed2e5e0")
 		)
@@ -11389,6 +11398,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 40.64 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e8a4243-7f83-4024-8be3-7f12d1d72a84")
 		)
@@ -11452,6 +11470,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 40.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 40.64 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,6 +11893,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 40.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 40.64 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12948,7 +12984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "0603X106M100CT"
+		(property "Mouser" "791-0603X106M100CT "
 			(at 220.98 45.72 0)
 			(effects
 				(font
@@ -13113,6 +13149,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 40.64 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddcfcebd-b632-48ca-b28b-63bd9eb893c3")
 		)
@@ -13176,6 +13221,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 193.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 193.04 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "0603X106M100CT"
+		(property "Mouser" "791-0603X106M100CT "
 			(at 266.7 45.72 0)
 			(effects
 				(font
@@ -15273,6 +15327,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "791-0201X105M100CT "
+			(at 40.64 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b897280-93ef-4243-8993-9048d3641d4d")
 		)
@@ -15402,6 +15465,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 175.26 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16160,6 +16232,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "791-0201X105M100CT "
+			(at 40.64 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f73d565-b9a6-475f-80cc-93b533c4afe4")
 		)
@@ -16833,6 +16914,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "791-0201X105M100CT "
+			(at 115.57 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17882,6 +17972,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 40.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "81-GRM033R61A104ME5D "
+			(at 40.64 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
