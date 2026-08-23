@@ -12012,7 +12012,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "42387187-2023-4e50-92d9-bc08f552acff")
 		(property "Reference" "C13"
 			(at 132.334 75.692 90)
@@ -13184,7 +13184,7 @@
 		(dnp no)
 		(uuid "594ba3ae-f44b-4c9d-8e74-cdc0ccf0ea33")
 		(property "Reference" "C17"
-			(at 188.976 50.292 90)
+			(at 186.182 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,8 +13192,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 186.69 49.784 90)
+		(property "Value" "1u"
+			(at 187.452 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,7 +13228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "791-0201X105M100CT "
 			(at 193.04 52.07 90)
 			(effects
 				(font
@@ -14106,7 +14106,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "76fd4e97-9b2b-4f32-bedf-dbdf6f12de76")
 		(property "Reference" "C12"
 			(at 132.334 86.106 90)
@@ -14842,7 +14842,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "99b0fd86-40e4-40a7-a782-41f2ac7b10d7")
 		(property "Reference" "J4"
 			(at 147.828 72.136 90)
@@ -15428,7 +15428,7 @@
 		(dnp no)
 		(uuid "9df1ff33-e255-4fae-aa9d-2fa1e8557d67")
 		(property "Reference" "C16"
-			(at 171.196 50.292 90)
+			(at 168.402 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15436,8 +15436,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 168.91 49.784 90)
+		(property "Value" "1u"
+			(at 169.672 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15472,7 +15472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "791-0201X105M100CT "
 			(at 175.26 52.07 90)
 			(effects
 				(font
@@ -15739,7 +15739,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a859de59-1060-43b3-95d3-e05058911eca")
 		(property "Reference" "L1"
 			(at 114.808 77.47 0)
