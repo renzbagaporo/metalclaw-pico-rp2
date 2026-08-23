@@ -9918,6 +9918,16 @@
 		)
 		(uuid "56bdaf2e-be24-4c3e-a74c-43a57085bda3")
 	)
+	(label "USB_D-"
+		(at 99.06 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bf463f9-3f68-4ecd-8a26-f4a803bfb661")
+	)
 	(label "GP13"
 		(at 171.45 135.89 0)
 		(effects
@@ -10057,6 +10067,16 @@
 			(justify left bottom)
 		)
 		(uuid "98204d3d-4dcf-4e85-a1af-39c3c62875f5")
+	)
+	(label "USB_D+"
+		(at 101.6 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9af03aea-ae1b-4c75-99f8-85f4a3b11a28")
 	)
 	(label "GP1"
 		(at 78.74 147.32 90)
