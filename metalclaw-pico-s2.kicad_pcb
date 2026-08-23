@@ -235,11 +235,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "01a0545b-164b-4f4c-ba63-1719f24279c7")
-		(at 158.86 89.7)
+		(at 157.15 87 90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R34"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "0c38c11d-ca92-4765-946b-6ce73d31c4cd")
 			(effects
@@ -250,7 +250,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "e951fa30-8be7-4011-a5da-22ced753715c")
 			(effects
@@ -261,7 +261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65d962b0-2253-49dd-94d7-b99de390bf32")
@@ -273,7 +273,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b3f435a-efe7-4aad-a6f5-3bf6ae582b67")
@@ -285,7 +285,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW02015K10FEDAT "
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -325,7 +325,7 @@
 			(uuid "0fbbed21-8451-4d34-b9c5-1f7adf781249")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "cb1f60aa-583a-4933-ad36-0ebfbd6ada18")
 			(effects
@@ -336,21 +336,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "184b3dff-35c3-4e59-b76f-6bb48a872388")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "3150e6a4-7cc9-4583-853d-c9c345285026")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -359,7 +359,7 @@
 			(uuid "256283f3-7fd4-4eb3-ae90-453e3d608975")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -6709,7 +6709,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6e6da59e-4d33-47c9-bb56-b4cf072e7a5a")
-		(at 161.09 88.75)
+		(at 158.55 91.23)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -9849,11 +9849,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a94b7469-8202-4090-b546-ef69f1350d24")
-		(at 158.67 88.61)
+		(at 158.03 93.21 90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "026a32d0-11ed-4e06-9177-4d76734760ea")
 			(effects
@@ -9864,7 +9864,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "39e4ab50-84e4-4b3c-875b-fef63cdb1753")
 			(effects
@@ -9875,7 +9875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97159bc6-2ad0-4f14-8854-2983ce1adf63")
@@ -9887,7 +9887,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1f5e4b6-1708-4e30-8730-f58b98db5df6")
@@ -9899,7 +9899,7 @@
 			)
 		)
 		(property "Mouser" "603-AC0201FR-13220RL "
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9939,7 +9939,7 @@
 			(uuid "68d0d659-6e16-42f1-b509-fb017417fd79")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "887bfeaf-f099-4f1e-9376-112bf7595ddf")
 			(effects
@@ -9950,21 +9950,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "af3bbbbd-e3b3-430c-bc11-31307208fafa")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "9616b78f-51f5-49d6-8678-a491190f6a57")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9973,7 +9973,7 @@
 			(uuid "3d2438e2-b670-445f-a4dd-872280d57ecd")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
