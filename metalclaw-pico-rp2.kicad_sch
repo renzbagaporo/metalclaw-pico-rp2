@@ -6544,6 +6544,12 @@
 		(uuid "dcde7409-82e9-402e-a3f2-ed73f7319fde")
 	)
 	(junction
+		(at 353.06 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de276341-3fe4-419a-afd5-57039f474761")
+	)
+	(junction
 		(at 241.3 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6778,6 +6784,16 @@
 			(type default)
 		)
 		(uuid "06398cb7-5b49-4c9e-9881-11cf0ea07e06")
+	)
+	(wire
+		(pts
+			(xy 353.06 196.85) (xy 359.41 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c7fa42-5f56-4758-950c-f1c681d08e76")
 	)
 	(wire
 		(pts
@@ -9981,6 +9997,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 185.42) (xy 353.06 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab57c7af-bfd2-4993-96f2-3ba9b0177ff6")
+	)
+	(wire
+		(pts
 			(xy 347.98 151.13) (xy 356.87 151.13)
 		)
 		(stroke
@@ -10771,6 +10797,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 194.31) (xy 353.06 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e000d88c-71f0-46ba-a099-656683eff1d6")
+	)
+	(wire
+		(pts
 			(xy 73.66 182.88) (xy 73.66 200.66)
 		)
 		(stroke
@@ -10971,7 +11007,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 196.85) (xy 359.41 196.85)
+			(xy 321.31 196.85) (xy 353.06 196.85)
 		)
 		(stroke
 			(width 0)
@@ -13861,6 +13897,71 @@
 			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 353.06 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "191c1ce8-a7a7-435e-8bf0-f4bdf174f8fe")
+		(property "Reference" "#PWR025"
+			(at 353.06 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 353.06 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 353.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cac2748c-109a-4929-a332-6b0e0c080d55")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17642,6 +17743,86 @@
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 353.06 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "682a5fc5-7113-46ae-bc45-78a2fbeb5d2a")
+		(property "Reference" "R76"
+			(at 351.79 191.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "220"
+			(at 351.79 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 352.044 190.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 353.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-AC0201FR-13220RL "
+			(at 353.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21381fa8-1b69-4ed5-b8ca-1587d93bfec5")
+		)
+		(pin "2"
+			(uuid "3b747969-f64c-4e05-84f6-17d82ed8fea4")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "R76")
 					(unit 1)
 				)
 			)
