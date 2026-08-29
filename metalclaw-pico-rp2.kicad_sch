@@ -6310,6 +6310,12 @@
 		(uuid "7c19a2b2-acf4-431a-9091-db0e1d78c798")
 	)
 	(junction
+		(at 370.84 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84ed2ea0-6849-47da-ad54-fd49d4b0daa1")
+	)
+	(junction
 		(at 234.95 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6726,10 +6732,6 @@
 		(uuid "3b74eb00-23ca-4f09-a813-45ba3d949a1f")
 	)
 	(no_connect
-		(at 378.46 111.76)
-		(uuid "423fbe46-d2b1-4048-ad48-717014e29ffa")
-	)
-	(no_connect
 		(at 370.84 190.5)
 		(uuid "491d2db4-6b64-4511-87e4-a437c2bb5b37")
 	)
@@ -7110,6 +7112,16 @@
 			(type default)
 		)
 		(uuid "196739c2-9a56-436e-9bd8-4805ccabb315")
+	)
+	(wire
+		(pts
+			(xy 370.84 114.3) (xy 370.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19847484-4f08-466a-b432-31b66ac9a825")
 	)
 	(wire
 		(pts
@@ -8740,6 +8752,16 @@
 			(type default)
 		)
 		(uuid "6b8f24f6-f04c-4b31-90f6-426b300f43bf")
+	)
+	(wire
+		(pts
+			(xy 378.46 113.03) (xy 370.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dea7b93-1d7e-48f3-8a5f-32e299671541")
 	)
 	(wire
 		(pts
@@ -10843,6 +10865,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 111.76) (xy 378.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da530681-ccf1-4809-8272-58d85b671743")
+	)
+	(wire
+		(pts
 			(xy 332.74 76.2) (xy 353.06 76.2)
 		)
 		(stroke
@@ -12365,7 +12397,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "XRCGB40M000F1S2FR0"
+		(property "Value" "ABM8-272-T3"
 			(at 332.994 155.194 90)
 			(effects
 				(font
@@ -12374,7 +12406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 328.93 156.21 0)
 			(effects
 				(font
@@ -12383,7 +12415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
 			(at 328.93 156.21 0)
 			(effects
 				(font
@@ -12392,8 +12424,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "12 MHz +/-30 ppm 10 pF 50 ohm four-pad crystal, Abracon ABM8-272-T3"
 			(at 328.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "815-ABM8-272-T3"
+			(at 328.93 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 328.93 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 328.93 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12441,7 +12500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 193.04 0)
 			(effects
 				(font
@@ -12451,7 +12510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 193.294 90)
 			(effects
 				(font
@@ -12460,7 +12519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -12469,7 +12528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -12478,7 +12537,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -12522,7 +12599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1.5n"
 			(at 154.432 186.436 0)
 			(effects
 				(font
@@ -12532,7 +12609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.9852 184.15 0)
 			(effects
 				(font
@@ -12541,7 +12618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM1555C1H152JA01D"
 			(at 160.02 187.96 0)
 			(effects
 				(font
@@ -12550,7 +12627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1.5 nF 50 V C0G +/-5% 0402 ADC-filter capacitor, Murata GRM1555C1H152JA01D"
 			(at 160.02 187.96 0)
 			(effects
 				(font
@@ -12559,8 +12636,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "81-GRM1555C1H152JA1D"
 			(at 160.02 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 160.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 160.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +12705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.286 63.754 90)
 			(effects
 				(font
@@ -12619,7 +12714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 128.27 63.5 0)
 			(effects
 				(font
@@ -12628,7 +12723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 carrier BOOTSEL pull-up, Yageo RC0402FR-075K1L"
 			(at 128.27 63.5 0)
 			(effects
 				(font
@@ -12637,7 +12732,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 128.27 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 128.27 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 128.27 63.5 90)
 			(effects
 				(font
@@ -12680,7 +12793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 127 0)
 			(effects
 				(font
@@ -12690,7 +12803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 127.254 90)
 			(effects
 				(font
@@ -12699,7 +12812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -12708,7 +12821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -12717,7 +12830,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -12770,7 +12901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.644 145.796 90)
 			(effects
 				(font
@@ -12779,7 +12910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 73.66 146.05 0)
 			(effects
 				(font
@@ -12788,7 +12919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 73.66 146.05 0)
 			(effects
 				(font
@@ -12797,7 +12928,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 73.66 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 73.66 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 73.66 146.05 90)
 			(effects
 				(font
@@ -12839,7 +12988,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6220B331MR"
+		(property "Value" "XC6220B331MR-G"
 			(at 76.2 66.04 0)
 			(effects
 				(font
@@ -12865,7 +13014,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+		(property "Description" "1 A low-dropout regulator, fixed 3.3 V output, SOT-25, Torex XC6220B331MR-G"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "865-XC6220B331MR-G"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 76.2 73.66 0)
 			(effects
 				(font
@@ -12946,6 +13122,33 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi, dual CPU architecture (ARM Cortex-M33 / RISC-V Hazard3), 150MHz, 2MB flash, 520KB SRAM, 12 PIO state machines, VQFN-80"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SC1512(13)-A4"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "358-SC151213"
 			(at 295.91 146.05 0)
 			(effects
 				(font
@@ -13255,7 +13458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.834 204.216 90)
 			(effects
 				(font
@@ -13264,7 +13467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 69.85 204.47 0)
 			(effects
 				(font
@@ -13273,7 +13476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 69.85 204.47 0)
 			(effects
 				(font
@@ -13282,7 +13485,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 69.85 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 69.85 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 69.85 204.47 90)
 			(effects
 				(font
@@ -13333,7 +13554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 272.0848 74.93 0)
 			(effects
 				(font
@@ -13342,7 +13563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -13351,7 +13572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -13360,7 +13581,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 273.05 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 273.05 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 273.05 78.74 90)
 			(effects
 				(font
@@ -13429,8 +13668,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+		(property "Description" "User-selected non-W Raspberry Pi Pico or Pico 2 target module with debug pads; custom footprint also provides intentional carrier PCB Edge.Cuts geometry"
 			(at 124.46 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 124.46 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly Option" "Raspberry Pi Pico or Pico 2, non-W; user-selected"
+			(at 124.46 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pico 2 Datasheet" "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf"
+			(at 124.46 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Note" "MetalClaw:RaspberryPi_Pico_SMD contains intentional Edge.Cuts used as PCB boundaries; do not replace automatically"
+			(at 124.46 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 124.46 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 124.46 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13595,7 +13888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 329.184 190.5 0)
 			(effects
 				(font
@@ -13605,7 +13898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.914 190.754 90)
 			(effects
 				(font
@@ -13614,7 +13907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 327.66 191.77 0)
 			(effects
 				(font
@@ -13623,7 +13916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 327.66 191.77 0)
 			(effects
 				(font
@@ -13632,7 +13925,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 327.66 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 327.66 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 327.66 191.77 0)
 			(effects
 				(font
@@ -13751,7 +14062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.734 148.336 90)
 			(effects
 				(font
@@ -13760,7 +14071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -13769,7 +14080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -13778,7 +14089,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 158.75 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 158.75 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 158.75 148.59 90)
 			(effects
 				(font
@@ -13821,7 +14150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 190.5 0)
 			(effects
 				(font
@@ -13831,7 +14160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 190.754 90)
 			(effects
 				(font
@@ -13840,7 +14169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -13849,7 +14178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -13858,7 +14187,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -13967,7 +14314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 187.96 0)
 			(effects
 				(font
@@ -13977,7 +14324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 188.214 90)
 			(effects
 				(font
@@ -13986,7 +14333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 189.23 0)
 			(effects
 				(font
@@ -13995,7 +14342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 189.23 0)
 			(effects
 				(font
@@ -14004,7 +14351,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 189.23 0)
 			(effects
 				(font
@@ -14111,7 +14476,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "USB4105-GF-A"
 			(at 382.524 88.646 90)
 			(effects
 				(font
@@ -14128,7 +14493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
 			(at 367.03 88.9 0)
 			(effects
 				(font
@@ -14137,8 +14502,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" "USB Type-C USB 2.0 16-contact right-angle top-mount receptacle, GCT USB4105-GF-A"
 			(at 370.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 370.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB4105-GF-A"
+			(at 370.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "640-USB4105-GF-A"
+			(at 370.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 370.84 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 370.84 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,7 +14629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "2.2k"
 			(at 163.068 199.136 90)
 			(effects
 				(font
@@ -14229,7 +14639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.846 197.866 90)
 			(effects
 				(font
@@ -14238,7 +14648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2L"
 			(at 165.1 196.85 0)
 			(effects
 				(font
@@ -14247,7 +14657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "2.2 kohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-072K2L"
 			(at 165.1 196.85 0)
 			(effects
 				(font
@@ -14256,7 +14666,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-072K2L"
+			(at 165.1 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 165.1 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 165.1 196.85 90)
 			(effects
 				(font
@@ -14309,7 +14737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 169.164 148.336 90)
 			(effects
 				(font
@@ -14318,7 +14746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -14327,7 +14755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -14336,7 +14764,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 170.18 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 170.18 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 170.18 148.59 90)
 			(effects
 				(font
@@ -14389,7 +14835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.354 148.336 90)
 			(effects
 				(font
@@ -14398,7 +14844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 166.37 148.59 0)
 			(effects
 				(font
@@ -14407,7 +14853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 166.37 148.59 0)
 			(effects
 				(font
@@ -14416,7 +14862,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 166.37 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 166.37 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 166.37 148.59 90)
 			(effects
 				(font
@@ -14458,7 +14922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "1k"
 			(at 130.556 78.232 90)
 			(effects
 				(font
@@ -14467,7 +14931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.286 76.454 90)
 			(effects
 				(font
@@ -14476,7 +14940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
 			(at 128.27 76.2 0)
 			(effects
 				(font
@@ -14485,7 +14949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1 kohm +/-1% 1/16 W 0402 carrier BOOTSEL switch-series resistor, Yageo RC0402FR-071KL"
 			(at 128.27 76.2 0)
 			(effects
 				(font
@@ -14494,7 +14958,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-071KL"
+			(at 128.27 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 128.27 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 128.27 76.2 90)
 			(effects
 				(font
@@ -14545,7 +15027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.0348 74.93 0)
 			(effects
 				(font
@@ -14554,7 +15036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -14563,7 +15045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -14572,7 +15054,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 254 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 254 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 254 78.74 90)
 			(effects
 				(font
@@ -14615,7 +15115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 154.94 0)
 			(effects
 				(font
@@ -14625,7 +15125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 155.194 90)
 			(effects
 				(font
@@ -14634,7 +15134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -14643,7 +15143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -14652,7 +15152,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -14703,7 +15221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.3348 74.93 0)
 			(effects
 				(font
@@ -14712,7 +15230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -14721,7 +15239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -14730,7 +15248,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 241.3 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 241.3 78.74 90)
 			(effects
 				(font
@@ -14783,7 +15319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 161.544 148.336 90)
 			(effects
 				(font
@@ -14792,7 +15328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -14801,7 +15337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -14810,7 +15346,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 162.56 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 162.56 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 162.56 148.59 90)
 			(effects
 				(font
@@ -14919,7 +15473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "330"
 			(at 178.308 199.136 90)
 			(effects
 				(font
@@ -14929,7 +15483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.086 197.866 90)
 			(effects
 				(font
@@ -14938,7 +15492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07330RL"
 			(at 180.34 196.85 0)
 			(effects
 				(font
@@ -14947,7 +15501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "330 ohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-07330RL"
 			(at 180.34 196.85 0)
 			(effects
 				(font
@@ -14956,7 +15510,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-07330RL"
+			(at 180.34 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 180.34 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 180.34 196.85 90)
 			(effects
 				(font
@@ -15130,7 +15702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 132.08 0)
 			(effects
 				(font
@@ -15140,7 +15712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 132.334 90)
 			(effects
 				(font
@@ -15149,7 +15721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -15158,7 +15730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -15167,7 +15739,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -15210,7 +15800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 162.56 0)
 			(effects
 				(font
@@ -15220,7 +15810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 162.814 90)
 			(effects
 				(font
@@ -15229,7 +15819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 163.83 0)
 			(effects
 				(font
@@ -15238,7 +15828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 163.83 0)
 			(effects
 				(font
@@ -15247,7 +15837,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 163.83 0)
 			(effects
 				(font
@@ -15298,7 +15906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.6848 74.93 0)
 			(effects
 				(font
@@ -15307,7 +15915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -15316,7 +15924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -15325,7 +15933,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 247.65 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 247.65 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 247.65 78.74 90)
 			(effects
 				(font
@@ -15443,7 +16069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 202.2348 74.93 0)
 			(effects
 				(font
@@ -15452,7 +16078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7S1A105K050BC"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -15461,7 +16087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 uF +/-10% 10 V X7S 0402 carrier MCU decoupling capacitor, TDK C1005X7S1A105K050BC"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -15470,7 +16096,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X7S1A105K"
+			(at 203.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 203.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 203.2 78.74 90)
 			(effects
 				(font
@@ -15513,7 +16157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "27"
 			(at 333.248 125.476 90)
 			(effects
 				(font
@@ -15523,7 +16167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 335.026 124.206 90)
 			(effects
 				(font
@@ -15532,7 +16176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-0727RL"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -15541,7 +16185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "27 ohm +/-1% 1/16 W 0402 USB data series resistor, Yageo RC0402FR-0727RL"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -15550,7 +16194,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-0727RL"
+			(at 335.28 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 335.28 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 335.28 123.19 90)
 			(effects
 				(font
@@ -15658,7 +16320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 96.52 0)
 			(effects
 				(font
@@ -15668,7 +16330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 96.774 90)
 			(effects
 				(font
@@ -15677,7 +16339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -15686,7 +16348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -15695,7 +16357,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -15738,7 +16418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 142.24 0)
 			(effects
 				(font
@@ -15748,7 +16428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 142.494 90)
 			(effects
 				(font
@@ -15757,7 +16437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -15766,7 +16446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -15775,7 +16455,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -15828,7 +16526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.454 145.796 90)
 			(effects
 				(font
@@ -15837,7 +16535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -15846,7 +16544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -15855,7 +16553,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 77.47 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 77.47 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 77.47 146.05 90)
 			(effects
 				(font
@@ -15898,7 +16614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 170.18 0)
 			(effects
 				(font
@@ -15908,7 +16624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 170.434 90)
 			(effects
 				(font
@@ -15917,7 +16633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -15926,7 +16642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -15935,7 +16651,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -15978,7 +16712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 124.46 0)
 			(effects
 				(font
@@ -15988,7 +16722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 124.714 90)
 			(effects
 				(font
@@ -15997,7 +16731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -16006,7 +16740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -16015,7 +16749,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -16058,7 +16810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 139.7 0)
 			(effects
 				(font
@@ -16068,7 +16820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 139.954 90)
 			(effects
 				(font
@@ -16077,7 +16829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -16086,7 +16838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -16095,7 +16847,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -16139,7 +16909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1.5n"
 			(at 150.622 200.406 0)
 			(effects
 				(font
@@ -16149,7 +16919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 157.1752 198.12 0)
 			(effects
 				(font
@@ -16158,7 +16928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM1555C1H152JA01D"
 			(at 156.21 201.93 0)
 			(effects
 				(font
@@ -16167,7 +16937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1.5 nF 50 V C0G +/-5% 0402 ADC-filter capacitor, Murata GRM1555C1H152JA01D"
 			(at 156.21 201.93 0)
 			(effects
 				(font
@@ -16176,8 +16946,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "81-GRM1555C1H152JA1D"
 			(at 156.21 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 156.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 156.21 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +17016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 343.916 91.186 90)
 			(effects
 				(font
@@ -16237,7 +17025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 342.9 91.44 0)
 			(effects
 				(font
@@ -16246,7 +17034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 USB-C CC pull-down resistor, Yageo RC0402FR-075K1L"
 			(at 342.9 91.44 0)
 			(effects
 				(font
@@ -16255,7 +17043,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 342.9 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 342.9 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 342.9 91.44 90)
 			(effects
 				(font
@@ -16307,7 +17113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 336.296 91.186 90)
 			(effects
 				(font
@@ -16316,7 +17122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 335.28 91.44 0)
 			(effects
 				(font
@@ -16325,7 +17131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 USB-C CC pull-down resistor, Yageo RC0402FR-075K1L"
 			(at 335.28 91.44 0)
 			(effects
 				(font
@@ -16334,7 +17140,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 335.28 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 335.28 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 335.28 91.44 90)
 			(effects
 				(font
@@ -16377,7 +17201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 185.42 0)
 			(effects
 				(font
@@ -16387,7 +17211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 185.674 90)
 			(effects
 				(font
@@ -16396,7 +17220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 186.69 0)
 			(effects
 				(font
@@ -16405,7 +17229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 186.69 0)
 			(effects
 				(font
@@ -16414,7 +17238,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 186.69 0)
 			(effects
 				(font
@@ -16457,7 +17299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 104.14 0)
 			(effects
 				(font
@@ -16467,7 +17309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 104.394 90)
 			(effects
 				(font
@@ -16476,7 +17318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -16485,7 +17327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -16494,7 +17336,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -16554,7 +17414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1A106M080AT"
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -16563,7 +17423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF 10 V X7R +/-20% 0603 MLCC, TDK C1608X7R1A106M080AT"
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -16572,7 +17432,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0603X106M100CT "
+		(property "Mouser" "810-C1608X7R1A106M08"
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 52.07 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -16623,7 +17501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.6348 74.93 0)
 			(effects
 				(font
@@ -16632,7 +17510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -16641,7 +17519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -16650,7 +17528,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 228.6 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 228.6 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 228.6 78.74 90)
 			(effects
 				(font
@@ -16693,7 +17589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 195.58 0)
 			(effects
 				(font
@@ -16703,7 +17599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 195.834 90)
 			(effects
 				(font
@@ -16712,7 +17608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -16721,7 +17617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -16730,7 +17626,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -16847,7 +17761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.3848 74.93 0)
 			(effects
 				(font
@@ -16856,7 +17770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -16865,7 +17779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -16874,7 +17788,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 260.35 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 260.35 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 260.35 78.74 90)
 			(effects
 				(font
@@ -16982,7 +17914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 160.782 80.01 0)
 			(effects
 				(font
@@ -16991,7 +17923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.3352 77.47 0)
 			(effects
 				(font
@@ -17000,7 +17932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1C104K050BC"
 			(at 166.37 81.28 0)
 			(effects
 				(font
@@ -17009,7 +17941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF 16 V X7R +/-10% 0402 carrier RESET filter, TDK C1005X7R1C104K050BC"
 			(at 166.37 81.28 0)
 			(effects
 				(font
@@ -17018,8 +17950,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X7R1C104K"
 			(at 166.37 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17127,7 +18077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 177.8 0)
 			(effects
 				(font
@@ -17137,7 +18087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 178.054 90)
 			(effects
 				(font
@@ -17146,7 +18096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -17155,7 +18105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -17164,7 +18114,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -17207,7 +18175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "330"
 			(at 178.308 213.106 90)
 			(effects
 				(font
@@ -17217,7 +18185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.086 211.836 90)
 			(effects
 				(font
@@ -17226,7 +18194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07330RL"
 			(at 180.34 210.82 0)
 			(effects
 				(font
@@ -17235,7 +18203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "330 ohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-07330RL"
 			(at 180.34 210.82 0)
 			(effects
 				(font
@@ -17244,7 +18212,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-07330RL"
+			(at 180.34 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 180.34 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 180.34 210.82 90)
 			(effects
 				(font
@@ -17278,7 +18264,7 @@
 		(dnp no)
 		(uuid "5e9dab5b-e515-4db6-9eb6-0a5792e39d21")
 		(property "Reference" "L1"
-			(at 289.56 78.7399 0)
+			(at 290.576 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17286,8 +18272,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "L"
-			(at 289.56 81.2799 0)
+		(property "Value" "3.3u"
+			(at 290.576 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17295,7 +18281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010"
 			(at 290.83 80.01 0)
 			(effects
 				(font
@@ -17304,7 +18290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ph/datasheet/3/184/1/AOTA_B201610S3R3_101_T.pdf"
 			(at 290.83 80.01 0)
 			(effects
 				(font
@@ -17314,6 +18300,33 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 290.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "815-AB201610S3R3101T"
+			(at 290.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 290.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 290.83 80.01 0)
 			(effects
 				(font
@@ -17487,7 +18500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "1k"
 			(at 265.684 119.38 0)
 			(effects
 				(font
@@ -17497,7 +18510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 119.634 90)
 			(effects
 				(font
@@ -17506,7 +18519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -17515,7 +18528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1 kohm +/-1% 1/16 W 0402 Pico control series resistor, Yageo RC0402FR-071KL"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -17524,7 +18537,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-071KL"
+			(at 264.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -17575,7 +18606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 155.956 63.754 90)
 			(effects
 				(font
@@ -17584,7 +18615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 154.94 63.5 0)
 			(effects
 				(font
@@ -17593,7 +18624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 carrier RESET pull-up, Yageo RC0402FR-075K1L"
 			(at 154.94 63.5 0)
 			(effects
 				(font
@@ -17602,7 +18633,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 154.94 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 154.94 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 154.94 63.5 90)
 			(effects
 				(font
@@ -17643,7 +18692,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "FTSH-105-01-L-DV-K"
 			(at 377.19 198.628 0)
 			(effects
 				(font
@@ -17660,7 +18709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samtec.com/products/ftsh-105-01-l-dv-k"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -17669,7 +18718,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "10-pin 2-row 1.27 mm vertical SMT micro header with keying notch for SWD, Samtec FTSH-105-01-L-DV-K"
+			(at 375.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 375.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTSH-105-01-L-DV-K"
+			(at 375.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-FTSH10501LDVK"
+			(at 375.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 375.92 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -17734,7 +18828,7 @@
 				)
 			)
 		)
-		(property "Value" "6p"
+		(property "Value" "15p"
 			(at 340.36 149.098 90)
 			(effects
 				(font
@@ -17742,7 +18836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 347.98 150.1648 0)
 			(effects
 				(font
@@ -17751,7 +18845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005C0G1H150F050BA"
 			(at 344.17 151.13 0)
 			(effects
 				(font
@@ -17760,7 +18854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF 50 V C0G +/-1% 0402 MLCC, TDK C1005C0G1H150F050BA"
 			(at 344.17 151.13 0)
 			(effects
 				(font
@@ -17769,7 +18863,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM0335C1E6R0BA1D "
+		(property "Mouser" "810-C1005C0G1H150F"
+			(at 344.17 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 344.17 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 344.17 151.13 90)
 			(effects
 				(font
@@ -17822,7 +18934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.264 145.796 90)
 			(effects
 				(font
@@ -17831,7 +18943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 81.28 146.05 0)
 			(effects
 				(font
@@ -17840,7 +18952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 81.28 146.05 0)
 			(effects
 				(font
@@ -17849,7 +18961,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 81.28 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 81.28 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 81.28 146.05 90)
 			(effects
 				(font
@@ -17892,7 +19022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 157.48 0)
 			(effects
 				(font
@@ -17902,7 +19032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 157.734 90)
 			(effects
 				(font
@@ -17911,7 +19041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -17920,7 +19050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -17929,7 +19059,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -17972,7 +19120,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "PTS810SJM250SMTR LFS"
 			(at 153.67 82.5499 90)
 			(effects
 				(font
@@ -17990,7 +19138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -17999,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -18009,6 +19157,24 @@
 			)
 		)
 		(property "Mouser" "611-PTS810SJM250SMTR"
+			(at 154.94 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 154.94 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 154.94 81.28 90)
 			(effects
 				(font
@@ -18051,7 +19217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "10k"
 			(at 351.79 188.976 0)
 			(effects
 				(font
@@ -18061,7 +19227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 352.044 190.246 90)
 			(effects
 				(font
@@ -18070,7 +19236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.jp/en/ProductDetail/YAGEO/RC0402FR-0710KL"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -18079,7 +19245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "10 kohm +/-1% 1/16 W 0402 PSRAM chip-select pull-up, Yageo RC0402FR-0710KL"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -18088,7 +19254,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0710KL"
+			(at 353.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 353.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -18131,7 +19315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "27"
 			(at 333.248 122.936 90)
 			(effects
 				(font
@@ -18141,7 +19325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 335.026 121.666 90)
 			(effects
 				(font
@@ -18150,7 +19334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-0727RL"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -18159,7 +19343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "27 ohm +/-1% 1/16 W 0402 USB data series resistor, Yageo RC0402FR-0727RL"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -18168,7 +19352,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-0727RL"
+			(at 335.28 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 335.28 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 335.28 120.65 90)
 			(effects
 				(font
@@ -18211,7 +19413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 106.68 0)
 			(effects
 				(font
@@ -18221,7 +19423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 106.934 90)
 			(effects
 				(font
@@ -18230,7 +19432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -18239,7 +19441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -18248,7 +19450,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -18291,7 +19511,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "PTS810SJM250SMTR LFS"
 			(at 127 87.6299 90)
 			(effects
 				(font
@@ -18309,7 +19529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -18318,7 +19538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -18328,6 +19548,24 @@
 			)
 		)
 		(property "Mouser" "611-PTS810SJM250SMTR"
+			(at 128.27 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 128.27 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 128.27 86.36 90)
 			(effects
 				(font
@@ -18370,7 +19608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 175.26 0)
 			(effects
 				(font
@@ -18380,7 +19618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 175.514 90)
 			(effects
 				(font
@@ -18389,7 +19627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 176.53 0)
 			(effects
 				(font
@@ -18398,7 +19636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 176.53 0)
 			(effects
 				(font
@@ -18407,7 +19645,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 176.53 0)
 			(effects
 				(font
@@ -18450,7 +19706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 134.62 0)
 			(effects
 				(font
@@ -18460,7 +19716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 134.874 90)
 			(effects
 				(font
@@ -18469,7 +19725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -18478,7 +19734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -18487,7 +19743,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -18540,7 +19814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.074 204.216 90)
 			(effects
 				(font
@@ -18549,7 +19823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 85.09 204.47 0)
 			(effects
 				(font
@@ -18558,7 +19832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 85.09 204.47 0)
 			(effects
 				(font
@@ -18567,7 +19841,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 85.09 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 85.09 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 85.09 204.47 90)
 			(effects
 				(font
@@ -18610,7 +19902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 160.02 0)
 			(effects
 				(font
@@ -18620,7 +19912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 160.274 90)
 			(effects
 				(font
@@ -18629,7 +19921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -18638,7 +19930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -18647,7 +19939,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -18700,7 +20010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.214 145.796 90)
 			(effects
 				(font
@@ -18709,7 +20019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 62.23 146.05 0)
 			(effects
 				(font
@@ -18718,7 +20028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 62.23 146.05 0)
 			(effects
 				(font
@@ -18727,7 +20037,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 62.23 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 62.23 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 62.23 146.05 90)
 			(effects
 				(font
@@ -18770,7 +20098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 329.184 180.34 0)
 			(effects
 				(font
@@ -18780,7 +20108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.914 180.594 90)
 			(effects
 				(font
@@ -18789,7 +20117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -18798,7 +20126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -18807,7 +20135,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 327.66 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 327.66 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -18934,7 +20280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1A106M080AT"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -18943,7 +20289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF 10 V X7R +/-20% 0603 MLCC, TDK C1608X7R1A106M080AT"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -18952,7 +20298,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0603X106M100CT "
+		(property "Mouser" "810-C1608X7R1A106M08"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -19005,7 +20369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.074 145.796 90)
 			(effects
 				(font
@@ -19014,7 +20378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 85.09 146.05 0)
 			(effects
 				(font
@@ -19023,7 +20387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 85.09 146.05 0)
 			(effects
 				(font
@@ -19032,7 +20396,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 85.09 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 85.09 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 85.09 146.05 90)
 			(effects
 				(font
@@ -19075,7 +20457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 144.78 0)
 			(effects
 				(font
@@ -19085,7 +20467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 145.034 90)
 			(effects
 				(font
@@ -19094,7 +20476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -19103,7 +20485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -19112,7 +20494,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -19165,7 +20565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.214 204.216 90)
 			(effects
 				(font
@@ -19174,7 +20574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 62.23 204.47 0)
 			(effects
 				(font
@@ -19183,7 +20583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 62.23 204.47 0)
 			(effects
 				(font
@@ -19192,7 +20592,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 62.23 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 62.23 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 62.23 204.47 90)
 			(effects
 				(font
@@ -19245,7 +20663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.834 145.796 90)
 			(effects
 				(font
@@ -19254,7 +20672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -19263,7 +20681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -19272,7 +20690,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 69.85 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 69.85 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 69.85 146.05 90)
 			(effects
 				(font
@@ -19323,7 +20759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 387.0452 142.24 0)
 			(effects
 				(font
@@ -19332,7 +20768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7S1A105K050BC"
 			(at 386.08 138.43 0)
 			(effects
 				(font
@@ -19341,7 +20777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 uF 10 V X7S +/-10% 0402 MLCC, TDK C1005X7S1A105K050BC"
 			(at 386.08 138.43 0)
 			(effects
 				(font
@@ -19350,7 +20786,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X7S1A105K"
+			(at 386.08 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 386.08 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 386.08 138.43 90)
 			(effects
 				(font
@@ -19393,7 +20847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 329.184 193.04 0)
 			(effects
 				(font
@@ -19403,7 +20857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.914 193.294 90)
 			(effects
 				(font
@@ -19412,7 +20866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -19421,7 +20875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -19430,7 +20884,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 327.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 327.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -19481,7 +20953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 221.2848 74.93 0)
 			(effects
 				(font
@@ -19490,7 +20962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -19499,7 +20971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -19508,7 +20980,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 222.25 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 222.25 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 222.25 78.74 90)
 			(effects
 				(font
@@ -19551,7 +21041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 167.64 0)
 			(effects
 				(font
@@ -19561,7 +21051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 167.894 90)
 			(effects
 				(font
@@ -19570,7 +21060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 168.91 0)
 			(effects
 				(font
@@ -19579,7 +21069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 168.91 0)
 			(effects
 				(font
@@ -19588,7 +21078,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 168.91 0)
 			(effects
 				(font
@@ -19631,7 +21139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 111.76 0)
 			(effects
 				(font
@@ -19641,7 +21149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 112.014 90)
 			(effects
 				(font
@@ -19650,7 +21158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 113.03 0)
 			(effects
 				(font
@@ -19659,7 +21167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 113.03 0)
 			(effects
 				(font
@@ -19668,7 +21176,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 113.03 0)
 			(effects
 				(font
@@ -19710,7 +21236,7 @@
 				)
 			)
 		)
-		(property "Value" "6p"
+		(property "Value" "15p"
 			(at 340.36 159.512 90)
 			(effects
 				(font
@@ -19718,7 +21244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 340.36 160.3248 0)
 			(effects
 				(font
@@ -19727,7 +21253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005C0G1H150F050BA"
 			(at 344.17 161.29 0)
 			(effects
 				(font
@@ -19736,7 +21262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "15 pF 50 V C0G +/-1% 0402 MLCC, TDK C1005C0G1H150F050BA"
 			(at 344.17 161.29 0)
 			(effects
 				(font
@@ -19745,7 +21271,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM0335C1E6R0BA1D "
+		(property "Mouser" "810-C1005C0G1H150F"
+			(at 344.17 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 344.17 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 344.17 161.29 90)
 			(effects
 				(font
@@ -19988,7 +21532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1.5n"
 			(at 146.812 214.376 0)
 			(effects
 				(font
@@ -19998,7 +21542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.3652 212.09 0)
 			(effects
 				(font
@@ -20007,7 +21551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM1555C1H152JA01D"
 			(at 152.4 215.9 0)
 			(effects
 				(font
@@ -20016,7 +21560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1.5 nF 50 V C0G +/-5% 0402 ADC-filter capacitor, Murata GRM1555C1H152JA01D"
 			(at 152.4 215.9 0)
 			(effects
 				(font
@@ -20025,8 +21569,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "81-GRM1555C1H152JA1D"
 			(at 152.4 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 152.4 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 152.4 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20068,7 +21630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 116.84 0)
 			(effects
 				(font
@@ -20078,7 +21640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 117.094 90)
 			(effects
 				(font
@@ -20087,7 +21649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -20096,7 +21658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -20105,7 +21667,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -20148,7 +21728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 129.54 0)
 			(effects
 				(font
@@ -20158,7 +21738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 129.794 90)
 			(effects
 				(font
@@ -20167,7 +21747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -20176,7 +21756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -20185,7 +21765,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -20238,7 +21836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.404 204.216 90)
 			(effects
 				(font
@@ -20247,7 +21845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 58.42 204.47 0)
 			(effects
 				(font
@@ -20256,7 +21854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 58.42 204.47 0)
 			(effects
 				(font
@@ -20265,7 +21863,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 58.42 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 58.42 204.47 90)
 			(effects
 				(font
@@ -20308,7 +21924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 109.22 0)
 			(effects
 				(font
@@ -20318,7 +21934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 109.474 90)
 			(effects
 				(font
@@ -20327,7 +21943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -20336,7 +21952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -20345,7 +21961,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -20387,7 +22021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4.7u"
 			(at 211.328 73.66 90)
 			(effects
 				(font
@@ -20396,7 +22030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 208.5848 74.93 0)
 			(effects
 				(font
@@ -20405,7 +22039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -20414,7 +22048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -20423,7 +22057,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X5R0J475K"
+			(at 209.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 209.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 209.55 78.74 90)
 			(effects
 				(font
@@ -20542,7 +22194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.644 204.216 90)
 			(effects
 				(font
@@ -20551,7 +22203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 73.66 204.47 0)
 			(effects
 				(font
@@ -20560,7 +22212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 73.66 204.47 0)
 			(effects
 				(font
@@ -20569,7 +22221,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 73.66 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 73.66 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 73.66 204.47 90)
 			(effects
 				(font
@@ -20678,7 +22348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 147.32 0)
 			(effects
 				(font
@@ -20688,7 +22358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 147.574 90)
 			(effects
 				(font
@@ -20697,7 +22367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -20706,7 +22376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -20715,7 +22385,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -20768,7 +22456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.404 145.796 90)
 			(effects
 				(font
@@ -20777,7 +22465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -20786,7 +22474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -20795,7 +22483,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 58.42 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 58.42 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 58.42 146.05 90)
 			(effects
 				(font
@@ -20837,7 +22543,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "APS6404L-3SQRx-SN"
+		(property "Value" "APS6404L-3SQR-SN"
 			(at 369.57 126.492 0)
 			(effects
 				(font
@@ -20864,8 +22570,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "64 Mbit / 8M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8)"
+		(property "Description" "64 Mbit QSPI PSRAM, 8M x 8, up to 133 MHz, 2.7-3.6 V, SOP-8, AP Memory APS6404L-3SQR-SN"
 			(at 370.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "878-APS6404L-3SQR-SN"
+			(at 370.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 370.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 370.84 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20924,7 +22657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "100n"
 			(at 198.374 72.136 90)
 			(effects
 				(font
@@ -20933,7 +22666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.8848 74.93 0)
 			(effects
 				(font
@@ -20942,7 +22675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1C104K050BC"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -20951,7 +22684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF 16 V X7R +/-10% 0402 MLCC, TDK C1005X7R1C104K050BC"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -20960,7 +22693,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 196.85 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 196.85 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 196.85 78.74 90)
 			(effects
 				(font
@@ -21052,7 +22803,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 370.84 113.03 0)
+		(at 370.84 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21061,7 +22812,7 @@
 		(dnp no)
 		(uuid "bc868fd8-ba0b-4d35-836b-ed24683c2fc8")
 		(property "Reference" "#PWR020"
-			(at 370.84 119.38 0)
+			(at 370.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21070,7 +22821,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 366.776 114.554 0)
+			(at 366.776 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21078,7 +22829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 113.03 0)
+			(at 370.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21087,7 +22838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 113.03 0)
+			(at 370.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21096,7 +22847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 113.03 0)
+			(at 370.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21145,7 +22896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.024 145.796 90)
 			(effects
 				(font
@@ -21154,7 +22905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 66.04 146.05 0)
 			(effects
 				(font
@@ -21163,7 +22914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 66.04 146.05 0)
 			(effects
 				(font
@@ -21172,7 +22923,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 66.04 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 66.04 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 66.04 146.05 90)
 			(effects
 				(font
@@ -21216,7 +22985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10n"
 			(at 168.402 200.406 0)
 			(effects
 				(font
@@ -21226,7 +22995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 198.12 0)
 			(effects
 				(font
@@ -21235,7 +23004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1E103K050BB"
 			(at 173.99 201.93 0)
 			(effects
 				(font
@@ -21244,7 +23013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 nF 25 V X7R +/-10% 0402 ADC-filter capacitor, TDK C1005X7R1E103K050BB"
 			(at 173.99 201.93 0)
 			(effects
 				(font
@@ -21253,8 +23022,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X7R1E103K"
 			(at 173.99 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 173.99 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21306,7 +23093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.454 204.216 90)
 			(effects
 				(font
@@ -21315,7 +23102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 77.47 204.47 0)
 			(effects
 				(font
@@ -21324,7 +23111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 77.47 204.47 0)
 			(effects
 				(font
@@ -21333,7 +23120,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 77.47 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 77.47 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 77.47 204.47 90)
 			(effects
 				(font
@@ -21376,7 +23181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 137.16 0)
 			(effects
 				(font
@@ -21386,7 +23191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 137.414 90)
 			(effects
 				(font
@@ -21395,7 +23200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -21404,7 +23209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -21413,7 +23218,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -21456,7 +23279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "2.2k"
 			(at 160.528 213.106 90)
 			(effects
 				(font
@@ -21466,7 +23289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.306 211.836 90)
 			(effects
 				(font
@@ -21475,7 +23298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2L"
 			(at 162.56 210.82 0)
 			(effects
 				(font
@@ -21484,7 +23307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "2.2 kohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-072K2L"
 			(at 162.56 210.82 0)
 			(effects
 				(font
@@ -21493,7 +23316,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-072K2L"
+			(at 162.56 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 162.56 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 162.56 210.82 90)
 			(effects
 				(font
@@ -21537,7 +23378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10n"
 			(at 168.402 214.376 0)
 			(effects
 				(font
@@ -21547,7 +23388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 212.09 0)
 			(effects
 				(font
@@ -21556,7 +23397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1E103K050BB"
 			(at 173.99 215.9 0)
 			(effects
 				(font
@@ -21565,7 +23406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 nF 25 V X7R +/-10% 0402 ADC-filter capacitor, TDK C1005X7R1E103K050BB"
 			(at 173.99 215.9 0)
 			(effects
 				(font
@@ -21574,8 +23415,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X7R1E103K"
 			(at 173.99 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 173.99 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21617,7 +23476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 180.34 0)
 			(effects
 				(font
@@ -21627,7 +23486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 180.594 90)
 			(effects
 				(font
@@ -21636,7 +23495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -21645,7 +23504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -21654,7 +23513,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -21696,7 +23573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4.7u"
 			(at 268.478 73.66 90)
 			(effects
 				(font
@@ -21705,7 +23582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.7348 74.93 0)
 			(effects
 				(font
@@ -21714,7 +23591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
 			(at 266.7 78.74 0)
 			(effects
 				(font
@@ -21723,7 +23600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
 			(at 266.7 78.74 0)
 			(effects
 				(font
@@ -21732,7 +23609,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X5R0J475K"
+			(at 266.7 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 266.7 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -21783,7 +23678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 282.956 50.546 90)
 			(effects
 				(font
@@ -21792,7 +23687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 283.21 49.53 0)
 			(effects
 				(font
@@ -21801,7 +23696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 thick-film resistor, Yageo RC0402FR-0733RL"
 			(at 283.21 49.53 0)
 			(effects
 				(font
@@ -21810,7 +23705,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 283.21 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 283.21 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 283.21 49.53 90)
 			(effects
 				(font
@@ -21920,7 +23833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 329.184 177.8 0)
 			(effects
 				(font
@@ -21930,7 +23843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.914 178.054 90)
 			(effects
 				(font
@@ -21939,7 +23852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 327.66 179.07 0)
 			(effects
 				(font
@@ -21948,7 +23861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 327.66 179.07 0)
 			(effects
 				(font
@@ -21957,7 +23870,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 327.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 327.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 327.66 179.07 0)
 			(effects
 				(font
@@ -22000,7 +23931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 114.3 0)
 			(effects
 				(font
@@ -22010,7 +23941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 114.554 90)
 			(effects
 				(font
@@ -22019,7 +23950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -22028,7 +23959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -22037,7 +23968,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -22090,7 +24039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.024 204.216 90)
 			(effects
 				(font
@@ -22099,7 +24048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 66.04 204.47 0)
 			(effects
 				(font
@@ -22108,7 +24057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 66.04 204.47 0)
 			(effects
 				(font
@@ -22117,7 +24066,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 66.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 66.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 66.04 204.47 90)
 			(effects
 				(font
@@ -22160,7 +24127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 172.72 0)
 			(effects
 				(font
@@ -22170,7 +24137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 172.974 90)
 			(effects
 				(font
@@ -22179,7 +24146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -22188,7 +24155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -22197,7 +24164,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -22250,7 +24235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.264 204.216 90)
 			(effects
 				(font
@@ -22259,7 +24244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 81.28 204.47 0)
 			(effects
 				(font
@@ -22268,7 +24253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 81.28 204.47 0)
 			(effects
 				(font
@@ -22277,7 +24262,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 81.28 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 81.28 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 81.28 204.47 90)
 			(effects
 				(font
@@ -22517,7 +24520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 149.86 0)
 			(effects
 				(font
@@ -22527,7 +24530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 150.114 90)
 			(effects
 				(font
@@ -22536,7 +24539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -22545,7 +24548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -22554,7 +24557,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -22597,7 +24618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 165.1 0)
 			(effects
 				(font
@@ -22607,7 +24628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 165.354 90)
 			(effects
 				(font
@@ -22616,7 +24637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 166.37 0)
 			(effects
 				(font
@@ -22625,7 +24646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 166.37 0)
 			(effects
 				(font
@@ -22634,7 +24655,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 166.37 0)
 			(effects
 				(font
@@ -22743,7 +24782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "2.2k"
 			(at 164.338 185.166 90)
 			(effects
 				(font
@@ -22753,7 +24792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.116 183.896 90)
 			(effects
 				(font
@@ -22762,7 +24801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2L"
 			(at 166.37 182.88 0)
 			(effects
 				(font
@@ -22771,7 +24810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "2.2 kohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-072K2L"
 			(at 166.37 182.88 0)
 			(effects
 				(font
@@ -22780,7 +24819,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-072K2L"
+			(at 166.37 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 166.37 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 166.37 182.88 90)
 			(effects
 				(font
@@ -22822,7 +24879,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "PMEG2010ER,115"
 			(at 343.8525 69.85 0)
 			(effects
 				(font
@@ -22830,7 +24887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -22839,7 +24896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -22848,7 +24905,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "20 V 1 A low-forward-voltage Schottky rectifier, SOD-123W, Nexperia PMEG2010ER,115"
+			(at 344.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "771-PMEG2010ER115"
+			(at 344.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 344.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -22890,7 +24974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4.7u"
 			(at 217.678 73.66 90)
 			(effects
 				(font
@@ -22899,7 +24983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.9348 74.93 0)
 			(effects
 				(font
@@ -22908,7 +24992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -22917,7 +25001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -22926,7 +25010,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X5R0J475K"
+			(at 215.9 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 215.9 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 215.9 78.74 90)
 			(effects
 				(font
@@ -22979,7 +25081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.974 148.336 90)
 			(effects
 				(font
@@ -22988,7 +25090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 173.99 148.59 0)
 			(effects
 				(font
@@ -22997,7 +25099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 173.99 148.59 0)
 			(effects
 				(font
@@ -23006,7 +25108,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 173.99 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 173.99 148.59 90)
 			(effects
 				(font
@@ -23050,7 +25170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10n"
 			(at 168.402 186.436 0)
 			(effects
 				(font
@@ -23060,7 +25180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 174.9552 184.15 0)
 			(effects
 				(font
@@ -23069,7 +25189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1E103K050BB"
 			(at 173.99 187.96 0)
 			(effects
 				(font
@@ -23078,7 +25198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 nF 25 V X7R +/-10% 0402 ADC-filter capacitor, TDK C1005X7R1E103K050BB"
 			(at 173.99 187.96 0)
 			(effects
 				(font
@@ -23087,8 +25207,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "791-0201X105M100CT "
+		(property "Mouser" "810-C1005X7R1E103K"
 			(at 173.99 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 173.99 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23130,7 +25268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 152.4 0)
 			(effects
 				(font
@@ -23140,7 +25278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 152.654 90)
 			(effects
 				(font
@@ -23149,7 +25287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -23158,7 +25296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -23167,7 +25305,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -23210,7 +25366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 101.6 0)
 			(effects
 				(font
@@ -23220,7 +25376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 101.854 90)
 			(effects
 				(font
@@ -23229,7 +25385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -23238,7 +25394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -23247,7 +25403,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -23276,7 +25450,7 @@
 		(at 148.59 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e9c39a34-74bf-4d03-8dee-9d24f0ec0266")
@@ -23320,6 +25494,24 @@
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 148.59 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 148.59 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 148.59 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23427,7 +25619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "1k"
 			(at 265.684 99.06 0)
 			(effects
 				(font
@@ -23437,7 +25629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 99.314 90)
 			(effects
 				(font
@@ -23446,7 +25638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -23455,7 +25647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1 kohm +/-1% 1/16 W 0402 Pico control series resistor, Yageo RC0402FR-071KL"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -23464,7 +25656,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-071KL"
+			(at 264.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -23517,7 +25727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.784 148.336 90)
 			(effects
 				(font
@@ -23526,7 +25736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 177.8 148.59 0)
 			(effects
 				(font
@@ -23535,7 +25745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 177.8 148.59 0)
 			(effects
 				(font
@@ -23544,7 +25754,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 177.8 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 177.8 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 177.8 148.59 90)
 			(effects
 				(font
@@ -23587,7 +25815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "330"
 			(at 178.308 185.166 90)
 			(effects
 				(font
@@ -23597,7 +25825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.086 183.896 90)
 			(effects
 				(font
@@ -23606,7 +25834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07330RL"
 			(at 180.34 182.88 0)
 			(effects
 				(font
@@ -23615,7 +25843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "330 ohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-07330RL"
 			(at 180.34 182.88 0)
 			(effects
 				(font
@@ -23624,7 +25852,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-07330RL"
+			(at 180.34 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 180.34 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 180.34 182.88 90)
 			(effects
 				(font
@@ -23677,7 +25923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.924 148.336 90)
 			(effects
 				(font
@@ -23686,7 +25932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
 			(at 154.94 148.59 0)
 			(effects
 				(font
@@ -23695,7 +25941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
 			(at 154.94 148.59 0)
 			(effects
 				(font
@@ -23704,7 +25950,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW02015K10FEDAT "
+		(property "Mouser" "603-RC0402FR-075K1L"
+			(at 154.94 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 154.94 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 154.94 148.59 90)
 			(effects
 				(font
@@ -23755,7 +26019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 233.9848 74.93 0)
 			(effects
 				(font
@@ -23764,7 +26028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
 			(at 234.95 78.74 0)
 			(effects
 				(font
@@ -23773,7 +26037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
 			(at 234.95 78.74 0)
 			(effects
 				(font
@@ -23782,7 +26046,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM033R61A104ME5D "
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 234.95 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 234.95 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 234.95 78.74 90)
 			(effects
 				(font
@@ -23825,7 +26107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 121.92 0)
 			(effects
 				(font
@@ -23835,7 +26117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 122.174 90)
 			(effects
 				(font
@@ -23844,7 +26126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 123.19 0)
 			(effects
 				(font
@@ -23853,7 +26135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 123.19 0)
 			(effects
 				(font
@@ -23862,7 +26144,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 123.19 0)
 			(effects
 				(font
@@ -23971,7 +26271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "33"
 			(at 265.684 182.88 0)
 			(effects
 				(font
@@ -23981,7 +26281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.414 183.134 90)
 			(effects
 				(font
@@ -23990,7 +26290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
 			(at 264.16 184.15 0)
 			(effects
 				(font
@@ -23999,7 +26299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
 			(at 264.16 184.15 0)
 			(effects
 				(font
@@ -24008,7 +26308,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-AC0201FR-13220RL "
+		(property "Mouser" "603-RC0402FR-0733RL"
+			(at 264.16 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 264.16 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
 			(at 264.16 184.15 0)
 			(effects
 				(font
