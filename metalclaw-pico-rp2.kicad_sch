@@ -12495,7 +12495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 193.04 0)
 			(effects
 				(font
@@ -12505,7 +12505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 193.294 90)
 			(effects
 				(font
@@ -12514,7 +12514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -12523,7 +12523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -12532,7 +12532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -12700,7 +12700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 115.316 72.644 90)
 			(effects
 				(font
@@ -12709,7 +12709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 114.3 72.39 0)
 			(effects
 				(font
@@ -12718,7 +12718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 carrier BOOTSEL pull-up, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 carrier BOOTSEL pull-up, Yageo RC0201FR-075K1L"
 			(at 114.3 72.39 0)
 			(effects
 				(font
@@ -12727,7 +12727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 114.3 72.39 90)
 			(effects
 				(font
@@ -12788,7 +12788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 127 0)
 			(effects
 				(font
@@ -12798,7 +12798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 127.254 90)
 			(effects
 				(font
@@ -12807,7 +12807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -12816,7 +12816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -12825,7 +12825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -12896,7 +12896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 72.644 145.796 90)
 			(effects
 				(font
@@ -12905,7 +12905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 73.66 146.05 0)
 			(effects
 				(font
@@ -12914,7 +12914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 73.66 146.05 0)
 			(effects
 				(font
@@ -12923,7 +12923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 73.66 146.05 90)
 			(effects
 				(font
@@ -13453,7 +13453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 68.834 204.216 90)
 			(effects
 				(font
@@ -13462,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 69.85 204.47 0)
 			(effects
 				(font
@@ -13471,7 +13471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 69.85 204.47 0)
 			(effects
 				(font
@@ -13480,7 +13480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 69.85 204.47 90)
 			(effects
 				(font
@@ -13549,7 +13549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 272.0848 74.93 0)
 			(effects
 				(font
@@ -13558,7 +13558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -13567,7 +13567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -13576,7 +13576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 273.05 78.74 90)
 			(effects
 				(font
@@ -13883,7 +13883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 329.184 190.5 0)
 			(effects
 				(font
@@ -13893,7 +13893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.914 190.754 90)
 			(effects
 				(font
@@ -13902,7 +13902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 327.66 191.77 0)
 			(effects
 				(font
@@ -13911,7 +13911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 327.66 191.77 0)
 			(effects
 				(font
@@ -13920,7 +13920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 327.66 191.77 0)
 			(effects
 				(font
@@ -14057,7 +14057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 157.734 148.336 90)
 			(effects
 				(font
@@ -14066,7 +14066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -14075,7 +14075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -14084,7 +14084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 158.75 148.59 90)
 			(effects
 				(font
@@ -14145,7 +14145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 190.5 0)
 			(effects
 				(font
@@ -14155,7 +14155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 190.754 90)
 			(effects
 				(font
@@ -14164,7 +14164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -14173,7 +14173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -14182,7 +14182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -14309,7 +14309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 187.96 0)
 			(effects
 				(font
@@ -14319,7 +14319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 188.214 90)
 			(effects
 				(font
@@ -14328,7 +14328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 189.23 0)
 			(effects
 				(font
@@ -14337,7 +14337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 189.23 0)
 			(effects
 				(font
@@ -14346,7 +14346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 189.23 0)
 			(effects
 				(font
@@ -14634,7 +14634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 164.846 197.866 90)
 			(effects
 				(font
@@ -14643,7 +14643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2L"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-072K2L"
 			(at 165.1 196.85 0)
 			(effects
 				(font
@@ -14652,7 +14652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 kohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-072K2L"
+		(property "Description" "2.2 kohm +/-1% 1/20 W 0201 ADC-filter resistor, Yageo RC0201FR-072K2L"
 			(at 165.1 196.85 0)
 			(effects
 				(font
@@ -14661,7 +14661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-072K2L"
+		(property "Mouser" "603-RC0201FR-072K2L"
 			(at 165.1 196.85 90)
 			(effects
 				(font
@@ -14732,7 +14732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 169.164 148.336 90)
 			(effects
 				(font
@@ -14741,7 +14741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -14750,7 +14750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -14759,7 +14759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 170.18 148.59 90)
 			(effects
 				(font
@@ -14830,7 +14830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 165.354 148.336 90)
 			(effects
 				(font
@@ -14839,7 +14839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 166.37 148.59 0)
 			(effects
 				(font
@@ -14848,7 +14848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 166.37 148.59 0)
 			(effects
 				(font
@@ -14857,7 +14857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 166.37 148.59 90)
 			(effects
 				(font
@@ -14926,7 +14926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 202.2348 74.93 0)
 			(effects
 				(font
@@ -14935,7 +14935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -14944,7 +14944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -14953,7 +14953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 203.2 78.74 90)
 			(effects
 				(font
@@ -15022,7 +15022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 115.316 85.344 90)
 			(effects
 				(font
@@ -15031,7 +15031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
 			(at 114.3 85.09 0)
 			(effects
 				(font
@@ -15040,7 +15040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kohm +/-1% 1/16 W 0402 carrier BOOTSEL switch-series resistor, Yageo RC0402FR-071KL"
+		(property "Description" "1 kohm +/-1% 1/20 W 0201 carrier BOOTSEL switch-series resistor, Yageo RC0201FR-071KL"
 			(at 114.3 85.09 0)
 			(effects
 				(font
@@ -15049,7 +15049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-071KL"
+		(property "Mouser" "603-RC0201FR-071KL"
 			(at 114.3 85.09 90)
 			(effects
 				(font
@@ -15118,7 +15118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 253.0348 74.93 0)
 			(effects
 				(font
@@ -15127,7 +15127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -15136,7 +15136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -15145,7 +15145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 254 78.74 90)
 			(effects
 				(font
@@ -15206,7 +15206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 154.94 0)
 			(effects
 				(font
@@ -15216,7 +15216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 155.194 90)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -15234,7 +15234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -15243,7 +15243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -15312,7 +15312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 240.3348 74.93 0)
 			(effects
 				(font
@@ -15321,7 +15321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -15330,7 +15330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -15339,7 +15339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 241.3 78.74 90)
 			(effects
 				(font
@@ -15410,7 +15410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 161.544 148.336 90)
 			(effects
 				(font
@@ -15419,7 +15419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -15428,7 +15428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -15437,7 +15437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 162.56 148.59 90)
 			(effects
 				(font
@@ -15574,7 +15574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 180.086 197.866 90)
 			(effects
 				(font
@@ -15583,7 +15583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07330RL"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-07330RL"
 			(at 180.34 196.85 0)
 			(effects
 				(font
@@ -15592,7 +15592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "330 ohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-07330RL"
+		(property "Description" "330 ohm +/-1% 1/20 W 0201 ADC-filter resistor, Yageo RC0201FR-07330RL"
 			(at 180.34 196.85 0)
 			(effects
 				(font
@@ -15601,7 +15601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-07330RL"
+		(property "Mouser" "603-RC0201FR-07330RL"
 			(at 180.34 196.85 90)
 			(effects
 				(font
@@ -15793,7 +15793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 132.08 0)
 			(effects
 				(font
@@ -15803,7 +15803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 132.334 90)
 			(effects
 				(font
@@ -15812,7 +15812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -15821,7 +15821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -15830,7 +15830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -15891,7 +15891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 162.56 0)
 			(effects
 				(font
@@ -15901,7 +15901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 162.814 90)
 			(effects
 				(font
@@ -15910,7 +15910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 163.83 0)
 			(effects
 				(font
@@ -15919,7 +15919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 163.83 0)
 			(effects
 				(font
@@ -15928,7 +15928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 163.83 0)
 			(effects
 				(font
@@ -15997,7 +15997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 246.6848 74.93 0)
 			(effects
 				(font
@@ -16006,7 +16006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -16015,7 +16015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -16024,7 +16024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 247.65 78.74 90)
 			(effects
 				(font
@@ -16093,7 +16093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 214.9348 74.93 0)
 			(effects
 				(font
@@ -16102,7 +16102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -16111,7 +16111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -16120,7 +16120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 215.9 78.74 90)
 			(effects
 				(font
@@ -16287,7 +16287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 335.026 124.206 90)
 			(effects
 				(font
@@ -16296,7 +16296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-0727RL"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -16305,7 +16305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "27 ohm +/-1% 1/16 W 0402 USB data series resistor, Yageo RC0402FR-0727RL"
+		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -16314,7 +16314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0727RL"
+		(property "Mouser" "603-RC0201FR-0727RL"
 			(at 335.28 123.19 90)
 			(effects
 				(font
@@ -16440,7 +16440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 96.52 0)
 			(effects
 				(font
@@ -16450,7 +16450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 96.774 90)
 			(effects
 				(font
@@ -16459,7 +16459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -16468,7 +16468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -16477,7 +16477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -16538,7 +16538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 142.24 0)
 			(effects
 				(font
@@ -16548,7 +16548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 142.494 90)
 			(effects
 				(font
@@ -16557,7 +16557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -16566,7 +16566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -16575,7 +16575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -16646,7 +16646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 76.454 145.796 90)
 			(effects
 				(font
@@ -16655,7 +16655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -16664,7 +16664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -16673,7 +16673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 77.47 146.05 90)
 			(effects
 				(font
@@ -16734,7 +16734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 170.18 0)
 			(effects
 				(font
@@ -16744,7 +16744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 170.434 90)
 			(effects
 				(font
@@ -16753,7 +16753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -16762,7 +16762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -16771,7 +16771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -16832,7 +16832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 124.46 0)
 			(effects
 				(font
@@ -16842,7 +16842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 124.714 90)
 			(effects
 				(font
@@ -16851,7 +16851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -16860,7 +16860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -16869,7 +16869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -16930,7 +16930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 139.7 0)
 			(effects
 				(font
@@ -16940,7 +16940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 139.954 90)
 			(effects
 				(font
@@ -16949,7 +16949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -16958,7 +16958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -16967,7 +16967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17136,7 +17136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 343.916 91.186 90)
 			(effects
 				(font
@@ -17145,7 +17145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 342.9 91.44 0)
 			(effects
 				(font
@@ -17154,7 +17154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 USB-C CC pull-down resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 USB-C CC pull-down resistor, Yageo RC0201FR-075K1L"
 			(at 342.9 91.44 0)
 			(effects
 				(font
@@ -17163,7 +17163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 342.9 91.44 90)
 			(effects
 				(font
@@ -17233,7 +17233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 336.296 91.186 90)
 			(effects
 				(font
@@ -17242,7 +17242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 335.28 91.44 0)
 			(effects
 				(font
@@ -17251,7 +17251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 USB-C CC pull-down resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 USB-C CC pull-down resistor, Yageo RC0201FR-075K1L"
 			(at 335.28 91.44 0)
 			(effects
 				(font
@@ -17260,7 +17260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 335.28 91.44 90)
 			(effects
 				(font
@@ -17321,7 +17321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 185.42 0)
 			(effects
 				(font
@@ -17331,7 +17331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 185.674 90)
 			(effects
 				(font
@@ -17340,7 +17340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 186.69 0)
 			(effects
 				(font
@@ -17349,7 +17349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 186.69 0)
 			(effects
 				(font
@@ -17358,7 +17358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 186.69 0)
 			(effects
 				(font
@@ -17419,7 +17419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 104.14 0)
 			(effects
 				(font
@@ -17429,7 +17429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 104.394 90)
 			(effects
 				(font
@@ -17438,7 +17438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -17447,7 +17447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -17456,7 +17456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -17621,7 +17621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 227.6348 74.93 0)
 			(effects
 				(font
@@ -17630,7 +17630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -17639,7 +17639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -17648,7 +17648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 228.6 78.74 90)
 			(effects
 				(font
@@ -17709,7 +17709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 195.58 0)
 			(effects
 				(font
@@ -17719,7 +17719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 195.834 90)
 			(effects
 				(font
@@ -17728,7 +17728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -17737,7 +17737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -17746,7 +17746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -17881,7 +17881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 259.3848 74.93 0)
 			(effects
 				(font
@@ -17890,7 +17890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -17899,7 +17899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -17908,7 +17908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 260.35 78.74 90)
 			(effects
 				(font
@@ -18043,7 +18043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 153.3652 86.36 0)
 			(effects
 				(font
@@ -18052,7 +18052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 152.4 90.17 0)
 			(effects
 				(font
@@ -18061,7 +18061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF 16 V X7R +/-10% 0402 carrier RESET filter, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF 16 V X7R +/-10% 0402 carrier RESET filter, KYOCERA AVX KGM03BR71A104KH"
 			(at 152.4 90.17 0)
 			(effects
 				(font
@@ -18070,7 +18070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 152.4 90.17 90)
 			(effects
 				(font
@@ -18197,7 +18197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 177.8 0)
 			(effects
 				(font
@@ -18207,7 +18207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 178.054 90)
 			(effects
 				(font
@@ -18216,7 +18216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -18225,7 +18225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -18234,7 +18234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -18305,7 +18305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 180.086 211.836 90)
 			(effects
 				(font
@@ -18314,7 +18314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07330RL"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-07330RL"
 			(at 180.34 210.82 0)
 			(effects
 				(font
@@ -18323,7 +18323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "330 ohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-07330RL"
+		(property "Description" "330 ohm +/-1% 1/20 W 0201 ADC-filter resistor, Yageo RC0201FR-07330RL"
 			(at 180.34 210.82 0)
 			(effects
 				(font
@@ -18332,7 +18332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-07330RL"
+		(property "Mouser" "603-RC0201FR-07330RL"
 			(at 180.34 210.82 90)
 			(effects
 				(font
@@ -18630,7 +18630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 119.634 90)
 			(effects
 				(font
@@ -18639,7 +18639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -18648,7 +18648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kohm +/-1% 1/16 W 0402 Pico control series resistor, Yageo RC0402FR-071KL"
+		(property "Description" "1 kohm +/-1% 1/20 W 0201 Pico control series resistor, Yageo RC0201FR-071KL"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -18657,7 +18657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-071KL"
+		(property "Mouser" "603-RC0201FR-071KL"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -18726,7 +18726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 141.986 72.644 90)
 			(effects
 				(font
@@ -18735,7 +18735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 140.97 72.39 0)
 			(effects
 				(font
@@ -18744,7 +18744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 carrier RESET pull-up, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 carrier RESET pull-up, Yageo RC0201FR-075K1L"
 			(at 140.97 72.39 0)
 			(effects
 				(font
@@ -18753,7 +18753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 140.97 72.39 90)
 			(effects
 				(font
@@ -18956,7 +18956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 150.1648 0)
 			(effects
 				(font
@@ -18965,7 +18965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005C0G1H150F050BA"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM0335C1H150JA01D"
 			(at 347.98 151.13 0)
 			(effects
 				(font
@@ -18974,7 +18974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15 pF 50 V C0G +/-1% 0402 MLCC, TDK C1005C0G1H150F050BA"
+		(property "Description" "15 pF 50 V C0G +/-5% 0201 MLCC, Murata GRM0335C1H150JA01D"
 			(at 347.98 151.13 0)
 			(effects
 				(font
@@ -18983,7 +18983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005C0G1H150F"
+		(property "Mouser" "81-GRM0335C1H150JA1D"
 			(at 347.98 151.13 90)
 			(effects
 				(font
@@ -19054,7 +19054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 80.264 145.796 90)
 			(effects
 				(font
@@ -19063,7 +19063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 81.28 146.05 0)
 			(effects
 				(font
@@ -19072,7 +19072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 81.28 146.05 0)
 			(effects
 				(font
@@ -19081,7 +19081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 81.28 146.05 90)
 			(effects
 				(font
@@ -19152,7 +19152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 329.184 160.274 90)
 			(effects
 				(font
@@ -19161,7 +19161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
 			(at 328.93 161.29 0)
 			(effects
 				(font
@@ -19170,7 +19170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kohm +/-1% 1/16 W 0402 crystal XOUT damping resistor, Yageo RC0402FR-071KL"
+		(property "Description" "1 kohm +/-1% 1/20 W 0201 crystal XOUT damping resistor, Yageo RC0201FR-071KL"
 			(at 328.93 161.29 0)
 			(effects
 				(font
@@ -19179,7 +19179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-071KL"
+		(property "Mouser" "603-RC0201FR-071KL"
 			(at 328.93 161.29 0)
 			(effects
 				(font
@@ -19240,7 +19240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 157.48 0)
 			(effects
 				(font
@@ -19250,7 +19250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 157.734 90)
 			(effects
 				(font
@@ -19259,7 +19259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -19268,7 +19268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -19277,7 +19277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -19445,7 +19445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 352.044 190.246 90)
 			(effects
 				(font
@@ -19454,7 +19454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.jp/en/ProductDetail/YAGEO/RC0402FR-0710KL"
+		(property "Datasheet" "https://www.mouser.jp/en/ProductDetail/YAGEO/RC0201FR-0710KL"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -19463,7 +19463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kohm +/-1% 1/16 W 0402 PSRAM chip-select pull-up, Yageo RC0402FR-0710KL"
+		(property "Description" "10 kohm +/-1% 1/20 W 0201 PSRAM chip-select pull-up, Yageo RC0201FR-0710KL"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -19472,7 +19472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0710KL"
+		(property "Mouser" "603-RC0201FR-0710KL"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -19543,7 +19543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 335.026 121.666 90)
 			(effects
 				(font
@@ -19552,7 +19552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-0727RL"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -19561,7 +19561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "27 ohm +/-1% 1/16 W 0402 USB data series resistor, Yageo RC0402FR-0727RL"
+		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -19570,7 +19570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0727RL"
+		(property "Mouser" "603-RC0201FR-0727RL"
 			(at 335.28 120.65 90)
 			(effects
 				(font
@@ -19631,7 +19631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 106.68 0)
 			(effects
 				(font
@@ -19641,7 +19641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 106.934 90)
 			(effects
 				(font
@@ -19650,7 +19650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -19659,7 +19659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -19668,7 +19668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -19826,7 +19826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 175.26 0)
 			(effects
 				(font
@@ -19836,7 +19836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 175.514 90)
 			(effects
 				(font
@@ -19845,7 +19845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 176.53 0)
 			(effects
 				(font
@@ -19854,7 +19854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 176.53 0)
 			(effects
 				(font
@@ -19863,7 +19863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 176.53 0)
 			(effects
 				(font
@@ -19924,7 +19924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 134.62 0)
 			(effects
 				(font
@@ -19934,7 +19934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 134.874 90)
 			(effects
 				(font
@@ -19943,7 +19943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -19952,7 +19952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -19961,7 +19961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -20032,7 +20032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 84.074 204.216 90)
 			(effects
 				(font
@@ -20041,7 +20041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 85.09 204.47 0)
 			(effects
 				(font
@@ -20050,7 +20050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 85.09 204.47 0)
 			(effects
 				(font
@@ -20059,7 +20059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 85.09 204.47 90)
 			(effects
 				(font
@@ -20120,7 +20120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 160.02 0)
 			(effects
 				(font
@@ -20130,7 +20130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 160.274 90)
 			(effects
 				(font
@@ -20139,7 +20139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -20148,7 +20148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -20157,7 +20157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -20228,7 +20228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 61.214 145.796 90)
 			(effects
 				(font
@@ -20237,7 +20237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 62.23 146.05 0)
 			(effects
 				(font
@@ -20246,7 +20246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 62.23 146.05 0)
 			(effects
 				(font
@@ -20255,7 +20255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 62.23 146.05 90)
 			(effects
 				(font
@@ -20316,7 +20316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 329.184 180.34 0)
 			(effects
 				(font
@@ -20326,7 +20326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.914 180.594 90)
 			(effects
 				(font
@@ -20335,7 +20335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -20344,7 +20344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -20353,7 +20353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -20587,7 +20587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 84.074 145.796 90)
 			(effects
 				(font
@@ -20596,7 +20596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 85.09 146.05 0)
 			(effects
 				(font
@@ -20605,7 +20605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 85.09 146.05 0)
 			(effects
 				(font
@@ -20614,7 +20614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 85.09 146.05 90)
 			(effects
 				(font
@@ -20675,7 +20675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 144.78 0)
 			(effects
 				(font
@@ -20685,7 +20685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 145.034 90)
 			(effects
 				(font
@@ -20694,7 +20694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -20703,7 +20703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -20712,7 +20712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -20783,7 +20783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 61.214 204.216 90)
 			(effects
 				(font
@@ -20792,7 +20792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 62.23 204.47 0)
 			(effects
 				(font
@@ -20801,7 +20801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 62.23 204.47 0)
 			(effects
 				(font
@@ -20810,7 +20810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 62.23 204.47 90)
 			(effects
 				(font
@@ -20881,7 +20881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 68.834 145.796 90)
 			(effects
 				(font
@@ -20890,7 +20890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -20899,7 +20899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -20908,7 +20908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 69.85 146.05 90)
 			(effects
 				(font
@@ -21065,7 +21065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 329.184 193.04 0)
 			(effects
 				(font
@@ -21075,7 +21075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.914 193.294 90)
 			(effects
 				(font
@@ -21084,7 +21084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -21093,7 +21093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -21102,7 +21102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -21171,7 +21171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 221.2848 74.93 0)
 			(effects
 				(font
@@ -21180,7 +21180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -21189,7 +21189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -21198,7 +21198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 222.25 78.74 90)
 			(effects
 				(font
@@ -21259,7 +21259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 167.64 0)
 			(effects
 				(font
@@ -21269,7 +21269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 167.894 90)
 			(effects
 				(font
@@ -21278,7 +21278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 168.91 0)
 			(effects
 				(font
@@ -21287,7 +21287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 168.91 0)
 			(effects
 				(font
@@ -21296,7 +21296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 168.91 0)
 			(effects
 				(font
@@ -21357,7 +21357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 111.76 0)
 			(effects
 				(font
@@ -21367,7 +21367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 112.014 90)
 			(effects
 				(font
@@ -21376,7 +21376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 113.03 0)
 			(effects
 				(font
@@ -21385,7 +21385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 113.03 0)
 			(effects
 				(font
@@ -21394,7 +21394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 113.03 0)
 			(effects
 				(font
@@ -21462,7 +21462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 344.17 160.3248 0)
 			(effects
 				(font
@@ -21471,7 +21471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005C0G1H150F050BA"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM0335C1H150JA01D"
 			(at 347.98 161.29 0)
 			(effects
 				(font
@@ -21480,7 +21480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15 pF 50 V C0G +/-1% 0402 MLCC, TDK C1005C0G1H150F050BA"
+		(property "Description" "15 pF 50 V C0G +/-5% 0201 MLCC, Murata GRM0335C1H150JA01D"
 			(at 347.98 161.29 0)
 			(effects
 				(font
@@ -21489,7 +21489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005C0G1H150F"
+		(property "Mouser" "81-GRM0335C1H150JA1D"
 			(at 347.98 161.29 90)
 			(effects
 				(font
@@ -21782,7 +21782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 116.84 0)
 			(effects
 				(font
@@ -21792,7 +21792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 117.094 90)
 			(effects
 				(font
@@ -21801,7 +21801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -21810,7 +21810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -21819,7 +21819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -21880,7 +21880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 129.54 0)
 			(effects
 				(font
@@ -21890,7 +21890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 129.794 90)
 			(effects
 				(font
@@ -21899,7 +21899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -21908,7 +21908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -21917,7 +21917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -21988,7 +21988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 57.404 204.216 90)
 			(effects
 				(font
@@ -21997,7 +21997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 58.42 204.47 0)
 			(effects
 				(font
@@ -22006,7 +22006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 58.42 204.47 0)
 			(effects
 				(font
@@ -22015,7 +22015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 58.42 204.47 90)
 			(effects
 				(font
@@ -22076,7 +22076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 109.22 0)
 			(effects
 				(font
@@ -22086,7 +22086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 109.474 90)
 			(effects
 				(font
@@ -22095,7 +22095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -22104,7 +22104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -22113,7 +22113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -22346,7 +22346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 72.644 204.216 90)
 			(effects
 				(font
@@ -22355,7 +22355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 73.66 204.47 0)
 			(effects
 				(font
@@ -22364,7 +22364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 73.66 204.47 0)
 			(effects
 				(font
@@ -22373,7 +22373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 73.66 204.47 90)
 			(effects
 				(font
@@ -22500,7 +22500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 147.32 0)
 			(effects
 				(font
@@ -22510,7 +22510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 147.574 90)
 			(effects
 				(font
@@ -22519,7 +22519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -22528,7 +22528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -22537,7 +22537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -22608,7 +22608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 57.404 145.796 90)
 			(effects
 				(font
@@ -22617,7 +22617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -22626,7 +22626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -22635,7 +22635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 58.42 146.05 90)
 			(effects
 				(font
@@ -23048,7 +23048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 65.024 145.796 90)
 			(effects
 				(font
@@ -23057,7 +23057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 66.04 146.05 0)
 			(effects
 				(font
@@ -23066,7 +23066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 66.04 146.05 0)
 			(effects
 				(font
@@ -23075,7 +23075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 66.04 146.05 90)
 			(effects
 				(font
@@ -23147,7 +23147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 174.9552 198.12 0)
 			(effects
 				(font
@@ -23156,7 +23156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1E103K050BB"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X7R1A103K030BA"
 			(at 173.99 201.93 0)
 			(effects
 				(font
@@ -23165,7 +23165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 nF 25 V X7R +/-10% 0402 ADC-filter capacitor, TDK C1005X7R1E103K050BB"
+		(property "Description" "10 nF 10 V X7R +/-10% 0201 ADC-filter capacitor, TDK C0603X7R1A103K030BA"
 			(at 173.99 201.93 0)
 			(effects
 				(font
@@ -23174,7 +23174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1E103K"
+		(property "Mouser" "810-C0603X7R1A103K"
 			(at 173.99 201.93 90)
 			(effects
 				(font
@@ -23245,7 +23245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 76.454 204.216 90)
 			(effects
 				(font
@@ -23254,7 +23254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 77.47 204.47 0)
 			(effects
 				(font
@@ -23263,7 +23263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 77.47 204.47 0)
 			(effects
 				(font
@@ -23272,7 +23272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 77.47 204.47 90)
 			(effects
 				(font
@@ -23333,7 +23333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 137.16 0)
 			(effects
 				(font
@@ -23343,7 +23343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 137.414 90)
 			(effects
 				(font
@@ -23352,7 +23352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -23361,7 +23361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -23370,7 +23370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -23441,7 +23441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 162.306 211.836 90)
 			(effects
 				(font
@@ -23450,7 +23450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2L"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-072K2L"
 			(at 162.56 210.82 0)
 			(effects
 				(font
@@ -23459,7 +23459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 kohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-072K2L"
+		(property "Description" "2.2 kohm +/-1% 1/20 W 0201 ADC-filter resistor, Yageo RC0201FR-072K2L"
 			(at 162.56 210.82 0)
 			(effects
 				(font
@@ -23468,7 +23468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-072K2L"
+		(property "Mouser" "603-RC0201FR-072K2L"
 			(at 162.56 210.82 90)
 			(effects
 				(font
@@ -23540,7 +23540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 174.9552 212.09 0)
 			(effects
 				(font
@@ -23549,7 +23549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1E103K050BB"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X7R1A103K030BA"
 			(at 173.99 215.9 0)
 			(effects
 				(font
@@ -23558,7 +23558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 nF 25 V X7R +/-10% 0402 ADC-filter capacitor, TDK C1005X7R1E103K050BB"
+		(property "Description" "10 nF 10 V X7R +/-10% 0201 ADC-filter capacitor, TDK C0603X7R1A103K030BA"
 			(at 173.99 215.9 0)
 			(effects
 				(font
@@ -23567,7 +23567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1E103K"
+		(property "Mouser" "810-C0603X7R1A103K"
 			(at 173.99 215.9 90)
 			(effects
 				(font
@@ -23628,7 +23628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 180.34 0)
 			(effects
 				(font
@@ -23638,7 +23638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 180.594 90)
 			(effects
 				(font
@@ -23647,7 +23647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -23656,7 +23656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -23665,7 +23665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -23926,7 +23926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 208.5848 74.93 0)
 			(effects
 				(font
@@ -23935,7 +23935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -23944,7 +23944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -23953,7 +23953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 209.55 78.74 90)
 			(effects
 				(font
@@ -24081,7 +24081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 329.184 177.8 0)
 			(effects
 				(font
@@ -24091,7 +24091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 327.914 178.054 90)
 			(effects
 				(font
@@ -24100,7 +24100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 327.66 179.07 0)
 			(effects
 				(font
@@ -24109,7 +24109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 327.66 179.07 0)
 			(effects
 				(font
@@ -24118,7 +24118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 327.66 179.07 0)
 			(effects
 				(font
@@ -24179,7 +24179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 114.3 0)
 			(effects
 				(font
@@ -24189,7 +24189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 114.554 90)
 			(effects
 				(font
@@ -24198,7 +24198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -24207,7 +24207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -24216,7 +24216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -24287,7 +24287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 65.024 204.216 90)
 			(effects
 				(font
@@ -24296,7 +24296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 66.04 204.47 0)
 			(effects
 				(font
@@ -24305,7 +24305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 66.04 204.47 0)
 			(effects
 				(font
@@ -24314,7 +24314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 66.04 204.47 90)
 			(effects
 				(font
@@ -24375,7 +24375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 172.72 0)
 			(effects
 				(font
@@ -24385,7 +24385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 172.974 90)
 			(effects
 				(font
@@ -24394,7 +24394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -24403,7 +24403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -24412,7 +24412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -24483,7 +24483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 80.264 204.216 90)
 			(effects
 				(font
@@ -24492,7 +24492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 81.28 204.47 0)
 			(effects
 				(font
@@ -24501,7 +24501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 81.28 204.47 0)
 			(effects
 				(font
@@ -24510,7 +24510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 81.28 204.47 90)
 			(effects
 				(font
@@ -24768,7 +24768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 149.86 0)
 			(effects
 				(font
@@ -24778,7 +24778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 150.114 90)
 			(effects
 				(font
@@ -24787,7 +24787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -24796,7 +24796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -24805,7 +24805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -24866,7 +24866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 165.1 0)
 			(effects
 				(font
@@ -24876,7 +24876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 165.354 90)
 			(effects
 				(font
@@ -24885,7 +24885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 166.37 0)
 			(effects
 				(font
@@ -24894,7 +24894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 166.37 0)
 			(effects
 				(font
@@ -24903,7 +24903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 166.37 0)
 			(effects
 				(font
@@ -24974,7 +24974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 166.116 183.896 90)
 			(effects
 				(font
@@ -24983,7 +24983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-072K2L"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-072K2L"
 			(at 166.37 182.88 0)
 			(effects
 				(font
@@ -24992,7 +24992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 kohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-072K2L"
+		(property "Description" "2.2 kohm +/-1% 1/20 W 0201 ADC-filter resistor, Yageo RC0201FR-072K2L"
 			(at 166.37 182.88 0)
 			(effects
 				(font
@@ -25001,7 +25001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-072K2L"
+		(property "Mouser" "603-RC0201FR-072K2L"
 			(at 166.37 182.88 90)
 			(effects
 				(font
@@ -25329,7 +25329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 172.974 148.336 90)
 			(effects
 				(font
@@ -25338,7 +25338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 173.99 148.59 0)
 			(effects
 				(font
@@ -25347,7 +25347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 173.99 148.59 0)
 			(effects
 				(font
@@ -25356,7 +25356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 173.99 148.59 90)
 			(effects
 				(font
@@ -25428,7 +25428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 174.9552 184.15 0)
 			(effects
 				(font
@@ -25437,7 +25437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1E103K050BB"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X7R1A103K030BA"
 			(at 173.99 187.96 0)
 			(effects
 				(font
@@ -25446,7 +25446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 nF 25 V X7R +/-10% 0402 ADC-filter capacitor, TDK C1005X7R1E103K050BB"
+		(property "Description" "10 nF 10 V X7R +/-10% 0201 ADC-filter capacitor, TDK C0603X7R1A103K030BA"
 			(at 173.99 187.96 0)
 			(effects
 				(font
@@ -25455,7 +25455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1E103K"
+		(property "Mouser" "810-C0603X7R1A103K"
 			(at 173.99 187.96 90)
 			(effects
 				(font
@@ -25516,7 +25516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 152.4 0)
 			(effects
 				(font
@@ -25526,7 +25526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 152.654 90)
 			(effects
 				(font
@@ -25535,7 +25535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -25544,7 +25544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -25553,7 +25553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -25614,7 +25614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 101.6 0)
 			(effects
 				(font
@@ -25624,7 +25624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 101.854 90)
 			(effects
 				(font
@@ -25633,7 +25633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -25642,7 +25642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -25651,7 +25651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -25877,7 +25877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 99.314 90)
 			(effects
 				(font
@@ -25886,7 +25886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -25895,7 +25895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kohm +/-1% 1/16 W 0402 Pico control series resistor, Yageo RC0402FR-071KL"
+		(property "Description" "1 kohm +/-1% 1/20 W 0201 Pico control series resistor, Yageo RC0201FR-071KL"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -25904,7 +25904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-071KL"
+		(property "Mouser" "603-RC0201FR-071KL"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -25975,7 +25975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 176.784 148.336 90)
 			(effects
 				(font
@@ -25984,7 +25984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 177.8 148.59 0)
 			(effects
 				(font
@@ -25993,7 +25993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 177.8 148.59 0)
 			(effects
 				(font
@@ -26002,7 +26002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 177.8 148.59 90)
 			(effects
 				(font
@@ -26073,7 +26073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 180.086 183.896 90)
 			(effects
 				(font
@@ -26082,7 +26082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-07330RL"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-07330RL"
 			(at 180.34 182.88 0)
 			(effects
 				(font
@@ -26091,7 +26091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "330 ohm +/-1% 1/16 W 0402 ADC-filter resistor, Yageo RC0402FR-07330RL"
+		(property "Description" "330 ohm +/-1% 1/20 W 0201 ADC-filter resistor, Yageo RC0201FR-07330RL"
 			(at 180.34 182.88 0)
 			(effects
 				(font
@@ -26100,7 +26100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-07330RL"
+		(property "Mouser" "603-RC0201FR-07330RL"
 			(at 180.34 182.88 90)
 			(effects
 				(font
@@ -26171,7 +26171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 153.924 148.336 90)
 			(effects
 				(font
@@ -26180,7 +26180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
 			(at 154.94 148.59 0)
 			(effects
 				(font
@@ -26189,7 +26189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 Pico GPIO pull-up resistor, Yageo RC0402FR-075K1L"
+		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 Pico GPIO pull-up resistor, Yageo RC0201FR-075K1L"
 			(at 154.94 148.59 0)
 			(effects
 				(font
@@ -26198,7 +26198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-075K1L"
+		(property "Mouser" "603-RC0201FR-075K1L"
 			(at 154.94 148.59 90)
 			(effects
 				(font
@@ -26267,7 +26267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 233.9848 74.93 0)
 			(effects
 				(font
@@ -26276,7 +26276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
 			(at 234.95 78.74 0)
 			(effects
 				(font
@@ -26285,7 +26285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
 			(at 234.95 78.74 0)
 			(effects
 				(font
@@ -26294,7 +26294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
+		(property "Mouser" "581-KGM03BR71A104KH"
 			(at 234.95 78.74 90)
 			(effects
 				(font
@@ -26355,7 +26355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 121.92 0)
 			(effects
 				(font
@@ -26365,7 +26365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 122.174 90)
 			(effects
 				(font
@@ -26374,7 +26374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 123.19 0)
 			(effects
 				(font
@@ -26383,7 +26383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 123.19 0)
 			(effects
 				(font
@@ -26392,7 +26392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 123.19 0)
 			(effects
 				(font
@@ -26519,7 +26519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 265.684 182.88 0)
 			(effects
 				(font
@@ -26529,7 +26529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 264.414 183.134 90)
 			(effects
 				(font
@@ -26538,7 +26538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-0733RL"
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
 			(at 264.16 184.15 0)
 			(effects
 				(font
@@ -26547,7 +26547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 ohm +/-1% 1/16 W 0402 digital stimulus series resistor, Yageo RC0402FR-0733RL"
+		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
 			(at 264.16 184.15 0)
 			(effects
 				(font
@@ -26556,7 +26556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-0733RL"
+		(property "Mouser" "603-RC0201FR-07100RL"
 			(at 264.16 184.15 0)
 			(effects
 				(font
