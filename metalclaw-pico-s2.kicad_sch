@@ -11440,7 +11440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "042985ac-ec60-455b-9e78-02f7789191c3")
-		(property "Reference" "R58"
+		(property "Reference" "R70"
 			(at 255.524 187.96 0)
 			(effects
 				(font
@@ -11505,7 +11505,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R58")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -11521,7 +11521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04343fa4-fdf6-403a-90f9-bf2fab03aca1")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 153.162 188.976 0)
 			(effects
 				(font
@@ -11586,7 +11586,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11601,7 +11601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05b44958-33d1-4f99-b246-0857de470fbf")
-		(property "Reference" "R41"
+		(property "Reference" "R17"
 			(at 128.524 79.248 90)
 			(effects
 				(font
@@ -11664,7 +11664,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R41")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11680,7 +11680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f435f2-22a0-4a73-aff3-f68c8b05bc88")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 55.88 85.09 0)
 			(effects
 				(font
@@ -11730,7 +11730,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11745,7 +11745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06746cc0-9a35-4218-8b5e-b338204f8695")
-		(property "Reference" "R24"
+		(property "Reference" "R44"
 			(at 255.524 121.92 0)
 			(effects
 				(font
@@ -11810,7 +11810,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R24")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -11825,7 +11825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "081b4dcf-4431-4fea-b3a0-ad82749f7316")
-		(property "Reference" "R39"
+		(property "Reference" "R9"
 			(at 75.946 144.272 90)
 			(effects
 				(font
@@ -11890,7 +11890,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R39")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11906,7 +11906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08550f97-4f55-4fbc-b45c-70a7c9c774c1")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -11967,7 +11967,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11984,7 +11984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08fd6960-4323-4538-92b1-e41f77436a61")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 286.1467 198.12 0)
 			(effects
 				(font
@@ -12295,7 +12295,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12310,7 +12310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0964902d-eeeb-4f2d-b4e3-13cda3c9ad42")
-		(property "Reference" "R73"
+		(property "Reference" "R8"
 			(at 72.136 202.692 90)
 			(effects
 				(font
@@ -12375,7 +12375,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R73")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12390,7 +12390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a961ea4-893d-4d42-aa25-36ed59d719e4")
-		(property "Reference" "C4"
+		(property "Reference" "C23"
 			(at 267.208 76.454 90)
 			(effects
 				(font
@@ -12453,7 +12453,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C4")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -12469,7 +12469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132fe67d-2c64-403c-aad6-73a6594adda2")
-		(property "Reference" "A2"
+		(property "Reference" "A1"
 			(at 126.6033 204.47 0)
 			(effects
 				(font
@@ -12646,7 +12646,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "A2")
+					(reference "A1")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14354e1d-c7d4-42c5-9fcc-4e6f5a801b24")
-		(property "Reference" "R65"
+		(property "Reference" "R74"
 			(at 319.024 185.42 0)
 			(effects
 				(font
@@ -12726,7 +12726,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R65")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -12742,7 +12742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1453d9a5-6702-4e48-8d68-1039bc95a6b0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR08"
 			(at 130.81 76.2 0)
 			(effects
 				(font
@@ -12792,7 +12792,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR019")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12807,7 +12807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16024095-f47a-4cdb-844d-ad8a5fe793f2")
-		(property "Reference" "R80"
+		(property "Reference" "R20"
 			(at 161.036 146.812 90)
 			(effects
 				(font
@@ -12872,7 +12872,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R80")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12887,7 +12887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1649dcd8-e8e5-4513-a227-1022c4da4648")
-		(property "Reference" "R57"
+		(property "Reference" "R69"
 			(at 255.524 185.42 0)
 			(effects
 				(font
@@ -12952,7 +12952,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R57")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -12968,7 +12968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16f363f5-5f12-4369-bf8d-592f17fc0589")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR016"
 			(at 327.66 105.41 0)
 			(effects
 				(font
@@ -13018,7 +13018,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR029")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -13033,7 +13033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17d2b3d0-f86c-44b9-b239-f2ee64958b77")
-		(property "Reference" "R56"
+		(property "Reference" "R68"
 			(at 255.524 182.88 0)
 			(effects
 				(font
@@ -13098,7 +13098,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R56")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -13220,7 +13220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e70cd87-66a7-4143-ad73-edcd3caad6cb")
-		(property "Reference" "R31"
+		(property "Reference" "R23"
 			(at 163.322 194.564 90)
 			(effects
 				(font
@@ -13285,7 +13285,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R31")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -13300,7 +13300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1bd88b-3e59-4266-9b4d-86b1cb219a72")
-		(property "Reference" "R83"
+		(property "Reference" "R26"
 			(at 172.466 146.812 90)
 			(effects
 				(font
@@ -13365,7 +13365,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R83")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13380,7 +13380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2026dcf8-7524-4b1b-a467-b084fc37d118")
-		(property "Reference" "R82"
+		(property "Reference" "R24"
 			(at 168.656 146.812 90)
 			(effects
 				(font
@@ -13445,7 +13445,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R82")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -13460,7 +13460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22185172-1166-4f8d-88a8-7c8befd33ff0")
-		(property "Reference" "C8"
+		(property "Reference" "C20"
 			(at 248.412 76.454 90)
 			(effects
 				(font
@@ -13523,7 +13523,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C8")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -13538,7 +13538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23ac3128-b8a7-4232-8457-f5e6b68d762a")
-		(property "Reference" "R43"
+		(property "Reference" "R55"
 			(at 255.524 149.86 0)
 			(effects
 				(font
@@ -13603,7 +13603,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R43")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -13618,7 +13618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23ade47b-d143-423e-af2b-53a15c702d66")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 235.458 75.692 90)
 			(effects
 				(font
@@ -13681,7 +13681,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13696,7 +13696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23cf4904-ebb2-4942-9249-6f7f11679816")
-		(property "Reference" "R81"
+		(property "Reference" "R21"
 			(at 164.846 146.812 90)
 			(effects
 				(font
@@ -13761,7 +13761,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R81")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13777,7 +13777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25cc9cc9-6e88-4c4c-a55e-e0a541d82263")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR02"
 			(at 58.42 135.89 0)
 			(effects
 				(font
@@ -13827,7 +13827,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR018")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13843,7 +13843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "275fcc25-cd77-4f8b-85ee-0615969b6cd6")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR021"
 			(at 363.22 121.92 0)
 			(effects
 				(font
@@ -13893,7 +13893,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR013")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13908,7 +13908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bb19400-43b5-46c2-bc24-c358367d6d50")
-		(property "Reference" "R32"
+		(property "Reference" "R30"
 			(at 178.562 194.564 90)
 			(effects
 				(font
@@ -13973,7 +13973,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -13988,7 +13988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d131183-99d9-4260-82f1-0faa2e532c0a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 80.01 109.22 0)
 			(effects
 				(font
@@ -14038,7 +14038,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14054,7 +14054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d891d43-d35d-48a9-ba73-43a07b984e6e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR09"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -14104,7 +14104,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR021")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14119,7 +14119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2da83ea2-1454-4ec9-8564-a6e06b76bd0a")
-		(property "Reference" "R26"
+		(property "Reference" "R46"
 			(at 255.524 127 0)
 			(effects
 				(font
@@ -14184,7 +14184,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R26")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -14199,7 +14199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fe32a43-3919-49cf-825f-eeac0102f14f")
-		(property "Reference" "R46"
+		(property "Reference" "R58"
 			(at 255.524 157.48 0)
 			(effects
 				(font
@@ -14264,7 +14264,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R46")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -14280,7 +14280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b4c142-386c-4cd8-a985-039ae2b02556")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR010"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -14330,7 +14330,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR030")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14345,7 +14345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32077edd-67f2-496e-88f6-bc65387ee5b2")
-		(property "Reference" "C9"
+		(property "Reference" "C19"
 			(at 241.808 76.454 90)
 			(effects
 				(font
@@ -14408,7 +14408,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C9")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -14423,7 +14423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1f3f04-1ee5-4e29-8f3c-8be6b2afb8d8")
-		(property "Reference" "C24"
+		(property "Reference" "C12"
 			(at 197.104 75.692 90)
 			(effects
 				(font
@@ -14486,7 +14486,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C24")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14501,7 +14501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40ca2e07-f059-4c7d-be1a-3b39558b0bee")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR019"
 			(at 360.68 171.45 0)
 			(effects
 				(font
@@ -14551,7 +14551,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR01")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14566,7 +14566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "428dd18e-1352-4f3d-846e-84d6c60339a7")
-		(property "Reference" "R2"
+		(property "Reference" "R32"
 			(at 255.524 91.44 0)
 			(effects
 				(font
@@ -14631,7 +14631,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R2")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -14646,7 +14646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4773f463-4208-4ea1-b598-6399f6aad5ff")
-		(property "Reference" "R13"
+		(property "Reference" "R50"
 			(at 255.524 137.16 0)
 			(effects
 				(font
@@ -14711,7 +14711,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R13")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -14726,7 +14726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48447a00-366e-441b-87d4-1a9b63e404ca")
-		(property "Reference" "R36"
+		(property "Reference" "R11"
 			(at 79.756 144.272 90)
 			(effects
 				(font
@@ -14791,7 +14791,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R36")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14806,7 +14806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48a2d9b3-a9d2-450b-b49c-f0a8c0363693")
-		(property "Reference" "R49"
+		(property "Reference" "R61"
 			(at 255.524 165.1 0)
 			(effects
 				(font
@@ -14871,7 +14871,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R49")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -14886,7 +14886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cd6d2b7-2636-473f-a49f-5d3f82cc54f2")
-		(property "Reference" "R23"
+		(property "Reference" "R43"
 			(at 255.524 119.38 0)
 			(effects
 				(font
@@ -14951,7 +14951,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R23")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -14966,7 +14966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e0bfae3-ade7-4b06-8407-2701cb772fd0")
-		(property "Reference" "R14"
+		(property "Reference" "R49"
 			(at 255.524 134.62 0)
 			(effects
 				(font
@@ -15031,7 +15031,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R14")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -15047,7 +15047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5015e101-ce2e-4e5e-b2c7-7d162b80947d")
-		(property "Reference" "C13"
+		(property "Reference" "C5"
 			(at 149.352 202.946 0)
 			(effects
 				(font
@@ -15112,7 +15112,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C13")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15128,7 +15128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5214f9c3-2cf8-41ef-8cae-a0745db2de19")
-		(property "Reference" "R29"
+		(property "Reference" "R78"
 			(at 332.994 84.328 90)
 			(effects
 				(font
@@ -15191,7 +15191,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R29")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -15207,7 +15207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "529357da-6ddb-4176-80d2-e8b2da4a6673")
-		(property "Reference" "R1"
+		(property "Reference" "R77"
 			(at 325.374 84.582 90)
 			(effects
 				(font
@@ -15270,7 +15270,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R1")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -15285,7 +15285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "529685fc-3a04-4e76-b512-ba26ed9929dd")
-		(property "Reference" "R55"
+		(property "Reference" "R67"
 			(at 255.524 180.34 0)
 			(effects
 				(font
@@ -15350,7 +15350,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R55")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -15365,7 +15365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "537bb8a5-8089-4d20-a8b9-9aa83a573fdd")
-		(property "Reference" "R5"
+		(property "Reference" "R35"
 			(at 255.524 99.06 0)
 			(effects
 				(font
@@ -15430,7 +15430,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R5")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -15523,7 +15523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5722833b-87d0-4485-b7e5-3fe1045c2ae1")
-		(property "Reference" "C27"
+		(property "Reference" "C16"
 			(at 222.758 75.692 90)
 			(effects
 				(font
@@ -15586,7 +15586,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C27")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15601,7 +15601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "573dfb2a-453c-4253-ad0c-a4691f95ac51")
-		(property "Reference" "R59"
+		(property "Reference" "R71"
 			(at 255.524 190.5 0)
 			(effects
 				(font
@@ -15666,7 +15666,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R59")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -15681,7 +15681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5893c62b-b8bf-4ec6-b914-015613b5b67d")
-		(property "Reference" "C7"
+		(property "Reference" "C21"
 			(at 254.508 76.454 90)
 			(effects
 				(font
@@ -15744,7 +15744,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C7")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -15759,7 +15759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58a6100a-6be4-4f21-944e-349d36ba587c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 189.23 90.17 0)
 			(effects
 				(font
@@ -15809,7 +15809,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15825,7 +15825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "594ba3ae-f44b-4c9d-8e74-cdc0ccf0ea33")
-		(property "Reference" "C17"
+		(property "Reference" "C6"
 			(at 150.622 91.186 0)
 			(effects
 				(font
@@ -15888,7 +15888,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C17")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15904,7 +15904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5960e2da-1738-4dba-bb54-1214de57dd6a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR011"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -15954,7 +15954,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR023")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15969,7 +15969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a90efda-722c-43dc-bf40-aecf9ec73bde")
-		(property "Reference" "R52"
+		(property "Reference" "R64"
 			(at 255.524 172.72 0)
 			(effects
 				(font
@@ -16034,7 +16034,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R52")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -16049,7 +16049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b0b3597-45aa-4999-92f0-f0f32080bffe")
-		(property "Reference" "R34"
+		(property "Reference" "R31"
 			(at 178.562 208.534 90)
 			(effects
 				(font
@@ -16114,7 +16114,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -16198,7 +16198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f0cce09-f220-41d6-a596-d5e5a739a796")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR018"
 			(at 351.79 168.91 0)
 			(effects
 				(font
@@ -16248,7 +16248,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR025")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16264,7 +16264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f2feff8-31ce-43c8-b504-cd4485edfbf1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR022"
 			(at 363.22 154.94 0)
 			(effects
 				(font
@@ -16314,7 +16314,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR012")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16329,7 +16329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "615055fc-ef14-47be-9942-648e1b0e8d5b")
-		(property "Reference" "R21"
+		(property "Reference" "R41"
 			(at 255.524 114.3 0)
 			(effects
 				(font
@@ -16394,7 +16394,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R21")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -16409,7 +16409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6153bae1-9fd8-4a23-8cff-ca843695b5f0")
-		(property "Reference" "R42"
+		(property "Reference" "R19"
 			(at 155.194 79.248 90)
 			(effects
 				(font
@@ -16472,7 +16472,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R42")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -16487,7 +16487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61ad0872-4da6-4633-b16b-39c162c48c78")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 369.57 191.008 0)
 			(effects
 				(font
@@ -16563,7 +16563,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -16578,7 +16578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6250b376-0a70-48b3-8447-6f3d7b42622b")
-		(property "Reference" "C5"
+		(property "Reference" "C24"
 			(at 341.63 144.018 90)
 			(effects
 				(font
@@ -16639,7 +16639,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C5")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -16654,7 +16654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "630d4f86-5a4f-44bb-b4c4-bb1bfe0a679a")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 83.566 144.272 90)
 			(effects
 				(font
@@ -16719,7 +16719,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -16734,7 +16734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "653b40a4-edab-4d2a-a5e4-8b6dbb9be949")
-		(property "Reference" "R44"
+		(property "Reference" "R56"
 			(at 255.524 152.4 0)
 			(effects
 				(font
@@ -16799,7 +16799,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R44")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -16815,7 +16815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "668d17d6-b9a8-4492-ad29-36412d8a26cf")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 156.21 99.0599 90)
 			(effects
 				(font
@@ -16878,7 +16878,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -16893,7 +16893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69b115f8-da99-4aa2-9e3b-883b870f18d6")
-		(property "Reference" "R6"
+		(property "Reference" "R36"
 			(at 255.524 101.6 0)
 			(effects
 				(font
@@ -16958,7 +16958,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R6")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -16974,7 +16974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a467540-f935-4cec-9408-2d0deca71fb8")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 129.54 99.0599 90)
 			(effects
 				(font
@@ -17037,7 +17037,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17052,7 +17052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b830f30-ad54-449c-879f-6bb40abe3aae")
-		(property "Reference" "R51"
+		(property "Reference" "R63"
 			(at 255.524 170.18 0)
 			(effects
 				(font
@@ -17117,7 +17117,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R51")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -17132,7 +17132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b9f7420-c48c-4af9-ae53-ec4f62796992")
-		(property "Reference" "R27"
+		(property "Reference" "R47"
 			(at 255.524 129.54 0)
 			(effects
 				(font
@@ -17197,7 +17197,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R27")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -17212,7 +17212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71a33e5b-b014-4fe3-b5b4-c67894703265")
-		(property "Reference" "R77"
+		(property "Reference" "R16"
 			(at 87.376 202.692 90)
 			(effects
 				(font
@@ -17277,7 +17277,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R77")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17292,7 +17292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7597662e-876e-44ec-a2e3-46ce6d8c7860")
-		(property "Reference" "R45"
+		(property "Reference" "R57"
 			(at 255.524 154.94 0)
 			(effects
 				(font
@@ -17357,7 +17357,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R45")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -17372,7 +17372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76a64971-d7c2-4795-9449-54c555a43f3e")
-		(property "Reference" "R69"
+		(property "Reference" "R3"
 			(at 64.516 144.272 90)
 			(effects
 				(font
@@ -17437,7 +17437,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R69")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -17452,7 +17452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76fd55b3-555f-4899-8c57-5a1277122e71")
-		(property "Reference" "R61"
+		(property "Reference" "R73"
 			(at 319.024 175.26 0)
 			(effects
 				(font
@@ -17517,7 +17517,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R61")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -17533,7 +17533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80a312a6-9bd1-447d-bc9f-89420465fda2")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 97.79 91.4399 0)
 			(effects
 				(font
@@ -17596,7 +17596,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -17611,7 +17611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82d9fa30-d4b7-44e5-8b92-a8c81ceec6ee")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 87.376 144.272 90)
 			(effects
 				(font
@@ -17676,7 +17676,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17691,7 +17691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8377a5be-7933-4adb-b7d0-8fff3462a8d8")
-		(property "Reference" "R12"
+		(property "Reference" "R51"
 			(at 255.524 139.7 0)
 			(effects
 				(font
@@ -17756,7 +17756,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R12")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -17771,7 +17771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8626cfc4-ca56-43cf-a4cc-1d67adc8407c")
-		(property "Reference" "R71"
+		(property "Reference" "R4"
 			(at 64.516 202.692 90)
 			(effects
 				(font
@@ -17836,7 +17836,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R71")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -17851,7 +17851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89dbabef-81f7-40a6-8550-b14192d6291d")
-		(property "Reference" "R40"
+		(property "Reference" "R7"
 			(at 72.136 144.272 90)
 			(effects
 				(font
@@ -17916,7 +17916,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R40")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -17931,7 +17931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c719ca7-1d4d-4258-af99-43be1b2a865d")
-		(property "Reference" "C18"
+		(property "Reference" "C26"
 			(at 372.872 135.382 90)
 			(effects
 				(font
@@ -17994,7 +17994,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C18")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -18009,7 +18009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dc21582-c847-42a6-86a2-0e8f35e44734")
-		(property "Reference" "R66"
+		(property "Reference" "R75"
 			(at 319.024 187.96 0)
 			(effects
 				(font
@@ -18074,7 +18074,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R66")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -18089,7 +18089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "936a908d-0602-4a76-94c7-d06cc7783541")
-		(property "Reference" "C28"
+		(property "Reference" "C15"
 			(at 216.408 75.692 90)
 			(effects
 				(font
@@ -18152,7 +18152,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C28")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -18167,7 +18167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96d8bc49-7cb5-440f-b6ea-bacbcc1f3ec8")
-		(property "Reference" "R48"
+		(property "Reference" "R60"
 			(at 255.524 162.56 0)
 			(effects
 				(font
@@ -18232,7 +18232,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R48")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -18247,7 +18247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b207bc7-3f58-4475-936c-fa32df01ef14")
-		(property "Reference" "R18"
+		(property "Reference" "R38"
 			(at 255.524 106.68 0)
 			(effects
 				(font
@@ -18312,7 +18312,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R18")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -18328,7 +18328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b7d3353-d130-4a81-a139-8d21a6610035")
-		(property "Reference" "C6"
+		(property "Reference" "C25"
 			(at 341.63 154.432 90)
 			(effects
 				(font
@@ -18389,7 +18389,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C6")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -18405,7 +18405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9df1ff33-e255-4fae-aa9d-2fa1e8557d67")
-		(property "Reference" "C16"
+		(property "Reference" "C3"
 			(at 123.952 91.186 0)
 			(effects
 				(font
@@ -18468,7 +18468,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C16")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18484,7 +18484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9599796-fc50-4a10-a027-47be7ea42b6e")
-		(property "Reference" "C20"
+		(property "Reference" "C4"
 			(at 145.542 216.916 0)
 			(effects
 				(font
@@ -18549,7 +18549,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C20")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -18564,7 +18564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9a232f3-4643-4b22-bbd3-b8392d090bf4")
-		(property "Reference" "R20"
+		(property "Reference" "R40"
 			(at 255.524 111.76 0)
 			(effects
 				(font
@@ -18629,7 +18629,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R20")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -18644,7 +18644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abb387d7-d7b8-4167-93e0-132d5ba12296")
-		(property "Reference" "R25"
+		(property "Reference" "R45"
 			(at 255.524 124.46 0)
 			(effects
 				(font
@@ -18709,7 +18709,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R25")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -18724,7 +18724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abcb95db-34cd-4e30-b558-ddad96fb8492")
-		(property "Reference" "R70"
+		(property "Reference" "R2"
 			(at 60.706 202.692 90)
 			(effects
 				(font
@@ -18789,7 +18789,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R70")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18804,7 +18804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acf90643-5621-4042-9592-40d0fbc7ee94")
-		(property "Reference" "R7"
+		(property "Reference" "R37"
 			(at 255.524 104.14 0)
 			(effects
 				(font
@@ -18869,7 +18869,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R7")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -18884,7 +18884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afb078f8-55b0-462f-8454-563f046b8936")
-		(property "Reference" "C23"
+		(property "Reference" "C13"
 			(at 203.454 75.692 90)
 			(effects
 				(font
@@ -18947,7 +18947,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C23")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18963,7 +18963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afca588e-6364-4afc-b168-a655ebd09d24")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 156.21 177.8 0)
 			(effects
 				(font
@@ -19014,7 +19014,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -19029,7 +19029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0da1937-6963-418f-96df-df19de248d8a")
-		(property "Reference" "R74"
+		(property "Reference" "R10"
 			(at 75.946 202.692 90)
 			(effects
 				(font
@@ -19094,7 +19094,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R74")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -19109,7 +19109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b39baae4-8234-4b09-a1bc-790f148502a2")
-		(property "Reference" "R11"
+		(property "Reference" "R52"
 			(at 255.524 142.24 0)
 			(effects
 				(font
@@ -19174,7 +19174,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R11")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -19190,7 +19190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3bde2aa-1eb9-45dc-ab41-565f0d727d45")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR03"
 			(at 58.42 214.63 0)
 			(effects
 				(font
@@ -19240,7 +19240,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR020")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -19255,7 +19255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b40377f3-5abf-42f3-a572-8aed706076cd")
-		(property "Reference" "R17"
+		(property "Reference" "R1"
 			(at 60.706 144.272 90)
 			(effects
 				(font
@@ -19320,7 +19320,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R17")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19422,7 +19422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b77fccda-69c8-4ef6-b7c0-4f6912f45141")
-		(property "Reference" "C25"
+		(property "Reference" "C11"
 			(at 190.754 75.692 90)
 			(effects
 				(font
@@ -19485,7 +19485,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C25")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -19501,7 +19501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba93384e-4b9d-4cdd-8003-06170b5d08cb")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -19551,7 +19551,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19567,7 +19567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc868fd8-ba0b-4d35-836b-ed24683c2fc8")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR020"
 			(at 363.22 114.3 0)
 			(effects
 				(font
@@ -19617,7 +19617,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR026")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -19632,7 +19632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdaea54b-8ee0-4f21-b283-2b0ced1505b1")
-		(property "Reference" "R68"
+		(property "Reference" "R5"
 			(at 68.326 144.272 90)
 			(effects
 				(font
@@ -19697,7 +19697,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R68")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -19713,7 +19713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5c52367-9965-41e1-a79a-6576d75ef742")
-		(property "Reference" "C19"
+		(property "Reference" "C9"
 			(at 167.132 202.946 0)
 			(effects
 				(font
@@ -19778,7 +19778,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C19")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -19858,7 +19858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c72ce093-03af-4ced-ac5e-65ff48f8229d")
-		(property "Reference" "R75"
+		(property "Reference" "R12"
 			(at 79.756 202.692 90)
 			(effects
 				(font
@@ -19923,7 +19923,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R75")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -19938,7 +19938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd2173a6-cbea-4e8b-9916-418e9b7a5c64")
-		(property "Reference" "R15"
+		(property "Reference" "R48"
 			(at 255.524 132.08 0)
 			(effects
 				(font
@@ -20003,7 +20003,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R15")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -20018,7 +20018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd9d6284-8cc1-4793-98a5-94b42699dffb")
-		(property "Reference" "R33"
+		(property "Reference" "R22"
 			(at 160.782 208.534 90)
 			(effects
 				(font
@@ -20083,7 +20083,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R33")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -20099,7 +20099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdaad5d9-9678-436c-ad37-44946fca2eef")
-		(property "Reference" "C21"
+		(property "Reference" "C10"
 			(at 167.132 216.916 0)
 			(effects
 				(font
@@ -20164,7 +20164,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C21")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20179,7 +20179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ceda1d6a-d2d9-40d4-baf8-cb591bb8a9a7")
-		(property "Reference" "R53"
+		(property "Reference" "R65"
 			(at 255.524 175.26 0)
 			(effects
 				(font
@@ -20244,7 +20244,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R53")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -20259,7 +20259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3c01df8-fd51-4fae-a22f-6018179b40f3")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 260.604 75.692 90)
 			(effects
 				(font
@@ -20322,7 +20322,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -20337,7 +20337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7af3418-14cf-409e-b4b4-35607c505b7c")
-		(property "Reference" "R67"
+		(property "Reference" "R76"
 			(at 319.024 190.5 0)
 			(effects
 				(font
@@ -20402,7 +20402,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R67")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -20417,7 +20417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c402de-13d3-4cea-a8d5-c6acc586b901")
-		(property "Reference" "R60"
+		(property "Reference" "R72"
 			(at 319.024 172.72 0)
 			(effects
 				(font
@@ -20482,7 +20482,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R60")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -20497,7 +20497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c5a0c4-c43e-4a9c-a136-ed066a07b368")
-		(property "Reference" "R19"
+		(property "Reference" "R39"
 			(at 255.524 109.22 0)
 			(effects
 				(font
@@ -20562,7 +20562,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R19")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -20577,7 +20577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d98cb5e5-4b6e-4b6a-9e1f-db2fc54b660c")
-		(property "Reference" "R72"
+		(property "Reference" "R6"
 			(at 68.326 202.692 90)
 			(effects
 				(font
@@ -20642,7 +20642,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R72")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -20657,7 +20657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9a9cda5-e6f0-4b45-9278-90d28ecc3e54")
-		(property "Reference" "R50"
+		(property "Reference" "R62"
 			(at 255.524 167.64 0)
 			(effects
 				(font
@@ -20722,7 +20722,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R50")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -20737,7 +20737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da6d37c7-9e16-44c4-961c-40db0575d2c4")
-		(property "Reference" "R76"
+		(property "Reference" "R14"
 			(at 83.566 202.692 90)
 			(effects
 				(font
@@ -20802,7 +20802,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R76")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -20817,7 +20817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dad909c7-ca1a-4bfa-9c45-e1c2ef35df84")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 124.46 228.6 0)
 			(effects
 				(font
@@ -20867,7 +20867,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -20883,7 +20883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf4abe0-720e-4ed2-8f0e-37376c06ff74")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR012"
 			(at 157.48 113.03 0)
 			(effects
 				(font
@@ -20933,7 +20933,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR022")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -20948,7 +20948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd8f5cd6-8921-4016-a8d3-87b078aa7248")
-		(property "Reference" "R10"
+		(property "Reference" "R53"
 			(at 255.524 144.78 0)
 			(effects
 				(font
@@ -21013,7 +21013,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R10")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -21030,7 +21030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf15b6f-f64b-4e37-a23e-47fad2526464")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR017"
 			(at 346.71 69.85 0)
 			(effects
 				(font
@@ -21080,7 +21080,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR028")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21095,7 +21095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de8d0799-36f1-4aaa-a37e-7e0ef9aefa12")
-		(property "Reference" "R47"
+		(property "Reference" "R59"
 			(at 255.524 160.02 0)
 			(effects
 				(font
@@ -21160,7 +21160,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R47")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -21175,7 +21175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e12602cd-1f05-41ef-84f6-cd135224eb34")
-		(property "Reference" "R30"
+		(property "Reference" "R25"
 			(at 164.592 180.594 90)
 			(effects
 				(font
@@ -21240,7 +21240,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R30")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -21255,7 +21255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4473dfe-6c6e-4536-8567-4c8842422f95")
-		(property "Reference" "C29"
+		(property "Reference" "C14"
 			(at 209.804 75.692 90)
 			(effects
 				(font
@@ -21318,7 +21318,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C29")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -21333,7 +21333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e48308a5-83ec-434a-b7b8-dfaea2b6fd13")
-		(property "Reference" "R84"
+		(property "Reference" "R27"
 			(at 176.276 146.812 90)
 			(effects
 				(font
@@ -21398,7 +21398,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R84")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -21414,7 +21414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e64e1868-0153-4267-ae19-7b31d9340847")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 167.132 188.976 0)
 			(effects
 				(font
@@ -21479,7 +21479,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -21494,7 +21494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e658997e-6bdf-4478-bfa2-d3743d7cf04a")
-		(property "Reference" "R9"
+		(property "Reference" "R54"
 			(at 255.524 147.32 0)
 			(effects
 				(font
@@ -21559,7 +21559,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R9")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -21574,7 +21574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e821bdaa-81b8-4d06-8f8a-863b0fbfa97c")
-		(property "Reference" "R4"
+		(property "Reference" "R34"
 			(at 255.524 96.52 0)
 			(effects
 				(font
@@ -21639,7 +21639,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R4")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -21655,7 +21655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9ef22bd-3ab9-4154-9096-158eeea31cc5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR015"
 			(at 288.29 210.82 0)
 			(effects
 				(font
@@ -21705,7 +21705,7 @@
 		(instances
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR027")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21720,7 +21720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebf39c12-af0c-4527-a976-8c0114148b6d")
-		(property "Reference" "R3"
+		(property "Reference" "R33"
 			(at 255.524 93.98 0)
 			(effects
 				(font
@@ -21785,7 +21785,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R3")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -21800,7 +21800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edf9630b-5d9f-40b3-90df-9c18da4d8d93")
-		(property "Reference" "R85"
+		(property "Reference" "R28"
 			(at 180.086 146.812 90)
 			(effects
 				(font
@@ -21865,7 +21865,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R85")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -21880,7 +21880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee71e8ee-2f85-44fc-b047-1037956844a2")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 178.562 180.594 90)
 			(effects
 				(font
@@ -21945,7 +21945,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -21960,7 +21960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f82622e4-b918-495d-97d6-8c9f4f112375")
-		(property "Reference" "R79"
+		(property "Reference" "R18"
 			(at 157.226 146.812 90)
 			(effects
 				(font
@@ -22025,7 +22025,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R79")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -22040,7 +22040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa9f25f9-d99d-4dd0-aba4-1425e5a8efe8")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 229.108 75.692 90)
 			(effects
 				(font
@@ -22103,7 +22103,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -22118,7 +22118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fabe7cee-b664-4f6d-8184-ebe2c76aa2b5")
-		(property "Reference" "R22"
+		(property "Reference" "R42"
 			(at 255.524 116.84 0)
 			(effects
 				(font
@@ -22183,7 +22183,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R22")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -22198,7 +22198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdff7998-00e4-425d-9064-9cc763cd513f")
-		(property "Reference" "R54"
+		(property "Reference" "R66"
 			(at 255.524 177.8 0)
 			(effects
 				(font
@@ -22263,7 +22263,7 @@
 		(instances
 			(project "metalclaw-pico-s2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "R54")
+					(reference "R66")
 					(unit 1)
 				)
 			)
