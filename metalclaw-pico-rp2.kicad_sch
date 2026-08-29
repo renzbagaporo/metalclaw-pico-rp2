@@ -11503,7 +11503,7 @@
 			(uuid "8b2cd42c-77c3-415b-b626-ce2777a5b3c7")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R70")
 					(unit 1)
@@ -11584,7 +11584,7 @@
 			(uuid "d28d7ba3-14f7-4b13-885b-a4644a304ca0")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C7")
 					(unit 1)
@@ -11662,7 +11662,7 @@
 			(uuid "95948aeb-ae47-4ba1-a394-87491ca5705d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R17")
 					(unit 1)
@@ -11728,7 +11728,7 @@
 			(uuid "d59a58f3-42cf-44a6-b35d-26b21bfef279")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR01")
 					(unit 1)
@@ -11808,7 +11808,7 @@
 			(uuid "28216c51-4290-4b42-8724-13d06fe2d51f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R44")
 					(unit 1)
@@ -11888,7 +11888,7 @@
 			(uuid "03714f2e-a508-4917-a51a-a56d008c23b5")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R9")
 					(unit 1)
@@ -12373,7 +12373,7 @@
 			(uuid "a4f49bbb-19af-4b99-b974-6b5353954420")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R8")
 					(unit 1)
@@ -12451,7 +12451,7 @@
 			(uuid "7cc24f3c-e237-4533-bdc2-769787ec1b7d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C23")
 					(unit 1)
@@ -12724,7 +12724,7 @@
 			(uuid "3d81c6b6-8f4e-496a-bc51-32f1c09f5fb4")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R74")
 					(unit 1)
@@ -12790,7 +12790,7 @@
 			(uuid "567eb8cf-5cbd-4d85-88b9-e89a545811ac")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR08")
 					(unit 1)
@@ -12870,7 +12870,7 @@
 			(uuid "374a7b37-7338-4b7a-9f50-1638bad96d0a")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R20")
 					(unit 1)
@@ -12950,7 +12950,7 @@
 			(uuid "21fd1a9d-c2ee-4374-a965-01cb8e3db682")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R69")
 					(unit 1)
@@ -13096,7 +13096,7 @@
 			(uuid "3073a139-ed7d-434d-a598-f7d8321919b6")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R68")
 					(unit 1)
@@ -13283,7 +13283,7 @@
 			(uuid "58ad6748-e766-4df4-bb5a-0bce6056d3f1")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R23")
 					(unit 1)
@@ -13363,7 +13363,7 @@
 			(uuid "b0294f82-7b8e-4399-b347-4dca29b2cb71")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R26")
 					(unit 1)
@@ -13443,7 +13443,7 @@
 			(uuid "cf732ed5-1443-48de-ab25-03c9e96f8764")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R24")
 					(unit 1)
@@ -13521,7 +13521,7 @@
 			(uuid "b3718351-ea84-4468-8e6e-4aaccd300cb4")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C20")
 					(unit 1)
@@ -13601,7 +13601,7 @@
 			(uuid "e1e96d71-0087-456f-9161-f8a0d1991a7e")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R55")
 					(unit 1)
@@ -13679,7 +13679,7 @@
 			(uuid "f3b21712-b7f3-453d-8631-488593e63c6a")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C18")
 					(unit 1)
@@ -13759,7 +13759,7 @@
 			(uuid "16ed846a-8363-4329-8786-87bb974d67ed")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R21")
 					(unit 1)
@@ -13825,7 +13825,7 @@
 			(uuid "c2719235-536b-4f0f-ad8c-568285b34838")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR02")
 					(unit 1)
@@ -13971,7 +13971,7 @@
 			(uuid "4fde6f52-8eba-4a0e-97c1-3e7c471051ba")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R30")
 					(unit 1)
@@ -14036,7 +14036,7 @@
 			(uuid "028cafd9-801d-4b14-9120-47f73b815006")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR04")
 					(unit 1)
@@ -14102,7 +14102,7 @@
 			(uuid "2b3c7e03-3019-4c00-b47b-e4a0e5cd344d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR09")
 					(unit 1)
@@ -14182,7 +14182,7 @@
 			(uuid "9b5adbb4-28f7-447b-a53a-faf11c1cb017")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R46")
 					(unit 1)
@@ -14262,7 +14262,7 @@
 			(uuid "40f7da1f-a8cd-488c-9f8a-c50ed63da164")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R58")
 					(unit 1)
@@ -14328,7 +14328,7 @@
 			(uuid "5a6fb56b-5c43-4ad5-ac33-0da0b8ccdc8f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR010")
 					(unit 1)
@@ -14406,7 +14406,7 @@
 			(uuid "b12036c9-81c7-4b0e-827f-d05beff28e7b")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C19")
 					(unit 1)
@@ -14484,7 +14484,7 @@
 			(uuid "239ab424-bcc1-4dd1-a802-a3773256e1c3")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C12")
 					(unit 1)
@@ -14629,7 +14629,7 @@
 			(uuid "1c0facea-a6ae-46a0-8a8b-5e47b9da6c2f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R32")
 					(unit 1)
@@ -14709,7 +14709,7 @@
 			(uuid "6880e785-8318-457f-85bb-0c104a2d15b2")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R50")
 					(unit 1)
@@ -14789,7 +14789,7 @@
 			(uuid "6c7d5577-82f0-486a-9cb7-1b4d3a8ebf12")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R11")
 					(unit 1)
@@ -14869,7 +14869,7 @@
 			(uuid "7bda4daf-d860-44af-b989-ed92bdb6daa4")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R61")
 					(unit 1)
@@ -14949,7 +14949,7 @@
 			(uuid "fd57643e-580b-4a84-a6d4-6303f9dec266")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R43")
 					(unit 1)
@@ -15029,7 +15029,7 @@
 			(uuid "6d343d6f-2e52-4b2f-80d0-01239c472b72")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R49")
 					(unit 1)
@@ -15110,7 +15110,7 @@
 			(uuid "1a8e5a2d-cc51-4913-a89a-f57c3b276b48")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C5")
 					(unit 1)
@@ -15189,7 +15189,7 @@
 			(uuid "c5b7b912-6c3d-446b-b8a0-4e370ef1ce5f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R78")
 					(unit 1)
@@ -15268,7 +15268,7 @@
 			(uuid "48edff43-a0df-4b8b-b7ce-62b2a7a6242f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R77")
 					(unit 1)
@@ -15348,7 +15348,7 @@
 			(uuid "e4bf7797-cdc4-49b1-8e3a-1f3e0c41386e")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R67")
 					(unit 1)
@@ -15428,7 +15428,7 @@
 			(uuid "25f12451-456a-4a4b-bc06-c07c604c97dd")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R35")
 					(unit 1)
@@ -15584,7 +15584,7 @@
 			(uuid "20151b34-6e66-42b9-a582-b8771ee5da7f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C16")
 					(unit 1)
@@ -15664,7 +15664,7 @@
 			(uuid "93cb1b00-cdab-486c-9f19-afe647c107e0")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R71")
 					(unit 1)
@@ -15742,7 +15742,7 @@
 			(uuid "6b866645-6f1b-4b85-b303-de5675751228")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C21")
 					(unit 1)
@@ -15807,7 +15807,7 @@
 			(uuid "f2b24818-1f59-4f36-a944-72a450dcdf68")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR014")
 					(unit 1)
@@ -15886,7 +15886,7 @@
 			(uuid "98275bc4-4938-4ef7-aee8-39e7beb7fa4a")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C6")
 					(unit 1)
@@ -15952,7 +15952,7 @@
 			(uuid "72f9e008-55c2-4a79-bd54-e59a627d8778")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR011")
 					(unit 1)
@@ -16032,7 +16032,7 @@
 			(uuid "a4651eee-1d81-45de-a2a4-4cadf6a2f62a")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R64")
 					(unit 1)
@@ -16112,7 +16112,7 @@
 			(uuid "eefb70a8-8cd3-4f6a-adcf-e18c74e3a3ba")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R31")
 					(unit 1)
@@ -16246,7 +16246,7 @@
 			(uuid "6c0d242c-ddd8-4ffe-89fb-cf7babb09c5b")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR018")
 					(unit 1)
@@ -16392,7 +16392,7 @@
 			(uuid "ebac60cf-7ee1-4fe6-8bee-65597eb433a2")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R41")
 					(unit 1)
@@ -16470,7 +16470,7 @@
 			(uuid "b9a09427-f81d-487d-a796-3c65dea62d39")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R19")
 					(unit 1)
@@ -16637,7 +16637,7 @@
 			(uuid "2aea94b9-60e5-4880-8771-08606c254aa9")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C24")
 					(unit 1)
@@ -16717,7 +16717,7 @@
 			(uuid "e795470c-79cb-4d64-a876-dfac7fba4578")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R13")
 					(unit 1)
@@ -16797,7 +16797,7 @@
 			(uuid "45ec5730-d4e5-41b8-a121-1b2af522e544")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R56")
 					(unit 1)
@@ -16956,7 +16956,7 @@
 			(uuid "bfd2e76e-9db1-4a45-a051-6c9fe242f6b7")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R36")
 					(unit 1)
@@ -17035,7 +17035,7 @@
 			(uuid "c1ec488d-c8d1-4400-9165-813ab65962dc")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "SW1")
 					(unit 1)
@@ -17115,7 +17115,7 @@
 			(uuid "f2ad5cdf-db87-4fda-a17a-926f99ac732b")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R63")
 					(unit 1)
@@ -17195,7 +17195,7 @@
 			(uuid "8608e7dd-a283-4c65-ab15-d28b616a478d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R47")
 					(unit 1)
@@ -17275,7 +17275,7 @@
 			(uuid "5aeb62d8-7656-4ada-8e8f-5815d27184a1")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R16")
 					(unit 1)
@@ -17355,7 +17355,7 @@
 			(uuid "b4dddeb7-d8b3-480c-8d89-753980768d41")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R57")
 					(unit 1)
@@ -17435,7 +17435,7 @@
 			(uuid "ab25d234-8ae8-4628-a64f-4d757b6a65f9")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R3")
 					(unit 1)
@@ -17515,7 +17515,7 @@
 			(uuid "789b9f0b-2949-43a0-88d0-5700b185db7d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R73")
 					(unit 1)
@@ -17594,7 +17594,7 @@
 			(uuid "efe6609d-d33f-4db2-ad69-b241a9a2c63c")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C2")
 					(unit 1)
@@ -17674,7 +17674,7 @@
 			(uuid "7e949837-73f1-47b6-b743-67720ff4dc75")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R15")
 					(unit 1)
@@ -17754,7 +17754,7 @@
 			(uuid "db60bc76-3199-4160-9216-3609e9093a5f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R51")
 					(unit 1)
@@ -17834,7 +17834,7 @@
 			(uuid "e61ab611-ed4b-44bf-9669-b544fbd0a4be")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R4")
 					(unit 1)
@@ -17914,7 +17914,7 @@
 			(uuid "b136f6ea-7d32-471a-a326-1af210d75f5a")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R7")
 					(unit 1)
@@ -17992,7 +17992,7 @@
 			(uuid "9a3357e8-9cf6-4d42-8129-f52a60c597bb")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C26")
 					(unit 1)
@@ -18072,7 +18072,7 @@
 			(uuid "016f5763-35bd-4989-af51-caf307c2d46d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R75")
 					(unit 1)
@@ -18150,7 +18150,7 @@
 			(uuid "71e27e57-3715-491f-8c2f-eb187b7b7195")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C15")
 					(unit 1)
@@ -18230,7 +18230,7 @@
 			(uuid "22cb5dad-902e-45c2-b2ca-dbd4fa86be00")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R60")
 					(unit 1)
@@ -18310,7 +18310,7 @@
 			(uuid "1aea2379-d7f6-4529-aae8-4d70480c5064")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R38")
 					(unit 1)
@@ -18387,7 +18387,7 @@
 			(uuid "d0f92de4-5d13-46db-a21b-8372420ca813")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C25")
 					(unit 1)
@@ -18466,7 +18466,7 @@
 			(uuid "0c9d61b3-c6ad-49c6-9b24-c2273a30c29b")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C3")
 					(unit 1)
@@ -18547,7 +18547,7 @@
 			(uuid "8330336e-b291-4db2-8f99-39de11baece1")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C4")
 					(unit 1)
@@ -18627,7 +18627,7 @@
 			(uuid "3ae1623d-08a8-4c76-b7f6-e0f395e10076")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R40")
 					(unit 1)
@@ -18707,7 +18707,7 @@
 			(uuid "88016d9d-956a-4936-a00d-7354e9be7386")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R45")
 					(unit 1)
@@ -18787,7 +18787,7 @@
 			(uuid "6c03ca69-f684-47ce-81d8-3625e3a31f70")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R2")
 					(unit 1)
@@ -18867,7 +18867,7 @@
 			(uuid "e7fa3039-0a37-4173-a458-56ad695cbaee")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R37")
 					(unit 1)
@@ -18945,7 +18945,7 @@
 			(uuid "84f4d25a-d9dd-4ecf-ba40-701c8355a685")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C13")
 					(unit 1)
@@ -19012,7 +19012,7 @@
 			(uuid "867a183b-f29a-48ec-9024-ab8579b7dcdd")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR013")
 					(unit 1)
@@ -19092,7 +19092,7 @@
 			(uuid "2c00f2f4-32dd-4681-b572-fc0e784760b6")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R10")
 					(unit 1)
@@ -19172,7 +19172,7 @@
 			(uuid "523173d1-219d-4a18-8fbd-d379e91b9d16")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R52")
 					(unit 1)
@@ -19238,7 +19238,7 @@
 			(uuid "1ccd581a-47d5-4f90-b12f-29f2b6cf26b8")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR03")
 					(unit 1)
@@ -19318,7 +19318,7 @@
 			(uuid "ab6a4062-864f-4d83-bd8e-87f4d844b054")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R1")
 					(unit 1)
@@ -19483,7 +19483,7 @@
 			(uuid "46c07c18-f0f9-47a4-a99b-db702a941ea0")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C11")
 					(unit 1)
@@ -19549,7 +19549,7 @@
 			(uuid "426956aa-83bd-4dcb-b218-9c00a94cdb55")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR05")
 					(unit 1)
@@ -19615,7 +19615,7 @@
 			(uuid "5af45886-c6c8-4c60-b828-bff722f16704")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR020")
 					(unit 1)
@@ -19695,7 +19695,7 @@
 			(uuid "9f410d5d-5f78-4e0a-9996-b2b1439d11b9")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R5")
 					(unit 1)
@@ -19776,7 +19776,7 @@
 			(uuid "fccf0237-2959-472c-977e-07e5718db09c")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C9")
 					(unit 1)
@@ -19921,7 +19921,7 @@
 			(uuid "e6579bfd-3673-41b4-9252-6b5d8730c0ec")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R12")
 					(unit 1)
@@ -20001,7 +20001,7 @@
 			(uuid "fe96a595-facb-40af-9ccf-686d187e86a3")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R48")
 					(unit 1)
@@ -20081,7 +20081,7 @@
 			(uuid "01622afd-9451-4cf2-8a8f-8562ab1aacb2")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R22")
 					(unit 1)
@@ -20162,7 +20162,7 @@
 			(uuid "d4b71c75-d71c-4fbf-8fed-f9337e36a8d1")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C10")
 					(unit 1)
@@ -20242,7 +20242,7 @@
 			(uuid "ae8e2e3a-38b9-4f0a-92c8-775991c3bd56")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R65")
 					(unit 1)
@@ -20320,7 +20320,7 @@
 			(uuid "d44a6fd1-3bde-4e9d-b5df-8b9434efba0e")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C22")
 					(unit 1)
@@ -20400,7 +20400,7 @@
 			(uuid "bf8a0d94-b03a-4a76-864b-7cf280923a57")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R76")
 					(unit 1)
@@ -20480,7 +20480,7 @@
 			(uuid "ed0cc001-beb4-4426-9076-01d886cb699d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R72")
 					(unit 1)
@@ -20560,7 +20560,7 @@
 			(uuid "b629230c-d955-4b9b-a31d-0e98b4abf967")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R39")
 					(unit 1)
@@ -20640,7 +20640,7 @@
 			(uuid "7a168be3-0e36-4385-b481-b9dae49f99ea")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R6")
 					(unit 1)
@@ -20720,7 +20720,7 @@
 			(uuid "95459372-a449-4852-9fad-f5f7fc4cf44a")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R62")
 					(unit 1)
@@ -20800,7 +20800,7 @@
 			(uuid "7d87e8e5-0582-4aeb-aeb4-cd01c6c10fcf")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R14")
 					(unit 1)
@@ -20865,7 +20865,7 @@
 			(uuid "a39a8856-be36-4399-8541-9e0ef2e20542")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR07")
 					(unit 1)
@@ -20931,7 +20931,7 @@
 			(uuid "21bc46cc-4aba-4aab-850a-24c65951a414")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "#PWR012")
 					(unit 1)
@@ -21011,7 +21011,7 @@
 			(uuid "abdbfa16-ec7d-4dc5-848b-12a9bbd5bffb")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R53")
 					(unit 1)
@@ -21158,7 +21158,7 @@
 			(uuid "056dc067-70ab-4418-8910-b4f9d539bbdc")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R59")
 					(unit 1)
@@ -21238,7 +21238,7 @@
 			(uuid "e01572c0-d9cc-4308-9854-de07ea44e299")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R25")
 					(unit 1)
@@ -21316,7 +21316,7 @@
 			(uuid "610f6952-e738-403f-bf0d-4ae80c11876e")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C14")
 					(unit 1)
@@ -21396,7 +21396,7 @@
 			(uuid "f5a705e9-01ef-46f9-ad45-bb26030c46ef")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R27")
 					(unit 1)
@@ -21477,7 +21477,7 @@
 			(uuid "6fd8c175-3f3b-4b6f-b1ea-9e7d3519a542")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C8")
 					(unit 1)
@@ -21557,7 +21557,7 @@
 			(uuid "8707341d-4ed6-4149-b07e-ba924f98674d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R54")
 					(unit 1)
@@ -21637,7 +21637,7 @@
 			(uuid "d2c7c6d2-1b8e-4ae7-b5c9-81c782258a3e")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R34")
 					(unit 1)
@@ -21783,7 +21783,7 @@
 			(uuid "6629d272-a30e-4b0f-92d0-c4e664f3194a")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R33")
 					(unit 1)
@@ -21863,7 +21863,7 @@
 			(uuid "ab6c8070-0afc-48c8-a044-e89aad1ec2e6")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R28")
 					(unit 1)
@@ -21943,7 +21943,7 @@
 			(uuid "1b9a8e0a-f8d1-492f-8417-b7a9cb41b50f")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R29")
 					(unit 1)
@@ -22023,7 +22023,7 @@
 			(uuid "3f51c921-de96-4c26-8b16-f63f99c3126d")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R18")
 					(unit 1)
@@ -22101,7 +22101,7 @@
 			(uuid "0f1e59d0-e179-4e0d-9561-8787dccc94a9")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C17")
 					(unit 1)
@@ -22181,7 +22181,7 @@
 			(uuid "03aa5b72-545e-4f4f-923c-c9ae85ea17e1")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R42")
 					(unit 1)
@@ -22261,7 +22261,7 @@
 			(uuid "c7f0f586-e49e-4428-a66b-76a87369c0c1")
 		)
 		(instances
-			(project "metalclaw-pico-s2"
+			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R66")
 					(unit 1)

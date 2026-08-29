@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "metalclaw-pico-s2.kicad_pro",
+    "filename": "metalclaw-pico-rp2.kicad_pro",
     "version": 3
   },
   "net_settings": {

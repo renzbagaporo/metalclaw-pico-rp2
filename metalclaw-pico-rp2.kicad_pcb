@@ -371,7 +371,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e68fb30-c020-4faa-a8de-35f36c70d6df")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -519,7 +519,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8f0127ee-6ec4-4721-ab57-3b11d080e9a1")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -667,7 +667,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a9a232f3-4643-4b22-bbd3-b8392d090bf4")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -815,7 +815,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9b6503ef-409b-4284-bd1d-4b9a8462390a")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -963,7 +963,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5214f9c3-2cf8-41ef-8cae-a0745db2de19")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -1111,7 +1111,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/acf90643-5621-4042-9592-40d0fbc7ee94")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -1259,7 +1259,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/45b2a3e7-c0dc-47ba-a7f5-4081e384c636")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -1407,7 +1407,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6250b376-0a70-48b3-8447-6f3d7b42622b")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -1543,7 +1543,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c779df27-8635-4407-b5b7-9ae65fee36dd")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -1813,7 +1813,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5893c62b-b8bf-4ec6-b914-015613b5b67d")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -1961,7 +1961,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e658997e-6bdf-4478-bfa2-d3743d7cf04a")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2109,7 +2109,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e7131c2b-b253-4e6f-835a-9d76dcc3819f")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2257,7 +2257,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4cd6d2b7-2636-473f-a49f-5d3f82cc54f2")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2405,7 +2405,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3b9cd8cb-9a2b-4704-95d8-2d8d44c11562")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2553,7 +2553,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ebf39c12-af0c-4527-a976-8c0114148b6d")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2702,7 +2702,7 @@
 		)
 		(path "/668d17d6-b9a8-4492-ad29-36412d8a26cf")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.2 -1.7)
@@ -3034,7 +3034,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93b7571d-20f1-4c2a-96c4-dd0c01764721")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -3182,7 +3182,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/529357da-6ddb-4176-80d2-e8b2da4a6673")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -3330,7 +3330,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/428dd18e-1352-4f3d-846e-84d6c60339a7")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -3478,7 +3478,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4e0bfae3-ade7-4b06-8407-2701cb772fd0")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -3618,7 +3618,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/1cdd4684-17e3-480a-9198-5c287ac5e978")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.67 -0.1)
@@ -3983,7 +3983,7 @@
 		(property ki_fp_filters "RaspberryPi?Pico?SMD*")
 		(path "/132fe67d-2c64-403c-aad6-73a6594adda2")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -10.504831 25)
@@ -5512,7 +5512,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8377a5be-7933-4adb-b7d0-8fff3462a8d8")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -5660,7 +5660,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d7c5a0c4-c43e-4a9c-a136-ed066a07b368")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -5808,7 +5808,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4b7d3f3f-f1ea-4fef-b3c2-228d42394f26")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -5956,7 +5956,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/32077edd-67f2-496e-88f6-bc65387ee5b2")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6104,7 +6104,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/46dcc233-1a45-4706-a60b-6462bda55dec")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6252,7 +6252,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0a961ea4-893d-4d42-aa25-36ed59d719e4")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6400,7 +6400,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/69b115f8-da99-4aa2-9e3b-883b870f18d6")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6548,7 +6548,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dd8f5cd6-8921-4016-a8d3-87b078aa7248")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6696,7 +6696,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cd2173a6-cbea-4e8b-9916-418e9b7a5c64")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6844,7 +6844,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/537bb8a5-8089-4d20-a8b9-9aa83a573fdd")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6992,7 +6992,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4773f463-4208-4ea1-b598-6399f6aad5ff")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -7140,7 +7140,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fa9f25f9-d99d-4dd0-aba4-1425e5a8efe8")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -7275,7 +7275,7 @@
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
 		(path "/5677d4b9-beb4-4668-a952-18b9bcd33c66")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.76 2.76)
@@ -7640,7 +7640,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/a859de59-1060-43b3-95d3-e05058911eca")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd dnp)
 		(fp_poly
 			(pts
@@ -7778,7 +7778,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/01eec64b-9bda-470a-99c2-b5b3173ef83f")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.41 1.21)
@@ -7955,7 +7955,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/06746cc0-9a35-4218-8b5e-b338204f8695")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8103,7 +8103,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5491bfc6-4fe2-4a05-8aa3-77a133833b6f")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -8257,7 +8257,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/05b44958-33d1-4f99-b246-0857de470fbf")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8405,7 +8405,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b18ee8c5-b967-47d0-a9e7-6c614aa46b69")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8553,7 +8553,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/80a312a6-9bd1-447d-bc9f-89420465fda2")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -8707,7 +8707,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/abb387d7-d7b8-4167-93e0-132d5ba12296")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8855,7 +8855,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/594ba3ae-f44b-4c9d-8e74-cdc0ccf0ea33")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -9003,7 +9003,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6a69560-3821-4bee-863f-cdccee785a2c")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -9151,7 +9151,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/23ade47b-d143-423e-af2b-53a15c702d66")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -9286,7 +9286,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/08550f97-4f55-4fbc-b45c-70a7c9c774c1")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.91 1.56)
@@ -9684,7 +9684,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/22185172-1166-4f8d-88a8-7c8befd33ff0")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -9832,7 +9832,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fabe7cee-b664-4f6d-8184-ebe2c76aa2b5")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -9967,7 +9967,7 @@
 		(property ki_fp_filters "*QFN*10x10mm?P0.4mm?EP3.4x3.4mm*")
 		(path "/2610c5b3-35e9-44f1-be76-855d363cbdf1")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.11 -5.11)
@@ -11239,7 +11239,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e821bdaa-81b8-4d06-8f8a-863b0fbfa97c")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -11387,7 +11387,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cfab26ac-e8f3-49ae-a205-bb57d60e4698")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -11522,7 +11522,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/42387187-2023-4e50-92d9-bc08f552acff")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd dnp)
 		(fp_poly
 			(pts
@@ -11672,7 +11672,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ec354968-ceac-4cea-b258-e1012636c72b")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -11807,7 +11807,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/61ad0872-4da6-4633-b16b-39c162c48c78")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.815 3.285)
@@ -12422,7 +12422,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ca00636d-67d7-4446-ad8a-6dd4de06a724")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -12570,7 +12570,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2da83ea2-1454-4ec9-8564-a6e06b76bd0a")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -12718,7 +12718,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9df1ff33-e255-4fae-aa9d-2fa1e8557d67")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -12866,7 +12866,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6153bae1-9fd8-4a23-8cff-ca843695b5f0")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -13014,7 +13014,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93104eb3-df9d-4770-91b6-548de2cf9764")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -13162,7 +13162,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8c719ca7-1d4d-4258-af99-43be1b2a865d")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -13310,7 +13310,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9d41e0b7-f6ca-4e33-951d-c2063633e5c2")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -13458,7 +13458,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6b9f7420-c48c-4af9-ae53-ec4f62796992")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -13606,7 +13606,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/07d11f00-bdb5-48fa-b55b-fef99701316f")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -13754,7 +13754,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9b207bc7-3f58-4475-936c-fa32df01ef14")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -13902,7 +13902,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9b7d3353-d130-4a81-a139-8d21a6610035")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -14051,7 +14051,7 @@
 		)
 		(path "/6a467540-f935-4cec-9408-2d0deca71fb8")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.2 -1.7)
@@ -14383,7 +14383,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f623a868-df63-497b-a57a-853946f9d145")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -14518,7 +14518,7 @@
 		(property ki_fp_filters "*SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/b68da3a1-2cab-45a7-9275-1125b6ecbc73")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.06 2.56)
@@ -14896,7 +14896,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1089a05f-6adb-4420-b3c2-90f1da79e2be")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -15044,7 +15044,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b39baae4-8234-4b09-a1bc-790f148502a2")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -15180,7 +15180,7 @@
 		(property ki_fp_filters "QFN*1EP*7x7mm*P0.4mm*")
 		(path "/a4696d13-b8eb-42b9-bf91-9b4c0586bdfb")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.61 -3.61)
@@ -16201,7 +16201,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/99b0fd86-40e4-40a7-a782-41f2ac7b10d7")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd dnp)
 		(fp_rect
 			(start -0.515 -0.94)
@@ -16725,7 +16725,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/76fd4e97-9b2b-4f32-bedf-dbdf6f12de76")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd dnp)
 		(fp_poly
 			(pts
@@ -16875,7 +16875,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/615055fc-ef14-47be-9942-648e1b0e8d5b")
 		(sheetname "/")
-		(sheetfile "metalclaw-pico-s2.kicad_sch")
+		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
