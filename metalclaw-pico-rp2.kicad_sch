@@ -6514,6 +6514,12 @@
 		(uuid "cd343d4d-2d08-4aef-ad51-2febe2a69525")
 	)
 	(junction
+		(at 364.49 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce2ec92b-5af4-4eab-82b6-f283f9d0d0cd")
+	)
+	(junction
 		(at 334.01 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6586,6 +6592,12 @@
 		(uuid "dfb19a4f-d402-4eac-baaa-483ab2655d87")
 	)
 	(junction
+		(at 298.45 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3dae427-feb2-4f94-9528-42e1e6282905")
+	)
+	(junction
 		(at 156.21 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6596,6 +6608,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e97ba236-2187-422b-836e-a5a86d3d80ca")
+	)
+	(junction
+		(at 364.49 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebaf41ff-2bdb-4864-9805-41d4993389ec")
 	)
 	(junction
 		(at 77.47 215.9)
@@ -6718,10 +6736,6 @@
 	(no_connect
 		(at 383.54 187.96)
 		(uuid "603c0462-cfc9-4bab-9539-275d04bd6182")
-	)
-	(no_connect
-		(at 370.84 193.04)
-		(uuid "8dfadfa9-36ad-4662-9b6f-5018effaf54e")
 	)
 	(no_connect
 		(at 383.54 190.5)
@@ -6986,6 +7000,16 @@
 			(type default)
 		)
 		(uuid "11f6b953-610e-4c3f-9938-8a38bc7a8a55")
+	)
+	(wire
+		(pts
+			(xy 364.49 193.04) (xy 370.84 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125fcf05-51b4-42f1-adfa-d7451019c958")
 	)
 	(wire
 		(pts
@@ -7819,7 +7843,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 182.88) (xy 367.03 182.88)
+			(xy 370.84 182.88) (xy 365.76 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8699,6 +8723,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 187.96) (xy 364.49 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8f24f6-f04c-4b31-90f6-426b300f43bf")
+	)
+	(wire
+		(pts
 			(xy 147.32 162.56) (xy 170.18 162.56)
 		)
 		(stroke
@@ -9299,7 +9333,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 185.42) (xy 368.3 187.96)
+			(xy 364.49 185.42) (xy 364.49 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9666,16 +9700,6 @@
 			(type default)
 		)
 		(uuid "9b7ea435-4063-475a-9004-4d8c53a08291")
-	)
-	(wire
-		(pts
-			(xy 368.3 187.96) (xy 370.84 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c5ea432-617e-4def-87ae-f39be7401b57")
 	)
 	(wire
 		(pts
@@ -10106,6 +10130,16 @@
 			(type default)
 		)
 		(uuid "ad19974c-93ca-4f0e-beec-b5cfa9d8a3b7")
+	)
+	(wire
+		(pts
+			(xy 364.49 187.96) (xy 370.84 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af506051-8b5f-4086-bf6b-243a684a0ce5")
 	)
 	(wire
 		(pts
@@ -10629,6 +10663,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 193.04) (xy 364.49 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d187b90a-8979-4a1c-848d-b091a6ba11a2")
+	)
+	(wire
+		(pts
 			(xy 336.55 181.61) (xy 331.47 181.61)
 		)
 		(stroke
@@ -10666,6 +10710,16 @@
 			(type default)
 		)
 		(uuid "d3c6db53-4d3c-47df-b20a-58eea17e1a4d")
+	)
+	(wire
+		(pts
+			(xy 364.49 207.01) (xy 298.45 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44fb906-fc89-4724-9128-ff0edf71da59")
 	)
 	(wire
 		(pts
@@ -11249,7 +11303,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 185.42) (xy 368.3 185.42)
+			(xy 370.84 185.42) (xy 364.49 185.42)
 		)
 		(stroke
 			(width 0)
@@ -15422,7 +15476,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 367.03 182.88 90)
+		(at 365.76 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15430,7 +15484,7 @@
 		(dnp no)
 		(uuid "40ca2e07-f059-4c7d-be1a-3b39558b0bee")
 		(property "Reference" "#PWR019"
-			(at 370.84 182.88 0)
+			(at 369.57 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15493,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 362.966 182.88 0)
+			(at 361.696 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15447,7 +15501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 367.03 182.88 0)
+			(at 365.76 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15456,7 +15510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 182.88 0)
+			(at 365.76 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15465,7 +15519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 367.03 182.88 0)
+			(at 365.76 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
