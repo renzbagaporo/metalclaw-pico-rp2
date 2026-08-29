@@ -259,7 +259,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "01578f9c-e165-4b50-af37-3ef2ce3304bd")
-		(at 198.49 92.71)
+		(at 170.40 110.40)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R74"
@@ -787,7 +787,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0696d0e8-f3a6-46a3-a3f6-f2e0f1bc5ff4")
-		(at 198.49 87.46)
+		(at 170.40 113.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R71"
@@ -1135,11 +1135,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0d66c5fe-3074-41f0-b803-694026ec4c14")
-		(at 115.585 98.08 90)
+		(at 157.00 97.00)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R40"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "74deaea1-7a41-4b4b-bef1-dcf2662959fd")
 			(effects
@@ -1150,7 +1150,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "c17b90d1-4ebd-4319-b449-77dbe91f6f9a")
 			(effects
@@ -1161,7 +1161,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9debac78-9566-4f6f-b85a-55a3d16b37f0")
@@ -1173,7 +1173,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b80535b6-9fbd-4791-84ae-b8d2248292ea")
@@ -1185,7 +1185,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1198,7 +1198,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1211,7 +1211,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1251,7 +1251,7 @@
 			(uuid "00939add-3dbc-4f9e-83d6-52992c40f3c2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "1fea8542-e62e-42e9-bf88-dd87397d5b2e")
 			(effects
@@ -1262,21 +1262,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "997ba1b1-a531-4d33-84cc-046f6730f621")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "799691c8-21a2-4e52-99b6-ba90207f9680")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1285,7 +1285,7 @@
 			(uuid "8011335d-ddba-4f89-bdb2-7aeeda0814a2")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1309,7 +1309,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0e7cafc0-923e-4f9b-890d-0aad4651de6f")
-		(at 193.59 90.96)
+		(at 157.00 110.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R55"
@@ -1483,7 +1483,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "10a97b0e-9c5c-40ae-a9f5-09142c9fcf63")
-		(at 186.24 99.71)
+		(at 157.00 112.00)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -1657,7 +1657,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "1108fc82-3810-412d-b15b-8bc47425238a")
-		(at 186.24 97.96)
+		(at 157.00 86.30)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -2005,7 +2005,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "148699bc-322f-454e-8f60-541a912e0b29")
-		(at 198.49 90.96)
+		(at 170.40 106.00)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R73"
@@ -2179,11 +2179,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "153c8ff8-d813-4ec8-89d2-8dd1901af221")
-		(at 115.585 88.555 -90)
+		(at 157.49 77.97)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R37"
-			(at 0 -1.05 270)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "8e82476d-20c6-452b-a0fb-2479a95a7a97")
 			(effects
@@ -2194,7 +2194,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 270)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "c9231069-3599-453c-8f64-b1f188092c0b")
 			(effects
@@ -2205,7 +2205,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50c4c3fb-3f4e-4429-9445-b0486c542a30")
@@ -2217,7 +2217,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00b1571b-f93f-4c0f-9ff5-0a4edbc12c17")
@@ -2229,7 +2229,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2242,7 +2242,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2255,7 +2255,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2295,7 +2295,7 @@
 			(uuid "dc51e9f1-728b-4307-a133-4fc107a5d562")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 270)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "071f8847-782c-4af9-a988-654a2abd57e0")
 			(effects
@@ -2306,21 +2306,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 270)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "64688c3f-2c75-4bce-a6dc-1cccdcde70f8")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 270)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "9ec9884c-e931-4322-bf07-a420ce3e907e")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 270)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -2329,7 +2329,7 @@
 			(uuid "25381c7e-bf59-4d02-81c7-f038c6f0e4eb")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 270)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -2353,7 +2353,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "1a56e44b-69d2-49c6-89f5-45faed63363c")
-		(at 188.69 89.21)
+		(at 157.00 80.20)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -2875,7 +2875,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "23d49068-4d34-40fb-a9ec-d150f3e93692")
-		(at 191.14 87.46)
+		(at 170.40 108.20)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R21"
@@ -3049,7 +3049,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "24a0c8e2-a7cb-4265-8677-456931c6e1e7")
-		(at 191.14 90.96)
+		(at 170.40 93.80)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -3223,7 +3223,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "28d7f4cb-44b0-494d-9f95-079ffa225373")
-		(at 191.14 92.71)
+		(at 170.40 111.50)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -3397,11 +3397,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "28ef92f7-0b48-4814-a2a7-ef4c6506139d")
-		(at 129.075 100.595 90)
+		(at 157.00 107.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R54"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "552abf8a-534a-485d-a063-e1d15fff4c45")
 			(effects
@@ -3412,7 +3412,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "21bfcb7f-3255-492f-bedd-24b7c5088c01")
 			(effects
@@ -3423,7 +3423,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "171ec24d-a785-496a-87cc-997a111a4d4e")
@@ -3435,7 +3435,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20eedde7-6542-435a-a089-7c78a5982bc5")
@@ -3447,7 +3447,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3460,7 +3460,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3473,7 +3473,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3513,7 +3513,7 @@
 			(uuid "5412c6b0-917e-4d85-9156-e47db0e56191")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "fa78e790-eedb-48b5-905e-369f32c75c68")
 			(effects
@@ -3524,21 +3524,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "9dc3fa15-7f98-432f-b3fa-cc6612b48ec6")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "a4df101e-6cd5-473f-b4ce-9366e7a32a68")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3547,7 +3547,7 @@
 			(uuid "4f2e33ff-6cd3-4f29-91e7-2a091e36005b")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3751,11 +3751,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2c3f82f3-225b-4b4e-b742-a03bd1665d1f")
-		(at 115.595 108.8 90)
+		(at 157.00 87.40)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R43"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "ad0c02a9-7d55-4301-92a3-9eb69bc4cd48")
 			(effects
@@ -3766,7 +3766,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "ab9b312e-9d9a-49cd-99ef-ad8806e3a725")
 			(effects
@@ -3777,7 +3777,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94d004f3-9848-438f-b40b-6eb196dbbec2")
@@ -3789,7 +3789,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "654b8a23-ec9a-410c-9c3e-48d9ae4c456b")
@@ -3801,7 +3801,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3814,7 +3814,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3827,7 +3827,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3867,7 +3867,7 @@
 			(uuid "a2b79e66-31a7-4c99-8680-dd2c525b39cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "cae26ebe-fcaa-47df-bdb8-a1d380b43115")
 			(effects
@@ -3878,21 +3878,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "10333119-317c-4a5b-8ac8-be01cf8d6d28")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "df880949-5b85-4504-9810-bda22e9fa771")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3901,7 +3901,7 @@
 			(uuid "b2a78bcb-603c-4813-9338-aa6ac75ba175")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3925,7 +3925,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "30675a04-0347-4133-9d86-b8c723b40ca7")
-		(at 191.14 99.71)
+		(at 170.40 121.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -4099,7 +4099,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "32678a16-c02a-4f90-8aca-6121c0149b20")
-		(at 186.24 96.21)
+		(at 157.00 115.30)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -4447,7 +4447,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "375fedba-1f58-42db-82a9-10fef4657161")
-		(at 191.14 89.21)
+		(at 170.40 89.50)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -4621,11 +4621,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3bbc427f-fea3-4662-8e94-be6e24a91c8b")
-		(at 115.585 75.59 -90)
+		(at 170.40 82.36)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R33"
-			(at 0 -1.05 270)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "ac4b9605-f6da-4ce2-ba52-5c37c9acad44")
 			(effects
@@ -4636,7 +4636,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.05 270)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "285ac47c-128e-4320-8d81-4a987b88ed67")
 			(effects
@@ -4647,7 +4647,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea2182a1-7714-4a60-912d-bbaf40024afd")
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Description" "1 kohm +/-1% 1/20 W 0201 Pico control series resistor, Yageo RC0201FR-071KL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6465d294-895d-4057-80dc-7805febff544")
@@ -4671,7 +4671,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-071KL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4684,7 +4684,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4697,7 +4697,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4737,7 +4737,7 @@
 			(uuid "c80b6969-e2a1-4b3c-92f3-1eb2c536b806")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 270)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "5f01a154-687f-4e05-aa09-3e687235b2a9")
 			(effects
@@ -4748,21 +4748,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 270)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "e2fac2f2-0482-4c5e-b448-a549388ae157")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 270)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "5882d3fc-eb29-41ba-894c-9b3cf4e27a2e")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 270)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4771,7 +4771,7 @@
 			(uuid "4559a909-f234-40fd-b9d6-147e1a894fdb")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 270)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4795,7 +4795,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3c8380b8-c71d-49ff-9742-9e39f53bbdcd")
-		(at 188.69 92.71)
+		(at 157.51 78.76 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -4845,7 +4845,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-075K1L"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4858,7 +4858,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4922,21 +4922,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "5eb8339d-2f92-4079-8c21-ebdf42f94652")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "253c085b-b5ce-400d-8d7a-f879ee9fe54a")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4945,7 +4945,7 @@
 			(uuid "6aea782f-205e-412a-90e7-c20c0c555de1")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4969,7 +4969,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3e1933e1-4477-4d6f-b82c-4e3bc3275610")
-		(at 186.24 92.71)
+		(at 157.00 118.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -5502,7 +5502,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "44d6b521-1f39-48c6-8e31-6c15a9c5108f")
-		(at 186.24 87.46)
+		(at 157.00 95.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -5676,7 +5676,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "46158ecc-7c46-4900-9001-652e5160a879")
-		(at 193.59 96.21)
+		(at 157.00 116.40)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R58"
@@ -6198,7 +6198,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "51f91a79-d828-420c-9e3d-fccd4c070d6f")
-		(at 191.14 101.46)
+		(at 170.40 98.00)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -6372,7 +6372,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "57db4ee8-a8ed-4ac0-af59-f3a3bbe89deb")
-		(at 196.04 94.46)
+		(at 170.40 119.50)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R66"
@@ -6546,7 +6546,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "58bbe4ff-1b38-4050-9143-2c27aeb7a627")
-		(at 186.24 94.46)
+		(at 157.00 89.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -6900,11 +6900,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "5b801e79-d704-4f66-bf3b-98d08d520aae")
-		(at 115.585 73.055 -90)
+		(at 157.00 84.10)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R32"
-			(at 0 -1.05 270)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "f175d903-25d4-44d0-94c2-78590ce2710a")
 			(effects
@@ -6915,7 +6915,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 270)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "041230af-f263-44b0-b259-8dd0cc4257d5")
 			(effects
@@ -6926,7 +6926,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24860309-0db4-494a-86b8-cfb2dbac97ef")
@@ -6938,7 +6938,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "994752f7-b7ac-4c0f-b2b2-291b8e26d35e")
@@ -6950,7 +6950,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6963,7 +6963,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6976,7 +6976,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7016,7 +7016,7 @@
 			(uuid "1705dc37-e358-49e6-932d-aa195619c7a7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 270)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "4f4aa408-8a89-41e3-803a-6e08d2dfbdf9")
 			(effects
@@ -7027,21 +7027,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 270)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "85cd80c0-4ab2-4915-a5c7-590d7cd9d274")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 270)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "0bb80e69-880b-4045-8dba-9299e9e832b5")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 270)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -7050,7 +7050,7 @@
 			(uuid "3ceb6372-c23e-4396-af44-f5edda795661")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 270)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -7074,11 +7074,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "5bca49d0-5975-4953-aaeb-ca186551d7ad")
-		(at 127.07 116.36 180)
+		(at 160.00 121.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R49"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "4d8314e3-309a-4854-8d87-6faae6dfb946")
 			(effects
@@ -7089,7 +7089,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "75083c38-91db-4929-859e-100a643c70d3")
 			(effects
@@ -7100,7 +7100,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09bc336d-6d5b-4c15-b61e-805c88534c6a")
@@ -7112,7 +7112,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "245f715b-787c-4b55-aec9-4450d7854d2c")
@@ -7124,7 +7124,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7137,7 +7137,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7150,7 +7150,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7190,7 +7190,7 @@
 			(uuid "dc782781-c195-4f8f-ace7-2ee01fdf2a67")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "70295596-e553-47fb-abc1-f5b56f940c1f")
 			(effects
@@ -7201,21 +7201,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "5065fb0e-f273-45fb-866b-f6d2e1c89a6e")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "cdf6ed5d-f6e3-4cf4-a284-1d61b516d869")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -7224,7 +7224,7 @@
 			(uuid "a6279a2e-3b69-448f-bbb4-c36722776879")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -7680,7 +7680,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "60273ae5-30ea-4f24-999c-5f0db8d1d11f")
-		(at 188.69 90.96)
+		(at 157.00 106.50)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -9451,11 +9451,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "64f66785-98a7-43f6-8114-b3b6583d9275")
-		(at 128.48 115.01 180)
+		(at 157.00 100.30)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R51"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "ff0b974c-69bf-42b8-99ed-56014914c422")
 			(effects
@@ -9466,7 +9466,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "b7775acc-858d-4b0f-a06d-12b0e37b73ea")
 			(effects
@@ -9477,7 +9477,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "da394b08-9270-4c0d-a1f7-debf1d3b6826")
@@ -9489,7 +9489,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2422b9a3-7c09-446f-9d57-4ecff6182636")
@@ -9501,7 +9501,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9514,7 +9514,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9527,7 +9527,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9567,7 +9567,7 @@
 			(uuid "e3abcccf-6069-4bce-8c06-4bc4f7906991")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "a3bc1f67-bb7f-46df-b8d6-55d619ca330c")
 			(effects
@@ -9578,21 +9578,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "7c5d7bc5-2a0c-4f5a-9884-00adc364f96e")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "69d1bb0b-e813-424b-a951-14c58993f9ee")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9601,7 +9601,7 @@
 			(uuid "039c2f68-0e86-4086-8f65-facf056b2c36")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9625,11 +9625,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "65dd7f03-614d-4856-9934-7b3fca923412")
-		(at 115.585 96.115 90)
+		(at 157.00 85.20)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R39"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "ec48cb37-3b53-456f-ad56-ca0fc3fde26a")
 			(effects
@@ -9640,7 +9640,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "59b0de99-e649-4794-8ae9-b6bd7c4fc8cb")
 			(effects
@@ -9651,7 +9651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "218d6e45-e245-43a2-9230-66d92f196d8a")
@@ -9663,7 +9663,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74bb71e0-e238-4ebd-81cb-1888d6d3fccb")
@@ -9675,7 +9675,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9688,7 +9688,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9701,7 +9701,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9741,7 +9741,7 @@
 			(uuid "93c5f96e-cbda-43c1-92ce-63e9c85de810")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "d342a9d9-b547-4211-9c65-1dedaa9eff38")
 			(effects
@@ -9752,21 +9752,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "db550fcf-33fb-4ddc-becb-a07ce4797b72")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "b6ea5ab6-c996-44e9-8cb8-e0823ca40331")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9775,7 +9775,7 @@
 			(uuid "06a45c1a-7487-44f9-8ca8-a9e4e4499b7f")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -10321,7 +10321,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6c51c9d0-b6f0-4c88-96e3-ba8a341a0e8a")
-		(at 193.59 97.96)
+		(at 157.00 113.10)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R59"
@@ -10495,7 +10495,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6c5beaf7-a259-4f4d-9f56-722524de4054")
-		(at 186.24 89.21)
+		(at 157.00 120.80)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -10843,7 +10843,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6cc0534f-5fa2-443b-8336-cb0dc8003c07")
-		(at 193.59 94.46)
+		(at 167.20 121.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R57"
@@ -11191,11 +11191,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6dc40377-e752-4aae-a7c5-33bd96d439ed")
-		(at 127.125 113.69 180)
+		(at 157.00 104.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R53"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "7a646bc7-0af9-450f-a542-bfa1842567d8")
 			(effects
@@ -11206,7 +11206,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "7101d398-e3f1-48d0-b278-1e7cd90cf8b6")
 			(effects
@@ -11217,7 +11217,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06607313-5653-4050-bc25-bf286cfa6bc6")
@@ -11229,7 +11229,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2ac9abb-0732-4665-8259-facabfe3d1fd")
@@ -11241,7 +11241,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11254,7 +11254,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11267,7 +11267,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11307,7 +11307,7 @@
 			(uuid "78be62d5-b2bf-4893-85d0-0f1c9032f902")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "b7679e2b-1dc1-4094-a046-416fc1d3738d")
 			(effects
@@ -11318,21 +11318,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "bf7e61be-11dd-4957-9194-398a7aa99f77")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "afe3dbe0-04a8-4816-84d2-2ebfd5c77815")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -11341,7 +11341,7 @@
 			(uuid "f09b2bdc-1cfa-4acb-ac57-808ce1039900")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -11365,11 +11365,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6e3e151c-f30c-4567-ab26-c59cf886f8a8")
-		(at 128.77 121.32 180)
+		(at 157.00 109.80)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R48"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "331097dd-92d5-4da6-82d7-c4fb4ea4efdd")
 			(effects
@@ -11380,7 +11380,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "e9590068-2acc-4cac-9634-fe0ceec0e1f9")
 			(effects
@@ -11391,7 +11391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "01a0718c-f9cc-45ec-a860-65ebb478c3ea")
@@ -11403,7 +11403,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "af02f691-db1c-4f04-be8a-49238d8d34c0")
@@ -11415,7 +11415,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11441,7 +11441,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11481,7 +11481,7 @@
 			(uuid "f8f9fee5-52f2-4676-b2ec-ec25fd2ba222")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "74f43037-ba71-4038-b9ee-97f50d024902")
 			(effects
@@ -11492,21 +11492,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "67cbe29b-972e-4c52-a338-b0dad78aff84")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "0c71af8c-bfdb-47a8-a9d0-707eb4026543")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -11515,7 +11515,7 @@
 			(uuid "4193040d-fdbc-483a-bb11-38c1ca4e74fc")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -11713,7 +11713,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6ecd5e1f-3efd-40dc-8d7b-4aa4128ad664")
-		(at 188.69 94.46)
+		(at 157.00 102.50)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -11887,11 +11887,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "70119307-cad1-4523-b204-cd7c727150b8")
-		(at 128.48 115.91 180)
+		(at 157.00 103.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R50"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "d08c4a88-e827-482b-9a84-2072106fe167")
 			(effects
@@ -11902,7 +11902,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "80ba2517-7261-4eae-9179-1f6446b45c18")
 			(effects
@@ -11913,7 +11913,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47672b11-6251-4e78-ba10-68fd8e12a8d3")
@@ -11925,7 +11925,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7fe2b97-288f-483d-b51d-1dc956c4525e")
@@ -11937,7 +11937,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11950,7 +11950,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11963,7 +11963,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12003,7 +12003,7 @@
 			(uuid "7d596259-5f6d-40ac-922b-0bf78fde0fc2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "7c8065fb-247b-4c12-8da0-dc4fff80968e")
 			(effects
@@ -12014,21 +12014,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "64559ef8-ce5d-4a7f-b219-bc0d21e5a5ae")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "eb2d8026-6bd0-49a6-af74-f0bfb6e17629")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -12037,7 +12037,7 @@
 			(uuid "ddd901d9-6620-4246-a884-186f18b9f6aa")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -12235,7 +12235,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "7dd4eb39-63ff-4166-a21a-0eddab621118")
-		(at 191.14 96.21)
+		(at 170.40 114.80)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R26"
@@ -12611,11 +12611,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "81d6c9d8-3a29-408b-a1e5-621977537e0b")
-		(at 115.585 111.215 90)
+		(at 157.00 88.50)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R44"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "893bd525-1b05-40cf-9964-f73ab99e1d4f")
 			(effects
@@ -12626,7 +12626,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "994c24c3-0bf5-4e45-bd95-a2d38d2a2cde")
 			(effects
@@ -12637,7 +12637,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ba134db-31cd-4c0a-bcdc-6d18fca5ff03")
@@ -12649,7 +12649,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "345b75b4-a847-45da-8f42-b605a3804d10")
@@ -12661,7 +12661,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12674,7 +12674,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12687,7 +12687,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12727,7 +12727,7 @@
 			(uuid "c4e9558b-ada2-42ed-a08e-73f189d4779c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "a83c8262-1520-4372-a21a-4aa1aef8eb60")
 			(effects
@@ -12738,21 +12738,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "6c30e765-5cad-4d72-92d1-2652474ecaa5")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "1766954a-ad36-4c22-bf33-b4aecab88b18")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -12761,7 +12761,7 @@
 			(uuid "5d244be6-a52e-4a5b-b409-b988597084c6")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -12965,7 +12965,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8280033d-3e58-442d-9531-2b87fad93747")
-		(at 191.14 97.96)
+		(at 170.40 118.40)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R27"
@@ -13139,7 +13139,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "851d9c3b-2436-4903-9596-20370b28e3cd")
-		(at 193.59 87.46)
+		(at 170.40 94.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -13487,7 +13487,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8a8daee9-fdc7-4b54-adcc-9c4fdbe12e28")
-		(at 196.04 97.96)
+		(at 170.40 123.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R68"
@@ -13661,7 +13661,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8b755da5-2543-47ce-8744-c65588b9067c")
-		(at 186.24 101.46)
+		(at 157.00 83.00)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -14009,7 +14009,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8dd347c8-2d07-4701-8186-00b11d61098a")
-		(at 193.59 99.71)
+		(at 157.00 114.20)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R60"
@@ -14357,7 +14357,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "924d2db5-4edc-48dc-80c2-e3f1dcd052a0")
-		(at 196.04 92.71)
+		(at 170.40 102.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R65"
@@ -14531,7 +14531,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "983ba5f5-22ac-48ce-84e2-697f13c07dde")
-		(at 196.04 90.96)
+		(at 170.40 112.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R64"
@@ -16357,11 +16357,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "9b4428fc-db21-48d4-8cee-8a358e2187f5")
-		(at 115.585 113.445 90)
+		(at 157.00 91.80)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R45"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "7cc8fa9a-1a5e-4cb1-8646-0451da52c87e")
 			(effects
@@ -16372,7 +16372,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "f1939ae9-6740-4342-995e-292d739f6cfd")
 			(effects
@@ -16383,7 +16383,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2164f224-67c5-4b3f-9b7b-db6d4994c22c")
@@ -16395,7 +16395,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cee17051-6ae6-459f-ad12-c81435bfaeb9")
@@ -16407,7 +16407,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16420,7 +16420,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16433,7 +16433,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16473,7 +16473,7 @@
 			(uuid "f0608b35-04b1-4e85-a2d2-a1aeff5f5848")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "8034c40c-d042-4523-885d-9ddb3fe5b2c6")
 			(effects
@@ -16484,21 +16484,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "67cccc20-37d5-458b-8017-6bd12f7f62bc")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "1bccf3b8-fb9d-46ae-8e66-70c9ff929d6d")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16507,7 +16507,7 @@
 			(uuid "afed3d60-e459-47b0-aabd-b7fcf818fb2d")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16531,7 +16531,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "9b72c405-06a6-4666-a985-edf56b6358bb")
-		(at 193.59 89.21)
+		(at 170.40 90.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R31"
@@ -16705,7 +16705,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "9b9f3088-63e4-4af1-a98e-e64dd8c68153")
-		(at 188.69 97.96)
+		(at 157.00 99.20)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -18223,11 +18223,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a65b74fa-5e23-4d39-9320-2c84e409a8f2")
-		(at 115.615 106.705 90)
+		(at 157.00 90.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R42"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "882e1b63-2afb-440e-a6e3-a6c5196b3b34")
 			(effects
@@ -18238,7 +18238,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "2e25c3b4-4990-47c1-8a53-d5c16302ea9c")
 			(effects
@@ -18249,7 +18249,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "856c88b2-8b75-4a78-8666-6df0a6aa8a3e")
@@ -18261,7 +18261,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "688c4abc-b994-4534-91cb-d4eef2f00391")
@@ -18273,7 +18273,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18286,7 +18286,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18299,7 +18299,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18339,7 +18339,7 @@
 			(uuid "b8e9d634-0175-4fac-9606-27c8c9f01a88")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "d87753fe-7ca3-49a9-8a5f-3c9084237115")
 			(effects
@@ -18350,21 +18350,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "38b59b00-b8d7-45d8-b393-261d2aad1caa")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "e1885a09-2bb2-493f-b02c-f0b2575aed24")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18373,7 +18373,7 @@
 			(uuid "3345e2b6-4172-4880-b243-764d00778c64")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18397,11 +18397,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a94b7469-8202-4090-b546-ef69f1350d24")
-		(at 115.585 77.955 90)
+		(at 157.53 77.19)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R34"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "026a32d0-11ed-4e06-9177-4d76734760ea")
 			(effects
@@ -18412,7 +18412,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "39e4ab50-84e4-4b3c-875b-fef63cdb1753")
 			(effects
@@ -18423,7 +18423,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97159bc6-2ad0-4f14-8854-2983ce1adf63")
@@ -18435,7 +18435,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1f5e4b6-1708-4e30-8730-f58b98db5df6")
@@ -18447,7 +18447,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18460,7 +18460,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18473,7 +18473,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18513,7 +18513,7 @@
 			(uuid "b28ce863-790d-44b6-8cba-b5b63fce70a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "887bfeaf-f099-4f1e-9376-112bf7595ddf")
 			(effects
@@ -18524,21 +18524,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "dc75f508-43a7-4f97-b740-a53d5b8f30c5")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "9a2af162-475a-47d4-a183-df20c0e46be4")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18547,7 +18547,7 @@
 			(uuid "3d2438e2-b670-445f-a4dd-872280d57ecd")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18571,7 +18571,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a9853d58-218d-434d-8af1-2ff4efecd1d5")
-		(at 196.04 99.71)
+		(at 170.40 120.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R69"
@@ -19722,7 +19722,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b6605b45-3ba1-4543-abe5-47d8f1a90c70")
-		(at 196.04 89.21)
+		(at 157.00 123.00)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R63"
@@ -19896,11 +19896,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b77c666a-e69f-450f-aacd-df442c8ad75b")
-		(at 115.585 116.03 90)
+		(at 157.00 94.80)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R46"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "3879f960-2f0f-4c52-adeb-8f7443fbeb33")
 			(effects
@@ -19911,7 +19911,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "bb4716f8-786a-44f3-9db2-84a7899d19ac")
 			(effects
@@ -19922,7 +19922,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25ac7d92-1404-40a0-95ac-9dea39c1aecc")
@@ -19934,7 +19934,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d882164a-87cc-4260-96c1-d2873cb0b098")
@@ -19946,7 +19946,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19959,7 +19959,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19972,7 +19972,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20012,7 +20012,7 @@
 			(uuid "2467fb5a-bbe2-4412-8039-735dc33d3ac3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "568e330b-9180-4b09-b519-ce61effab13c")
 			(effects
@@ -20023,21 +20023,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "1e99dbd7-e157-4565-a072-c5757d24238a")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "4f3ab149-d3d1-4c88-a804-8983ffa14bde")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20046,7 +20046,7 @@
 			(uuid "d0c70147-233a-4dcb-ad57-a8b044f5e693")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -21126,7 +21126,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c4ec9a6f-4e0c-457b-93cb-6ae87e2356ec")
-		(at 196.04 96.21)
+		(at 170.40 122.80)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R67"
@@ -21300,7 +21300,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c79c01bc-7086-4219-898f-3b6a796e9742")
-		(at 196.04 101.46)
+		(at 170.40 115.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R70"
@@ -21654,7 +21654,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c8ec0110-78cc-42c1-a5c3-35ad560c1ba7")
-		(at 198.49 94.46)
+		(at 170.40 107.10)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R75"
@@ -22008,7 +22008,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "ca947791-1d13-483f-8eb5-dd4f6fdd273b")
-		(at 115.93 121.34)
+		(at 157.00 98.10)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R47"
@@ -22182,11 +22182,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "cd37ab58-cf38-4ec3-9aa3-c28422f0892c")
-		(at 115.595 93.01 90)
+		(at 157.00 81.30)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R38"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "70431fa9-b760-40c9-885f-e195a05d8b87")
 			(effects
@@ -22197,7 +22197,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "65f5bcc4-08bc-4324-ab1f-632c377a32f4")
 			(effects
@@ -22208,7 +22208,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d14a2988-87b5-4afb-8088-88ba3af5533b")
@@ -22220,7 +22220,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ebbce6dd-2ef1-49fc-8a92-350e66747d0a")
@@ -22232,7 +22232,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22245,7 +22245,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22258,7 +22258,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22298,7 +22298,7 @@
 			(uuid "87c20cc4-284f-4116-a8a1-969a3018c663")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "9886f061-3f79-4d35-a1ba-2c333fae65ff")
 			(effects
@@ -22309,21 +22309,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "c4dcca88-62c4-413f-b49a-d1d0edaf4c4f")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "ea75463d-04cb-4761-87f2-33a2d71f666a")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -22332,7 +22332,7 @@
 			(uuid "0bdbf52b-c5bc-48df-9eb9-ee3ba3526e64")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -22356,7 +22356,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d026cff1-4425-47f5-a0c4-cfa7aae3d4f6")
-		(at 191.14 94.46)
+		(at 170.40 96.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -22530,7 +22530,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d0db00d9-a4c5-49a7-8db3-518514626ec5")
-		(at 196.04 87.46)
+		(at 157.00 119.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R62"
@@ -22704,7 +22704,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d4b1aa63-d1bd-4a83-9aa4-941e105934f2")
-		(at 186.24 90.96)
+		(at 157.00 93.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -23411,7 +23411,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "df8f93be-4d5f-425d-a940-e7ae3642312a")
-		(at 193.59 92.71)
+		(at 157.00 121.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R56"
@@ -23585,7 +23585,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e07a2f49-9dbf-457e-a3b9-cf89b7b94c51")
-		(at 188.69 101.46)
+		(at 170.40 104.90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -24163,11 +24163,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e5c6455f-7351-4acf-9122-a00c1905120e")
-		(at 128.52 114.11 180)
+		(at 157.00 101.40)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R52"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "defa581a-d8b8-4b9f-916f-cb5b44f7039b")
 			(effects
@@ -24178,7 +24178,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "29f7ba6b-ed8b-4d67-8c9a-bc6ac373db29")
 			(effects
@@ -24189,7 +24189,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2521a7c1-eb62-45b8-b9a8-e50573e9fa15")
@@ -24201,7 +24201,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3df6875-8d4d-4275-b53d-5c137fb3b0e4")
@@ -24213,7 +24213,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24226,7 +24226,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24239,7 +24239,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -24279,7 +24279,7 @@
 			(uuid "f1a83590-95a5-41da-ab26-f9ca9206c166")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "ee073dd6-9d2a-4f24-98aa-8c8dee313ddc")
 			(effects
@@ -24290,21 +24290,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "d2504415-23cf-4461-952e-593cee2dd8aa")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "7ac99ff2-df87-42ca-a2aa-db4d819cbdb1")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -24313,7 +24313,7 @@
 			(uuid "7f1b155b-b48a-433d-9795-88dde93289e9")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -24337,7 +24337,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e66fc3e4-297e-40c6-8487-aa6b50f80157")
-		(at 193.59 101.46)
+		(at 157.00 117.50)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R61"
@@ -24691,7 +24691,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f03b212a-18e2-492d-96e3-fd8b34dfe46b")
-		(at 198.49 89.21)
+		(at 170.40 109.30)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R72"
@@ -25045,7 +25045,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f4313d5e-b0cb-4083-b780-1dbc6113e193")
-		(at 188.69 99.71)
+		(at 170.40 101.60)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -25219,7 +25219,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f54500d7-032a-4313-9952-900dc06ef4f5")
-		(at 188.69 87.46)
+		(at 157.00 108.70)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -25747,11 +25747,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "fed477dd-00d6-4189-9110-2fd873f3aa77")
-		(at 115.585 100.63 90)
+		(at 170.40 100.10)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R41"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "af3758ac-261b-458c-86ab-71b67e6bfdd0")
 			(effects
@@ -25762,7 +25762,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "15d038bb-ce1c-436d-8a75-08d042b21ee8")
 			(effects
@@ -25773,7 +25773,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6473990f-5af9-4e3a-8bcd-616cd4e660da")
@@ -25785,7 +25785,7 @@
 			)
 		)
 		(property "Description" "1 kohm +/-1% 1/20 W 0201 Pico control series resistor, Yageo RC0201FR-071KL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84d5f18e-fbf4-4d5b-95d3-475b5b68658a")
@@ -25797,7 +25797,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-071KL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25810,7 +25810,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25823,7 +25823,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25863,7 +25863,7 @@
 			(uuid "75d42653-4126-4e20-a4fa-cf076b6f9501")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "09b8d728-8da4-46d0-9bcc-071caf75d5a1")
 			(effects
@@ -25874,21 +25874,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "19ddbc75-5153-405d-be6b-65eb5607fbb3")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "638859b2-109d-47ed-95d4-8d4d93ef8836")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -25897,7 +25897,7 @@
 			(uuid "a6a871cf-fcfd-4a9d-949a-5e6b9f53860c")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
