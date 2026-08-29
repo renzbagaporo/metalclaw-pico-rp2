@@ -6024,11 +6024,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "50645dc5-ebfa-46dc-8df5-c4e7f218a544")
-		(at 159.5 91.9 -90)
+		(at 166.66 91.72)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "848c97b6-9e5c-48f8-b3ef-72f54c278fa6")
 			(effects
@@ -6039,7 +6039,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "cfe9b813-d0df-4693-8b13-3734386f1fdd")
 			(effects
@@ -6050,7 +6050,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ede5aab2-517f-4fbb-a522-6eeae49241e7")
@@ -6062,7 +6062,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "868b443c-b6bb-44d5-91de-8e051d3f31d2")
@@ -6074,7 +6074,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6087,7 +6087,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6100,7 +6100,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6140,7 +6140,7 @@
 			(uuid "d174d11f-61c2-4f08-8d39-11916693c254")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "da5a8cf0-35a7-4615-9a23-ab920a9084ac")
 			(effects
@@ -6151,21 +6151,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "ffba5f05-70e9-48c7-a996-e50e5d7a56eb")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "8d46cbf0-b3a7-4330-9265-9bc2875ea99a")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -6174,7 +6174,7 @@
 			(uuid "f70bcbaa-0159-49f3-b41d-404f19d443a9")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14183,11 +14183,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "916d5cb1-70eb-4def-9ed4-9178479e2d3d")
-		(at 165.7 91.9 -90)
+		(at 166.66 85.52)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R81"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "0c15c334-bf7f-4918-8037-c402dddd480a")
 			(effects
@@ -14198,7 +14198,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "59255267-d5fb-4bdd-84f3-e4c5640be500")
 			(effects
@@ -14209,7 +14209,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89685264-1b8b-40aa-a1b3-446c369c64dd")
@@ -14221,7 +14221,7 @@
 			)
 		)
 		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55f153c6-c000-49d5-90c0-dd11e41de638")
@@ -14233,7 +14233,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-0727RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14246,7 +14246,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14259,7 +14259,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14299,7 +14299,7 @@
 			(uuid "135bc3f2-dfb4-42e0-a86f-3b8fe249e8cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "780133f1-512f-421d-b967-e6cba6674f3e")
 			(effects
@@ -14310,21 +14310,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "e150c6c3-23fe-41bb-9b1f-0a5add33d4d1")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "8b484f28-c973-4548-b5bf-0d617da2d09e")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14333,7 +14333,7 @@
 			(uuid "d80e42d4-4b66-4539-9387-2e4e2cfef3c4")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16003,11 +16003,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "992f07df-59a0-4df9-befd-7d2a3de6eb73")
-		(at 161.52 91.9 -90)
+		(at 166.66 89.7)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C28"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "aa3abc72-2582-42a5-bf06-106a9ab8956f")
 			(effects
@@ -16018,7 +16018,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "509cbe9c-1ff8-4499-8da4-113269431735")
 			(effects
@@ -16029,7 +16029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef303d1d-0331-4175-97a9-6c2712374d08")
@@ -16041,7 +16041,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e13b7ac6-b17b-48e9-958e-d5daa33577ef")
@@ -16053,7 +16053,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16066,7 +16066,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16079,7 +16079,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16119,7 +16119,7 @@
 			(uuid "b98d9c61-e7be-46bc-b063-bd17aadadde9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "5086f73c-62f2-419f-98b9-52574b682b9e")
 			(effects
@@ -16130,21 +16130,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "8dda5b74-51b5-4a36-b234-bcd798f19575")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "b91f9d2f-9064-4b01-9cdd-ce0c7d364184")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16153,7 +16153,7 @@
 			(uuid "eb917027-83e0-4814-9997-49316ac952b9")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20070,11 +20070,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b7ad9d73-81c2-442e-a563-a9ab6714b4e4")
-		(at 164.5 91.9 -90)
+		(at 166.66 86.72)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R82"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "74e6390a-3eba-405b-bf61-1b8674db8324")
 			(effects
@@ -20085,7 +20085,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "f1b6416c-bdba-49e3-92e8-63e2d4481e3c")
 			(effects
@@ -20096,7 +20096,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7fd7bc5-046e-44f4-ae36-750ee168ed5a")
@@ -20108,7 +20108,7 @@
 			)
 		)
 		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "974bd348-3cee-411f-8d45-3843ec0832d1")
@@ -20120,7 +20120,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-0727RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20133,7 +20133,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20146,7 +20146,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20186,7 +20186,7 @@
 			(uuid "b29970f7-238a-498d-b1bf-6b36c46badb0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "8025ed63-74ae-4b6b-87b3-5d6dddd14aa1")
 			(effects
@@ -20197,21 +20197,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "c19193ae-8c9a-4fcd-88fc-4799fa3b5130")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "ddcd4571-8888-462b-b63c-22ea8beaa19a")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20220,7 +20220,7 @@
 			(uuid "e59b0dce-0161-432c-a9c9-ecbc2c7932d9")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23759,7 +23759,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "e1c72692-4724-4b4c-93c6-a565ce78be9a")
-		(at 163.5 88.25)
+		(at 162.04 89.42)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
@@ -25393,11 +25393,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f7023175-90f4-4bd6-8b5b-6d30688ba955")
-		(at 163.3 91.9 -90)
+		(at 166.66 87.92)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C27"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "45162b90-0b61-4f96-8b9e-9f291f13812a")
 			(effects
@@ -25408,7 +25408,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "0adeb773-5b59-40eb-b35b-e6567d82801c")
 			(effects
@@ -25419,7 +25419,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7fc620c-6c10-4872-adac-e5134280f6ae")
@@ -25431,7 +25431,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdef59e7-6754-4800-a948-f36316713efc")
@@ -25443,7 +25443,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25456,7 +25456,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25469,7 +25469,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25509,7 +25509,7 @@
 			(uuid "26f34516-bb83-418d-8539-25d4c97bc8b2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "97808f34-0626-404c-95ae-aeec68d0f8f2")
 			(effects
@@ -25520,21 +25520,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "02eef1c6-c533-4073-96f6-68d615fbc4e1")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "bf1ef8ca-da2c-4378-8cf7-2493c2e4a522")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -25543,7 +25543,7 @@
 			(uuid "739787a1-d124-4a91-aaa1-8cad728dcdbd")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
