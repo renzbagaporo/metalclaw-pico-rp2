@@ -6913,6 +6913,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 120.65) (xy 349.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd84611-d6a8-46d6-83b2-229a053fb40b")
+	)
+	(wire
+		(pts
 			(xy 69.85 134.62) (xy 73.66 134.62)
 		)
 		(stroke
@@ -8733,6 +8743,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 123.19) (xy 331.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df25202-24e7-40b9-a752-dd0da0efe0f2")
+	)
+	(wire
+		(pts
 			(xy 147.32 162.56) (xy 170.18 162.56)
 		)
 		(stroke
@@ -9100,16 +9120,6 @@
 			(type default)
 		)
 		(uuid "7debbc16-0f96-46a6-9059-4bf098d563bb")
-	)
-	(wire
-		(pts
-			(xy 351.79 123.19) (xy 321.31 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e512198-e03c-4bb7-bbff-738a2a5095db")
 	)
 	(wire
 		(pts
@@ -9740,6 +9750,16 @@
 			(type default)
 		)
 		(uuid "9e57a2fd-a89d-4886-b23f-ace570538cf8")
+	)
+	(wire
+		(pts
+			(xy 321.31 120.65) (xy 331.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e67b757-b374-4a41-b456-871ebf127826")
 	)
 	(wire
 		(pts
@@ -11063,16 +11083,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 120.65) (xy 321.31 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7583d83-19be-449c-a51e-849ce0b21783")
-	)
-	(wire
-		(pts
 			(xy 257.81 107.95) (xy 257.81 105.41)
 		)
 		(stroke
@@ -11610,6 +11620,16 @@
 			(type default)
 		)
 		(uuid "feadb903-0600-4883-b7fc-969847a58611")
+	)
+	(wire
+		(pts
+			(xy 339.09 123.19) (xy 351.79 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff31a14d-3db0-4d8f-ba96-7872c560826b")
 	)
 	(wire
 		(pts
@@ -15475,6 +15495,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 335.28 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ee9156e-6b08-4f4b-a083-41c9ebe3fc3a")
+		(property "Reference" "R82"
+			(at 333.502 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 333.248 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 335.026 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 335.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW02015K10FEDAT "
+			(at 335.28 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ded6fb56-8944-42e2-9862-46cdba749039")
+		)
+		(pin "1"
+			(uuid "f6f1663b-bf29-4d02-b26a-7280a204da74")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 365.76 182.88 90)
 		(unit 1)
@@ -18007,6 +18107,86 @@
 			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 335.28 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6939dc6e-d151-40c6-8385-6bb21ff674b2")
+		(property "Reference" "R81"
+			(at 333.502 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 333.248 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 335.026 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 335.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW02015K10FEDAT "
+			(at 335.28 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c29a64f-d8c5-4735-a059-9442fc675e50")
+		)
+		(pin "1"
+			(uuid "4ec11288-abe8-4b30-b1ee-9344ac8bb384")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "R81")
 					(unit 1)
 				)
 			)
