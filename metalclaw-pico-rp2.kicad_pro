@@ -619,6 +619,36 @@
           "label": "KLC_S4.2_VREG_LX",
           "name": "KLC_S4.2_VREG_LX",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint Note",
+          "name": "Footprint Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pico 2 Datasheet",
+          "name": "Pico 2 Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Assembly Option",
+          "name": "Assembly Option",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",

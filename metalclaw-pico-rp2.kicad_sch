@@ -5704,131 +5704,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VS"
 			(power)
 			(pin_numbers
@@ -6004,7 +5879,7 @@
 		(uuid "136dc6f8-6d5e-4c15-97a0-84cef44b5d38")
 	)
 	(junction
-		(at 209.55 86.36)
+		(at 190.5 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13d49de2-5db8-4c3b-8efe-6733a592683e")
@@ -6058,10 +5933,16 @@
 		(uuid "2161f7ee-e8a9-4dc1-90a6-7e76a2936dad")
 	)
 	(junction
-		(at 356.87 165.1)
+		(at 203.2 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2730d60d-7dfc-48a3-b0b9-b5e5b063d3a4")
+		(uuid "2703d6d2-1d72-43df-a1f9-43667a26bf45")
+	)
+	(junction
+		(at 356.87 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6e780e-95bb-4b9c-a60c-b902d303eff8")
 	)
 	(junction
 		(at 77.47 160.02)
@@ -6094,13 +5975,13 @@
 		(uuid "300ad1c4-a178-4e9d-b2a2-238e0791bbc0")
 	)
 	(junction
-		(at 128.27 69.85)
+		(at 123.19 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31fac103-db48-41eb-99e5-4b9b9e972cb7")
 	)
 	(junction
-		(at 154.94 69.85)
+		(at 149.86 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33cbed4b-d310-402c-ba73-30328384fa41")
@@ -6232,7 +6113,7 @@
 		(uuid "5338d027-e77e-4e86-b342-db731d8f7224")
 	)
 	(junction
-		(at 196.85 86.36)
+		(at 177.8 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56506209-ff14-427c-8959-aed35261d8f1")
@@ -6262,7 +6143,7 @@
 		(uuid "678ac098-73d9-4a12-a1f0-9dcc297b84cb")
 	)
 	(junction
-		(at 215.9 86.36)
+		(at 196.85 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69b3f9a2-4cb5-459c-9e0a-a4af80eb72ac")
@@ -6352,12 +6233,6 @@
 		(uuid "91e5278d-e457-41a0-bb3c-fa01584c5d2c")
 	)
 	(junction
-		(at 328.93 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91fbf96d-6b0b-40b7-b67a-75f5d4f9ac03")
-	)
-	(junction
 		(at 257.81 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6394,6 +6269,18 @@
 		(uuid "9a59ba6a-6e67-4097-a63f-c5e01d6e9da6")
 	)
 	(junction
+		(at 222.25 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dc28185-c8c9-4fde-ad90-323cfe3134e3")
+	)
+	(junction
+		(at 215.9 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e67d27f-048c-46be-bb04-87fcf07ac61b")
+	)
+	(junction
 		(at 283.21 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6418,10 +6305,10 @@
 		(uuid "ab99569e-134a-4e4c-a1ca-d112cea6cd82")
 	)
 	(junction
-		(at 328.93 151.13)
+		(at 339.09 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abd08930-45d4-40af-a2ec-54ce29489b9d")
+		(uuid "aeac00c5-e2ef-41ac-9809-6f873e5c987a")
 	)
 	(junction
 		(at 370.84 152.4)
@@ -6430,13 +6317,25 @@
 		(uuid "b1e849ee-8bac-47bd-a0c7-4392ded32460")
 	)
 	(junction
+		(at 339.09 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a6e1f6-f8d8-46da-b35e-40f909a7fe09")
+	)
+	(junction
+		(at 209.55 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b700cea2-f402-49a0-a8e5-1df8c81f2394")
+	)
+	(junction
 		(at 298.45 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b814933a-9097-42b3-ba0d-d805cbd2b482")
 	)
 	(junction
-		(at 154.94 90.17)
+		(at 149.86 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b84ac71c-2cd4-4e7d-965c-41f2f740e430")
@@ -6448,7 +6347,7 @@
 		(uuid "b87d7c85-9cbd-440f-9671-fea1d00546b5")
 	)
 	(junction
-		(at 196.85 52.07)
+		(at 177.8 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9fba8af-aba8-4e79-afb0-4bfdb950605e")
@@ -6460,7 +6359,13 @@
 		(uuid "bc191ac8-f10a-4212-8502-f7f81616870f")
 	)
 	(junction
-		(at 166.37 69.85)
+		(at 209.55 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc98a0c9-99c0-414e-a5f8-dcaa4eb84c13")
+	)
+	(junction
+		(at 161.29 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde2884f-cbc2-4fe7-9465-fdf1869882d3")
@@ -6484,7 +6389,7 @@
 		(uuid "c400c309-3058-4c8a-97b7-681183f81225")
 	)
 	(junction
-		(at 203.2 86.36)
+		(at 184.15 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c44aff96-e869-4c07-ab62-36e7e1394a8c")
@@ -6566,6 +6471,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d92103c4-0d2d-49f8-9fcc-32780e28bc05")
+	)
+	(junction
+		(at 215.9 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d99b6789-8a59-4cac-9a8a-d2b3682f90ec")
 	)
 	(junction
 		(at 295.91 207.01)
@@ -6700,16 +6611,10 @@
 		(uuid "f78b7ce9-99cc-4ebd-b5d2-5f647bb61c0e")
 	)
 	(junction
-		(at 335.28 73.66)
+		(at 334.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9a4340c-a431-4c79-8f5b-f6111637952e")
-	)
-	(junction
-		(at 353.06 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb5abf9c-48c5-4fe6-99e2-95c52b9e964f")
 	)
 	(junction
 		(at 313.69 52.07)
@@ -6775,7 +6680,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 69.85) (xy 166.37 77.47)
+			(xy 161.29 78.74) (xy 161.29 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6905,6 +6810,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 66.04) (xy 209.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c752d3d-6f33-4e21-8360-5e252fb0ba65")
+	)
+	(wire
+		(pts
 			(xy 270.51 128.27) (xy 267.97 128.27)
 		)
 		(stroke
@@ -6995,7 +6910,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 152.4) (xy 328.93 151.13)
+			(xy 339.09 152.4) (xy 339.09 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7025,7 +6940,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 128.27 91.44)
+			(xy 123.19 101.6) (xy 123.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7095,7 +7010,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 154.94 86.36)
+			(xy 149.86 99.06) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7345,7 +7260,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 49.53) (xy 196.85 52.07)
+			(xy 177.8 49.53) (xy 177.8 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7405,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 52.07) (xy 313.69 52.07)
+			(xy 177.8 52.07) (xy 313.69 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7465,7 +7380,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 67.31) (xy 128.27 69.85)
+			(xy 123.19 76.2) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7505,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 203.2 86.36)
+			(xy 177.8 86.36) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7515,13 +7430,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 67.31) (xy 154.94 69.85)
+			(xy 149.86 76.2) (xy 149.86 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ec04c91-68a6-41fd-8fa6-89860c434147")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 222.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3024099f-4279-4557-9c26-29440260d9c3")
 	)
 	(wire
 		(pts
@@ -7545,7 +7470,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 85.09) (xy 166.37 90.17)
+			(xy 161.29 93.98) (xy 161.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7592,6 +7517,16 @@
 			(type default)
 		)
 		(uuid "321b7453-5d9d-4a22-a9f6-1f9e852aa10e")
+	)
+	(wire
+		(pts
+			(xy 332.74 146.05) (xy 356.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322eefc2-9d3a-46c2-9b5d-c9b8e121ad23")
 	)
 	(wire
 		(pts
@@ -7665,7 +7600,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 196.85 88.9)
+			(xy 177.8 86.36) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7702,16 +7637,6 @@
 			(type default)
 		)
 		(uuid "36799caf-f5cf-4bf4-8526-518edf9f944a")
-	)
-	(wire
-		(pts
-			(xy 353.06 71.12) (xy 353.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369c04a4-0c0b-447d-a946-7ef6ae30e463")
 	)
 	(wire
 		(pts
@@ -7765,13 +7690,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 196.85 82.55)
+			(xy 177.8 86.36) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b2e712d-fa1d-4eec-8440-eb5ff5693556")
+	)
+	(wire
+		(pts
+			(xy 215.9 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b945d68-403d-4986-9621-887ced4f69ee")
 	)
 	(wire
 		(pts
@@ -7815,7 +7750,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 154.94 76.2)
+			(xy 149.86 78.74) (xy 149.86 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7832,6 +7767,16 @@
 			(type default)
 		)
 		(uuid "41b6eb59-ba3b-4529-a298-45cc0d46656c")
+	)
+	(wire
+		(pts
+			(xy 209.55 82.55) (xy 209.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439766a2-6e2f-417d-8d76-252b7d508e7c")
 	)
 	(wire
 		(pts
@@ -7935,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 58.42) (xy 154.94 59.69)
+			(xy 149.86 67.31) (xy 149.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7945,7 +7890,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 161.29) (xy 347.98 161.29)
+			(xy 356.87 161.29) (xy 351.79 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8185,7 +8130,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 86.36) (xy 222.25 86.36)
+			(xy 196.85 86.36) (xy 203.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8205,7 +8150,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 54.61) (xy 203.2 74.93)
+			(xy 184.15 54.61) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8225,7 +8170,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 160.02) (xy 328.93 161.29)
+			(xy 339.09 160.02) (xy 339.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8345,7 +8290,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 58.42) (xy 128.27 59.69)
+			(xy 123.19 67.31) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8605,7 +8550,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 86.36) (xy 215.9 86.36)
+			(xy 190.5 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8705,16 +8650,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 156.21) (xy 322.58 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a43e564-1cf8-4b25-bd83-b631bd4417eb")
-	)
-	(wire
-		(pts
 			(xy 69.85 149.86) (xy 69.85 165.1)
 		)
 		(stroke
@@ -8722,16 +8657,6 @@
 			(type default)
 		)
 		(uuid "6a4544d6-ba43-4849-b5bf-c8552e680d6a")
-	)
-	(wire
-		(pts
-			(xy 353.06 73.66) (xy 355.6 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6adfb42a-b5fc-4b00-b1ea-779b606c3231")
 	)
 	(wire
 		(pts
@@ -8995,7 +8920,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 165.1) (xy 356.87 165.1)
+			(xy 363.22 161.29) (xy 356.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9075,23 +9000,23 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 58.42) (xy 209.55 58.42)
+			(xy 332.74 156.21) (xy 332.74 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2adbff-ae4f-4a66-a1c2-6e4f75b9659b")
+	)
+	(wire
+		(pts
+			(xy 293.37 58.42) (xy 190.5 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c75910a-d56a-4e4a-865a-702fbd899485")
-	)
-	(wire
-		(pts
-			(xy 328.93 161.29) (xy 321.31 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d116a0b-cbf5-4551-a03e-41dc048aecd7")
 	)
 	(wire
 		(pts
@@ -9145,13 +9070,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 82.55) (xy 209.55 86.36)
+			(xy 190.5 82.55) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e6e6d12-0cd1-4846-8f05-661a990957fd")
+	)
+	(wire
+		(pts
+			(xy 321.31 161.29) (xy 325.12 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edf861e-d98c-43c4-847e-6c6f247d7746")
 	)
 	(wire
 		(pts
@@ -9185,16 +9120,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 76.2) (xy 353.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807ea95e-6b85-4513-8de2-c4db5f5d4da0")
-	)
-	(wire
-		(pts
 			(xy 152.4 210.82) (xy 152.4 187.96)
 		)
 		(stroke
@@ -9215,6 +9140,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 161.29) (xy 339.09 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81deec25-152e-4202-911c-7ebacaf87053")
+	)
+	(wire
+		(pts
 			(xy 81.28 157.48) (xy 101.6 157.48)
 		)
 		(stroke
@@ -9232,6 +9167,16 @@
 			(type default)
 		)
 		(uuid "82168e6d-0efd-4fdd-b538-913088c625db")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 215.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ef7dbf-5762-4800-b575-9228b7f774ad")
 	)
 	(wire
 		(pts
@@ -9265,7 +9210,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 80.01) (xy 128.27 81.28)
+			(xy 123.19 88.9) (xy 123.19 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9295,7 +9240,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 60.96) (xy 290.83 60.96)
+			(xy 196.85 60.96) (xy 290.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9345,7 +9290,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 52.07) (xy 196.85 74.93)
+			(xy 177.8 52.07) (xy 177.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9465,7 +9410,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 71.12) (xy 335.28 73.66)
+			(xy 334.01 71.12) (xy 334.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9505,7 +9450,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 161.29) (xy 328.93 161.29)
+			(xy 344.17 161.29) (xy 339.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9575,7 +9520,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 54.61) (xy 203.2 54.61)
+			(xy 306.07 54.61) (xy 184.15 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9585,7 +9530,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 73.66) (xy 353.06 73.66)
+			(xy 347.98 73.66) (xy 355.6 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9625,7 +9570,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 166.37 69.85)
+			(xy 149.86 78.74) (xy 161.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9662,6 +9607,16 @@
 			(type default)
 		)
 		(uuid "97e2e808-9104-4226-9e40-dd5ac9529c0f")
+	)
+	(wire
+		(pts
+			(xy 356.87 146.05) (xy 356.87 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e64a9e-3e6e-4f4d-846a-1f4af13449ac")
 	)
 	(wire
 		(pts
@@ -9895,13 +9850,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 82.55) (xy 203.2 86.36)
+			(xy 184.15 82.55) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2f8232b-0820-4170-92f1-1aa215c1527a")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a312f78c-eab1-4357-ba41-26a3c82c41c2")
 	)
 	(wire
 		(pts
@@ -9915,7 +9880,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 151.13) (xy 328.93 151.13)
+			(xy 344.17 151.13) (xy 339.09 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10115,7 +10080,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 151.13) (xy 356.87 151.13)
+			(xy 351.79 151.13) (xy 356.87 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10145,6 +10110,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 86.36) (xy 209.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac83bbde-4c81-4f38-8b6d-f4f3cae20117")
+	)
+	(wire
+		(pts
 			(xy 260.35 158.75) (xy 252.73 158.75)
 		)
 		(stroke
@@ -10155,7 +10130,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 49.53) (xy 196.85 49.53)
+			(xy 279.4 49.53) (xy 177.8 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10205,7 +10180,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 74.93) (xy 215.9 60.96)
+			(xy 196.85 74.93) (xy 196.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10235,17 +10210,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 73.66) (xy 335.28 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02891fe-dd4c-4e71-be3e-3a71509b640c")
-	)
-	(wire
-		(pts
-			(xy 328.93 151.13) (xy 321.31 151.13)
+			(xy 321.31 151.13) (xy 339.09 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10265,13 +10230,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 69.85) (xy 175.26 69.85)
+			(xy 161.29 78.74) (xy 170.18 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b148dee2-b2bf-43ee-beb7-165bec0dacfa")
+	)
+	(wire
+		(pts
+			(xy 215.9 82.55) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1513cab-fcbe-4fea-9e87-5396bce9fffe")
 	)
 	(wire
 		(pts
@@ -10335,7 +10310,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 73.66) (xy 340.36 73.66)
+			(xy 334.01 73.66) (xy 340.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10362,6 +10337,16 @@
 			(type default)
 		)
 		(uuid "b8035ed9-e027-4d4d-99b6-94b729b5805c")
+	)
+	(wire
+		(pts
+			(xy 331.47 73.66) (xy 334.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b819a3af-1848-49bc-8567-2c5ff45d4cd6")
 	)
 	(wire
 		(pts
@@ -10585,7 +10570,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 154.94 90.17)
+			(xy 203.2 66.04) (xy 209.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c965c476-c9ae-450c-9e96-5e175d95a360")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 149.86 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10685,7 +10680,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 154.94 90.17)
+			(xy 203.2 82.55) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffd4c31-2bce-48c9-830e-cbb703d24544")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 149.86 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10785,7 +10790,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 69.85) (xy 128.27 72.39)
+			(xy 123.19 78.74) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10812,6 +10817,16 @@
 			(type default)
 		)
 		(uuid "d70a36b6-c8f9-4c86-a1a8-529b629ee844")
+	)
+	(wire
+		(pts
+			(xy 209.55 86.36) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7506b5d-31d6-4120-9316-003c643b6012")
 	)
 	(wire
 		(pts
@@ -10872,16 +10887,6 @@
 			(type default)
 		)
 		(uuid "da530681-ccf1-4809-8272-58d85b671743")
-	)
-	(wire
-		(pts
-			(xy 332.74 76.2) (xy 353.06 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da804dce-a227-442a-988a-b0bbf01c4ac3")
 	)
 	(wire
 		(pts
@@ -11365,16 +11370,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 165.1) (xy 356.87 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4267118-4503-4b3f-8e17-35f4ee1b0835")
-	)
-	(wire
-		(pts
 			(xy 252.73 118.11) (xy 245.11 118.11)
 		)
 		(stroke
@@ -11385,7 +11380,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 82.55) (xy 215.9 86.36)
+			(xy 196.85 82.55) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11445,7 +11440,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 69.85) (xy 137.16 69.85)
+			(xy 123.19 78.74) (xy 132.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11485,7 +11480,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 86.36) (xy 209.55 86.36)
+			(xy 184.15 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11515,17 +11510,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 165.1) (xy 356.87 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f912e11b-a3af-4893-beb4-3b41bc68a54d")
-	)
-	(wire
-		(pts
-			(xy 323.85 156.21) (xy 322.58 156.21)
+			(xy 334.01 156.21) (xy 332.74 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11565,7 +11550,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 209.55 74.93)
+			(xy 190.5 58.42) (xy 190.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11642,6 +11627,16 @@
 			(type default)
 		)
 		(uuid "fd1fe5b5-2ced-4f9c-a100-49ee76983e6f")
+	)
+	(wire
+		(pts
+			(xy 203.2 74.93) (xy 203.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe2d59ec-c1b8-4de6-8e59-40590bd2e828")
 	)
 	(wire
 		(pts
@@ -11984,7 +11979,7 @@
 		(uuid "86e3d1db-bb4d-4aeb-938e-d6d46c914b79")
 	)
 	(label "BOOTSEL"
-		(at 137.16 69.85 180)
+		(at 132.08 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12264,7 +12259,7 @@
 		(uuid "f04f3beb-e24b-482a-9d96-a100edad9756")
 	)
 	(label "RESET"
-		(at 175.26 69.85 180)
+		(at 170.18 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12381,7 +12376,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 328.93 156.21 270)
+		(at 339.09 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12389,16 +12384,7 @@
 		(dnp no)
 		(uuid "01eec64b-9bda-470a-99c2-b5b3173ef83f")
 		(property "Reference" "Y1"
-			(at 335.534 157.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ABM8-272-T3"
-			(at 332.994 155.194 90)
+			(at 332.994 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,8 +12392,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "ABM8-272-T3"
+			(at 335.28 157.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 328.93 156.21 0)
+			(at 339.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12416,7 +12411,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
-			(at 328.93 156.21 0)
+			(at 339.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,7 +12420,7 @@
 			)
 		)
 		(property "Description" "12 MHz +/-30 ppm 10 pF 50 ohm four-pad crystal, Abracon ABM8-272-T3"
-			(at 328.93 156.21 0)
+			(at 339.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +12429,7 @@
 			)
 		)
 		(property "Mouser" "815-ABM8-272-T3"
-			(at 328.93 156.21 90)
+			(at 339.09 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12443,7 +12438,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 328.93 156.21 90)
+			(at 339.09 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12452,7 +12447,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 328.93 156.21 90)
+			(at 339.09 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12680,7 +12675,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 128.27 63.5 0)
+		(at 123.19 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12688,7 +12683,7 @@
 		(dnp no)
 		(uuid "05b44958-33d1-4f99-b246-0857de470fbf")
 		(property "Reference" "R17"
-			(at 125.984 65.278 90)
+			(at 120.904 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12692,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 130.556 65.532 90)
+			(at 125.476 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12701,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 129.286 63.754 90)
+			(at 124.206 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +12710,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
-			(at 128.27 63.5 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,7 +12719,7 @@
 			)
 		)
 		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 carrier BOOTSEL pull-up, Yageo RC0402FR-075K1L"
-			(at 128.27 63.5 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,7 +12728,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0402FR-075K1L"
-			(at 128.27 63.5 90)
+			(at 123.19 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12742,7 +12737,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 128.27 63.5 90)
+			(at 123.19 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +12746,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 128.27 63.5 90)
+			(at 123.19 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +13964,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 128.27 58.42 0)
+		(at 123.19 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13978,7 +13973,7 @@
 		(fields_autoplaced yes)
 		(uuid "1453d9a5-6702-4e48-8d68-1039bc95a6b0")
 		(property "Reference" "#PWR08"
-			(at 128.27 62.23 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13987,7 +13982,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.27 53.34 0)
+			(at 123.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13995,7 +13990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 58.42 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14004,7 +13999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 58.42 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,7 +14008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 128.27 58.42 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14905,16 +14900,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 128.27 76.2 0)
+		(lib_id "Device:C")
+		(at 203.2 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "20bd5338-63d4-4287-8a5c-f6624f848a6b")
-		(property "Reference" "R80"
-			(at 125.984 77.978 90)
+		(uuid "2037b977-7ee5-4a23-a7dd-55c95e4c7d79")
+		(property "Reference" "C28"
+			(at 204.978 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14922,8 +14917,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 130.556 78.232 90)
+		(property "Value" "100n"
+			(at 204.978 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14931,8 +14926,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 129.286 76.454 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 202.2348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14940,8 +14935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
-			(at 128.27 76.2 0)
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+			(at 203.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,8 +14944,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kohm +/-1% 1/16 W 0402 carrier BOOTSEL switch-series resistor, Yageo RC0402FR-071KL"
-			(at 128.27 76.2 0)
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+			(at 203.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,8 +14953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0402FR-071KL"
-			(at 128.27 76.2 90)
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 203.2 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14968,7 +14963,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 128.27 76.2 90)
+			(at 203.2 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14977,7 +14972,103 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 128.27 76.2 90)
+			(at 203.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9f2b8d8-499c-406d-bfe7-0bbbbbf27fa9")
+		)
+		(pin "2"
+			(uuid "c08b8fa7-a4df-40f0-9102-1ca1b480ac55")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 123.19 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20bd5338-63d4-4287-8a5c-f6624f848a6b")
+		(property "Reference" "R80"
+			(at 120.904 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 125.476 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.206 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kohm +/-1% 1/16 W 0402 carrier BOOTSEL switch-series resistor, Yageo RC0402FR-071KL"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RC0402FR-071KL"
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 123.19 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 123.19 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,7 +15710,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 92.71 0)
+		(at 123.19 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15628,7 +15719,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d891d43-d35d-48a9-ba73-43a07b984e6e")
 		(property "Reference" "#PWR09"
-			(at 128.27 99.06 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15637,7 +15728,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 97.79 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15645,7 +15736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 92.71 0)
+			(at 123.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 92.71 0)
+			(at 123.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15663,7 +15754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 92.71 0)
+			(at 123.19 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,83 +16067,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 332.74 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b93db0d-913f-4ec7-8815-e74dfbdcbd9d")
-		(property "Reference" "#FLG04"
-			(at 330.835 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 328.93 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 332.74 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 332.74 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0db17f8c-5e4f-4963-a3c0-d4a7acf45f11")
-		)
-		(instances
-			(project "metalclaw-pico-rp2"
-				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 203.2 78.74 180)
+		(at 215.9 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c1f3f04-1ee5-4e29-8f3c-8be6b2afb8d8")
-		(property "Reference" "C12"
-			(at 204.724 80.772 90)
+		(uuid "341999b1-6101-4ce3-b4be-4ca90da589ee")
+		(property "Reference" "C3"
+			(at 217.678 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16060,8 +16084,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 204.978 73.66 90)
+		(property "Value" "100n"
+			(at 217.678 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16070,7 +16094,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 202.2348 74.93 0)
+			(at 214.9348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16078,8 +16102,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7S1A105K050BC"
-			(at 203.2 78.74 0)
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16087,8 +16111,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 uF +/-10% 10 V X7S 0402 carrier MCU decoupling capacitor, TDK C1005X7S1A105K050BC"
-			(at 203.2 78.74 0)
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16096,8 +16120,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7S1A105K"
-			(at 203.2 78.74 90)
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 215.9 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16106,7 +16130,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 203.2 78.74 90)
+			(at 215.9 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,7 +16139,103 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 203.2 78.74 90)
+			(at 215.9 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ddfc912-0d97-475e-b0dd-6ed800c90660")
+		)
+		(pin "2"
+			(uuid "e1004e6b-a234-4f5a-9135-59b0118e4a51")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c1f3f04-1ee5-4e29-8f3c-8be6b2afb8d8")
+		(property "Reference" "C12"
+			(at 185.674 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 185.928 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 183.1848 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7S1A105K050BC"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 uF +/-10% 10 V X7S 0402 carrier MCU decoupling capacitor, TDK C1005X7S1A105K050BC"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-C1005X7S1A105K"
+			(at 184.15 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 184.15 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 184.15 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17832,7 +17952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 88.9 0)
+		(at 177.8 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17840,7 +17960,7 @@
 		(dnp no)
 		(uuid "58a6100a-6be4-4f21-944e-349d36ba587c")
 		(property "Reference" "#PWR014"
-			(at 196.85 95.25 0)
+			(at 177.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17849,7 +17969,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.914 90.424 0)
+			(at 181.864 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17857,7 +17977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 88.9 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17866,7 +17986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 88.9 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17875,7 +17995,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 88.9 0)
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17897,7 +18017,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 81.28 0)
+		(at 161.29 90.17 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17906,7 +18026,7 @@
 		(dnp no)
 		(uuid "594ba3ae-f44b-4c9d-8e74-cdc0ccf0ea33")
 		(property "Reference" "C6"
-			(at 159.512 82.296 0)
+			(at 154.432 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17915,7 +18035,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 160.782 80.01 0)
+			(at 155.702 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17924,7 +18044,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.3352 77.47 0)
+			(at 162.2552 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17933,7 +18053,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1C104K050BC"
-			(at 166.37 81.28 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17942,7 +18062,7 @@
 			)
 		)
 		(property "Description" "100 nF 16 V X7R +/-10% 0402 carrier RESET filter, TDK C1005X7R1C104K050BC"
-			(at 166.37 81.28 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17951,7 +18071,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X7R1C104K"
-			(at 166.37 81.28 90)
+			(at 161.29 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17960,7 +18080,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 166.37 81.28 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17969,7 +18089,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 166.37 81.28 0)
+			(at 161.29 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17994,7 +18114,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 154.94 58.42 0)
+		(at 149.86 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18003,7 +18123,7 @@
 		(fields_autoplaced yes)
 		(uuid "5960e2da-1738-4dba-bb54-1214de57dd6a")
 		(property "Reference" "#PWR011"
-			(at 154.94 62.23 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18012,7 +18132,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 154.94 53.34 0)
+			(at 149.86 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18020,7 +18140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 58.42 0)
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18029,7 +18149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 58.42 0)
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18038,7 +18158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 154.94 58.42 0)
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +18472,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 363.22 165.1 90)
+		(at 363.22 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18360,7 +18480,7 @@
 		(dnp no)
 		(uuid "5f0cce09-f220-41d6-a596-d5e5a739a796")
 		(property "Reference" "#PWR018"
-			(at 369.57 165.1 0)
+			(at 369.57 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18369,7 +18489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 367.792 165.1 0)
+			(at 367.792 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18377,7 +18497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 165.1 0)
+			(at 363.22 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18386,7 +18506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 165.1 0)
+			(at 363.22 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18395,7 +18515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 165.1 0)
+			(at 363.22 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18581,7 +18701,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 154.94 63.5 0)
+		(at 149.86 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18589,7 +18709,7 @@
 		(dnp no)
 		(uuid "6153bae1-9fd8-4a23-8cff-ca843695b5f0")
 		(property "Reference" "R19"
-			(at 152.654 65.278 90)
+			(at 147.574 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +18718,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 157.226 65.532 90)
+			(at 152.146 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +18727,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 155.956 63.754 90)
+			(at 150.876 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +18736,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0402FR-075K1L"
-			(at 154.94 63.5 0)
+			(at 149.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18625,7 +18745,7 @@
 			)
 		)
 		(property "Description" "5.1 kohm +/-1% 1/16 W 0402 carrier RESET pull-up, Yageo RC0402FR-075K1L"
-			(at 154.94 63.5 0)
+			(at 149.86 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,7 +18754,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0402FR-075K1L"
-			(at 154.94 63.5 90)
+			(at 149.86 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18643,7 +18763,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 154.94 63.5 90)
+			(at 149.86 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,7 +18772,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 154.94 63.5 90)
+			(at 149.86 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18813,7 +18933,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 344.17 151.13 90)
+		(at 347.98 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18821,7 +18941,7 @@
 		(dnp no)
 		(uuid "6250b376-0a70-48b3-8447-6f3d7b42622b")
 		(property "Reference" "C24"
-			(at 347.98 149.098 90)
+			(at 351.79 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18829,7 +18949,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 340.36 149.098 90)
+			(at 344.17 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18837,7 +18957,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 347.98 150.1648 0)
+			(at 351.79 150.1648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18846,7 +18966,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005C0G1H150F050BA"
-			(at 344.17 151.13 0)
+			(at 347.98 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,7 +18975,7 @@
 			)
 		)
 		(property "Description" "15 pF 50 V C0G +/-1% 0402 MLCC, TDK C1005C0G1H150F050BA"
-			(at 344.17 151.13 0)
+			(at 347.98 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18864,7 +18984,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005C0G1H150F"
-			(at 344.17 151.13 90)
+			(at 347.98 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,7 +18993,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 344.17 151.13 90)
+			(at 347.98 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18882,7 +19002,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 344.17 151.13 90)
+			(at 347.98 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19005,6 +19125,104 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 328.93 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "645f5164-7eef-42e3-8731-792d7151acaa")
+		(property "Reference" "R83"
+			(at 327.914 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1k"
+			(at 330.454 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 329.184 160.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0402FR-071KL"
+			(at 328.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kohm +/-1% 1/16 W 0402 crystal XOUT damping resistor, Yageo RC0402FR-071KL"
+			(at 328.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RC0402FR-071KL"
+			(at 328.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 328.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 328.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8adb9665-0cc1-4b54-ae94-530b476552ce")
+		)
+		(pin "2"
+			(uuid "bd918129-65ed-403d-8e89-b2b7b732f1c7")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 264.16 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19103,7 +19321,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 154.94 81.28 270)
+		(at 149.86 90.17 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19112,7 +19330,7 @@
 		(dnp no)
 		(uuid "668d17d6-b9a8-4492-ad29-36412d8a26cf")
 		(property "Reference" "SW2"
-			(at 153.67 80.0099 90)
+			(at 148.59 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19121,7 +19339,7 @@
 			)
 		)
 		(property "Value" "PTS810SJM250SMTR LFS"
-			(at 153.67 82.5499 90)
+			(at 148.59 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19130,7 +19348,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 160.02 81.28 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19139,7 +19357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
-			(at 160.02 81.28 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19148,7 +19366,7 @@
 			)
 		)
 		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
-			(at 154.94 81.28 0)
+			(at 149.86 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +19375,7 @@
 			)
 		)
 		(property "Mouser" "611-PTS810SJM250SMTR"
-			(at 154.94 81.28 90)
+			(at 149.86 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19384,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 154.94 81.28 90)
+			(at 149.86 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19175,7 +19393,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 154.94 81.28 90)
+			(at 149.86 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19494,7 +19712,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 86.36 270)
+		(at 123.19 95.25 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19503,7 +19721,7 @@
 		(dnp no)
 		(uuid "6a467540-f935-4cec-9408-2d0deca71fb8")
 		(property "Reference" "SW1"
-			(at 127 85.0899 90)
+			(at 121.92 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19512,7 +19730,7 @@
 			)
 		)
 		(property "Value" "PTS810SJM250SMTR LFS"
-			(at 127 87.6299 90)
+			(at 121.92 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19521,7 +19739,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 133.35 86.36 0)
+			(at 128.27 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19530,7 +19748,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
-			(at 133.35 86.36 0)
+			(at 128.27 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19539,7 +19757,7 @@
 			)
 		)
 		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
-			(at 128.27 86.36 0)
+			(at 123.19 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19548,7 +19766,7 @@
 			)
 		)
 		(property "Mouser" "611-PTS810SJM250SMTR"
-			(at 128.27 86.36 90)
+			(at 123.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19557,7 +19775,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 128.27 86.36 90)
+			(at 123.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19566,7 +19784,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 128.27 86.36 90)
+			(at 123.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21220,7 +21438,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 344.17 161.29 270)
+		(at 347.98 161.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21229,7 +21447,7 @@
 		(dnp no)
 		(uuid "9b7d3353-d130-4a81-a139-8d21a6610035")
 		(property "Reference" "C25"
-			(at 347.98 159.512 90)
+			(at 351.79 159.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21237,7 +21455,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 340.36 159.512 90)
+			(at 344.17 159.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21245,7 +21463,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 340.36 160.3248 0)
+			(at 344.17 160.3248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21254,7 +21472,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005C0G1H150F050BA"
-			(at 344.17 161.29 0)
+			(at 347.98 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21263,7 +21481,7 @@
 			)
 		)
 		(property "Description" "15 pF 50 V C0G +/-1% 0402 MLCC, TDK C1005C0G1H150F050BA"
-			(at 344.17 161.29 0)
+			(at 347.98 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21272,7 +21490,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005C0G1H150F"
-			(at 344.17 161.29 90)
+			(at 347.98 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21281,7 +21499,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 344.17 161.29 90)
+			(at 347.98 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21290,7 +21508,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 344.17 161.29 90)
+			(at 347.98 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21308,72 +21526,6 @@
 			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 52.07 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cf1182a-7d59-47c9-a569-bc9f7818e8d3")
-		(property "Reference" "#PWR017"
-			(at 52.07 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 52.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 52.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22d0b630-b762-48c9-ae78-74c3f3b1dee6")
-		)
-		(instances
-			(project "metalclaw-pico-rp2"
-				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -22005,7 +22157,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 78.74 180)
+		(at 190.5 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22013,7 +22165,7 @@
 		(dnp no)
 		(uuid "afb078f8-55b0-462f-8454-563f046b8936")
 		(property "Reference" "C13"
-			(at 211.074 80.772 90)
+			(at 192.024 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22022,7 +22174,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 211.328 73.66 90)
+			(at 192.278 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22031,7 +22183,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 208.5848 74.93 0)
+			(at 189.5348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22040,7 +22192,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
-			(at 209.55 78.74 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22049,7 +22201,7 @@
 			)
 		)
 		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
-			(at 209.55 78.74 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22058,7 +22210,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X5R0J475K"
-			(at 209.55 78.74 90)
+			(at 190.5 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22067,7 +22219,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 209.55 78.74 90)
+			(at 190.5 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22076,7 +22228,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 209.55 78.74 90)
+			(at 190.5 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22641,7 +22793,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 78.74 180)
+		(at 177.8 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22649,7 +22801,7 @@
 		(dnp no)
 		(uuid "b77fccda-69c8-4ef6-b7c0-4f6912f45141")
 		(property "Reference" "C11"
-			(at 198.374 80.772 90)
+			(at 179.324 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22657,8 +22809,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 198.374 72.136 90)
+		(property "Value" "4.7u"
+			(at 179.324 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22667,7 +22819,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 195.8848 74.93 0)
+			(at 176.8348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22675,8 +22827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7R1C104K050BC"
-			(at 196.85 78.74 0)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22684,8 +22836,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF 16 V X7R +/-10% 0402 MLCC, TDK C1005X7R1C104K050BC"
-			(at 196.85 78.74 0)
+		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 VREG_AVDD filter capacitor, TDK C1005X5R0J475K050BC"
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22693,8 +22845,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7R1C104K"
-			(at 196.85 78.74 90)
+		(property "Mouser" "810-C1005X5R0J475K"
+			(at 177.8 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22703,7 +22855,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 196.85 78.74 90)
+			(at 177.8 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22712,7 +22864,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 196.85 78.74 90)
+			(at 177.8 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23748,8 +23900,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 209.55 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6d0adb1-67de-4844-9df7-f211e26f21c9")
+		(property "Reference" "C27"
+			(at 211.328 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 211.328 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 208.5848 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7R1C104K050BC"
+			(at 209.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 nF +/-10% 16 V X7R 0402 carrier MCU decoupling capacitor, TDK C1005X7R1C104K050BC"
+			(at 209.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "810-C1005X7R1C104K"
+			(at 209.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 209.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 209.55 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "868d0963-4569-4f5f-8a9d-587257074470")
+		)
+		(pin "2"
+			(uuid "0c2fc5af-4df8-404b-870e-85a47b0c319e")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 332.74 73.66 90)
+		(at 331.47 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23758,7 +24006,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6d8a7a2-daae-47da-8a16-5675cef61bdd")
 		(property "Reference" "#FLG03"
-			(at 330.835 73.66 0)
+			(at 329.565 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23767,7 +24015,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 328.93 73.6599 90)
+			(at 327.66 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23776,7 +24024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 73.66 0)
+			(at 331.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23785,7 +24033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 73.66 0)
+			(at 331.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23794,7 +24042,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 332.74 73.66 0)
+			(at 331.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24437,7 +24685,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 92.71 0)
+		(at 149.86 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24446,7 +24694,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcf4abe0-720e-4ed2-8f0e-37376c06ff74")
 		(property "Reference" "#PWR012"
-			(at 154.94 99.06 0)
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24455,7 +24703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 97.79 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24463,7 +24711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 92.71 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24472,7 +24720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 92.71 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24481,7 +24729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 92.71 0)
+			(at 149.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24698,72 +24946,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 353.06 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df5d2028-d86e-4cf9-968a-48b5ffe6e78d")
-		(property "Reference" "#PWR01"
-			(at 353.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 353.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 353.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6db8c76-14d9-4736-bd55-0d70bfad4d29")
-		)
-		(instances
-			(project ""
-				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 166.37 182.88 270)
 		(unit 1)
@@ -24958,7 +25140,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 78.74 180)
+		(at 196.85 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24966,7 +25148,7 @@
 		(dnp no)
 		(uuid "e4473dfe-6c6e-4536-8567-4c8842422f95")
 		(property "Reference" "C14"
-			(at 217.424 80.772 90)
+			(at 198.374 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24975,7 +25157,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 217.678 73.66 90)
+			(at 198.628 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24984,7 +25166,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 214.9348 74.93 0)
+			(at 195.8848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24993,7 +25175,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
-			(at 215.9 78.74 0)
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25002,7 +25184,7 @@
 			)
 		)
 		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
-			(at 215.9 78.74 0)
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25011,7 +25193,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X5R0J475K"
-			(at 215.9 78.74 90)
+			(at 196.85 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25020,7 +25202,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 215.9 78.74 90)
+			(at 196.85 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25029,7 +25211,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 215.9 78.74 90)
+			(at 196.85 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25047,6 +25229,72 @@
 			(project "metalclaw-pico-rp2"
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VS")
+		(at 52.07 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46fa6a2-98b8-4d6d-803d-e470cc4a77df")
+		(property "Reference" "#PWR017"
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VS"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VS\""
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554226d2-e657-4c2a-b58f-d56ec8e3fe9b")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -26188,7 +26436,7 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 335.28 71.12 0)
+		(at 334.01 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26197,7 +26445,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd822802-a0b7-425f-ac9d-60f4475f216d")
 		(property "Reference" "#PWR024"
-			(at 335.28 74.93 0)
+			(at 334.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26206,7 +26454,7 @@
 			)
 		)
 		(property "Value" "VS"
-			(at 335.28 66.04 0)
+			(at 334.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26214,7 +26462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 71.12 0)
+			(at 334.01 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26223,7 +26471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 71.12 0)
+			(at 334.01 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26232,7 +26480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 335.28 71.12 0)
+			(at 334.01 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
