@@ -433,11 +433,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "022db7d7-cffe-417d-a1c9-6f31ad91437d")
-		(at 165.6 106.5 -90)
+		(at 164.405 107.13)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R83"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "470e747f-381f-4c9f-b5ab-dc538c419467")
 			(effects
@@ -448,7 +448,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "94e3419b-cb4c-4eb8-bc34-42e37ae25386")
 			(effects
@@ -459,7 +459,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8382eea-c81d-4b27-ab90-b7c0f354553e")
@@ -471,7 +471,7 @@
 			)
 		)
 		(property "Description" "1 kohm +/-1% 1/20 W 0201 crystal XOUT damping resistor, Yageo RC0201FR-071KL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d591e0b6-fd9e-4e2d-afde-bc7e3b8d58e8")
@@ -483,7 +483,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-071KL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -496,7 +496,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -509,7 +509,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -549,7 +549,7 @@
 			(uuid "bfa3ee5e-f21d-418a-a500-7b4864ef8eee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "bdff3515-35d9-4bad-a64f-f5d7740aa5c5")
 			(effects
@@ -560,21 +560,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "3fce68a5-3ddb-43df-b679-90177f8ff923")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "95db36b9-9b82-48bb-bc62-7470ee20d6aa")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -583,7 +583,7 @@
 			(uuid "7afbe0a8-de92-476e-a329-77ab32ee72fb")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -607,7 +607,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "054b23fc-7970-4fef-a373-803f1215d929")
-		(at 176.5 86.5 90)
+		(at 176 88.09 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R79"
@@ -961,7 +961,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0bacb2f8-21f2-4714-a57f-d08ec653edaa")
-		(at 188 89.98)
+		(at 170.1 87.98)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -1135,13 +1135,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0d66c5fe-3074-41f0-b803-694026ec4c14")
-		(at 157 97)
+		(at 157.29 99.06)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R40"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "74deaea1-7a41-4b4b-bef1-dcf2662959fd")
+			(uuid "b8efbad8-0e2b-4ae0-a854-f05ee8e72b6b")
 			(effects
 				(font
 					(size 1 1)
@@ -1152,7 +1152,7 @@
 		(property "Value" "100"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "c17b90d1-4ebd-4319-b449-77dbe91f6f9a")
+			(uuid "2e65acfc-6165-4fd1-91fb-5f34db08d6f0")
 			(effects
 				(font
 					(size 1 1)
@@ -1164,7 +1164,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9debac78-9566-4f6f-b85a-55a3d16b37f0")
+			(uuid "88b9ad67-3cd6-43ec-b191-c61a70e99469")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1176,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b80535b6-9fbd-4791-84ae-b8d2248292ea")
+			(uuid "48020b77-9aa2-4430-acc5-3d6a0842f470")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "10a97b0e-9c5c-40ae-a9f5-09142c9fcf63")
-		(at 157 112)
+		(at 157.385 112.23 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -1533,7 +1533,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-075K1L"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1546,7 +1546,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1559,7 +1559,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1610,21 +1610,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "1b361f8a-74cc-4110-8b01-bdf61a5df9d1")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "aaf1b127-440b-43c6-ae85-a26b82c9115d")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1633,7 +1633,7 @@
 			(uuid "403c2874-7115-4f5a-b83a-3bc706f2a9ea")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1657,7 +1657,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "1108fc82-3810-412d-b15b-8bc47425238a")
-		(at 157 86.3)
+		(at 157.39 86.74)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -2005,7 +2005,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "148699bc-322f-454e-8f60-541a912e0b29")
-		(at 170.4 106)
+		(at 170.245 106.95)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R73"
@@ -2179,13 +2179,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "153c8ff8-d813-4ec8-89d2-8dd1901af221")
-		(at 157.49 77.97)
+		(at 157.385 77.28)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R37"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "8e82476d-20c6-452b-a0fb-2479a95a7a97")
+			(uuid "7f905aa4-9bc2-4a14-ace7-9aabb2bae1f3")
 			(effects
 				(font
 					(size 1 1)
@@ -2196,7 +2196,7 @@
 		(property "Value" "100"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "c9231069-3599-453c-8f64-b1f188092c0b")
+			(uuid "f3fbd550-f587-4210-a235-526a4fc2a7e6")
 			(effects
 				(font
 					(size 1 1)
@@ -2208,7 +2208,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50c4c3fb-3f4e-4429-9445-b0486c542a30")
+			(uuid "59ddca78-e3d8-47d9-9be2-71cefc99d067")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2220,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00b1571b-f93f-4c0f-9ff5-0a4edbc12c17")
+			(uuid "1ea7b6fd-a63e-4c0a-8aa7-a23bd52f7ff5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,13 +2353,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "1a56e44b-69d2-49c6-89f5-45faed63363c")
-		(at 157 80.2)
+		(at 157.4 82.05)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "77b51673-fe14-4727-a9af-af519666130f")
+			(uuid "273a8300-abc3-4693-92ac-d2cf60f1cad8")
 			(effects
 				(font
 					(size 1 1)
@@ -2370,7 +2370,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "1e73da52-e129-4519-b16b-f7adc6a914bd")
+			(uuid "9ac75446-a8ff-435e-a122-ad245ede36c4")
 			(effects
 				(font
 					(size 1 1)
@@ -2382,7 +2382,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1bce3ac-9ffe-4a9b-a7e4-54ea641a0ae0")
+			(uuid "a128f61f-e79e-4868-aeda-77b007ba2a39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2394,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de31419f-e938-4449-808a-f5bb0e171e20")
+			(uuid "a943b73e-e78a-420c-b2a6-48745011e164")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,13 +2527,13 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "1db7f967-f53e-498b-ac2f-522df0650406")
-		(at 160.55 107.9)
+		(at 162.925 107.14 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C24"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "540a4812-82ae-4e65-a1c0-db6f3d30df81")
+			(uuid "d0c8e699-88f6-4b48-9064-5515f31d342b")
 			(effects
 				(font
 					(size 1 1)
@@ -2544,7 +2544,7 @@
 		(property "Value" "15p"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "422583a7-cd01-488a-8e2a-7caaa3c4b731")
+			(uuid "f1a94686-9452-445c-861a-9c589d09af8e")
 			(effects
 				(font
 					(size 1 1)
@@ -2556,7 +2556,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9893b776-0b4b-426e-811c-da41296741db")
+			(uuid "8b608815-a31c-4de8-9bae-b454f7c43c5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2568,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9de53506-4b07-4d0f-9259-6409fad05336")
+			(uuid "5fbe56a8-c6ea-4800-9798-aa4c302690dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2577,7 @@
 			)
 		)
 		(property "Mouser" "81-GRM0335C1H150JA1D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2590,7 +2590,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2643,7 +2643,7 @@
 			(uuid "ebbd7a80-ce06-41ba-9c93-80d76d9e40e9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at -0.26 -2.795 0)
 			(layer "F.Fab")
 			(uuid "64e1b4e3-2706-4e6a-b37d-dcbc6aad49a0")
 			(effects
@@ -2654,21 +2654,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "fe1bd28a-c569-4c43-8c2e-ff5b18a7bbeb")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "4deeac13-045e-48e6-bcae-da844539328d")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -2677,7 +2677,7 @@
 			(uuid "d5cb6f7b-c11f-4679-bb0e-b61adaf4eaa3")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -2701,7 +2701,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "21cb2201-4981-47ea-bf07-b77c4bbdfb33")
-		(at 183.4 89)
+		(at 157.39 100.71)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -2875,7 +2875,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "23d49068-4d34-40fb-a9ec-d150f3e93692")
-		(at 170.4 108.2)
+		(at 170.39 108.56)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R21"
@@ -3049,7 +3049,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "24a0c8e2-a7cb-4265-8677-456931c6e1e7")
-		(at 170.4 93.8)
+		(at 169.95 92.26)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -3223,7 +3223,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "28d7f4cb-44b0-494d-9f95-079ffa225373")
-		(at 170.4 111.5)
+		(at 170.23 111.5)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -3571,7 +3571,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "29a25d37-dfb1-4ed5-8a08-fe6937a6d833")
-		(at 182 90)
+		(at 164.88 106.31 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -3621,7 +3621,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X5R0J475K"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3634,7 +3634,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3647,7 +3647,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3665,16 +3665,6 @@
 		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aaf4ee9c-933f-4caf-9b3e-2ab740c0fb8c")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -3683,6 +3673,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "7ab3c407-546b-4962-aab2-6cef28ad45c8")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aaf4ee9c-933f-4caf-9b3e-2ab740c0fb8c")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -3718,7 +3718,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3727,7 +3727,7 @@
 			(uuid "fed43dcd-9b2b-4969-be39-764519648c55")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3751,7 +3751,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2c3f82f3-225b-4b4e-b742-a03bd1665d1f")
-		(at 157 87.4)
+		(at 157.395 87.44)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R43"
@@ -3925,7 +3925,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "30675a04-0347-4133-9d86-b8c723b40ca7")
-		(at 170.4 121.7)
+		(at 170.235 122.29)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -4041,7 +4041,7 @@
 			(uuid "886c4281-1455-4d32-9a02-8b1d782df1b9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0.15 -0.56 0)
 			(layer "F.Fab")
 			(uuid "2cb3aea9-3006-406e-848b-8aefa560ec43")
 			(effects
@@ -4447,7 +4447,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "375fedba-1f58-42db-82a9-10fef4657161")
-		(at 170.4 89.5)
+		(at 170.24 88.78)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -4621,7 +4621,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3bbc427f-fea3-4662-8e94-be6e24a91c8b")
-		(at 170.4 82.36)
+		(at 170.225 82.36 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R33"
@@ -4671,7 +4671,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-071KL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4684,7 +4684,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4697,7 +4697,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4748,21 +4748,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "e2fac2f2-0482-4c5e-b448-a549388ae157")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "5882d3fc-eb29-41ba-894c-9b3cf4e27a2e")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4771,7 +4771,7 @@
 			(uuid "4559a909-f234-40fd-b9d6-147e1a894fdb")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4795,7 +4795,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3c8380b8-c71d-49ff-9742-9e39f53bbdcd")
-		(at 157.51 78.76 180)
+		(at 157.385 76.58)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -4845,7 +4845,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-075K1L"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4858,7 +4858,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4922,21 +4922,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "5eb8339d-2f92-4079-8c21-ebdf42f94652")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "253c085b-b5ce-400d-8d7a-f879ee9fe54a")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4945,7 +4945,7 @@
 			(uuid "6aea782f-205e-412a-90e7-c20c0c555de1")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -5141,15 +5141,16 @@
 		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_PTS810"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "423de067-55cc-4d0b-9cd0-6b5080b8370b")
-		(at 167.43 118.03 90)
+		(at 159.935 109.555 90)
 		(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW2"
 			(at 0 -2.6 90)
 			(layer "F.SilkS")
-			(uuid "94eadd5c-a00e-4c4e-ba70-d393c776b590")
+			(uuid "cfecdae2-4bf2-43d3-84ae-fecf48491e1a")
 			(effects
 				(font
 					(size 1 1)
@@ -5160,7 +5161,7 @@
 		(property "Value" "PTS810SJM250SMTR LFS"
 			(at 0 2.6 90)
 			(layer "F.Fab")
-			(uuid "f376b3e8-cff0-4ab3-b484-e1c85e948d35")
+			(uuid "af90b63e-e34e-4844-bde3-6e536b996875")
 			(effects
 				(font
 					(size 1 1)
@@ -5173,7 +5174,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8271eeca-469d-4825-9262-2898647ca563")
+			(uuid "4696830c-13da-4fd4-8a60-1b8c2030acf0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +5187,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9d335ae-37e4-4015-893e-6e9ae73bcceb")
+			(uuid "774213a4-817c-4e03-8770-faf92c13eda0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5503,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "44d6b521-1f39-48c6-8e31-6c15a9c5108f")
-		(at 157 95.9)
+		(at 157.695 97.71)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -6024,11 +6025,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "50645dc5-ebfa-46dc-8df5-c4e7f218a544")
-		(at 166.66 91.72)
+		(at 161.52 91.885 -90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "848c97b6-9e5c-48f8-b3ef-72f54c278fa6")
 			(effects
@@ -6039,7 +6040,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "cfe9b813-d0df-4693-8b13-3734386f1fdd")
 			(effects
@@ -6050,7 +6051,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ede5aab2-517f-4fbb-a522-6eeae49241e7")
@@ -6062,7 +6063,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "868b443c-b6bb-44d5-91de-8e051d3f31d2")
@@ -6074,7 +6075,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6087,7 +6088,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6100,7 +6101,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6140,7 +6141,7 @@
 			(uuid "d174d11f-61c2-4f08-8d39-11916693c254")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "da5a8cf0-35a7-4615-9a23-ab920a9084ac")
 			(effects
@@ -6151,21 +6152,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "ffba5f05-70e9-48c7-a996-e50e5d7a56eb")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "8d46cbf0-b3a7-4330-9265-9bc2875ea99a")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -6174,7 +6175,7 @@
 			(uuid "f70bcbaa-0159-49f3-b41d-404f19d443a9")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -6198,7 +6199,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "51f91a79-d828-420c-9e3d-fccd4c070d6f")
-		(at 170.4 98)
+		(at 170.2 97.55)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -6372,13 +6373,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "57db4ee8-a8ed-4ac0-af59-f3a3bbe89deb")
-		(at 170.4 119.5)
+		(at 170.22 121.15 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R66"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "138dd108-e538-4f2c-b3c8-c0bcf259f2ff")
+			(uuid "31e88d5a-a27f-42a4-9ea7-83e63752d017")
 			(effects
 				(font
 					(size 1 1)
@@ -6389,7 +6390,7 @@
 		(property "Value" "100"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "4c0de079-3a5c-4e5c-99ec-97a87c45176d")
+			(uuid "a3e0b03a-8e63-4453-a63a-15e30f0845f0")
 			(effects
 				(font
 					(size 1 1)
@@ -6401,7 +6402,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8dd96710-84a6-4484-bf09-1f47dc4b8988")
+			(uuid "2e80c36e-4ddc-48fc-a902-41c7a16d9a49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6414,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6445827a-e8de-433f-a17b-c4af97486b76")
+			(uuid "b01e2ebb-c6b9-4a39-a32a-bb501535dd5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6423,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6435,7 +6436,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6448,7 +6449,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6499,21 +6500,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "258a183c-a316-4cb0-a0b1-4ada2fe8e441")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "17d2a478-6620-4494-8cf8-4cca6bc8c6be")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -6522,7 +6523,7 @@
 			(uuid "f09e31b5-2712-4dbb-a23f-58c2da753a42")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -6900,7 +6901,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "5b801e79-d704-4f66-bf3b-98d08d520aae")
-		(at 157 84.1)
+		(at 157.385 84.9)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R32"
@@ -7074,7 +7075,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "5bca49d0-5975-4953-aaeb-ca186551d7ad")
-		(at 160 121.6)
+		(at 159.075 121.96)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R49"
@@ -7686,7 +7687,7 @@
 		(property "Reference" "R12"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "5dd8a894-2247-42f9-b20c-a9111e12848d")
+			(uuid "fed418a0-5307-4396-a512-1ea2f45997ab")
 			(effects
 				(font
 					(size 1 1)
@@ -7697,7 +7698,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "f2bb72a1-1810-4a34-8c67-8c70747f4c82")
+			(uuid "4428e483-2a02-48c4-9882-ce4d2ca83b3c")
 			(effects
 				(font
 					(size 1 1)
@@ -7709,7 +7710,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5d123c8-43b5-4f5e-8454-4c3319bccb29")
+			(uuid "e5828081-26a6-4f64-85cd-fae3e98bf094")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +7722,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "302d56eb-5a5c-4660-bcc7-4a25ffef3678")
+			(uuid "607ff02e-dcb9-413e-8aba-727c75e0517b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8219,7 @@
 			(uuid "7253dace-64bc-4656-95fc-d6e3dcd6a862")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -41.459831 -1.73 90)
+			(at -0.36 -0.47 90)
 			(layer "F.Fab")
 			(uuid "98a68349-3ee6-4123-a0ed-c97344b8d8a2")
 			(effects
@@ -9451,7 +9452,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "64f66785-98a7-43f6-8114-b3b6583d9275")
-		(at 157 100.3)
+		(at 153.255 100.15)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R51"
@@ -9625,7 +9626,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "65dd7f03-614d-4856-9934-7b3fca923412")
-		(at 157 85.2)
+		(at 157.385 85.6)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R39"
@@ -9741,7 +9742,7 @@
 			(uuid "93c5f96e-cbda-43c1-92ce-63e9c85de810")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0.345 -0.4 0)
 			(layer "F.Fab")
 			(uuid "d342a9d9-b547-4211-9c65-1dedaa9eff38")
 			(effects
@@ -9799,11 +9800,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "678d64c4-abb6-49b9-8978-3b73bad6bcb8")
-		(at 167.4 105)
+		(at 170.115 102.07 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "e35f43a9-043d-49cd-9064-4f8b0592e196")
 			(effects
@@ -9814,7 +9815,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "6a515748-2e8e-4a22-8076-055f4383d375")
 			(effects
@@ -9825,7 +9826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a57cb8c3-c26b-4a0a-8a56-934a5d65d067")
@@ -9837,7 +9838,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2af32e0d-7cd5-425b-bc3c-6ff8b8d6e63b")
@@ -9849,7 +9850,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9862,7 +9863,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9875,7 +9876,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9915,7 +9916,7 @@
 			(uuid "0812dc18-9dc8-4a27-bbc1-f054a4548f97")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "6d4c2ee1-b29d-4d20-8958-93028241ebfd")
 			(effects
@@ -9926,21 +9927,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "35c19c16-2dce-406e-90c0-3e796e3b1db6")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "7feb2f26-db34-4005-af2a-ffa894827237")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9949,7 +9950,7 @@
 			(uuid "989f1627-6fff-4c77-9957-7a2a16ff4a9f")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9973,7 +9974,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "68dd1f06-7202-46b3-b954-fe466c07f6c6")
-		(at 159.9 105)
+		(at 157.41 99.81)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
@@ -10147,7 +10148,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6b58fb70-c983-49e7-a672-7a9de8ea3fa6")
-		(at 168.8 105)
+		(at 170.11 98.47 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
@@ -10197,7 +10198,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10210,7 +10211,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10223,7 +10224,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10274,21 +10275,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0 270)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "fcb67607-6a17-46da-a9fd-0a7277161c28")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0 270)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "aa0058b7-8fd1-4ae0-a9c1-037817294de4")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0 270)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -10297,7 +10298,7 @@
 			(uuid "2d1d3a33-8d52-4422-b44d-081946858f96")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0 270)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -10843,7 +10844,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6cc0534f-5fa2-443b-8336-cb0dc8003c07")
-		(at 167.2 121.6)
+		(at 168.155 122.43)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R57"
@@ -11017,7 +11018,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6dbfee96-51c0-4e40-8978-e016af7c37ee")
-		(at 157.59 76.09)
+		(at 157.39 75.47)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R36"
@@ -11191,7 +11192,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6dc40377-e752-4aae-a7c5-33bd96d439ed")
-		(at 157 104.7)
+		(at 155.67 105.93)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R53"
@@ -11539,7 +11540,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6e6da59e-4d33-47c9-bb56-b4cf072e7a5a")
-		(at 157.59 75.1)
+		(at 157.395 74.77)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R35"
@@ -11713,7 +11714,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6ecd5e1f-3efd-40dc-8d7b-4aa4128ad664")
-		(at 157 102.5)
+		(at 155.67 103.73)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -11887,7 +11888,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "70119307-cad1-4523-b204-cd7c727150b8")
-		(at 157 103.6)
+		(at 155.67 104.83)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R50"
@@ -12061,11 +12062,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "74249a23-a4b7-4d9f-876e-80091e7107a0")
-		(at 161.3 105)
+		(at 160.735 106.35)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "b3b8b27d-1b3c-4b0e-a377-dc6c47bcee76")
 			(effects
@@ -12076,7 +12077,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "c6f388dc-d0ff-4d3f-b496-86452d38931d")
 			(effects
@@ -12087,7 +12088,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0457a1de-846e-419b-be5e-f0133100bf71")
@@ -12099,7 +12100,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3252f1ec-c47c-4ffe-a441-182eedd64cbe")
@@ -12177,7 +12178,7 @@
 			(uuid "76bd2751-9a1d-4f1e-8932-3b80fa4df8c7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "2f18c350-e268-4799-9166-0906342f9012")
 			(effects
@@ -12409,10 +12410,10 @@
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "7e0079a1-d7b0-45a7-874b-97751e40b2e7")
-		(at 163.5 109 -90)
+		(at 163.8 109.59 -90)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y1"
-			(at 0 -2.45 270)
+			(at 0 -2.45 90)
 			(layer "F.SilkS")
 			(uuid "17d164cf-26e1-4819-b6f1-e0413f4ae5f4")
 			(effects
@@ -12423,7 +12424,7 @@
 			)
 		)
 		(property "Value" "ABM8-272-T3"
-			(at 0 2.45 270)
+			(at 0 2.45 90)
 			(layer "F.Fab")
 			(uuid "1ec264e6-b2e1-46de-80fa-e52eb59413d2")
 			(effects
@@ -12434,7 +12435,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "881dd3af-460b-4073-af3d-195b012768b0")
@@ -12446,7 +12447,7 @@
 			)
 		)
 		(property "Description" "12 MHz +/-30 ppm 10 pF 50 ohm four-pad crystal, Abracon ABM8-272-T3"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c54b89b-e64d-4f33-8c49-1e54e9e5be1f")
@@ -12545,7 +12546,7 @@
 			(uuid "9ab5c3f0-46c1-4716-b13b-8349a9e05984")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "2344cfe0-afa9-4021-9204-bb9b1754bb9e")
 			(effects
@@ -12611,7 +12612,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "81d6c9d8-3a29-408b-a1e5-621977537e0b")
-		(at 157 88.5)
+		(at 157.395 88.14)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R44"
@@ -12785,7 +12786,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "82344696-644c-4ba7-bcd5-af957597fd45")
-		(at 181.5 84.5)
+		(at 167.785 82.1)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -12965,13 +12966,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8280033d-3e58-442d-9531-2b87fad93747")
-		(at 170.4 118.4)
+		(at 170.215 119.75)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R27"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "83c4ea6f-ae18-4b21-90b2-13a9880dd961")
+			(uuid "19b4c53e-5e5f-45e1-9ffb-e5d5dd5c00ae")
 			(effects
 				(font
 					(size 1 1)
@@ -12982,7 +12983,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "9568d48e-c318-44f4-b894-fb3b80eb7e4e")
+			(uuid "9ebedce0-07ab-4067-8851-a9666800415a")
 			(effects
 				(font
 					(size 1 1)
@@ -12994,7 +12995,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6bd8157-0c9c-47cc-a549-1af1ff639507")
+			(uuid "706f5924-da20-4114-9925-5b672c26df18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13006,7 +13007,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee52ec4d-1ea7-4371-858a-04a0b74c273b")
+			(uuid "40efe7ff-c21f-44f4-881a-f50588d85671")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13139,7 +13140,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "851d9c3b-2436-4903-9596-20370b28e3cd")
-		(at 170.4 94.9)
+		(at 177.365 94.81)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -13487,7 +13488,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8a8daee9-fdc7-4b54-adcc-9c4fdbe12e28")
-		(at 170.4 123.9)
+		(at 170.24 122.99 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R68"
@@ -13537,7 +13538,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13550,7 +13551,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13563,7 +13564,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13614,21 +13615,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "5edffe31-a34b-4c27-8d51-19e1c8985013")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "baad3606-e5e7-4a02-80b7-4e92e389e15b")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -13637,7 +13638,7 @@
 			(uuid "71bef3cf-6fea-474c-98c5-365f6b32f750")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -13661,7 +13662,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8b755da5-2543-47ce-8744-c65588b9067c")
-		(at 157 83)
+		(at 157.385 84.19)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -13835,7 +13836,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8ca008e2-c80d-4504-bfec-179f980cda79")
-		(at 188 98)
+		(at 170.2 100.18)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -14183,11 +14184,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "916d5cb1-70eb-4def-9ed4-9178479e2d3d")
-		(at 166.66 85.52)
+		(at 163.32 81.705 -90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R81"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "0c15c334-bf7f-4918-8037-c402dddd480a")
 			(effects
@@ -14198,7 +14199,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "59255267-d5fb-4bdd-84f3-e4c5640be500")
 			(effects
@@ -14209,7 +14210,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89685264-1b8b-40aa-a1b3-446c369c64dd")
@@ -14221,7 +14222,7 @@
 			)
 		)
 		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55f153c6-c000-49d5-90c0-dd11e41de638")
@@ -14233,7 +14234,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-0727RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14246,7 +14247,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14259,7 +14260,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14299,7 +14300,7 @@
 			(uuid "135bc3f2-dfb4-42e0-a86f-3b8fe249e8cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "780133f1-512f-421d-b967-e6cba6674f3e")
 			(effects
@@ -14310,21 +14311,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "e150c6c3-23fe-41bb-9b1f-0a5add33d4d1")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "8b484f28-c973-4548-b5bf-0d617da2d09e")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14333,7 +14334,7 @@
 			(uuid "d80e42d4-4b66-4539-9387-2e4e2cfef3c4")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14357,7 +14358,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "924d2db5-4edc-48dc-80c2-e3f1dcd052a0")
-		(at 170.4 102.7)
+		(at 170.28 104.41 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R65"
@@ -14407,7 +14408,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14420,7 +14421,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14433,7 +14434,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14484,21 +14485,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "9068d0d9-c82f-4c3b-a1e5-347c95a22714")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "aefa4d00-c2fa-47a3-a480-bfc56271c062")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14507,7 +14508,7 @@
 			(uuid "5abef8d0-cc0c-41d6-a30b-4d7da944906a")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14531,11 +14532,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "983ba5f5-22ac-48ce-84e2-697f13c07dde")
-		(at 170.4 112.6)
+		(at 170.58 112.6 90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R64"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "5e50f81e-0aab-4c22-851f-acc3722b3d13")
 			(effects
@@ -14546,7 +14547,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "65b03236-396d-4f69-93cf-efaff1f83169")
 			(effects
@@ -14557,7 +14558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b9d297c9-9dee-4088-96c5-5b39196b09f1")
@@ -14569,7 +14570,7 @@
 			)
 		)
 		(property "Description" "100 ohm +/-1% 1/20 W 0201 digital stimulus series resistor, Yageo RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41ee7d5a-a910-44c9-b7f2-a793fa0669ad")
@@ -14581,7 +14582,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14594,7 +14595,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14607,7 +14608,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14647,7 +14648,7 @@
 			(uuid "78d8d66a-bbfc-475d-945f-bf0094797c69")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "094fdbe7-033d-4a27-94ec-5e3cbd6f048c")
 			(effects
@@ -14658,21 +14659,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "2738c58d-3641-4e1c-b5e0-d709dedc96f9")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "e8a47553-02d3-456f-9edf-a59c183e2ebc")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14681,7 +14682,7 @@
 			(uuid "6683407c-2748-4107-8dde-38d5ebde8e8f")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14703,15 +14704,16 @@
 		)
 	)
 	(footprint "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9894296b-9d47-4111-822c-7d77a2fc0532")
-		(at 163.72 98.27)
+		(at 163.79 100.24)
 		(descr "QFN, 80 Pin (https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U2"
 			(at 0 -6.3 0)
 			(layer "F.SilkS")
-			(uuid "bcd97270-2bd4-42f7-88fa-559a8d7f1270")
+			(uuid "a3fc2cb4-1795-46d6-93fb-336b1abd8a20")
 			(effects
 				(font
 					(size 1 1)
@@ -14722,7 +14724,7 @@
 		(property "Value" "RP2354B"
 			(at 0 6.3 0)
 			(layer "F.Fab")
-			(uuid "94957ca0-ab0e-43af-ac96-ad62ce0b6cd5")
+			(uuid "b39ab031-a89e-4fbd-ac64-80b8413015c5")
 			(effects
 				(font
 					(size 1 1)
@@ -14734,7 +14736,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81875a22-862a-4576-91ee-7d89249feaed")
+			(uuid "3cc06dca-36d6-4adf-8b1b-1916aad09979")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14746,7 +14748,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "372e1166-8b8f-43cd-a093-ac3f54d66309")
+			(uuid "8087ac0f-c546-4212-bcd1-56e4da4fcb24")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16003,11 +16005,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "992f07df-59a0-4df9-befd-7d2a3de6eb73")
-		(at 166.66 89.7)
+		(at 164.39 91.925 -90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C28"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "aa3abc72-2582-42a5-bf06-106a9ab8956f")
 			(effects
@@ -16018,7 +16020,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "509cbe9c-1ff8-4499-8da4-113269431735")
 			(effects
@@ -16029,7 +16031,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef303d1d-0331-4175-97a9-6c2712374d08")
@@ -16041,7 +16043,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e13b7ac6-b17b-48e9-958e-d5daa33577ef")
@@ -16053,7 +16055,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16066,7 +16068,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16079,7 +16081,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16119,7 +16121,7 @@
 			(uuid "b98d9c61-e7be-46bc-b063-bd17aadadde9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "5086f73c-62f2-419f-98b9-52574b682b9e")
 			(effects
@@ -16130,21 +16132,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "8dda5b74-51b5-4a36-b234-bcd798f19575")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "b91f9d2f-9064-4b01-9cdd-ce0c7d364184")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16153,7 +16155,7 @@
 			(uuid "eb917027-83e0-4814-9997-49316ac952b9")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16177,11 +16179,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9a0f64d4-7a4a-47fd-969c-953598b2ddf0")
-		(at 184.5 80.5 90)
+		(at 167.735 88.07 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.43 90)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "67bba82a-f30a-4ae9-b86c-6e82aca1eec4")
 			(effects
@@ -16192,7 +16194,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 90)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "890e4125-51d5-4c5d-bbde-44df658f489b")
 			(effects
@@ -16203,7 +16205,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1A106M080AT"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c60bee4f-0821-44dc-8ad2-432fc11d276e")
@@ -16215,7 +16217,7 @@
 			)
 		)
 		(property "Description" "10 uF 10 V X7R +/-20% 0603 MLCC, TDK C1608X7R1A106M080AT"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ccd1060f-39cf-418d-aac0-d1ade40828c9")
@@ -16227,7 +16229,7 @@
 			)
 		)
 		(property "Mouser" "810-C1608X7R1A106M08"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16240,7 +16242,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16253,7 +16255,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16271,16 +16273,6 @@
 		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "113e22d5-03b5-4bf4-84f2-9a5fadbed4b2")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -16289,6 +16281,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "102259ac-50b5-4cb0-870b-a86dfe3d3082")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "113e22d5-03b5-4bf4-84f2-9a5fadbed4b2")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -16313,7 +16315,7 @@
 			(uuid "d3ae1bcf-e3c0-4f02-8a56-b2aa49e156c1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0bfa6578-7764-4b7e-858f-a5996f7b0359")
 			(effects
@@ -16324,7 +16326,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 90)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16333,7 +16335,7 @@
 			(uuid "4cf770af-f14e-4fe2-9ab3-f68546f9f52f")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 90)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16531,7 +16533,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "9b72c405-06a6-4666-a985-edf56b6358bb")
-		(at 170.4 90.6)
+		(at 170.4 90.6 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R31"
@@ -16581,7 +16583,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07330RL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16594,7 +16596,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16607,7 +16609,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16658,21 +16660,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "a4bd32a1-766c-48d9-9f35-2b2993f32fae")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "f9f54ca5-cb50-40ee-9fc2-7cbc209df2bf")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16681,7 +16683,7 @@
 			(uuid "3ef9f5f4-9615-4577-a128-569b7d934f4a")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16705,7 +16707,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "9b9f3088-63e4-4af1-a98e-e64dd8c68153")
-		(at 157 99.2)
+		(at 157.385 102.2)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -17053,7 +17055,7 @@
 	(footprint "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010"
 		(layer "F.Cu")
 		(uuid "9ea14301-600a-465e-b868-608e12bd6c5d")
-		(at 179.5 89)
+		(at 167.08 91.54)
 		(descr "Semi-Shielded High Saturation Power Inductor, body 2x1.6mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-2010")
 		(tags "SMT")
 		(property "Reference" "L1"
@@ -17277,11 +17279,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a2466315-b26a-4d84-89de-396f0bc24810")
-		(at 162.7 105)
+		(at 162.585 106.34)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "aa8b027c-3783-43f6-85fc-58312b2d708d")
 			(effects
@@ -17292,7 +17294,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "3901753c-0e53-4627-810c-6e7705b9c86b")
 			(effects
@@ -17303,7 +17305,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96b267a9-0ff2-4601-a87b-6166df75b7c7")
@@ -17315,7 +17317,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "126172b6-4132-47c9-a4ee-af478a5de16b")
@@ -17393,7 +17395,7 @@
 			(uuid "ba87c5e0-c84b-407c-b2cc-8c2991acc836")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "69fb4f6d-dfcc-474e-aa3d-c150e8e951fd")
 			(effects
@@ -17451,7 +17453,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "a36505c2-4141-4c31-bbae-97b98cbaa618")
-		(at 181.5 80.5 -90)
+		(at 167.82 85.1375 -90)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
@@ -17875,11 +17877,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a42280b9-7fd4-40b2-af4f-9bffd8b3537c")
-		(at 166 105)
+		(at 170.11 94.87 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C20"
-			(at 0 -1.05 180)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "f8685b75-d115-4a50-9e5e-08d4c4ecc97d")
 			(effects
@@ -17890,7 +17892,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 180)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "dce2f928-b667-4ffb-b406-ef327dd85752")
 			(effects
@@ -17901,7 +17903,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b8b0117-3580-41bb-afe5-ee732c41b99b")
@@ -17913,7 +17915,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2018c564-72a2-4fb8-9d45-f2f7e46cc4a0")
@@ -17925,7 +17927,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17938,7 +17940,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17951,7 +17953,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17991,7 +17993,7 @@
 			(uuid "c6caeb8d-2b20-433f-b18f-a9176b23da76")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 180)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "6c328a72-4e3d-4a13-aafb-c49cc33f6f53")
 			(effects
@@ -18002,21 +18004,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 180)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "2fd93b75-0c21-4511-b109-7392f4a90b02")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 180)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "f34999ba-edef-4fc6-9a18-13e6dd1c8065")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 180)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18025,7 +18027,7 @@
 			(uuid "6b8dd4fd-9ba6-4c80-967d-74307f7df74e")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 180)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18049,7 +18051,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a43129ea-12e7-4f67-a062-773fd957095d")
-		(at 157.59 74.06)
+		(at 157.385 74.07)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -18397,7 +18399,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a94b7469-8202-4090-b546-ef69f1350d24")
-		(at 157.53 77.19)
+		(at 157.385 77.98)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R34"
@@ -18571,13 +18573,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a9853d58-218d-434d-8af1-2ff4efecd1d5")
-		(at 170.4 120.6)
+		(at 170.215 120.45 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R69"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "c0d362cf-5fc0-47a2-83e5-16cb034246b5")
+			(uuid "d132d886-39b5-46ee-8a7b-baa5f21b9f56")
 			(effects
 				(font
 					(size 1 1)
@@ -18588,7 +18590,7 @@
 		(property "Value" "100"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "4f6255c3-c792-4e9f-acee-f279f3d29462")
+			(uuid "b3eb5292-5d0a-4d36-86d8-cf0c87b8e659")
 			(effects
 				(font
 					(size 1 1)
@@ -18600,7 +18602,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ac6f537-cc07-41f3-800d-65d1cf45ea6e")
+			(uuid "a1dc37ed-3a40-4d8a-9a89-a648bea3e49b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18612,7 +18614,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04eafc49-694b-4f01-9340-4c15019765bf")
+			(uuid "e7f84e7b-fd36-4770-94eb-597c34c8c955")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18621,7 +18623,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18634,7 +18636,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18647,7 +18649,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18698,21 +18700,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "51e21786-2178-4945-a201-45fb379b81d1")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "64ec7f1f-f6f4-4e55-a49a-9c54e81c9610")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18721,7 +18723,7 @@
 			(uuid "9f96dcb2-a78d-4d7a-87ab-3815ada61796")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18745,7 +18747,7 @@
 	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
 		(layer "F.Cu")
 		(uuid "ad841c5e-498a-494f-9635-6c9810dfe7c4")
-		(at 176.5 78.3 90)
+		(at 170.11 77.32 90)
 		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 		(tags "CFP3 SOD-123W")
 		(property "Reference" "D1"
@@ -19053,15 +19055,16 @@
 		)
 	)
 	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b02ebd7a-3256-4d52-9558-c715d0688a73")
-		(at 161.81 116.57 -90)
+		(at 163.81 116.7 -90)
 		(descr "surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows")
 		(tags "Surface mounted pin header SMD 2x05 1.27mm double row")
 		(property "Reference" "J2"
 			(at 0 -4.285 90)
 			(layer "F.SilkS")
-			(uuid "12eea338-f93a-4ad2-86af-4311ab09f19f")
+			(uuid "d2dc6e2a-ad4f-4e74-a77d-2c5c5b4d8454")
 			(effects
 				(font
 					(size 1 1)
@@ -19072,7 +19075,7 @@
 		(property "Value" "FTSH-105-01-L-DV-K"
 			(at 0 4.285 90)
 			(layer "F.Fab")
-			(uuid "698d6bf9-006e-4340-9ea5-e085b0107ba6")
+			(uuid "854aad2e-5ef5-48c7-8a8a-bc7d9dacd0b4")
 			(effects
 				(font
 					(size 1 1)
@@ -19084,7 +19087,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e3757ae-ff40-4c82-bab5-f40ef71ff107")
+			(uuid "9aa71083-0c98-440f-83ee-bd34c4477dbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19096,7 +19099,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb25fee1-1e3c-45d7-9ac2-cdc646009b90")
+			(uuid "484c3ea7-254b-4bcc-909c-065bcf3c5437")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20070,11 +20073,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b7ad9d73-81c2-442e-a563-a9ab6714b4e4")
-		(at 166.66 86.72)
+		(at 164.05 81.705 -90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R82"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "74e6390a-3eba-405b-bf61-1b8674db8324")
 			(effects
@@ -20085,7 +20088,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "f1b6416c-bdba-49e3-92e8-63e2d4481e3c")
 			(effects
@@ -20096,7 +20099,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7fd7bc5-046e-44f4-ae36-750ee168ed5a")
@@ -20108,7 +20111,7 @@
 			)
 		)
 		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "974bd348-3cee-411f-8d45-3843ec0832d1")
@@ -20120,7 +20123,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-0727RL"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20133,7 +20136,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20146,7 +20149,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20186,7 +20189,7 @@
 			(uuid "b29970f7-238a-498d-b1bf-6b36c46badb0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "8025ed63-74ae-4b6b-87b3-5d6dddd14aa1")
 			(effects
@@ -20197,21 +20200,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "c19193ae-8c9a-4fcd-88fc-4799fa3b5130")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "ddcd4571-8888-462b-b63c-22ea8beaa19a")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20220,7 +20223,7 @@
 			(uuid "e59b0dce-0161-432c-a9c9-ecbc2c7932d9")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20424,11 +20427,11 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "bb618a9e-6634-40f2-918b-717c72bb64b3")
-		(at 158.8 86.35)
+		(at 164.2725 83.745 -90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R76"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "a59d1459-b963-4ed4-824a-653db9eb4ee0")
 			(effects
@@ -20439,7 +20442,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "db064dcb-96c3-4e32-8f34-2591a4872616")
 			(effects
@@ -20450,7 +20453,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.jp/en/ProductDetail/YAGEO/RC0201FR-0710KL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "219866ff-3794-4d03-9079-4870e2f5cad2")
@@ -20462,7 +20465,7 @@
 			)
 		)
 		(property "Description" "10 kohm +/-1% 1/20 W 0201 PSRAM chip-select pull-up, Yageo RC0201FR-0710KL"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7542fd15-7459-4269-b2d4-1a037577ebec")
@@ -20474,7 +20477,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-0710KL"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20487,7 +20490,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20500,7 +20503,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20540,7 +20543,7 @@
 			(uuid "31923a0f-5a79-4bbf-af1a-4840382b7bb1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "09070f6c-70bd-4501-96e9-a0cc842a5068")
 			(effects
@@ -20551,21 +20554,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 270)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "f8e835ed-5c43-450f-b8e5-f76947ac1ff9")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 270)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "db2acb2b-e7e9-4cf9-88c8-4396c154101e")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 270)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20574,7 +20577,7 @@
 			(uuid "09144c17-bb76-4df4-8904-0356334539d0")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 270)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20598,7 +20601,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "bd56405b-dd93-483c-a0a6-594f68b04b49")
-		(at 158.5 105)
+		(at 157.505 96.07)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
@@ -20714,7 +20717,7 @@
 			(uuid "b003c72f-d3e1-4640-a324-e39d715fbae9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at -0.02 -0.33 0)
 			(layer "F.Fab")
 			(uuid "60f23da0-3bb7-4d50-8b66-4533b033e45b")
 			(effects
@@ -20946,11 +20949,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c2b8659a-7e63-458f-9f25-063005ab6029")
-		(at 168 86.35 90)
+		(at 164.7125 85.54 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C26"
-			(at 0 -1.16 270)
+			(at 0 -1.16 90)
 			(layer "F.SilkS")
 			(uuid "9df643d2-44a7-4579-a3c2-f747c7075de0")
 			(effects
@@ -20961,7 +20964,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.16 270)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "589b5b09-62f9-4058-9779-6b0b2f6f8315")
 			(effects
@@ -20972,7 +20975,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7S1A105K050BC"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0feedcef-f777-4bcd-8bda-ecbaa9d84ff3")
@@ -20984,7 +20987,7 @@
 			)
 		)
 		(property "Description" "1 uF 10 V X7S +/-10% 0402 MLCC, TDK C1005X7S1A105K050BC"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45b1a18d-0bac-4e15-badf-fc001f8a2c49")
@@ -21082,7 +21085,7 @@
 			(uuid "36775c49-2153-422b-b6bf-b8f97046e22e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "70346f9c-3a10-4646-9dc6-9e9b386a7b1c")
 			(effects
@@ -21126,7 +21129,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c4ec9a6f-4e0c-457b-93cb-6ae87e2356ec")
-		(at 170.4 122.8)
+		(at 170.235 123.69 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R67"
@@ -21176,7 +21179,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-07100RL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21189,7 +21192,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21202,7 +21205,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21253,21 +21256,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "09d18124-1c9f-440f-8283-a2e78373bd68")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "1ac07afc-5879-452b-b8e7-95dee9aa0927")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -21276,7 +21279,7 @@
 			(uuid "2d2f40b2-9c27-46f9-8126-2da63ececb8a")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -21474,7 +21477,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c8b91211-3b34-4c06-b211-3eaadab632bd")
-		(at 182 88)
+		(at 166.73 94.14 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -21524,7 +21527,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X5R0J475K"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21537,7 +21540,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21550,7 +21553,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21568,16 +21571,6 @@
 		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f8ee4ff8-cea2-49f7-b6b6-01773fb252ec")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -21586,6 +21579,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "bbec8235-587b-48e3-8c14-7dec9c47aedc")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8ee4ff8-cea2-49f7-b6b6-01773fb252ec")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -21621,7 +21624,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21630,7 +21633,7 @@
 			(uuid "cc1a53f1-4448-4afc-bf6f-b2599ad36c1b")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21654,7 +21657,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c8ec0110-78cc-42c1-a5c3-35ad560c1ba7")
-		(at 170.4 107.1)
+		(at 170.255 107.65)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R75"
@@ -21828,7 +21831,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c92fd8b6-c939-4b9f-9728-4ea3dc5969c3")
-		(at 186 89.98)
+		(at 170.16 89.78)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -21964,7 +21967,7 @@
 			(uuid "b6f2f7b1-bafe-4a90-b1d1-d506cdf7dae0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at -0.16 -0.72 0)
 			(layer "F.Fab")
 			(uuid "7fd9000f-8d92-401d-95c9-017aa1d65f26")
 			(effects
@@ -22008,13 +22011,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "ca947791-1d13-483f-8eb5-dd4f6fdd273b")
-		(at 157 98.1)
+		(at 157.45 101.13)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R47"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "f0f6f585-462e-4305-a48d-7eff0b8a1d3e")
+			(uuid "68033d25-1be3-4f0b-a281-0949b0f4f1df")
 			(effects
 				(font
 					(size 1 1)
@@ -22025,7 +22028,7 @@
 		(property "Value" "100"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "c9992489-c286-4420-b624-7fcfbf5b35c2")
+			(uuid "3d620dd5-c61b-4424-86db-7a92fa4ec41e")
 			(effects
 				(font
 					(size 1 1)
@@ -22037,7 +22040,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d76ae9a-b130-40f8-9c85-79107b2e19f1")
+			(uuid "7d8523cd-05c4-4c9d-b176-3470070d50e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22049,7 +22052,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d67f0b01-973c-4b2c-8d3e-bc06260cea22")
+			(uuid "dec4cb45-6e26-470c-a4b5-cca71f4700d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22182,13 +22185,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "cd37ab58-cf38-4ec3-9aa3-c28422f0892c")
-		(at 157 81.3)
+		(at 157.4 82.75)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R38"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "70431fa9-b760-40c9-885f-e195a05d8b87")
+			(uuid "fbdac3ae-f16e-4491-8c17-b5cc0bea2e77")
 			(effects
 				(font
 					(size 1 1)
@@ -22199,7 +22202,7 @@
 		(property "Value" "100"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "65f5bcc4-08bc-4324-ab1f-632c377a32f4")
+			(uuid "d211cdf6-eb72-45f6-9734-00aebd2fb818")
 			(effects
 				(font
 					(size 1 1)
@@ -22211,7 +22214,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d14a2988-87b5-4afb-8088-88ba3af5533b")
+			(uuid "5aebaca8-7f31-4db6-a408-72c51e4167e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22223,7 +22226,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebbce6dd-2ef1-49fc-8a92-350e66747d0a")
+			(uuid "c84ff3c8-166c-4525-8ce4-54e38dafbad3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22356,7 +22359,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d026cff1-4425-47f5-a0c4-cfa7aae3d4f6")
-		(at 170.4 96.9)
+		(at 170.215 99.34)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -22878,11 +22881,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d87fed95-32b5-4a2d-af9f-77b66e0f92f4")
-		(at 166.45 110.1)
+		(at 164.745 112.05)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C25"
-			(at 0 -1.05 270)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
 			(uuid "554c6f5b-5f8a-4cad-a46c-53a844de2071")
 			(effects
@@ -22893,7 +22896,7 @@
 			)
 		)
 		(property "Value" "15p"
-			(at 0 1.05 270)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "58d09f2f-bda8-4a43-9794-9cc8e6c6851c")
 			(effects
@@ -22904,7 +22907,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM0335C1H150JA01D"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03947227-048e-432d-b745-1a4fa6bd9b0c")
@@ -22916,7 +22919,7 @@
 			)
 		)
 		(property "Description" "15 pF 50 V C0G +/-5% 0201 MLCC, Murata GRM0335C1H150JA01D"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28bae420-a133-425b-8745-796426700a4b")
@@ -22994,7 +22997,7 @@
 			(uuid "fadba9d7-f465-47fd-bc17-ba720306f7e0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 270)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "5ec55819-881b-424e-9bce-bbccb5761f24")
 			(effects
@@ -23050,15 +23053,16 @@
 		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_PTS810"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "de218d30-f430-4585-8927-b61f82da8656")
-		(at 167.525 111.975 90)
+		(at 167.675 109.555 90)
 		(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW1"
 			(at 0 -2.6 0)
 			(layer "F.SilkS")
-			(uuid "0c9856fe-9b72-4aeb-802b-64e0dfd48ad5")
+			(uuid "1b8c7ae0-ceec-4adb-8b28-85ec97007e5d")
 			(effects
 				(font
 					(size 1 1)
@@ -23069,7 +23073,7 @@
 		(property "Value" "PTS810SJM250SMTR LFS"
 			(at 0 2.6 0)
 			(layer "F.Fab")
-			(uuid "78975627-b6e5-4750-be87-1502b68cb14e")
+			(uuid "a8a8eb07-0c12-4687-aad5-f35d48a7092a")
 			(effects
 				(font
 					(size 1 1)
@@ -23082,7 +23086,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d084da1-3376-4a32-a53f-96b6d028f4c8")
+			(uuid "80ea1db0-e051-4136-865b-787ec3c2e400")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23095,7 +23099,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f09ef40-8de6-4657-b50d-e0217d6c3552")
+			(uuid "aef1b907-07a1-4aef-bfe0-7b74508dcfd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23585,13 +23589,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e07a2f49-9dbf-457e-a3b9-cf89b7b94c51")
-		(at 170.4 104.9)
+		(at 170.235 106.24 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "d82b9bbd-aef0-41fa-94b3-59f995b76dc9")
+			(uuid "dd99f3f6-6d28-4630-98f8-ff5d1328ff56")
 			(effects
 				(font
 					(size 1 1)
@@ -23602,7 +23606,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "6b3aff00-4904-43d1-a61c-dca2f5fef985")
+			(uuid "83ff687d-f676-4e37-987c-d11ae5495bca")
 			(effects
 				(font
 					(size 1 1)
@@ -23614,7 +23618,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75b0df15-706e-4566-8e7e-fc39a47a603d")
+			(uuid "4e37d3f1-84e1-49fd-aa50-116314286fc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23626,7 +23630,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21a8d0fb-9a3b-458c-8f08-c5044fef7c78")
+			(uuid "4df50bb8-c797-411a-b25a-78ff07e64a65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23635,7 +23639,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-075K1L"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23648,7 +23652,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23661,7 +23665,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23712,21 +23716,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "3d3489b3-95c1-4bb0-bb79-e6b5814c3c23")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "005a69b5-4edd-4bda-8ba2-86b50a35eb1f")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23735,7 +23739,7 @@
 			(uuid "2c594749-8507-4646-9316-e8e94b0738e4")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23759,11 +23763,11 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "e1c72692-4724-4b4c-93c6-a565ce78be9a")
-		(at 162.04 89.42)
+		(at 161.4125 86.74 -90)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
-			(at 0 -3.4 0)
+			(at 0 -3.4 90)
 			(layer "F.SilkS")
 			(uuid "6afb1e77-28aa-4512-9a7d-b16565c13f30")
 			(effects
@@ -23774,7 +23778,7 @@
 			)
 		)
 		(property "Value" "APS6404L-3SQR-SN"
-			(at 0 3.4 0)
+			(at 0 3.4 90)
 			(layer "F.Fab")
 			(uuid "f4313323-2534-4ae7-9627-e03ebc3a403b")
 			(effects
@@ -23785,7 +23789,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS6404L_3SQR_v2_3_PKG-1954826.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f16d8315-3de2-4eed-aee2-b170a090e3aa")
@@ -23797,7 +23801,7 @@
 			)
 		)
 		(property "Description" "64 Mbit QSPI PSRAM, 8M x 8, up to 133 MHz, 2.7-3.6 V, SOP-8, AP Memory APS6404L-3SQR-SN"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a10dbda9-9996-4801-a858-493e71aa8e3d")
@@ -23809,7 +23813,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23822,7 +23826,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23835,7 +23839,7 @@
 			)
 		)
 		(property "Mouser" "878-APS6404L-3SQR-SN"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23853,26 +23857,6 @@
 		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.06 -2.56)
-			(end 2.06 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75227c0f-0c3b-4964-b647-e56d98ef97ff")
-		)
-		(fp_line
-			(start -2.06 -2.465)
-			(end -2.06 -2.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6d4d90a9-eb0b-456a-9aa6-3c0821729665")
-		)
-		(fp_line
 			(start -2.06 2.56)
 			(end -2.06 2.465)
 			(stroke
@@ -23883,14 +23867,14 @@
 			(uuid "bfc58c4e-feba-48f0-908e-eead87e7958c")
 		)
 		(fp_line
-			(start 2.06 -2.56)
-			(end 2.06 -2.465)
+			(start 2.06 2.56)
+			(end -2.06 2.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "01eb22bc-1828-42dd-84ce-3ab9ed0f311e")
+			(uuid "c651807e-a306-4c15-8cc0-e1d28a5aa534")
 		)
 		(fp_line
 			(start 2.06 2.465)
@@ -23903,14 +23887,34 @@
 			(uuid "ac02fe36-f3c2-4af8-811a-3016186bd63e")
 		)
 		(fp_line
-			(start 2.06 2.56)
-			(end -2.06 2.56)
+			(start -2.06 -2.465)
+			(end -2.06 -2.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c651807e-a306-4c15-8cc0-e1d28a5aa534")
+			(uuid "6d4d90a9-eb0b-456a-9aa6-3c0821729665")
+		)
+		(fp_line
+			(start -2.06 -2.56)
+			(end 2.06 -2.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75227c0f-0c3b-4964-b647-e56d98ef97ff")
+		)
+		(fp_line
+			(start 2.06 -2.56)
+			(end 2.06 -2.465)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "01eb22bc-1828-42dd-84ce-3ab9ed0f311e")
 		)
 		(fp_poly
 			(pts
@@ -23925,56 +23929,6 @@
 			(uuid "f90fe2c1-e0a4-42b4-9332-0093373710e3")
 		)
 		(fp_line
-			(start -3.7 -2.46)
-			(end -2.2 -2.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "97fc862e-ea28-4328-b8f5-fb818be98ca3")
-		)
-		(fp_line
-			(start -3.7 2.46)
-			(end -3.7 -2.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "79343cc4-83ea-4aa2-9394-2dde0dae47b2")
-		)
-		(fp_line
-			(start -2.2 -2.7)
-			(end 2.2 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0974d61e-b868-463d-b04d-b57304bfa5dd")
-		)
-		(fp_line
-			(start -2.2 -2.46)
-			(end -2.2 -2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "81816473-90f4-4c7b-9f2a-b7b1e439a95b")
-		)
-		(fp_line
-			(start -2.2 2.46)
-			(end -3.7 2.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ff630dae-88a2-485e-8dff-4353a22ab581")
-		)
-		(fp_line
 			(start -2.2 2.7)
 			(end -2.2 2.46)
 			(stroke
@@ -23983,36 +23937,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "d86cd9e6-335b-44cd-b85b-a465cbb0644a")
-		)
-		(fp_line
-			(start 2.2 -2.7)
-			(end 2.2 -2.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b8724694-666b-4859-82c9-f19fbfb1d9c0")
-		)
-		(fp_line
-			(start 2.2 -2.46)
-			(end 3.7 -2.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ddd88a33-524b-427d-b737-06c7eb8260c1")
-		)
-		(fp_line
-			(start 2.2 2.46)
-			(end 2.2 2.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "af094585-88d0-4ff4-9f82-4f7237e9e22f")
 		)
 		(fp_line
 			(start 2.2 2.7)
@@ -24025,14 +23949,34 @@
 			(uuid "082db4b7-a176-45a0-871f-b87bbf38e408")
 		)
 		(fp_line
-			(start 3.7 -2.46)
-			(end 3.7 2.46)
+			(start -3.7 2.46)
+			(end -3.7 -2.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "24fdad70-b23b-4976-93d3-a5b4a098fad9")
+			(uuid "79343cc4-83ea-4aa2-9394-2dde0dae47b2")
+		)
+		(fp_line
+			(start -2.2 2.46)
+			(end -3.7 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff630dae-88a2-485e-8dff-4353a22ab581")
+		)
+		(fp_line
+			(start 2.2 2.46)
+			(end 2.2 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af094585-88d0-4ff4-9f82-4f7237e9e22f")
 		)
 		(fp_line
 			(start 3.7 2.46)
@@ -24043,6 +23987,66 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "c538c0aa-d62f-496e-a0ce-3fc388985e5f")
+		)
+		(fp_line
+			(start -3.7 -2.46)
+			(end -2.2 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97fc862e-ea28-4328-b8f5-fb818be98ca3")
+		)
+		(fp_line
+			(start -2.2 -2.46)
+			(end -2.2 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81816473-90f4-4c7b-9f2a-b7b1e439a95b")
+		)
+		(fp_line
+			(start 2.2 -2.46)
+			(end 3.7 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddd88a33-524b-427d-b737-06c7eb8260c1")
+		)
+		(fp_line
+			(start 3.7 -2.46)
+			(end 3.7 2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "24fdad70-b23b-4976-93d3-a5b4a098fad9")
+		)
+		(fp_line
+			(start -2.2 -2.7)
+			(end 2.2 -2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0974d61e-b868-463d-b04d-b57304bfa5dd")
+		)
+		(fp_line
+			(start 2.2 -2.7)
+			(end 2.2 -2.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b8724694-666b-4859-82c9-f19fbfb1d9c0")
 		)
 		(fp_poly
 			(pts
@@ -24057,7 +24061,7 @@
 			(uuid "b9518b7e-d9ea-4dc1-a6dd-c33ef1930ae4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.91 4.77 90)
+			(at -1.91 4.77 0)
 			(layer "F.Fab")
 			(uuid "ceb45a70-a033-48b6-89a2-64174fc8f02b")
 			(effects
@@ -24068,7 +24072,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.475 -1.905)
+			(at -2.475 -1.905 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24078,7 +24082,7 @@
 			(uuid "eae9e089-3c64-4f37-8ef2-2f57f245cac3")
 		)
 		(pad "2" smd roundrect
-			(at -2.475 -0.635)
+			(at -2.475 -0.635 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24088,7 +24092,7 @@
 			(uuid "5c681f8d-bde2-4ff8-b693-a53f9f36daed")
 		)
 		(pad "3" smd roundrect
-			(at -2.475 0.635)
+			(at -2.475 0.635 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24098,7 +24102,7 @@
 			(uuid "ffb49772-f491-48d1-bbf1-7cab6cff8bea")
 		)
 		(pad "4" smd roundrect
-			(at -2.475 1.905)
+			(at -2.475 1.905 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24108,7 +24112,7 @@
 			(uuid "ee6f730f-675f-4776-a58b-1ad0f8a3dfa3")
 		)
 		(pad "5" smd roundrect
-			(at 2.475 1.905)
+			(at 2.475 1.905 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24118,7 +24122,7 @@
 			(uuid "83378866-51e3-44f6-8853-d58c79b6886f")
 		)
 		(pad "6" smd roundrect
-			(at 2.475 0.635)
+			(at 2.475 0.635 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24128,7 +24132,7 @@
 			(uuid "9551f0ce-8ffa-49d0-8fd8-37d7dcca9bda")
 		)
 		(pad "7" smd roundrect
-			(at 2.475 -0.635)
+			(at 2.475 -0.635 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24138,7 +24142,7 @@
 			(uuid "59593114-65e3-4cd3-bffb-aebe351d8a51")
 		)
 		(pad "8" smd roundrect
-			(at 2.475 -1.905)
+			(at 2.475 -1.905 270)
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24163,7 +24167,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e5c6455f-7351-4acf-9122-a00c1905120e")
-		(at 157 101.4)
+		(at 153.255 101.25)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R52"
@@ -24871,7 +24875,7 @@
 		(property "Reference" "C5"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "a2281fbc-2e6d-4c8a-b73a-7ad172950cb7")
+			(uuid "86a5387a-58c9-420b-b363-086a5ed3e535")
 			(effects
 				(font
 					(size 1 1)
@@ -24882,7 +24886,7 @@
 		(property "Value" "1.5n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "136b9ee5-ee56-4847-8607-2ce5da6f2c9a")
+			(uuid "37b94f2c-cb4a-4eb7-8832-865d36c5c75d")
 			(effects
 				(font
 					(size 1 1)
@@ -24894,7 +24898,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "855b4390-8939-402b-b9aa-30909b072534")
+			(uuid "974961eb-55a1-4d3e-8b4c-db395bb78545")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24906,7 +24910,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "882868af-9236-4925-9df5-fedf8ddbc49c")
+			(uuid "8b6cad71-d181-494d-b2c8-bf7448f2dc78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25045,7 +25049,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f4313d5e-b0cb-4083-b780-1dbc6113e193")
-		(at 170.4 101.6)
+		(at 170.22 103.62)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -25393,11 +25397,11 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f7023175-90f4-4bd6-8b5b-6d30688ba955")
-		(at 166.66 87.92)
+		(at 165.12 91.915 -90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C27"
-			(at 0 -1.05 90)
+			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "45162b90-0b61-4f96-8b9e-9f291f13812a")
 			(effects
@@ -25408,7 +25412,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 90)
+			(at 0 1.05 0)
 			(layer "F.Fab")
 			(uuid "0adeb773-5b59-40eb-b35b-e6567d82801c")
 			(effects
@@ -25419,7 +25423,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7fc620c-6c10-4872-adac-e5134280f6ae")
@@ -25431,7 +25435,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdef59e7-6754-4800-a948-f36316713efc")
@@ -25443,7 +25447,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25456,7 +25460,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25469,7 +25473,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25509,7 +25513,7 @@
 			(uuid "26f34516-bb83-418d-8539-25d4c97bc8b2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 90)
+			(at 0 -0.68 0)
 			(layer "F.Fab")
 			(uuid "97808f34-0626-404c-95ae-aeec68d0f8f2")
 			(effects
@@ -25520,21 +25524,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0 90)
+			(at -0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "02eef1c6-c533-4073-96f6-68d615fbc4e1")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0 90)
+			(at 0.345 0)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "bf1ef8ca-da2c-4378-8cf7-2493c2e4a522")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0 90)
+			(at -0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -25543,7 +25547,7 @@
 			(uuid "739787a1-d124-4a91-aaa1-8cad728dcdbd")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0 90)
+			(at 0.32 0)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -25567,11 +25571,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f8dc0542-0484-414e-b718-b8043519e4a7")
-		(at 186 98)
+		(at 177.595 96.16 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "F.SilkS")
 			(uuid "322a4990-225a-40f5-a74f-283533ea1d81")
 			(effects
@@ -25582,7 +25586,7 @@
 			)
 		)
 		(property "Value" "1.5n"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "2f54b109-c6df-4360-8d29-c9626ab0a49c")
 			(effects
@@ -25593,7 +25597,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM1555C1H152JA01D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7dfb062e-3731-47b2-9f38-b9626cedce0f")
@@ -25605,7 +25609,7 @@
 			)
 		)
 		(property "Description" "1.5 nF 50 V C0G +/-5% 0402 ADC-filter capacitor, Murata GRM1555C1H152JA01D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d59081de-af01-4a81-9966-f83d46fcd645")
@@ -25617,7 +25621,7 @@
 			)
 		)
 		(property "Mouser" "81-GRM1555C1H152JA1D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25630,7 +25634,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25643,7 +25647,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25661,16 +25665,6 @@
 		(sheetfile "metalclaw-pico-rp2.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ffe48952-e40a-449d-8e7a-92fcf64cb7ac")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -25679,6 +25673,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f80e73b9-99a4-432f-b594-4e85fbe1c043")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ffe48952-e40a-449d-8e7a-92fcf64cb7ac")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -25703,7 +25707,7 @@
 			(uuid "857726af-e6f8-4ff0-bb49-894b05f127f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "fa1e593c-bfe3-443c-ae19-8379be7c3915")
 			(effects
@@ -25714,7 +25718,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -25723,7 +25727,7 @@
 			(uuid "4b237349-83ef-42d3-8485-c24375c67328")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -25747,13 +25751,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "fed477dd-00d6-4189-9110-2fd873f3aa77")
-		(at 170.4 100.1)
+		(at 170.2 100.96 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R41"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "af3758ac-261b-458c-86ab-71b67e6bfdd0")
+			(uuid "1948c887-210b-4a55-bf5e-001aa1e3f320")
 			(effects
 				(font
 					(size 1 1)
@@ -25764,7 +25768,7 @@
 		(property "Value" "1k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "15d038bb-ce1c-436d-8a75-08d042b21ee8")
+			(uuid "6c5fe0fe-e78b-473d-a995-7802ef05ee9e")
 			(effects
 				(font
 					(size 1 1)
@@ -25776,7 +25780,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6473990f-5af9-4e3a-8bcd-616cd4e660da")
+			(uuid "9d02d036-cac8-4c10-9576-f00a33dd7d87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25788,7 +25792,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84d5f18e-fbf4-4d5b-95d3-475b5b68658a")
+			(uuid "4f53e6a3-98a4-4978-8153-2099c1d2e44f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25797,7 +25801,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-071KL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25810,7 +25814,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25823,7 +25827,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25874,21 +25878,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "19ddbc75-5153-405d-be6b-65eb5607fbb3")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 180)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "638859b2-109d-47ed-95d4-8d4d93ef8836")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -25897,7 +25901,7 @@
 			(uuid "a6a871cf-fcfd-4a9d-949a-5e6b9f53860c")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 180)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
