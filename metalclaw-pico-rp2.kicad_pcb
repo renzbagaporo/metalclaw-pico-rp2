@@ -14707,13 +14707,13 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "9894296b-9d47-4111-822c-7d77a2fc0532")
-		(at 163.79 100.24)
+		(at 163.81 98.87)
 		(descr "QFN, 80 Pin (https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U2"
 			(at 0 -6.3 0)
 			(layer "F.SilkS")
-			(uuid "a3fc2cb4-1795-46d6-93fb-336b1abd8a20")
+			(uuid "e35767ea-5982-4bd0-9211-edd3f1c728df")
 			(effects
 				(font
 					(size 1 1)
@@ -14724,7 +14724,7 @@
 		(property "Value" "RP2354B"
 			(at 0 6.3 0)
 			(layer "F.Fab")
-			(uuid "b39ab031-a89e-4fbd-ac64-80b8413015c5")
+			(uuid "153a35c6-b105-41ba-b200-cb344b6c4268")
 			(effects
 				(font
 					(size 1 1)
@@ -14736,7 +14736,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cc06dca-36d6-4adf-8b1b-1916aad09979")
+			(uuid "36589fcc-ff2a-4b75-9320-f9ca35ccec1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14748,7 +14748,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8087ac0f-c546-4212-bcd1-56e4da4fcb24")
+			(uuid "d7756f1c-08e1-4999-9c79-902689265296")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20247,7 +20247,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b894fef8-156e-43ee-9395-562e7622c4c4")
-		(at 162.4 84.56 90)
+		(at 162.44 83.69 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -23763,7 +23763,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "e1c72692-4724-4b4c-93c6-a565ce78be9a")
-		(at 161.285 89.415 -90)
+		(at 161.1425 88.4 -90)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
