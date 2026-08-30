@@ -11738,6 +11738,16 @@
 		)
 		(uuid "28e91cb7-afbb-4a01-b44a-3ba1897d783d")
 	)
+	(label "USB_D+"
+		(at 330.2 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29006691-1e0f-478c-8d1b-a3230c056e30")
+	)
 	(label "GP7"
 		(at 43.18 172.72 0)
 		(effects
@@ -11987,6 +11997,16 @@
 			(justify right bottom)
 		)
 		(uuid "8f168bef-c033-43a6-9437-304cabf31daa")
+	)
+	(label "USB_D-"
+		(at 330.2 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "940bf26f-1a19-479f-95b6-d7782aa8db3f")
 	)
 	(label "GP26"
 		(at 191.77 182.88 180)
@@ -25061,7 +25081,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010ER,115"
+		(property "Value" "CUHS20F30,H3F"
 			(at 343.8525 69.85 0)
 			(effects
 				(font
@@ -25069,7 +25089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -25078,7 +25098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CUHS20F30_datasheet_en_20250926.pdf?did=63604&prodName=CUHS20F30"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -25087,7 +25107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20 V 1 A low-forward-voltage Schottky rectifier, SOD-123W, Nexperia PMEG2010ER,115"
+		(property "Description" "30 V 2 A Schottky barrier diode, SOD-323HE (US2H), Toshiba CUHS20F30,H3F"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -25096,7 +25116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "771-PMEG2010ER115"
+		(property "Mouser" "757-CUHS20F30H3F"
 			(at 344.17 73.66 0)
 			(effects
 				(font
