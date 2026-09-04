@@ -11739,7 +11739,7 @@
 		(uuid "28e91cb7-afbb-4a01-b44a-3ba1897d783d")
 	)
 	(label "USB_D+"
-		(at 330.2 123.19 180)
+		(at 347.98 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11999,7 +11999,7 @@
 		(uuid "8f168bef-c033-43a6-9437-304cabf31daa")
 	)
 	(label "USB_D-"
-		(at 330.2 120.65 180)
+		(at 347.98 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
