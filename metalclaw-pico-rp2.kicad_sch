@@ -12297,7 +12297,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C20625731"
 			(at 339.09 156.21 90)
 			(effects
 				(font
@@ -12306,15 +12306,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 339.09 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "3"
 			(uuid "d2bca032-61a4-4378-8c89-17dcae2370f9")
 		)
@@ -12401,7 +12393,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -12410,15 +12402,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "7295dc64-fc18-41b4-9c46-9f7b573ac0ad")
 		)
@@ -12500,8 +12484,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 160.02 187.96 0)
+		(property "LCSC" "C668348"
+			(at 160.02 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12509,15 +12493,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 160.02 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "dd51c1ff-91cf-4f05-91f9-05eaae11f356")
 		)
@@ -12596,7 +12572,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 114.3 72.39 90)
 			(effects
 				(font
@@ -12605,15 +12581,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 114.3 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "aec89cfd-793f-4ceb-a220-60f60a9bb310")
 		)
@@ -12694,7 +12662,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -12703,15 +12671,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "c26fa279-2229-4212-8eb2-694ca71fc9fd")
 		)
@@ -12792,7 +12752,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 73.66 146.05 90)
 			(effects
 				(font
@@ -12801,15 +12761,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 73.66 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "95c4b219-c84a-4737-bc5a-d1a86caec553")
 		)
@@ -12887,7 +12839,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C86534"
 			(at 67.31 73.66 0)
 			(effects
 				(font
@@ -12896,15 +12848,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 67.31 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "4"
 			(uuid "e4331614-3439-435e-9ea1-54dc721c1c4b")
 		)
@@ -13004,6 +12948,15 @@
 			)
 		)
 		(property "Mouser" "358-SC151213"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C39843328"
 			(at 295.91 146.05 0)
 			(effects
 				(font
@@ -13349,7 +13302,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 69.85 204.47 90)
 			(effects
 				(font
@@ -13358,15 +13311,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 69.85 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "f19fc9f1-cd27-4aaf-b772-4ec697afdd21")
 		)
@@ -13445,7 +13390,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 273.05 78.74 90)
 			(effects
 				(font
@@ -13454,7 +13399,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 273.05 78.74 90)
 			(effects
 				(font
@@ -13463,6 +13408,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "bcbe7a30-8dd2-4437-be79-a1a21ed2e5e0")
 		)
@@ -13568,24 +13514,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 124.46 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 124.46 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "15"
 			(uuid "34ec6734-4a4d-45d7-bc44-e2e9dfd4bbc8")
 		)
@@ -13789,7 +13718,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 327.66 191.77 0)
 			(effects
 				(font
@@ -13798,15 +13727,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 327.66 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "8b4765cf-d40b-44e4-bad2-7f35e891ef9b")
 		)
@@ -13953,7 +13874,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 158.75 148.59 90)
 			(effects
 				(font
@@ -13962,15 +13883,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 158.75 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "d2c4b4b2-814b-41b0-bd01-789217346946")
 		)
@@ -14051,7 +13964,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 191.77 0)
 			(effects
 				(font
@@ -14060,15 +13973,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "7e9e414c-d841-46aa-b937-c38b541ab16b")
 		)
@@ -14215,7 +14120,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 189.23 0)
 			(effects
 				(font
@@ -14224,15 +14129,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "790dfb4f-02a3-4158-989c-39f8257570b6")
 		)
@@ -14393,8 +14290,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 370.84 88.9 90)
+		(property "LCSC" "C3020560"
+			(at 370.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14402,15 +14299,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 370.84 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "B9"
 			(uuid "29d35c11-4030-4cf5-a7b1-5014f83a9fcd")
 		)
@@ -14530,7 +14419,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C142018"
 			(at 165.1 196.85 90)
 			(effects
 				(font
@@ -14539,15 +14428,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 165.1 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "7782cb07-b0de-4d6d-8c89-a9b223f21765")
 		)
@@ -14628,7 +14509,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 170.18 148.59 90)
 			(effects
 				(font
@@ -14637,15 +14518,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 170.18 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "05beabde-be05-464b-a9da-f35c702f3784")
 		)
@@ -14726,7 +14599,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 166.37 148.59 90)
 			(effects
 				(font
@@ -14735,15 +14608,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 166.37 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "41807583-d94b-4315-adf2-96738ab566a4")
 		)
@@ -14822,7 +14687,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 203.2 78.74 90)
 			(effects
 				(font
@@ -14831,7 +14696,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 203.2 78.74 90)
 			(effects
 				(font
@@ -14840,6 +14705,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "b9f2b8d8-499c-406d-bfe7-0bbbbbf27fa9")
 		)
@@ -14918,7 +14784,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C138165"
 			(at 114.3 85.09 90)
 			(effects
 				(font
@@ -14927,15 +14793,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 114.3 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "3dd36477-b2a2-4756-a1df-8d938b8a288c")
 		)
@@ -15014,7 +14872,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 254 78.74 90)
 			(effects
 				(font
@@ -15023,7 +14881,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 254 78.74 90)
 			(effects
 				(font
@@ -15032,6 +14890,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "5e8a4243-7f83-4024-8be3-7f12d1d72a84")
 		)
@@ -15112,7 +14971,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 156.21 0)
 			(effects
 				(font
@@ -15121,15 +14980,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "1e1847bb-fcdb-4097-816c-c4081c7db32d")
 		)
@@ -15208,7 +15059,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 241.3 78.74 90)
 			(effects
 				(font
@@ -15217,7 +15068,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 241.3 78.74 90)
 			(effects
 				(font
@@ -15226,6 +15077,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "fd450214-2081-4310-809f-217362cbe844")
 		)
@@ -15306,7 +15158,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 162.56 148.59 90)
 			(effects
 				(font
@@ -15315,15 +15167,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 162.56 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "44a5b23b-47e3-4ffe-b7ae-276a798ea079")
 		)
@@ -15470,7 +15314,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274872"
 			(at 180.34 196.85 90)
 			(effects
 				(font
@@ -15479,15 +15323,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 180.34 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "f65a8714-45fd-423a-b547-9d80e84e9991")
 		)
@@ -15699,7 +15535,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -15708,15 +15544,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "dc34b9f8-bff1-4716-80ef-31fbd37f3410")
 		)
@@ -15797,7 +15625,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 163.83 0)
 			(effects
 				(font
@@ -15806,15 +15634,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "dd0d536f-2ebb-4c92-a4a3-56dbcb2521a0")
 		)
@@ -15893,7 +15713,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 247.65 78.74 90)
 			(effects
 				(font
@@ -15902,7 +15722,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 247.65 78.74 90)
 			(effects
 				(font
@@ -15911,6 +15731,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "da0e1a26-bc6d-46b8-af89-f11d7254ee0f")
 		)
@@ -15989,7 +15810,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 215.9 78.74 90)
 			(effects
 				(font
@@ -15998,7 +15819,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 215.9 78.74 90)
 			(effects
 				(font
@@ -16007,6 +15828,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "4ddfc912-0d97-475e-b0dd-6ed800c90660")
 		)
@@ -16085,7 +15907,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C52923"
 			(at 184.15 78.74 90)
 			(effects
 				(font
@@ -16094,7 +15916,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CL05A105KA5NQNC"
 			(at 184.15 78.74 90)
 			(effects
 				(font
@@ -16103,6 +15925,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "096194e7-f980-4612-8096-8847752683e4")
 		)
@@ -16183,7 +16006,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C273268"
 			(at 335.28 123.19 90)
 			(effects
 				(font
@@ -16192,15 +16015,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 335.28 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "ded6fb56-8944-42e2-9862-46cdba749039")
 		)
@@ -16346,7 +16161,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -16355,15 +16170,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "78c4f7f5-1ab7-4c36-b242-f917fd092eb5")
 		)
@@ -16444,7 +16251,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 143.51 0)
 			(effects
 				(font
@@ -16453,15 +16260,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "7f2ff639-1f3d-4d0c-9a86-5ecdd50c7512")
 		)
@@ -16542,7 +16341,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 77.47 146.05 90)
 			(effects
 				(font
@@ -16551,15 +16350,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 77.47 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "8d53b3aa-7a27-483a-a0a0-9346f452dcb2")
 		)
@@ -16640,7 +16431,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -16649,15 +16440,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "6a42c701-4da0-44bd-a2c7-f6fafdb5bb1c")
 		)
@@ -16738,7 +16521,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -16747,15 +16530,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "191209f6-6540-4aef-bc3b-3e41eab339bf")
 		)
@@ -16836,7 +16611,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -16845,15 +16620,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "db7559ca-4161-4388-84eb-587d362debf2")
 		)
@@ -16935,8 +16702,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 156.21 201.93 0)
+		(property "LCSC" "C668348"
+			(at 156.21 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16944,15 +16711,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 156.21 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "18ceb08c-8442-4310-96f4-859f1e7ad46d")
 		)
@@ -17032,7 +16791,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 342.9 91.44 90)
 			(effects
 				(font
@@ -17041,15 +16800,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 342.9 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "c4bec07f-0d04-4c05-bcd1-3b067139b317")
 		)
@@ -17129,7 +16880,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 335.28 91.44 90)
 			(effects
 				(font
@@ -17138,15 +16889,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 335.28 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "63bddff6-adf6-44ae-bb26-883581500943")
 		)
@@ -17227,7 +16970,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 186.69 0)
 			(effects
 				(font
@@ -17236,15 +16979,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "a1d4a95e-0f2f-4523-adb0-b6b7aef1a565")
 		)
@@ -17325,7 +17060,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 105.41 0)
 			(effects
 				(font
@@ -17334,15 +17069,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "152265ed-2f97-431e-908d-954e096a55fe")
 		)
@@ -17421,7 +17148,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C19702"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -17430,7 +17157,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CL10A106KP8NNNC"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -17439,6 +17166,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "1d7c3795-b660-42c6-9372-a8885b78e197")
 		)
@@ -17517,7 +17245,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 228.6 78.74 90)
 			(effects
 				(font
@@ -17526,7 +17254,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 228.6 78.74 90)
 			(effects
 				(font
@@ -17535,6 +17263,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "5ed42b5f-b3d8-4d24-b3cd-53ffecbbb3c8")
 		)
@@ -17615,7 +17344,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 196.85 0)
 			(effects
 				(font
@@ -17624,15 +17353,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "a4afd21c-51df-4b0d-bdf0-300d7fe88ae2")
 		)
@@ -17777,7 +17498,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 260.35 78.74 90)
 			(effects
 				(font
@@ -17786,7 +17507,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 260.35 78.74 90)
 			(effects
 				(font
@@ -17795,6 +17516,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "ddcfcebd-b632-48ca-b28b-63bd9eb893c3")
 		)
@@ -17921,7 +17643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF 16 V X7R +/-10% 0402 carrier RESET filter, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF 10 V X7R +/-10% 0201 carrier RESET filter, KYOCERA AVX KGM03BR71A104KH"
 			(at 152.4 90.17 0)
 			(effects
 				(font
@@ -17939,8 +17661,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 152.4 90.17 0)
+		(property "LCSC" "C190183"
+			(at 152.4 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17948,8 +17670,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 152.4 90.17 0)
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
+			(at 152.4 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17957,6 +17679,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "fc0d2838-7143-4cbe-830f-70c21b27b78c")
 		)
@@ -18103,7 +17826,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 179.07 0)
 			(effects
 				(font
@@ -18112,15 +17835,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "2f8beb16-9d44-4ee2-8f80-3abc845ad3b4")
 		)
@@ -18201,7 +17916,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274872"
 			(at 180.34 210.82 90)
 			(effects
 				(font
@@ -18210,15 +17925,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 180.34 210.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "761eb69d-738f-4475-9567-26b7f6461266")
 		)
@@ -18270,7 +17977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.ph/datasheet/3/184/1/AOTA_B201610S3R3_101_T.pdf"
+		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
 			(at 290.83 80.01 0)
 			(effects
 				(font
@@ -18279,7 +17986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "3.3 uH 20% 1.1 A 2016 shielded power inductor, Abracon AOTA-B201610S3R3-101-T"
 			(at 290.83 80.01 0)
 			(effects
 				(font
@@ -18297,7 +18004,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C42411119"
 			(at 290.83 80.01 0)
 			(effects
 				(font
@@ -18306,15 +18013,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 290.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "b6d031b5-e7f1-40e3-b757-32794ddc1ecb")
 		)
@@ -18526,7 +18225,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C138165"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -18535,15 +18234,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "331e6d6f-7d4c-4b29-8e10-68b54e290395")
 		)
@@ -18622,7 +18313,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 140.97 72.39 90)
 			(effects
 				(font
@@ -18631,15 +18322,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 140.97 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "a21e7e64-b496-4afb-9269-8723a6678969")
 		)
@@ -18734,7 +18417,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C5155080"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -18743,15 +18426,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 375.92 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "7"
 			(uuid "1dba6e3f-55d0-4b00-9140-fc1e403ba760")
 		)
@@ -18852,7 +18527,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C85891"
 			(at 347.98 151.13 90)
 			(effects
 				(font
@@ -18861,15 +18536,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 347.98 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "d3d2df3c-3cc8-44d0-afca-77dfa36e2cd5")
 		)
@@ -18950,7 +18617,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 81.28 146.05 90)
 			(effects
 				(font
@@ -18959,15 +18626,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 81.28 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "530387ff-b9cc-4709-bcf1-a00339b1129a")
 		)
@@ -19048,7 +18707,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C138165"
 			(at 328.93 161.29 0)
 			(effects
 				(font
@@ -19057,15 +18716,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 328.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "8adb9665-0cc1-4b54-ae94-530b476552ce")
 		)
@@ -19146,7 +18797,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -19155,15 +18806,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "81590a5d-162b-475a-bebc-0e64f70d9733")
 		)
@@ -19243,7 +18886,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C116501"
 			(at 114.3 95.25 90)
 			(effects
 				(font
@@ -19252,15 +18895,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 114.3 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "6299955d-2720-44ff-b23a-4490f2695cab")
 		)
@@ -19295,7 +18930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 351.79 188.976 0)
 			(effects
 				(font
@@ -19314,7 +18949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.jp/en/ProductDetail/YAGEO/RC0201FR-0710KL"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-072K2L"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -19323,7 +18958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 kohm +/-1% 1/20 W 0201 PSRAM chip-select pull-up, Yageo RC0201FR-0710KL"
+		(property "Description" "2.2 kohm +/-1% 1/20 W 0201 PSRAM chip-select pull-up, Yageo RC0201FR-072K2L"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -19332,7 +18967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0201FR-0710KL"
+		(property "Mouser" "603-RC0201FR-072K2L"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -19341,7 +18976,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C142018"
 			(at 353.06 190.5 0)
 			(effects
 				(font
@@ -19350,15 +18985,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 353.06 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "21381fa8-1b69-4ed5-b8ca-1587d93bfec5")
 		)
@@ -19439,7 +19066,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C273268"
 			(at 335.28 120.65 90)
 			(effects
 				(font
@@ -19448,15 +19075,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 335.28 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "1c29a64f-d8c5-4735-a059-9442fc675e50")
 		)
@@ -19537,7 +19156,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -19546,15 +19165,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "fc06ce5b-38cb-440b-9ac2-0aeaae78dad8")
 		)
@@ -19634,7 +19245,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C116501"
 			(at 140.97 90.17 90)
 			(effects
 				(font
@@ -19643,15 +19254,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 140.97 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "1b811ba4-0d20-4a0c-9d48-bcd4f5c41f9f")
 		)
@@ -19732,7 +19335,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 176.53 0)
 			(effects
 				(font
@@ -19741,15 +19344,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "0e930e90-0f20-445c-98d6-404f4050385c")
 		)
@@ -19830,7 +19425,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 135.89 0)
 			(effects
 				(font
@@ -19839,15 +19434,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "52e06e32-f7b6-48bb-b2da-04338e4f6b3d")
 		)
@@ -19928,7 +19515,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 85.09 204.47 90)
 			(effects
 				(font
@@ -19937,15 +19524,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 85.09 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "00627369-a55b-40a1-a008-b1af3a532419")
 		)
@@ -20026,7 +19605,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 161.29 0)
 			(effects
 				(font
@@ -20035,15 +19614,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "e9ec36f3-70f7-4b64-9315-58204020a791")
 		)
@@ -20124,7 +19695,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 62.23 146.05 90)
 			(effects
 				(font
@@ -20133,15 +19704,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 62.23 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "2eb7c815-ccad-494f-84dc-c8e2f6fca9d2")
 		)
@@ -20222,7 +19785,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 327.66 181.61 0)
 			(effects
 				(font
@@ -20231,15 +19794,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 327.66 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "d2397c47-e883-4572-a1ef-0e9bef547912")
 		)
@@ -20385,7 +19940,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C19702"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -20394,7 +19949,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CL10A106KP8NNNC"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -20403,6 +19958,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "4237d849-5b1c-4594-a4ba-a7bdb0e5bfbd")
 		)
@@ -20483,7 +20039,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 85.09 146.05 90)
 			(effects
 				(font
@@ -20492,15 +20048,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 85.09 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "ad906e3e-8f33-478a-a45b-3b191d2c243b")
 		)
@@ -20581,7 +20129,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -20590,15 +20138,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "847abc1c-db0d-4e2d-99be-a88130fdbaf0")
 		)
@@ -20679,7 +20219,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 62.23 204.47 90)
 			(effects
 				(font
@@ -20688,15 +20228,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 62.23 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "a9ab4c16-1c3e-4d30-ab16-9fec980d26d0")
 		)
@@ -20777,7 +20309,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 69.85 146.05 90)
 			(effects
 				(font
@@ -20786,15 +20318,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 69.85 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "5a73453e-9bfb-4ec6-af73-c5a6cdd68888")
 		)
@@ -20873,7 +20397,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C52923"
 			(at 386.08 138.43 90)
 			(effects
 				(font
@@ -20882,7 +20406,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CL05A105KA5NQNC"
 			(at 386.08 138.43 90)
 			(effects
 				(font
@@ -20891,6 +20415,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "9180dfac-9d8f-403f-b21e-8ed6405cff86")
 		)
@@ -20971,7 +20496,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 327.66 194.31 0)
 			(effects
 				(font
@@ -20980,15 +20505,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 327.66 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "dbf107d6-e567-406c-9cbf-848fa78054a4")
 		)
@@ -21067,7 +20584,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 222.25 78.74 90)
 			(effects
 				(font
@@ -21076,7 +20593,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 222.25 78.74 90)
 			(effects
 				(font
@@ -21085,6 +20602,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "d5530129-3b26-4d59-8f23-42a1386a6b31")
 		)
@@ -21165,7 +20683,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 168.91 0)
 			(effects
 				(font
@@ -21174,15 +20692,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "0fa6950d-dbfd-4790-95da-55836d833e21")
 		)
@@ -21263,7 +20773,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 113.03 0)
 			(effects
 				(font
@@ -21272,15 +20782,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "5605b763-bb08-414f-8997-0722b4759403")
 		)
@@ -21358,7 +20860,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C85891"
 			(at 347.98 161.29 90)
 			(effects
 				(font
@@ -21367,15 +20869,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 347.98 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "0e3944d7-962d-4788-9e08-ea3508c7d42e")
 		)
@@ -21590,8 +21084,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 152.4 215.9 0)
+		(property "LCSC" "C668348"
+			(at 152.4 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21599,15 +21093,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 152.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "a2fa2b71-3d54-4758-a963-4a62bc35c7ea")
 		)
@@ -21688,7 +21174,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -21697,15 +21183,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "c09eb172-9c96-4db8-95c3-d3f82bc6de49")
 		)
@@ -21786,7 +21264,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 130.81 0)
 			(effects
 				(font
@@ -21795,15 +21273,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "a3414c26-4fdd-447a-9293-cd011be1d235")
 		)
@@ -21884,7 +21354,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 58.42 204.47 90)
 			(effects
 				(font
@@ -21893,15 +21363,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 58.42 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "be10dc9e-7a1e-4843-9b5c-e85b7415e461")
 		)
@@ -21982,7 +21444,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -21991,15 +21453,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "d1cbe63f-2a1e-452f-bbf1-762bfc243914")
 		)
@@ -22078,7 +21532,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C326586"
 			(at 190.5 78.74 90)
 			(effects
 				(font
@@ -22087,7 +21541,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0402KRX5R6BB475"
 			(at 190.5 78.74 90)
 			(effects
 				(font
@@ -22096,6 +21550,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "4ea150de-a655-4087-8e9c-37259bffcbb7")
 		)
@@ -22242,7 +21697,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 73.66 204.47 90)
 			(effects
 				(font
@@ -22251,15 +21706,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 73.66 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "4c46594f-5369-4524-944f-c432b94205c9")
 		)
@@ -22406,7 +21853,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -22415,15 +21862,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "ce2d4269-06b3-4a51-8bfd-4c1a38a8c623")
 		)
@@ -22504,7 +21943,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 58.42 146.05 90)
 			(effects
 				(font
@@ -22513,15 +21952,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 58.42 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "dda7eb87-60a9-4d23-88c0-c37d897773c6")
 		)
@@ -22600,7 +22031,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C5333729"
 			(at 370.84 138.43 0)
 			(effects
 				(font
@@ -22609,15 +22040,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 370.84 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "5"
 			(uuid "bb753a98-1326-4ef6-bee9-a194520760a9")
 		)
@@ -22714,7 +22137,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C326586"
 			(at 177.8 78.74 90)
 			(effects
 				(font
@@ -22723,7 +22146,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0402KRX5R6BB475"
 			(at 177.8 78.74 90)
 			(effects
 				(font
@@ -22732,6 +22155,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "465c7088-720b-4a0f-ac4b-fcc1fd1a2f93")
 		)
@@ -22944,7 +22368,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 66.04 146.05 90)
 			(effects
 				(font
@@ -22953,15 +22377,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 66.04 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "447eec16-a688-4fc9-9deb-ae3aa83ea311")
 		)
@@ -23043,8 +22459,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 173.99 201.93 0)
+		(property "LCSC" "C326875"
+			(at 173.99 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23052,8 +22468,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 173.99 201.93 0)
+		(property "LCSC MPN" "CC0201KRX7R8BB103"
+			(at 173.99 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23061,6 +22477,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "d112a4d9-3ce9-468a-9deb-11e35e2c7cd2")
 		)
@@ -23141,7 +22558,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 77.47 204.47 90)
 			(effects
 				(font
@@ -23150,15 +22567,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 77.47 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "47f6e441-9480-4b2b-9170-b565482e06f2")
 		)
@@ -23239,7 +22648,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -23248,15 +22657,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "069618ef-a4fd-4449-845d-da7f7f1984f1")
 		)
@@ -23337,7 +22738,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C142018"
 			(at 162.56 210.82 90)
 			(effects
 				(font
@@ -23346,15 +22747,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 162.56 210.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "dc7e7a45-754a-4db9-83de-142f8a5ab5fa")
 		)
@@ -23436,8 +22829,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 173.99 215.9 0)
+		(property "LCSC" "C326875"
+			(at 173.99 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23445,8 +22838,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 173.99 215.9 0)
+		(property "LCSC MPN" "CC0201KRX7R8BB103"
+			(at 173.99 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23454,6 +22847,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "b06e3aad-849a-4bff-ab1c-0bac6a8d5ec2")
 		)
@@ -23534,7 +22928,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 181.61 0)
 			(effects
 				(font
@@ -23543,15 +22937,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "ddbb918e-aefd-4e09-9616-d94084d5dd67")
 		)
@@ -23630,7 +23016,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C326586"
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -23639,7 +23025,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0402KRX5R6BB475"
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -23648,6 +23034,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "fb7d62d0-cce8-4e55-8331-4fef148b0dd5")
 		)
@@ -23726,7 +23113,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C25105"
 			(at 283.21 49.53 90)
 			(effects
 				(font
@@ -23735,7 +23122,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "0402WGF330JTCE"
 			(at 283.21 49.53 90)
 			(effects
 				(font
@@ -23744,6 +23131,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "2"
 			(uuid "74db886c-722e-46b4-8d2b-73cf6c48ea74")
 		)
@@ -23822,7 +23210,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 209.55 78.74 90)
 			(effects
 				(font
@@ -23831,7 +23219,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 209.55 78.74 90)
 			(effects
 				(font
@@ -23840,6 +23228,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "868d0963-4569-4f5f-8a9d-587257074470")
 		)
@@ -23987,7 +23376,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 327.66 179.07 0)
 			(effects
 				(font
@@ -23996,15 +23385,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 327.66 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "f5ee3c7d-b8f5-4898-a6fb-96e661ff65a6")
 		)
@@ -24085,7 +23466,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 115.57 0)
 			(effects
 				(font
@@ -24094,15 +23475,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "e74bf8e3-19a4-46e3-9c2e-e61127b16ca8")
 		)
@@ -24183,7 +23556,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 66.04 204.47 90)
 			(effects
 				(font
@@ -24192,15 +23565,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 66.04 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "a7d68226-3a25-4c03-9d25-34e8ff315828")
 		)
@@ -24281,7 +23646,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 173.99 0)
 			(effects
 				(font
@@ -24290,15 +23655,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "d1b048f9-5dcc-47a1-bbfe-e9989ea198c5")
 		)
@@ -24379,7 +23736,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 81.28 204.47 90)
 			(effects
 				(font
@@ -24388,15 +23745,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 81.28 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "6e710eff-f211-424f-98d0-35bbd7cf9416")
 		)
@@ -24674,7 +24023,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -24683,15 +24032,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "8e6158f7-aa9a-401a-8f24-ae1d1159ac8d")
 		)
@@ -24772,7 +24113,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 166.37 0)
 			(effects
 				(font
@@ -24781,15 +24122,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "da2c44f9-5a96-432b-a9ba-18d0c7364b8a")
 		)
@@ -24870,7 +24203,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C142018"
 			(at 166.37 182.88 90)
 			(effects
 				(font
@@ -24879,15 +24212,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 166.37 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "65988321-ff21-4c19-bd60-21e576cd3560")
 		)
@@ -24965,7 +24290,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C5357828"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -24974,15 +24299,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 344.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "3fda4802-fc27-48db-9909-dfdba9a6bfd6")
 		)
@@ -25061,7 +24378,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C326586"
 			(at 196.85 78.74 90)
 			(effects
 				(font
@@ -25070,7 +24387,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0402KRX5R6BB475"
 			(at 196.85 78.74 90)
 			(effects
 				(font
@@ -25079,6 +24396,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "b5e3dd3e-dff3-4bd4-a9ec-7f73ba828a78")
 		)
@@ -25225,7 +24543,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 173.99 148.59 90)
 			(effects
 				(font
@@ -25234,15 +24552,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 173.99 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "4d41b3fd-ba14-4583-a7ea-bd4b5389060d")
 		)
@@ -25324,8 +24634,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 173.99 187.96 0)
+		(property "LCSC" "C326875"
+			(at 173.99 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25333,8 +24643,8 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 173.99 187.96 0)
+		(property "LCSC MPN" "CC0201KRX7R8BB103"
+			(at 173.99 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25342,6 +24652,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "3e3966a3-bfe8-4ac5-9673-480a214f5be5")
 		)
@@ -25422,7 +24733,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -25431,15 +24742,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "5a5ef9ad-dd49-4c8c-8672-f6da4ee9ebfb")
 		)
@@ -25520,7 +24823,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -25529,15 +24832,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "8b307a04-a0fa-4712-8fd8-a621af54c9a6")
 		)
@@ -25684,7 +24979,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C138165"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -25693,15 +24988,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "aff0a12c-9f72-44df-a565-6dd522662410")
 		)
@@ -25782,7 +25069,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 177.8 148.59 90)
 			(effects
 				(font
@@ -25791,15 +25078,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 177.8 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "7825cc16-8e76-48d4-b5b4-d8109c5f22a9")
 		)
@@ -25880,7 +25159,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274872"
 			(at 180.34 182.88 90)
 			(effects
 				(font
@@ -25889,15 +25168,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 180.34 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "f50be446-a910-4171-9c44-1389f00b98d8")
 		)
@@ -25978,7 +25249,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C274341"
 			(at 154.94 148.59 90)
 			(effects
 				(font
@@ -25987,15 +25258,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 154.94 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "2"
 			(uuid "be8952a4-cdc8-49da-ab03-3623d286c205")
 		)
@@ -26074,7 +25337,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C190183"
 			(at 234.95 78.74 90)
 			(effects
 				(font
@@ -26083,7 +25346,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
 			(at 234.95 78.74 90)
 			(effects
 				(font
@@ -26092,6 +25355,7 @@
 				(hide yes)
 			)
 		)
+		
 		(pin "1"
 			(uuid "fcc0ed4a-6dfd-4536-9149-5d2818e9a569")
 		)
@@ -26172,7 +25436,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 123.19 0)
 			(effects
 				(font
@@ -26181,15 +25445,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "49242f14-ef63-4b2d-822f-65dd36d17892")
 		)
@@ -26336,7 +25592,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "LCSC" "C77623"
 			(at 264.16 184.15 0)
 			(effects
 				(font
@@ -26345,15 +25601,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 264.16 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
 		(pin "1"
 			(uuid "dd2edd14-b250-4e9f-bd04-a2b7fd540dc4")
 		)
