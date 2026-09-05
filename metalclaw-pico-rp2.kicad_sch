@@ -24929,7 +24929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "MetalClaw:D_US2H_CUHS20F30"
 			(at 344.17 73.66 0)
 			(effects
 				(font

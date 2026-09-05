@@ -41,6 +41,7 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+.DS_Store
 
 # Local engineering records and generated artifacts.
 /.internal/
@@ -54,7 +55,6 @@ fp-info-cache
 /ERC.rpt
 /fab/
 /error.log
-.DS_Store
 
 # Local design, assembly and sourcing guides.
 /DESIGN.md
