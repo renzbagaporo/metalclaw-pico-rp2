@@ -7048,7 +7048,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+	(footprint "MetalClaw:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "5f59ea19-b34f-40e5-9948-6a250696313f")
