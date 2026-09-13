@@ -7242,14 +7242,14 @@
 			(at -2.89 -2.605 180)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(uuid "57d23d30-a439-490a-9cd6-89bcbc13a52e")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -2.605 180)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(uuid "53c8ab0f-f8af-437b-98ef-44f876837c95")
 		)
 		(pad "A1" smd roundrect
@@ -25967,6 +25967,14 @@
 		(uuid "2a1933e3-5b3d-414c-b9a6-52a83b9f5cfb")
 	)
 	(segment
+		(start 170.535 98.6)
+		(end 171.035 98.6)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "332926c8-55b1-4e8a-b8c8-d9a161c0a287")
+	)
+	(segment
 		(start 167.72 83.32)
 		(end 166.597111 83.620877)
 		(width 0.3)
@@ -26077,6 +26085,14 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "91135b3a-c5ce-4986-9c25-41a6aafdf981")
+	)
+	(segment
+		(start 170.55 87.95)
+		(end 171.05 87.95)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "92d9c602-7db7-4e93-b5e2-86cecf401078")
 	)
 	(segment
 		(start 161.17 81.12)
@@ -26344,6 +26360,14 @@
 		(uuid "8c238c61-1557-41ec-a32e-59f9ec9657dd")
 	)
 	(via
+		(at 171.035 98.6)
+		(size 0.45)
+		(drill 0.25)
+		(layers "F.Cu" "B.Cu")
+		(net 4)
+		(uuid "8dc13fd4-5531-4d0c-a9b3-0716fb3e43fb")
+	)
+	(via
 		(at 156.97 95.68)
 		(size 0.45)
 		(drill 0.25)
@@ -26359,6 +26383,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 4)
 		(uuid "9e870460-189a-424a-8f34-a84efec02fbe")
+	)
+	(via
+		(at 171.05 87.95)
+		(size 0.45)
+		(drill 0.25)
+		(layers "F.Cu" "B.Cu")
+		(net 4)
+		(uuid "a3247560-4471-4fc8-a01f-4e996fc62c55")
 	)
 	(via
 		(at 162.177454 111.63)
