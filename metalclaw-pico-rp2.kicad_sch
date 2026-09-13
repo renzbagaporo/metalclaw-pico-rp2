@@ -5693,7 +5693,7 @@
 		(uuid "06f4c975-b861-4636-8b2e-d29c40a6b80d")
 	)
 	(junction
-		(at 234.95 66.04)
+		(at 228.6 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0750493e-8b6a-47ba-8701-825c88e06894")
@@ -5717,7 +5717,7 @@
 		(uuid "0c93bb26-95b3-47e2-8a1f-55a85a0677ef")
 	)
 	(junction
-		(at 241.3 86.36)
+		(at 234.95 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ed758ba-7af2-4412-817f-cb6923773dad")
@@ -5729,7 +5729,7 @@
 		(uuid "136dc6f8-6d5e-4c15-97a0-84cef44b5d38")
 	)
 	(junction
-		(at 190.5 86.36)
+		(at 184.15 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13d49de2-5db8-4c3b-8efe-6733a592683e")
@@ -5759,7 +5759,7 @@
 		(uuid "16b9e761-71b7-42dd-9aa7-16f88cff27d1")
 	)
 	(junction
-		(at 247.65 66.04)
+		(at 241.3 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d4dc608-1d5c-48db-a65f-eab105da8486")
@@ -5783,7 +5783,7 @@
 		(uuid "2161f7ee-e8a9-4dc1-90a6-7e76a2936dad")
 	)
 	(junction
-		(at 203.2 86.36)
+		(at 196.85 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2703d6d2-1d72-43df-a1f9-43667a26bf45")
@@ -5825,13 +5825,13 @@
 		(uuid "300ad1c4-a178-4e9d-b2a2-238e0791bbc0")
 	)
 	(junction
-		(at 114.3 78.74)
+		(at 113.03 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31fac103-db48-41eb-99e5-4b9b9e972cb7")
 	)
 	(junction
-		(at 140.97 78.74)
+		(at 139.7 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33cbed4b-d310-402c-ba73-30328384fa41")
@@ -5915,7 +5915,7 @@
 		(uuid "478e3fef-7168-4402-ac33-0772272c18a5")
 	)
 	(junction
-		(at 228.6 86.36)
+		(at 222.25 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49a1dee9-2be5-471d-b62f-f84cf6a3b03b")
@@ -5963,7 +5963,7 @@
 		(uuid "5338d027-e77e-4e86-b342-db731d8f7224")
 	)
 	(junction
-		(at 177.8 86.36)
+		(at 171.45 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56506209-ff14-427c-8959-aed35261d8f1")
@@ -5993,7 +5993,7 @@
 		(uuid "678ac098-73d9-4a12-a1f0-9dcc297b84cb")
 	)
 	(junction
-		(at 196.85 86.36)
+		(at 190.5 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69b3f9a2-4cb5-459c-9e0a-a4af80eb72ac")
@@ -6003,6 +6003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de774e5-867f-42b6-9dfe-f83ff868a967")
+	)
+	(junction
+		(at 260.35 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f1b4b3e-17cc-4f49-b388-6df36e802623")
 	)
 	(junction
 		(at 349.25 88.9)
@@ -6047,7 +6053,7 @@
 		(uuid "84ed2ea0-6849-47da-ad54-fd49d4b0daa1")
 	)
 	(junction
-		(at 234.95 86.36)
+		(at 228.6 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86a95c3f-3a2e-4408-9913-533e1fce44f2")
@@ -6071,7 +6077,7 @@
 		(uuid "8ccf1bc1-d909-444d-b7ce-4affaadc782a")
 	)
 	(junction
-		(at 254 86.36)
+		(at 247.65 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90cb207e-359a-4fd7-89c9-4c67ede82f11")
@@ -6119,13 +6125,13 @@
 		(uuid "9a59ba6a-6e67-4097-a63f-c5e01d6e9da6")
 	)
 	(junction
-		(at 222.25 66.04)
+		(at 215.9 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dc28185-c8c9-4fde-ad90-323cfe3134e3")
 	)
 	(junction
-		(at 215.9 66.04)
+		(at 209.55 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e67d27f-048c-46be-bb04-87fcf07ac61b")
@@ -6149,7 +6155,7 @@
 		(uuid "ab85a672-8643-42cd-a685-495565ca2ca2")
 	)
 	(junction
-		(at 247.65 86.36)
+		(at 241.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab99569e-134a-4e4c-a1ca-d112cea6cd82")
@@ -6173,7 +6179,7 @@
 		(uuid "b2a6e1f6-f8d8-46da-b35e-40f909a7fe09")
 	)
 	(junction
-		(at 209.55 86.36)
+		(at 203.2 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b700cea2-f402-49a0-a8e5-1df8c81f2394")
@@ -6185,7 +6191,7 @@
 		(uuid "b814933a-9097-42b3-ba0d-d805cbd2b482")
 	)
 	(junction
-		(at 140.97 99.06)
+		(at 139.7 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b84ac71c-2cd4-4e7d-965c-41f2f740e430")
@@ -6197,7 +6203,7 @@
 		(uuid "b87d7c85-9cbd-440f-9671-fea1d00546b5")
 	)
 	(junction
-		(at 177.8 52.07)
+		(at 171.45 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9fba8af-aba8-4e79-afb0-4bfdb950605e")
@@ -6209,19 +6215,19 @@
 		(uuid "bc191ac8-f10a-4212-8502-f7f81616870f")
 	)
 	(junction
-		(at 209.55 66.04)
+		(at 203.2 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc98a0c9-99c0-414e-a5f8-dcaa4eb84c13")
 	)
 	(junction
-		(at 152.4 78.74)
+		(at 151.13 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde2884f-cbc2-4fe7-9465-fdf1869882d3")
 	)
 	(junction
-		(at 254 66.04)
+		(at 247.65 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf72bfd4-ec14-4440-84d8-92113eee898c")
@@ -6239,7 +6245,7 @@
 		(uuid "c400c309-3058-4c8a-97b7-681183f81225")
 	)
 	(junction
-		(at 184.15 86.36)
+		(at 177.8 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c44aff96-e869-4c07-ab62-36e7e1394a8c")
@@ -6257,7 +6263,7 @@
 		(uuid "c84b982a-35b7-488b-87b1-d462f6ad5634")
 	)
 	(junction
-		(at 222.25 86.36)
+		(at 215.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc217f42-5de1-4143-a755-f236a294bd6f")
@@ -6299,6 +6305,12 @@
 		(uuid "d04298fe-be84-47fa-9e0b-48e4e75e7155")
 	)
 	(junction
+		(at 254 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0a4cc30-20c6-4ba0-b667-303848a98bb1")
+	)
+	(junction
 		(at 158.75 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6323,7 +6335,7 @@
 		(uuid "d92103c4-0d2d-49f8-9fcc-32780e28bc05")
 	)
 	(junction
-		(at 215.9 86.36)
+		(at 209.55 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d99b6789-8a59-4cac-9a8a-d2b3682f90ec")
@@ -6347,7 +6359,7 @@
 		(uuid "de276341-3fe4-419a-afd5-57039f474761")
 	)
 	(junction
-		(at 241.3 66.04)
+		(at 234.95 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de3b477d-f2e9-472c-9ed9-dfa4679c9f49")
@@ -6431,7 +6443,7 @@
 		(uuid "f4dcd382-67c2-40d5-8bf2-dcf3b9c08ff9")
 	)
 	(junction
-		(at 228.6 66.04)
+		(at 222.25 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f569f248-92b8-4774-bcf9-11b4c2bc61f4")
@@ -6530,7 +6542,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 152.4 86.36)
+			(xy 151.13 78.74) (xy 151.13 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6630,13 +6642,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 66.04) (xy 234.95 66.04)
+			(xy 222.25 66.04) (xy 228.6 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "09cdf015-7d20-4a9e-9ca6-cb028690ade5")
+	)
+	(wire
+		(pts
+			(xy 254 82.55) (xy 254 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b579a29-7d38-42e6-9a49-1a1f56c9c5fe")
 	)
 	(wire
 		(pts
@@ -6660,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 66.04) (xy 209.55 74.93)
+			(xy 203.2 66.04) (xy 203.2 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6790,7 +6812,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 114.3 100.33)
+			(xy 113.03 101.6) (xy 113.03 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6860,7 +6882,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 140.97 95.25)
+			(xy 139.7 99.06) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6910,7 +6932,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 66.04) (xy 228.6 74.93)
+			(xy 222.25 66.04) (xy 222.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6960,7 +6982,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 66.04) (xy 254 66.04)
+			(xy 241.3 66.04) (xy 247.65 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7070,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 86.36) (xy 241.3 86.36)
+			(xy 241.3 86.36) (xy 234.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7110,7 +7132,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 49.53) (xy 177.8 52.07)
+			(xy 171.45 49.53) (xy 171.45 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7170,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 52.07) (xy 313.69 52.07)
+			(xy 171.45 52.07) (xy 313.69 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7230,7 +7252,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 114.3 78.74)
+			(xy 113.03 76.2) (xy 113.03 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7240,7 +7262,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 86.36) (xy 247.65 86.36)
+			(xy 247.65 86.36) (xy 241.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7270,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 184.15 86.36)
+			(xy 171.45 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7280,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 76.2) (xy 140.97 78.74)
+			(xy 139.7 76.2) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7290,7 +7312,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 66.04) (xy 222.25 66.04)
+			(xy 209.55 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7320,7 +7342,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 93.98) (xy 152.4 99.06)
+			(xy 151.13 93.98) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7340,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 66.04) (xy 228.6 66.04)
+			(xy 215.9 66.04) (xy 222.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7450,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 177.8 88.9)
+			(xy 171.45 86.36) (xy 171.45 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7540,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 177.8 82.55)
+			(xy 171.45 86.36) (xy 171.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7550,7 +7572,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 86.36) (xy 222.25 86.36)
+			(xy 209.55 86.36) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7600,7 +7622,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 140.97 85.09)
+			(xy 139.7 78.74) (xy 139.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7620,7 +7642,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 82.55) (xy 209.55 86.36)
+			(xy 203.2 82.55) (xy 203.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7730,7 +7752,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 67.31) (xy 140.97 68.58)
+			(xy 139.7 67.31) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7800,7 +7822,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 234.95 86.36)
+			(xy 222.25 86.36) (xy 228.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7810,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 66.04) (xy 247.65 66.04)
+			(xy 234.95 66.04) (xy 241.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7837,6 +7859,16 @@
 			(type default)
 		)
 		(uuid "4de38738-e3e6-46d4-835e-13262c9ee966")
+	)
+	(wire
+		(pts
+			(xy 254 74.93) (xy 254 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6c78b6-18eb-4744-a89b-aa431d1cfd27")
 	)
 	(wire
 		(pts
@@ -7980,7 +8012,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 203.2 86.36)
+			(xy 190.5 86.36) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8000,7 +8032,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 54.61) (xy 184.15 74.93)
+			(xy 177.8 54.61) (xy 177.8 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8140,7 +8172,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 67.31) (xy 114.3 68.58)
+			(xy 113.03 67.31) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8290,7 +8322,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 82.55) (xy 228.6 86.36)
+			(xy 222.25 82.55) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8400,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 86.36) (xy 196.85 86.36)
+			(xy 184.15 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8580,7 +8612,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 66.04) (xy 222.25 74.93)
+			(xy 215.9 66.04) (xy 215.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8730,7 +8762,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 66.04) (xy 247.65 74.93)
+			(xy 241.3 66.04) (xy 241.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8750,7 +8782,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 82.55) (xy 254 86.36)
+			(xy 247.65 82.55) (xy 247.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8860,7 +8892,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 58.42) (xy 190.5 58.42)
+			(xy 293.37 58.42) (xy 184.15 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8900,7 +8932,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 66.04) (xy 254 74.93)
+			(xy 247.65 66.04) (xy 247.65 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8920,7 +8952,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 82.55) (xy 190.5 86.36)
+			(xy 184.15 82.55) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9020,7 +9052,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 66.04) (xy 215.9 74.93)
+			(xy 209.55 66.04) (xy 209.55 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9060,7 +9092,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 114.3 90.17)
+			(xy 113.03 88.9) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9090,7 +9122,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 60.96) (xy 290.83 60.96)
+			(xy 190.5 60.96) (xy 290.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9107,6 +9139,16 @@
 			(type default)
 		)
 		(uuid "87b6a4ba-7a35-4a2d-aab4-cf907cda3742")
+	)
+	(wire
+		(pts
+			(xy 254 86.36) (xy 247.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882e241a-f3e3-4edb-8790-19b04e2cb5b6")
 	)
 	(wire
 		(pts
@@ -9140,7 +9182,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 52.07) (xy 177.8 74.93)
+			(xy 171.45 52.07) (xy 171.45 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9270,7 +9312,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 66.04) (xy 241.3 66.04)
+			(xy 228.6 66.04) (xy 234.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9340,7 +9382,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 66.04) (xy 241.3 74.93)
+			(xy 234.95 66.04) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9370,7 +9412,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 54.61) (xy 184.15 54.61)
+			(xy 306.07 54.61) (xy 177.8 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9420,7 +9462,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 152.4 78.74)
+			(xy 139.7 78.74) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9440,7 +9482,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 82.55) (xy 222.25 86.36)
+			(xy 215.9 82.55) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9487,6 +9529,16 @@
 			(type default)
 		)
 		(uuid "99428d62-2d7b-4299-90a2-80ee191f3cff")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 260.35 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fdfec8-02bb-463d-9090-5cef656c8577")
 	)
 	(wire
 		(pts
@@ -9590,7 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 86.36) (xy 228.6 86.36)
+			(xy 215.9 86.36) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9700,7 +9752,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 82.55) (xy 184.15 86.36)
+			(xy 177.8 82.55) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9710,7 +9762,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 66.04) (xy 215.9 66.04)
+			(xy 203.2 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9790,7 +9842,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 234.95 86.36)
+			(xy 234.95 86.36) (xy 228.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9960,7 +10012,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 86.36) (xy 209.55 86.36)
+			(xy 196.85 86.36) (xy 203.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9980,7 +10032,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 49.53) (xy 177.8 49.53)
+			(xy 279.4 49.53) (xy 171.45 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10030,7 +10082,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 196.85 60.96)
+			(xy 190.5 74.93) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10080,7 +10132,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 161.29 78.74)
+			(xy 151.13 78.74) (xy 160.02 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10090,7 +10142,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 82.55) (xy 215.9 86.36)
+			(xy 209.55 82.55) (xy 209.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10240,7 +10292,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 66.04) (xy 254 66.04)
+			(xy 298.45 66.04) (xy 247.65 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10350,7 +10402,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 82.55) (xy 247.65 86.36)
+			(xy 241.3 82.55) (xy 241.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10420,7 +10472,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 66.04) (xy 209.55 66.04)
+			(xy 196.85 66.04) (xy 203.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10430,7 +10482,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 140.97 99.06)
+			(xy 151.13 99.06) (xy 139.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10450,7 +10502,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 82.55) (xy 241.3 86.36)
+			(xy 234.95 82.55) (xy 234.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10530,7 +10582,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 82.55) (xy 203.2 86.36)
+			(xy 196.85 82.55) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10540,7 +10592,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 101.6) (xy 140.97 99.06)
+			(xy 139.7 101.6) (xy 139.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10640,7 +10692,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 114.3 81.28)
+			(xy 113.03 78.74) (xy 113.03 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10670,7 +10722,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 86.36) (xy 215.9 86.36)
+			(xy 203.2 86.36) (xy 209.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10980,7 +11032,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 66.04) (xy 234.95 74.93)
+			(xy 228.6 66.04) (xy 228.6 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11150,7 +11202,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 86.36) (xy 234.95 82.55)
+			(xy 228.6 86.36) (xy 228.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -11230,7 +11282,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 82.55) (xy 196.85 86.36)
+			(xy 190.5 82.55) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11290,7 +11342,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 123.19 78.74)
+			(xy 113.03 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11330,7 +11382,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 86.36) (xy 190.5 86.36)
+			(xy 177.8 86.36) (xy 184.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11400,7 +11452,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 58.42) (xy 190.5 74.93)
+			(xy 184.15 58.42) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11470,7 +11522,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 74.93) (xy 203.2 66.04)
+			(xy 196.85 74.93) (xy 196.85 66.04)
 		)
 		(stroke
 			(width 0)
@@ -11829,7 +11881,7 @@
 		(uuid "86e3d1db-bb4d-4aeb-938e-d6d46c914b79")
 	)
 	(label "BOOTSEL"
-		(at 123.19 78.74 180)
+		(at 121.92 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12119,7 +12171,7 @@
 		(uuid "f04f3beb-e24b-482a-9d96-a100edad9756")
 	)
 	(label "RESET"
-		(at 161.29 78.74 180)
+		(at 160.02 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12306,7 +12358,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "3"
 			(uuid "d2bca032-61a4-4378-8c89-17dcae2370f9")
 		)
@@ -12402,7 +12453,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "7295dc64-fc18-41b4-9c46-9f7b573ac0ad")
 		)
@@ -12493,7 +12543,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "dd51c1ff-91cf-4f05-91f9-05eaae11f356")
 		)
@@ -12511,7 +12560,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 114.3 72.39 0)
+		(at 113.03 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12519,7 +12568,7 @@
 		(dnp no)
 		(uuid "05b44958-33d1-4f99-b246-0857de470fbf")
 		(property "Reference" "R17"
-			(at 112.014 74.168 90)
+			(at 110.744 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12528,7 +12577,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 116.586 74.422 90)
+			(at 115.316 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12586,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 115.316 72.644 90)
+			(at 114.046 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12595,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
-			(at 114.3 72.39 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12604,7 @@
 			)
 		)
 		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 carrier BOOTSEL pull-up, Yageo RC0201FR-075K1L"
-			(at 114.3 72.39 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12613,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-075K1L"
-			(at 114.3 72.39 90)
+			(at 113.03 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12573,7 +12622,7 @@
 			)
 		)
 		(property "LCSC" "C274341"
-			(at 114.3 72.39 90)
+			(at 113.03 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,7 +12630,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "aec89cfd-793f-4ceb-a220-60f60a9bb310")
 		)
@@ -12671,7 +12719,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "c26fa279-2229-4212-8eb2-694ca71fc9fd")
 		)
@@ -12761,7 +12808,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "95c4b219-c84a-4737-bc5a-d1a86caec553")
 		)
@@ -12848,7 +12894,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "4"
 			(uuid "e4331614-3439-435e-9ea1-54dc721c1c4b")
 		)
@@ -13311,7 +13356,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "f19fc9f1-cd27-4aaf-b772-4ec697afdd21")
 		)
@@ -13408,7 +13452,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "bcbe7a30-8dd2-4437-be79-a1a21ed2e5e0")
 		)
@@ -13514,7 +13557,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "15"
 			(uuid "34ec6734-4a4d-45d7-bc44-e2e9dfd4bbc8")
 		)
@@ -13727,7 +13769,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "8b4765cf-d40b-44e4-bad2-7f35e891ef9b")
 		)
@@ -13745,7 +13786,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 114.3 67.31 0)
+		(at 113.03 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13754,7 +13795,7 @@
 		(fields_autoplaced yes)
 		(uuid "1453d9a5-6702-4e48-8d68-1039bc95a6b0")
 		(property "Reference" "#PWR06"
-			(at 114.3 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,7 +13804,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 114.3 62.23 0)
+			(at 113.03 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13771,7 +13812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 67.31 0)
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13780,7 +13821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 67.31 0)
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +13830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 67.31 0)
+			(at 113.03 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,7 +13924,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "d2c4b4b2-814b-41b0-bd01-789217346946")
 		)
@@ -13973,7 +14013,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "7e9e414c-d841-46aa-b937-c38b541ab16b")
 		)
@@ -14129,7 +14168,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "790dfb4f-02a3-4158-989c-39f8257570b6")
 		)
@@ -14299,7 +14337,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "B9"
 			(uuid "29d35c11-4030-4cf5-a7b1-5014f83a9fcd")
 		)
@@ -14428,7 +14465,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "7782cb07-b0de-4d6d-8c89-a9b223f21765")
 		)
@@ -14518,7 +14554,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "05beabde-be05-464b-a9da-f35c702f3784")
 		)
@@ -14608,7 +14643,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "41807583-d94b-4315-adf2-96738ab566a4")
 		)
@@ -14626,7 +14660,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 78.74 180)
+		(at 196.85 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14634,7 +14668,7 @@
 		(dnp no)
 		(uuid "2037b977-7ee5-4a23-a7dd-55c95e4c7d79")
 		(property "Reference" "C14"
-			(at 204.978 80.772 90)
+			(at 198.628 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14643,7 +14677,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 204.978 72.136 90)
+			(at 198.628 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14652,7 +14686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 202.2348 74.93 0)
+			(at 195.8848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14661,7 +14695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 203.2 78.74 0)
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14670,7 +14704,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 203.2 78.74 0)
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14679,7 +14713,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 203.2 78.74 90)
+			(at 196.85 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14688,7 +14722,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 203.2 78.74 90)
+			(at 196.85 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +14731,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 203.2 78.74 90)
+			(at 196.85 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14705,7 +14739,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "b9f2b8d8-499c-406d-bfe7-0bbbbbf27fa9")
 		)
@@ -14723,7 +14756,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 114.3 85.09 0)
+		(at 113.03 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14731,7 +14764,7 @@
 		(dnp no)
 		(uuid "20bd5338-63d4-4287-8a5c-f6624f848a6b")
 		(property "Reference" "R18"
-			(at 112.014 86.868 90)
+			(at 110.744 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14740,7 +14773,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 116.586 87.122 90)
+			(at 115.316 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14749,7 +14782,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 115.316 85.344 90)
+			(at 114.046 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14758,7 +14791,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0201FR-071KL"
-			(at 114.3 85.09 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14767,7 +14800,7 @@
 			)
 		)
 		(property "Description" "1 kohm +/-1% 1/20 W 0201 carrier BOOTSEL switch-series resistor, Yageo RC0201FR-071KL"
-			(at 114.3 85.09 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14776,7 +14809,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-071KL"
-			(at 114.3 85.09 90)
+			(at 113.03 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14785,7 +14818,7 @@
 			)
 		)
 		(property "LCSC" "C138165"
-			(at 114.3 85.09 90)
+			(at 113.03 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +14826,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "3dd36477-b2a2-4756-a1df-8d938b8a288c")
 		)
@@ -14811,7 +14843,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 78.74 180)
+		(at 247.65 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14819,7 +14851,7 @@
 		(dnp no)
 		(uuid "22185172-1166-4f8d-88a8-7c8befd33ff0")
 		(property "Reference" "C22"
-			(at 256.032 81.534 90)
+			(at 249.682 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14828,7 +14860,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 255.524 72.136 90)
+			(at 249.174 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14837,7 +14869,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 253.0348 74.93 0)
+			(at 246.6848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14846,7 +14878,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 254 78.74 0)
+			(at 247.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14855,7 +14887,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 254 78.74 0)
+			(at 247.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14864,7 +14896,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 254 78.74 90)
+			(at 247.65 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14873,7 +14905,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 254 78.74 90)
+			(at 247.65 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14882,7 +14914,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 254 78.74 90)
+			(at 247.65 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14890,7 +14922,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "5e8a4243-7f83-4024-8be3-7f12d1d72a84")
 		)
@@ -14980,7 +15011,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "1e1847bb-fcdb-4097-816c-c4081c7db32d")
 		)
@@ -14998,7 +15028,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 241.3 78.74 180)
+		(at 234.95 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15006,7 +15036,7 @@
 		(dnp no)
 		(uuid "23ade47b-d143-423e-af2b-53a15c702d66")
 		(property "Reference" "C20"
-			(at 243.078 80.772 90)
+			(at 236.728 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15015,7 +15045,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 243.078 72.136 90)
+			(at 236.728 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15024,7 +15054,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 240.3348 74.93 0)
+			(at 233.9848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15033,7 +15063,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15042,7 +15072,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15051,7 +15081,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 241.3 78.74 90)
+			(at 234.95 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15060,7 +15090,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 241.3 78.74 90)
+			(at 234.95 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15069,7 +15099,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 241.3 78.74 90)
+			(at 234.95 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15077,7 +15107,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "fd450214-2081-4310-809f-217362cbe844")
 		)
@@ -15167,7 +15196,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "44a5b23b-47e3-4ffe-b7ae-276a798ea079")
 		)
@@ -15323,7 +15351,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "f65a8714-45fd-423a-b547-9d80e84e9991")
 		)
@@ -15406,7 +15433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 101.6 0)
+		(at 113.03 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15415,7 +15442,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d891d43-d35d-48a9-ba73-43a07b984e6e")
 		(property "Reference" "#PWR07"
-			(at 114.3 107.95 0)
+			(at 113.03 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15424,7 +15451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 106.68 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15432,7 +15459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 101.6 0)
+			(at 113.03 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15441,7 +15468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 101.6 0)
+			(at 113.03 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15450,7 +15477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 101.6 0)
+			(at 113.03 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15544,7 +15571,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "dc34b9f8-bff1-4716-80ef-31fbd37f3410")
 		)
@@ -15634,7 +15660,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "dd0d536f-2ebb-4c92-a4a3-56dbcb2521a0")
 		)
@@ -15652,7 +15677,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 247.65 78.74 180)
+		(at 241.3 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15660,7 +15685,7 @@
 		(dnp no)
 		(uuid "32077edd-67f2-496e-88f6-bc65387ee5b2")
 		(property "Reference" "C21"
-			(at 249.428 81.534 90)
+			(at 243.078 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15669,7 +15694,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 249.428 72.136 90)
+			(at 243.078 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15678,7 +15703,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 246.6848 74.93 0)
+			(at 240.3348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15687,7 +15712,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 247.65 78.74 0)
+			(at 241.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,7 +15721,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 247.65 78.74 0)
+			(at 241.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,7 +15730,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 247.65 78.74 90)
+			(at 241.3 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15739,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 247.65 78.74 90)
+			(at 241.3 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15723,7 +15748,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 247.65 78.74 90)
+			(at 241.3 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,7 +15756,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "da0e1a26-bc6d-46b8-af89-f11d7254ee0f")
 		)
@@ -15749,7 +15773,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 78.74 180)
+		(at 209.55 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15757,7 +15781,7 @@
 		(dnp no)
 		(uuid "341999b1-6101-4ce3-b4be-4ca90da589ee")
 		(property "Reference" "C16"
-			(at 217.678 80.772 90)
+			(at 211.328 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15790,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 217.678 72.136 90)
+			(at 211.328 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15799,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 214.9348 74.93 0)
+			(at 208.5848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15808,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 215.9 78.74 0)
+			(at 209.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15817,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 215.9 78.74 0)
+			(at 209.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15826,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 215.9 78.74 90)
+			(at 209.55 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,7 +15835,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 215.9 78.74 90)
+			(at 209.55 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,7 +15844,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 215.9 78.74 90)
+			(at 209.55 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +15852,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "4ddfc912-0d97-475e-b0dd-6ed800c90660")
 		)
@@ -15846,7 +15869,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 184.15 78.74 180)
+		(at 177.8 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15854,7 +15877,7 @@
 		(dnp no)
 		(uuid "3c1f3f04-1ee5-4e29-8f3c-8be6b2afb8d8")
 		(property "Reference" "C11"
-			(at 185.674 80.772 90)
+			(at 179.324 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,7 +15886,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 185.928 73.66 90)
+			(at 179.578 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,7 +15895,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 183.1848 74.93 0)
+			(at 176.8348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15881,7 +15904,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7S1A105K050BC"
-			(at 184.15 78.74 0)
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +15913,7 @@
 			)
 		)
 		(property "Description" "1 uF +/-10% 10 V X7S 0402 carrier MCU decoupling capacitor, TDK C1005X7S1A105K050BC"
-			(at 184.15 78.74 0)
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15899,7 +15922,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X7S1A105K"
-			(at 184.15 78.74 90)
+			(at 177.8 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15908,7 +15931,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 184.15 78.74 90)
+			(at 177.8 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15917,7 +15940,7 @@
 			)
 		)
 		(property "LCSC MPN" "CL05A105KA5NQNC"
-			(at 184.15 78.74 90)
+			(at 177.8 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15925,7 +15948,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "096194e7-f980-4612-8096-8847752683e4")
 		)
@@ -16015,7 +16037,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "ded6fb56-8944-42e2-9862-46cdba749039")
 		)
@@ -16170,7 +16191,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "78c4f7f5-1ab7-4c36-b242-f917fd092eb5")
 		)
@@ -16260,7 +16280,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "7f2ff639-1f3d-4d0c-9a86-5ecdd50c7512")
 		)
@@ -16350,7 +16369,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "8d53b3aa-7a27-483a-a0a0-9346f452dcb2")
 		)
@@ -16440,7 +16458,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "6a42c701-4da0-44bd-a2c7-f6fafdb5bb1c")
 		)
@@ -16530,7 +16547,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "191209f6-6540-4aef-bc3b-3e41eab339bf")
 		)
@@ -16620,7 +16636,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "db7559ca-4161-4388-84eb-587d362debf2")
 		)
@@ -16711,7 +16726,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "18ceb08c-8442-4310-96f4-859f1e7ad46d")
 		)
@@ -16800,7 +16814,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "c4bec07f-0d04-4c05-bcd1-3b067139b317")
 		)
@@ -16889,7 +16902,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "63bddff6-adf6-44ae-bb26-883581500943")
 		)
@@ -16979,7 +16991,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "a1d4a95e-0f2f-4523-adb0-b6b7aef1a565")
 		)
@@ -17069,7 +17080,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "152265ed-2f97-431e-908d-954e096a55fe")
 		)
@@ -17166,7 +17176,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "1d7c3795-b660-42c6-9372-a8885b78e197")
 		)
@@ -17184,7 +17193,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 78.74 180)
+		(at 222.25 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17192,7 +17201,7 @@
 		(dnp no)
 		(uuid "5722833b-87d0-4485-b7e5-3fe1045c2ae1")
 		(property "Reference" "C18"
-			(at 230.378 80.772 90)
+			(at 224.028 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17201,7 +17210,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 230.378 72.136 90)
+			(at 224.028 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17210,7 +17219,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 227.6348 74.93 0)
+			(at 221.2848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17219,7 +17228,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 228.6 78.74 0)
+			(at 222.25 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17228,7 +17237,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 228.6 78.74 0)
+			(at 222.25 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17237,7 +17246,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 228.6 78.74 90)
+			(at 222.25 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17246,7 +17255,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 228.6 78.74 90)
+			(at 222.25 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17255,7 +17264,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 228.6 78.74 90)
+			(at 222.25 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,7 +17272,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "5ed42b5f-b3d8-4d24-b3cd-53ffecbbb3c8")
 		)
@@ -17353,7 +17361,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "a4afd21c-51df-4b0d-bdf0-300d7fe88ae2")
 		)
@@ -17516,7 +17523,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "ddcfcebd-b632-48ca-b28b-63bd9eb893c3")
 		)
@@ -17534,7 +17540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 88.9 0)
+		(at 171.45 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17542,7 +17548,7 @@
 		(dnp no)
 		(uuid "58a6100a-6be4-4f21-944e-349d36ba587c")
 		(property "Reference" "#PWR014"
-			(at 177.8 95.25 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17551,7 +17557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.864 90.424 0)
+			(at 175.514 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17559,7 +17565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 88.9 0)
+			(at 171.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +17574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 88.9 0)
+			(at 171.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17577,7 +17583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 88.9 0)
+			(at 171.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17599,7 +17605,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 90.17 0)
+		(at 151.13 90.17 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17608,7 +17614,7 @@
 		(dnp no)
 		(uuid "594ba3ae-f44b-4c9d-8e74-cdc0ccf0ea33")
 		(property "Reference" "C3"
-			(at 145.542 91.186 0)
+			(at 144.272 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17617,7 +17623,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 146.812 88.9 0)
+			(at 145.542 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17626,7 +17632,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 153.3652 86.36 0)
+			(at 152.0952 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17635,7 +17641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 152.4 90.17 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17644,7 +17650,7 @@
 			)
 		)
 		(property "Description" "100 nF 10 V X7R +/-10% 0201 carrier RESET filter, KYOCERA AVX KGM03BR71A104KH"
-			(at 152.4 90.17 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17653,7 +17659,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 152.4 90.17 90)
+			(at 151.13 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17662,7 +17668,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 152.4 90.17 90)
+			(at 151.13 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,7 +17677,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 152.4 90.17 90)
+			(at 151.13 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17679,7 +17685,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "fc0d2838-7143-4cbe-830f-70c21b27b78c")
 		)
@@ -17697,7 +17702,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 140.97 67.31 0)
+		(at 139.7 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17706,7 +17711,7 @@
 		(fields_autoplaced yes)
 		(uuid "5960e2da-1738-4dba-bb54-1214de57dd6a")
 		(property "Reference" "#PWR011"
-			(at 140.97 71.12 0)
+			(at 139.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17715,7 +17720,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 140.97 62.23 0)
+			(at 139.7 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17723,7 +17728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 67.31 0)
+			(at 139.7 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17732,7 +17737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 67.31 0)
+			(at 139.7 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17741,7 +17746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 140.97 67.31 0)
+			(at 139.7 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17835,7 +17840,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "2f8beb16-9d44-4ee2-8f80-3abc845ad3b4")
 		)
@@ -17925,7 +17929,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "761eb69d-738f-4475-9567-26b7f6461266")
 		)
@@ -18013,7 +18016,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "b6d031b5-e7f1-40e3-b757-32794ddc1ecb")
 		)
@@ -18234,7 +18236,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "331e6d6f-7d4c-4b29-8e10-68b54e290395")
 		)
@@ -18252,7 +18253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 140.97 72.39 0)
+		(at 139.7 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18260,7 +18261,7 @@
 		(dnp no)
 		(uuid "6153bae1-9fd8-4a23-8cff-ca843695b5f0")
 		(property "Reference" "R19"
-			(at 138.684 74.168 90)
+			(at 137.414 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18269,7 +18270,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 143.256 74.422 90)
+			(at 141.986 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18278,7 +18279,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 141.986 72.644 90)
+			(at 140.716 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18287,7 +18288,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/YAGEO/RC0201FR-075K1L"
-			(at 140.97 72.39 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18296,7 +18297,7 @@
 			)
 		)
 		(property "Description" "5.1 kohm +/-1% 1/20 W 0201 carrier RESET pull-up, Yageo RC0201FR-075K1L"
-			(at 140.97 72.39 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18305,7 +18306,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0201FR-075K1L"
-			(at 140.97 72.39 90)
+			(at 139.7 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18314,7 +18315,7 @@
 			)
 		)
 		(property "LCSC" "C274341"
-			(at 140.97 72.39 90)
+			(at 139.7 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18322,7 +18323,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "a21e7e64-b496-4afb-9269-8723a6678969")
 		)
@@ -18426,7 +18426,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "7"
 			(uuid "1dba6e3f-55d0-4b00-9140-fc1e403ba760")
 		)
@@ -18461,6 +18460,102 @@
 			(project ""
 				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61d96c16-eac3-43f8-8db4-6b47e03b304c")
+		(property "Reference" "C29"
+			(at 255.778 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 255.524 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 253.0348 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "581-KGM03BR71A104KH"
+			(at 254 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C190183"
+			(at 254 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" "CC0201KRX5R6BB104"
+			(at 254 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9df40333-a5fa-460d-9151-b101cc9153f3")
+		)
+		(pin "2"
+			(uuid "001c42a0-26fe-4c3d-94cd-90a5912b0851")
+		)
+		(instances
+			(project "metalclaw-pico-rp2"
+				(path "/c83ebc88-59c8-491c-acdb-d3cfac2d55f0"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -18536,7 +18631,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "d3d2df3c-3cc8-44d0-afca-77dfa36e2cd5")
 		)
@@ -18626,7 +18720,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "530387ff-b9cc-4709-bcf1-a00339b1129a")
 		)
@@ -18716,7 +18809,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "8adb9665-0cc1-4b54-ae94-530b476552ce")
 		)
@@ -18806,7 +18898,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "81590a5d-162b-475a-bebc-0e64f70d9733")
 		)
@@ -18824,7 +18915,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 114.3 95.25 270)
+		(at 113.03 95.25 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18833,7 +18924,7 @@
 		(dnp no)
 		(uuid "668d17d6-b9a8-4492-ad29-36412d8a26cf")
 		(property "Reference" "SW1"
-			(at 113.03 93.9799 90)
+			(at 111.76 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18842,7 +18933,7 @@
 			)
 		)
 		(property "Value" "PTS810SJM250SMTR LFS"
-			(at 113.03 96.5199 90)
+			(at 111.76 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18851,7 +18942,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 119.38 95.25 0)
+			(at 118.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18860,7 +18951,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
-			(at 119.38 95.25 0)
+			(at 118.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18869,7 +18960,7 @@
 			)
 		)
 		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
-			(at 114.3 95.25 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18878,7 +18969,7 @@
 			)
 		)
 		(property "Mouser" "611-PTS810SJM250SMTR"
-			(at 114.3 95.25 90)
+			(at 113.03 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18887,7 +18978,7 @@
 			)
 		)
 		(property "LCSC" "C116501"
-			(at 114.3 95.25 90)
+			(at 113.03 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18895,7 +18986,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "6299955d-2720-44ff-b23a-4490f2695cab")
 		)
@@ -18985,7 +19075,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "21381fa8-1b69-4ed5-b8ca-1587d93bfec5")
 		)
@@ -19075,7 +19164,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "1c29a64f-d8c5-4735-a059-9442fc675e50")
 		)
@@ -19165,7 +19253,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "fc06ce5b-38cb-440b-9ac2-0aeaae78dad8")
 		)
@@ -19183,7 +19270,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 140.97 90.17 270)
+		(at 139.7 90.17 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19192,7 +19279,7 @@
 		(dnp no)
 		(uuid "6a467540-f935-4cec-9408-2d0deca71fb8")
 		(property "Reference" "SW2"
-			(at 139.7 88.8999 90)
+			(at 138.43 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,7 +19288,7 @@
 			)
 		)
 		(property "Value" "PTS810SJM250SMTR LFS"
-			(at 139.7 91.4399 90)
+			(at 138.43 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19210,7 +19297,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 146.05 90.17 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19219,7 +19306,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
-			(at 146.05 90.17 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19228,7 +19315,7 @@
 			)
 		)
 		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
-			(at 140.97 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19237,7 +19324,7 @@
 			)
 		)
 		(property "Mouser" "611-PTS810SJM250SMTR"
-			(at 140.97 90.17 90)
+			(at 139.7 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19246,7 +19333,7 @@
 			)
 		)
 		(property "LCSC" "C116501"
-			(at 140.97 90.17 90)
+			(at 139.7 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,7 +19341,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "1b811ba4-0d20-4a0c-9d48-bcd4f5c41f9f")
 		)
@@ -19344,7 +19430,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "0e930e90-0f20-445c-98d6-404f4050385c")
 		)
@@ -19434,7 +19519,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "52e06e32-f7b6-48bb-b2da-04338e4f6b3d")
 		)
@@ -19524,7 +19608,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "00627369-a55b-40a1-a008-b1af3a532419")
 		)
@@ -19614,7 +19697,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "e9ec36f3-70f7-4b64-9315-58204020a791")
 		)
@@ -19704,7 +19786,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "2eb7c815-ccad-494f-84dc-c8e2f6fca9d2")
 		)
@@ -19794,7 +19875,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "d2397c47-e883-4572-a1ef-0e9bef547912")
 		)
@@ -19958,7 +20038,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "4237d849-5b1c-4594-a4ba-a7bdb0e5bfbd")
 		)
@@ -20048,7 +20127,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "ad906e3e-8f33-478a-a45b-3b191d2c243b")
 		)
@@ -20138,7 +20216,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "847abc1c-db0d-4e2d-99be-a88130fdbaf0")
 		)
@@ -20228,7 +20305,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "a9ab4c16-1c3e-4d30-ab16-9fec980d26d0")
 		)
@@ -20318,7 +20394,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "5a73453e-9bfb-4ec6-af73-c5a6cdd68888")
 		)
@@ -20415,7 +20490,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "9180dfac-9d8f-403f-b21e-8ed6405cff86")
 		)
@@ -20505,7 +20579,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "dbf107d6-e567-406c-9cbf-848fa78054a4")
 		)
@@ -20523,7 +20596,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 222.25 78.74 180)
+		(at 215.9 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20531,7 +20604,7 @@
 		(dnp no)
 		(uuid "936a908d-0602-4a76-94c7-d06cc7783541")
 		(property "Reference" "C17"
-			(at 224.028 80.772 90)
+			(at 217.678 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20540,7 +20613,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 224.028 72.136 90)
+			(at 217.678 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20549,7 +20622,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 221.2848 74.93 0)
+			(at 214.9348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20558,7 +20631,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 222.25 78.74 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20567,7 +20640,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 222.25 78.74 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20576,7 +20649,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 222.25 78.74 90)
+			(at 215.9 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20585,7 +20658,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 222.25 78.74 90)
+			(at 215.9 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20594,7 +20667,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 222.25 78.74 90)
+			(at 215.9 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20602,7 +20675,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "d5530129-3b26-4d59-8f23-42a1386a6b31")
 		)
@@ -20692,7 +20764,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "0fa6950d-dbfd-4790-95da-55836d833e21")
 		)
@@ -20782,7 +20853,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "5605b763-bb08-414f-8997-0722b4759403")
 		)
@@ -20869,7 +20939,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "0e3944d7-962d-4788-9e08-ea3508c7d42e")
 		)
@@ -21093,7 +21162,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "a2fa2b71-3d54-4758-a963-4a62bc35c7ea")
 		)
@@ -21183,7 +21251,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "c09eb172-9c96-4db8-95c3-d3f82bc6de49")
 		)
@@ -21273,7 +21340,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "a3414c26-4fdd-447a-9293-cd011be1d235")
 		)
@@ -21363,7 +21429,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "be10dc9e-7a1e-4843-9b5c-e85b7415e461")
 		)
@@ -21453,7 +21518,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "d1cbe63f-2a1e-452f-bbf1-762bfc243914")
 		)
@@ -21471,7 +21535,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 78.74 180)
+		(at 184.15 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21479,7 +21543,7 @@
 		(dnp no)
 		(uuid "afb078f8-55b0-462f-8454-563f046b8936")
 		(property "Reference" "C12"
-			(at 192.024 80.772 90)
+			(at 185.674 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21488,7 +21552,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 192.278 72.39 90)
+			(at 185.928 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21497,7 +21561,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 189.5348 74.93 0)
+			(at 183.1848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21506,7 +21570,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
-			(at 190.5 78.74 0)
+			(at 184.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21515,7 +21579,7 @@
 			)
 		)
 		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
-			(at 190.5 78.74 0)
+			(at 184.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21524,7 +21588,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X5R0J475K"
-			(at 190.5 78.74 90)
+			(at 184.15 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21533,7 +21597,7 @@
 			)
 		)
 		(property "LCSC" "C326586"
-			(at 190.5 78.74 90)
+			(at 184.15 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21542,7 +21606,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0402KRX5R6BB475"
-			(at 190.5 78.74 90)
+			(at 184.15 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21550,7 +21614,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "4ea150de-a655-4087-8e9c-37259bffcbb7")
 		)
@@ -21706,7 +21769,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "4c46594f-5369-4524-944f-c432b94205c9")
 		)
@@ -21862,7 +21924,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "ce2d4269-06b3-4a51-8bfd-4c1a38a8c623")
 		)
@@ -21952,7 +22013,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "dda7eb87-60a9-4d23-88c0-c37d897773c6")
 		)
@@ -22040,7 +22100,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "5"
 			(uuid "bb753a98-1326-4ef6-bee9-a194520760a9")
 		)
@@ -22076,7 +22135,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 78.74 180)
+		(at 171.45 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22084,7 +22143,7 @@
 		(dnp no)
 		(uuid "b77fccda-69c8-4ef6-b7c0-4f6912f45141")
 		(property "Reference" "C10"
-			(at 179.324 80.772 90)
+			(at 172.974 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22093,7 +22152,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 179.324 72.136 90)
+			(at 172.974 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22102,7 +22161,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 176.8348 74.93 0)
+			(at 170.4848 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22111,7 +22170,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
-			(at 177.8 78.74 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22120,7 +22179,7 @@
 			)
 		)
 		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 VREG_AVDD filter capacitor, TDK C1005X5R0J475K050BC"
-			(at 177.8 78.74 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22129,7 +22188,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X5R0J475K"
-			(at 177.8 78.74 90)
+			(at 171.45 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22138,7 +22197,7 @@
 			)
 		)
 		(property "LCSC" "C326586"
-			(at 177.8 78.74 90)
+			(at 171.45 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22147,7 +22206,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0402KRX5R6BB475"
-			(at 177.8 78.74 90)
+			(at 171.45 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22155,7 +22214,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "465c7088-720b-4a0f-ac4b-fcc1fd1a2f93")
 		)
@@ -22377,7 +22435,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "447eec16-a688-4fc9-9deb-ae3aa83ea311")
 		)
@@ -22477,7 +22534,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "d112a4d9-3ce9-468a-9deb-11e35e2c7cd2")
 		)
@@ -22567,7 +22623,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "47f6e441-9480-4b2b-9170-b565482e06f2")
 		)
@@ -22657,7 +22712,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "069618ef-a4fd-4449-845d-da7f7f1984f1")
 		)
@@ -22747,7 +22801,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "dc7e7a45-754a-4db9-83de-142f8a5ab5fa")
 		)
@@ -22847,7 +22900,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "b06e3aad-849a-4bff-ab1c-0bac6a8d5ec2")
 		)
@@ -22937,7 +22989,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "ddbb918e-aefd-4e09-9616-d94084d5dd67")
 		)
@@ -23034,7 +23085,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "fb7d62d0-cce8-4e55-8331-4fef148b0dd5")
 		)
@@ -23131,7 +23181,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "74db886c-722e-46b4-8d2b-73cf6c48ea74")
 		)
@@ -23149,7 +23198,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 78.74 180)
+		(at 203.2 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23157,7 +23206,7 @@
 		(dnp no)
 		(uuid "d6d0adb1-67de-4844-9df7-f211e26f21c9")
 		(property "Reference" "C15"
-			(at 211.328 80.772 90)
+			(at 204.978 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23166,7 +23215,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 211.328 72.136 90)
+			(at 204.978 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23175,7 +23224,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 208.5848 74.93 0)
+			(at 202.2348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23184,7 +23233,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 209.55 78.74 0)
+			(at 203.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23193,7 +23242,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 209.55 78.74 0)
+			(at 203.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23202,7 +23251,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 209.55 78.74 90)
+			(at 203.2 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23211,7 +23260,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 209.55 78.74 90)
+			(at 203.2 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23220,7 +23269,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 209.55 78.74 90)
+			(at 203.2 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23228,7 +23277,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "868d0963-4569-4f5f-8a9d-587257074470")
 		)
@@ -23385,7 +23433,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "f5ee3c7d-b8f5-4898-a6fb-96e661ff65a6")
 		)
@@ -23475,7 +23522,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "e74bf8e3-19a4-46e3-9c2e-e61127b16ca8")
 		)
@@ -23565,7 +23611,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "a7d68226-3a25-4c03-9d25-34e8ff315828")
 		)
@@ -23655,7 +23700,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "d1b048f9-5dcc-47a1-bbfe-e9989ea198c5")
 		)
@@ -23745,7 +23789,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "6e710eff-f211-424f-98d0-35bbd7cf9416")
 		)
@@ -23894,7 +23937,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 101.6 0)
+		(at 139.7 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23903,7 +23946,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcf4abe0-720e-4ed2-8f0e-37376c06ff74")
 		(property "Reference" "#PWR012"
-			(at 140.97 107.95 0)
+			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23912,7 +23955,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 106.68 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23920,7 +23963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 101.6 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23929,7 +23972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 101.6 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23938,7 +23981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 101.6 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24032,7 +24075,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "8e6158f7-aa9a-401a-8f24-ae1d1159ac8d")
 		)
@@ -24122,7 +24164,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "da2c44f9-5a96-432b-a9ba-18d0c7364b8a")
 		)
@@ -24212,7 +24253,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "65988321-ff21-4c19-bd60-21e576cd3560")
 		)
@@ -24299,7 +24339,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "3fda4802-fc27-48db-9909-dfdba9a6bfd6")
 		)
@@ -24317,7 +24356,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 78.74 180)
+		(at 190.5 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24325,7 +24364,7 @@
 		(dnp no)
 		(uuid "e4473dfe-6c6e-4536-8567-4c8842422f95")
 		(property "Reference" "C13"
-			(at 198.374 80.772 90)
+			(at 192.024 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24334,7 +24373,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 198.628 72.39 90)
+			(at 192.278 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24343,7 +24382,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 195.8848 74.93 0)
+			(at 189.5348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24352,7 +24391,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
-			(at 196.85 78.74 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24361,7 +24400,7 @@
 			)
 		)
 		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
-			(at 196.85 78.74 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24370,7 +24409,7 @@
 			)
 		)
 		(property "Mouser" "810-C1005X5R0J475K"
-			(at 196.85 78.74 90)
+			(at 190.5 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24379,7 +24418,7 @@
 			)
 		)
 		(property "LCSC" "C326586"
-			(at 196.85 78.74 90)
+			(at 190.5 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24388,7 +24427,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0402KRX5R6BB475"
-			(at 196.85 78.74 90)
+			(at 190.5 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24396,7 +24435,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "b5e3dd3e-dff3-4bd4-a9ec-7f73ba828a78")
 		)
@@ -24552,7 +24590,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "4d41b3fd-ba14-4583-a7ea-bd4b5389060d")
 		)
@@ -24652,7 +24689,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "3e3966a3-bfe8-4ac5-9673-480a214f5be5")
 		)
@@ -24742,7 +24778,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "5a5ef9ad-dd49-4c8c-8672-f6da4ee9ebfb")
 		)
@@ -24832,7 +24867,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "8b307a04-a0fa-4712-8fd8-a621af54c9a6")
 		)
@@ -24988,7 +25022,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "aff0a12c-9f72-44df-a565-6dd522662410")
 		)
@@ -25078,7 +25111,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "7825cc16-8e76-48d4-b5b4-d8109c5f22a9")
 		)
@@ -25168,7 +25200,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "f50be446-a910-4171-9c44-1389f00b98d8")
 		)
@@ -25258,7 +25289,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "2"
 			(uuid "be8952a4-cdc8-49da-ab03-3623d286c205")
 		)
@@ -25276,7 +25306,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 234.95 78.74 180)
+		(at 228.6 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25284,7 +25314,7 @@
 		(dnp no)
 		(uuid "fa9f25f9-d99d-4dd0-aba4-1425e5a8efe8")
 		(property "Reference" "C19"
-			(at 236.728 80.772 90)
+			(at 230.378 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25293,7 +25323,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 236.728 72.136 90)
+			(at 230.378 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25302,7 +25332,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 233.9848 74.93 0)
+			(at 227.6348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25311,7 +25341,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
-			(at 234.95 78.74 0)
+			(at 228.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25320,7 +25350,7 @@
 			)
 		)
 		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
-			(at 234.95 78.74 0)
+			(at 228.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25329,7 +25359,7 @@
 			)
 		)
 		(property "Mouser" "581-KGM03BR71A104KH"
-			(at 234.95 78.74 90)
+			(at 228.6 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25338,7 +25368,7 @@
 			)
 		)
 		(property "LCSC" "C190183"
-			(at 234.95 78.74 90)
+			(at 228.6 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25347,7 +25377,7 @@
 			)
 		)
 		(property "LCSC MPN" "CC0201KRX5R6BB104"
-			(at 234.95 78.74 90)
+			(at 228.6 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25355,7 +25385,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "fcc0ed4a-6dfd-4536-9149-5d2818e9a569")
 		)
@@ -25445,7 +25474,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "49242f14-ef63-4b2d-822f-65dd36d17892")
 		)
@@ -25601,7 +25629,6 @@
 				(hide yes)
 			)
 		)
-		
 		(pin "1"
 			(uuid "dd2edd14-b250-4e9f-bd04-a2b7fd540dc4")
 		)
