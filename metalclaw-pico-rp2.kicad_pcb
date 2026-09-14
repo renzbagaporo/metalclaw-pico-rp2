@@ -27081,7 +27081,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4.7u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "fbab3c1f-1402-4d15-9722-295a75312ec0")
@@ -27092,7 +27092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/en/ProductDetail/TDK/C1005X7S1A105K050BC"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27104,7 +27104,7 @@
 				)
 			)
 		)
-		(property "Description" "1 uF +/-10% 10 V X7S 0402 carrier MCU decoupling capacitor, TDK C1005X7S1A105K050BC"
+		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 regulator input capacitor (CIN), TDK C1005X5R0J475K050BC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27116,7 +27116,7 @@
 				)
 			)
 		)
-		(property "Mouser" "810-C1005X7S1A105K"
+		(property "Mouser" "810-C1005X5R0J475K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27129,7 +27129,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C326586"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27142,7 +27142,7 @@
 				)
 			)
 		)
-		(property "LCSC MPN" "CL05A105KA5NQNC"
+		(property "LCSC MPN" "CC0402KRX5R6BB475"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
