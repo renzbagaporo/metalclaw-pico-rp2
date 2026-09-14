@@ -753,6 +753,18 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC MPN",
+          "name": "LCSC MPN",
+          "show": false
         }
       ],
       "filter_string": "",
