@@ -13392,7 +13392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm"
+		(property "Footprint" "MetalClaw:QFN-80_RP2354B_10x10mm_P0.4mm_EP3.4mm_ViaAwarePaste"
 			(at 295.91 146.05 0)
 			(effects
 				(font
@@ -19345,7 +19345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010"
+		(property "Footprint" "MetalClaw:L_Abracon_AOTA-B201610S3R3-101-T"
 			(at 290.83 80.01 0)
 			(effects
 				(font
@@ -19791,7 +19791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
+		(property "Footprint" "MetalClaw:Samtec_FTSH-105-01-L-DV-K"
 			(at 375.92 187.96 0)
 			(effects
 				(font

@@ -6,10 +6,10 @@ Produces, under fab/:
   <project>_gerbers.zip
   BOM_jlcpcb.csv    Comment, Designator, Footprint, LCSC Part #
   CPL_jlcpcb.csv    Designator, Mid X, Mid Y, Layer, Rotation
+  <project>_assembly-review.zip  upload files plus assembly instructions/drawings
 
 Designators excluded from the CPL are those with no physical part to place:
-  A1    the Raspberry Pi Pico module footprint, which carries the board
-        outline and castellated pads rather than a component
+  A1    the board-outline/castellated-contact footprint, not a component
   NT*   net ties - bare copper joining two nets, nothing to assemble
   TP*   test points - bare copper pads, nothing to assemble
 The BOM lists only parts carrying an LCSC field, which excludes the same set.
@@ -23,6 +23,7 @@ import shutil
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -105,6 +106,23 @@ def build_cpl():
     return rows, {r[0] for r in rows}
 
 
+def bundle_assembly_review():
+    """Keep instructions beside the BOM/CPL and the separate Gerber upload ZIP."""
+    paths = [FAB / f'{PROJECT}_gerbers.zip',
+             FAB / 'BOM_jlcpcb.csv', FAB / 'CPL_jlcpcb.csv']
+    paths += [ROOT / name for name in
+              ('JLCPCB_ASSEMBLY.md', 'JLCPCB_SOURCING.md', 'JLCPCB_DFM_REVIEW.md')]
+    for folder in ('docs/assembly', 'docs/dfm'):
+        paths.extend(sorted(p for p in (ROOT / folder).rglob('*') if p.is_file()))
+    missing = [str(p.relative_to(ROOT)) for p in paths if not p.is_file()]
+    if missing:
+        sys.exit(f'assembly package inputs missing: {missing}')
+    with zipfile.ZipFile(FAB / f'{PROJECT}_assembly-review.zip', 'w',
+                         compression=zipfile.ZIP_DEFLATED) as archive:
+        for path in paths:
+            archive.write(path, path.relative_to(ROOT).as_posix())
+
+
 def main():
     export()
     bom_rows, bom_refs, skipped = build_bom()
@@ -129,14 +147,18 @@ def main():
     (FAB / 'net_bom.xml').unlink()
     (FAB / 'pos_raw.csv').unlink()
     shutil.make_archive(str(FAB / f'{PROJECT}_gerbers'), 'zip', str(GERBERS))
+    bundle_assembly_review()
 
     drill = (GERBERS / f'{PROJECT}.drl').read_text()
-    holes = re.findall(r'X([\d.-]+)Y([\d.-]+)', drill)
+    round_holes = re.findall(r'^X[\d.-]+Y[\d.-]+$', drill, re.MULTILINE)
+    slots = re.findall(r'^X[\d.-]+Y[\d.-]+G85X[\d.-]+Y[\d.-]+$',
+                       drill, re.MULTILINE)
     print(f'BOM   {len(bom_rows)} lines, {len(bom_refs)} placed parts')
     print(f'CPL   {len(cpl_rows)} placements, sides: '
           f'{sorted({r[3] for r in cpl_rows})}')
     print(f'excluded from both (no physical part): {skipped}')
-    print(f'drill {len(holes)} holes')
+    print(f'drill {len(round_holes)} round holes + {len(slots)} slots '
+          f'({len(round_holes) + len(slots)} features)')
 
 
 if __name__ == '__main__':
