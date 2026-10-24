@@ -99,8 +99,8 @@
 		(uuid "9a8d876d-84fe-4d6a-9bd5-9ef6d4eb4c83")
 	)
 	(fp_line
-		(start -1.25 -0.7)
-		(end 1.25 -0.7)
+		(start -1 -0.65)
+		(end 1 -0.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -109,8 +109,8 @@
 		(uuid "2bf03d8a-3681-4f5b-b7a7-3fb803a0707e")
 	)
 	(fp_line
-		(start 1.25 -0.7)
-		(end 1.25 0.7)
+		(start 1 -0.65)
+		(end 1 0.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -119,8 +119,8 @@
 		(uuid "15ddf3d0-b034-4ee1-91f7-feb772e86c29")
 	)
 	(fp_line
-		(start 1.25 0.7)
-		(end -1.25 0.7)
+		(start 1 0.65)
+		(end -1 0.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -129,8 +129,8 @@
 		(uuid "94da2cf1-b8bc-497b-9c85-f894be428ff7")
 	)
 	(fp_line
-		(start -1.25 0.7)
-		(end -1.25 -0.7)
+		(start -1 0.65)
+		(end -1 -0.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -139,8 +139,8 @@
 		(uuid "c0ebcb1b-f20a-4f17-97da-a182f77d1f56")
 	)
 	(fp_line
-		(start -1.05 -0.7)
-		(end -1.05 0.7)
+		(start -0.75 -0.65)
+		(end -0.75 0.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,7 +178,7 @@
 		(uuid "2731a129-a323-4599-b9e1-8d0b0777dba1")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+	(model "${KIPRJMOD}/3dmodels/D_SOD-323HE_SS14HE.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
