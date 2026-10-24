@@ -1,10 +1,10 @@
-(footprint "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+(footprint "USB_C_Receptacle_HH_Y495_16P_TopMnt_Horizontal"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
-	(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
+	(descr "USB 2.0 Type-C receptacle, HH 16P TYPE-C (Y495), right-angle top-mount, 3 A; drawing: https://atta.szlcsc.com/upload/public/pdf/source/20251029/88316D916EA0A1BC818D034D3E6B8D5C.pdf")
+	(tags "USB C Type-C receptacle SMD USB 2.0 16P HH Y495 C52209111")
 	(property "Reference" "REF**"
 		(at 0 -5.5 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+	(property "Value" "USB_C_Receptacle_HH_Y495_16P_TopMnt_Horizontal"
 		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")

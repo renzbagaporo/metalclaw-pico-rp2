@@ -13870,7 +13870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -13879,7 +13879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -13888,7 +13888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 273.05 78.74 90)
 			(effects
 				(font
@@ -14837,7 +14837,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A"
+		(property "Value" "HH 16P TYPE-C (Y495)"
 			(at 382.524 88.646 90)
 			(effects
 				(font
@@ -14845,7 +14845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MetalClaw:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "MetalClaw:USB_C_Receptacle_HH_Y495_16P_TopMnt_Horizontal"
 			(at 367.03 88.9 0)
 			(effects
 				(font
@@ -14854,7 +14854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20251029/88316D916EA0A1BC818D034D3E6B8D5C.pdf"
 			(at 367.03 88.9 0)
 			(effects
 				(font
@@ -14863,7 +14863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C USB 2.0 16-contact right-angle top-mount receptacle, GCT USB4105-GF-A"
+		(property "Description" "USB Type-C USB 2.0 16-contact right-angle top-mount receptacle, 3 A, HH 16P TYPE-C (Y495)"
 			(at 370.84 88.9 0)
 			(effects
 				(font
@@ -14872,7 +14872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "GCT"
+		(property "Manufacturer" "HH"
 			(at 370.84 88.9 0)
 			(effects
 				(font
@@ -14881,7 +14881,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USB4105-GF-A"
+		(property "MPN" "HH 16P TYPE-C (Y495)"
 			(at 370.84 88.9 0)
 			(effects
 				(font
@@ -14890,7 +14890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "640-USB4105-GF-A"
+		(property "Supplier" "JLCPCB/LCSC"
 			(at 370.84 88.9 0)
 			(effects
 				(font
@@ -14899,7 +14899,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3020560"
+		(property "LCSC" "C52209111"
 			(at 370.84 88.9 0)
 			(effects
 				(font
@@ -15337,7 +15337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -15346,7 +15346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -15355,7 +15355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 196.85 78.74 90)
 			(effects
 				(font
@@ -15556,7 +15556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -15565,7 +15565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -15574,7 +15574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 247.65 78.74 90)
 			(effects
 				(font
@@ -15777,7 +15777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 234.95 78.74 0)
 			(effects
 				(font
@@ -15786,7 +15786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 234.95 78.74 0)
 			(effects
 				(font
@@ -15795,7 +15795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 234.95 78.74 90)
 			(effects
 				(font
@@ -16516,7 +16516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -16525,7 +16525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -16534,7 +16534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 241.3 78.74 90)
 			(effects
 				(font
@@ -16630,7 +16630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -16639,7 +16639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -16648,7 +16648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 209.55 78.74 90)
 			(effects
 				(font
@@ -16832,7 +16832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
 			(at 177.8 78.74 0)
 			(effects
 				(font
@@ -16841,7 +16841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 regulator input capacitor (CIN), TDK C1005X5R0J475K050BC"
+		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 regulator input capacitor (CIN), Yageo CC0402KRX5R6BB475"
 			(at 177.8 78.74 0)
 			(effects
 				(font
@@ -16850,7 +16850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X5R0J475K"
+		(property "Manufacturer" "Yageo"
 			(at 177.8 78.74 90)
 			(effects
 				(font
@@ -18379,7 +18379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1A106M080AT"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106KP8NNN.do"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -18388,7 +18388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 uF 10 V X7R +/-20% 0603 MLCC, TDK C1608X7R1A106M080AT"
+		(property "Description" "10 uF 10 V X5R +/-10% 0603 MLCC, Samsung Electro-Mechanics CL10A106KP8NNNC"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -18397,7 +18397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1608X7R1A106M08"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -18493,7 +18493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -18502,7 +18502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -18511,7 +18511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 222.25 78.74 90)
 			(effects
 				(font
@@ -18780,7 +18780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -18789,7 +18789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -18798,7 +18798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 260.35 78.74 90)
 			(effects
 				(font
@@ -18960,7 +18960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -18969,7 +18969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF 10 V X7R +/-10% 0201 carrier RESET filter, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF 10 V X5R +/-10% 0201 carrier RESET filter, Yageo CC0201KRX5R6BB104"
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -18978,7 +18978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 151.13 90.17 90)
 			(effects
 				(font
@@ -19947,7 +19947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -19956,7 +19956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -19965,7 +19965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 254 78.74 90)
 			(effects
 				(font
@@ -20468,7 +20468,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTS810SJM250SMTR LFS"
+		(property "Value" "YTS810SJM"
 			(at 111.76 96.5199 90)
 			(effects
 				(font
@@ -20486,7 +20486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/95a2c05fac4da9765bb65e17dac6c203.pdf?productCode=C2910643"
 			(at 118.11 95.25 0)
 			(effects
 				(font
@@ -20495,7 +20495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
+		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, 4.2 x 3.2 x 2.5 mm, YIYUAN YTS810SJM"
 			(at 113.03 95.25 0)
 			(effects
 				(font
@@ -20504,7 +20504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "611-PTS810SJM250SMTR"
+		(property "Manufacturer" "YIYUAN"
 			(at 113.03 95.25 90)
 			(effects
 				(font
@@ -20513,7 +20513,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2910643"
 			(at 113.03 95.25 90)
 			(effects
 				(font
@@ -20522,7 +20522,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "MPN" "YTS810SJM"
 			(at 113.03 95.25 90)
 			(effects
 				(font
@@ -20980,7 +20980,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTS810SJM250SMTR LFS"
+		(property "Value" "YTS810SJM"
 			(at 138.43 91.4399 90)
 			(effects
 				(font
@@ -20998,7 +20998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/95a2c05fac4da9765bb65e17dac6c203.pdf?productCode=C2910643"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -21007,7 +21007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, C&K PTS810SJM250SMTR LFS"
+		(property "Description" "Momentary SPST-NO top-actuated SMT tactile switch, 160 gf, 4.2 x 3.2 x 2.5 mm, YIYUAN YTS810SJM"
 			(at 139.7 90.17 0)
 			(effects
 				(font
@@ -21016,7 +21016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "611-PTS810SJM250SMTR"
+		(property "Manufacturer" "YIYUAN"
 			(at 139.7 90.17 90)
 			(effects
 				(font
@@ -21025,7 +21025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2910643"
 			(at 139.7 90.17 90)
 			(effects
 				(font
@@ -21034,7 +21034,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "MPN" "YTS810SJM"
 			(at 139.7 90.17 90)
 			(effects
 				(font
@@ -21812,7 +21812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1A106M080AT"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A106KP8NNN.do"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -21821,7 +21821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 uF 10 V X7R +/-20% 0603 MLCC, TDK C1608X7R1A106M080AT"
+		(property "Description" "10 uF 10 V X5R +/-10% 0603 MLCC, Samsung Electro-Mechanics CL10A106KP8NNNC"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -21830,7 +21830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1608X7R1A106M08"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -22354,7 +22354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7S1A105K050BC"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05A105KA5NQN"
 			(at 386.08 138.43 0)
 			(effects
 				(font
@@ -22363,7 +22363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 uF 10 V X7S +/-10% 0402 MLCC, TDK C1005X7S1A105K050BC"
+		(property "Description" "1 uF 25 V X5R +/-10% 0402 MLCC, Samsung Electro-Mechanics CL05A105KA5NQNC"
 			(at 386.08 138.43 0)
 			(effects
 				(font
@@ -22372,7 +22372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X7S1A105K"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 386.08 138.43 90)
 			(effects
 				(font
@@ -22660,7 +22660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -22669,7 +22669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -22678,7 +22678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 215.9 78.74 90)
 			(effects
 				(font
@@ -23846,7 +23846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -23855,7 +23855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
+		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -23864,7 +23864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X5R0J475K"
+		(property "Manufacturer" "Yageo"
 			(at 184.15 78.74 90)
 			(effects
 				(font
@@ -24413,7 +24413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS6404L_3SQR_v2_3_PKG-1954826.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/0/a/3/d/e/APS6404L_3SQR_Datasheet.pdf"
 			(at 370.84 156.21 0)
 			(effects
 				(font
@@ -24422,7 +24422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "64 Mbit QSPI PSRAM, 8M x 8, up to 133 MHz, 2.7-3.6 V, SOP-8, AP Memory APS6404L-3SQR-SN"
+		(property "Description" "64 Mbit SPI/QPI PSRAM, 8M x 8, 2.7-3.6 V, SOP-8 150 mil, AP Memory APS6404L-3SQR-SN; linear burst up to 84 MHz"
 			(at 370.84 158.75 0)
 			(effects
 				(font
@@ -24431,7 +24431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "878-APS6404L-3SQR-SN"
+		(property "Manufacturer" "AP Memory"
 			(at 370.84 138.43 0)
 			(effects
 				(font
@@ -24449,7 +24449,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "MPN" "APS6404L-3SQR-SN"
 			(at 370.84 138.43 0)
 			(effects
 				(font
@@ -24536,7 +24536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -24545,7 +24545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 VREG_AVDD filter capacitor, TDK C1005X5R0J475K050BC"
+		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 VREG_AVDD filter capacitor, Yageo CC0402KRX5R6BB475"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -24554,7 +24554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X5R0J475K"
+		(property "Manufacturer" "Yageo"
 			(at 171.45 78.74 90)
 			(effects
 				(font
@@ -25551,7 +25551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
 			(at 266.7 78.74 0)
 			(effects
 				(font
@@ -25560,7 +25560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
+		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
 			(at 266.7 78.74 0)
 			(effects
 				(font
@@ -25569,7 +25569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X5R0J475K"
+		(property "Manufacturer" "Yageo"
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -25864,7 +25864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -25873,7 +25873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -25882,7 +25882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 203.2 78.74 90)
 			(effects
 				(font
@@ -27165,7 +27165,7 @@
 				)
 			)
 		)
-		(property "Value" "CUHS20F30,H3F"
+		(property "Value" "SS14HE"
 			(at 343.8525 69.85 0)
 			(effects
 				(font
@@ -27173,7 +27173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MetalClaw:D_US2H_CUHS20F30"
+		(property "Footprint" "MetalClaw:D_SOD-323HE_SS14HE"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27182,7 +27182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CUHS20F30_datasheet_en_20250926.pdf?did=63604&prodName=CUHS20F30"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/6c23897d9338a6092c7736bca8f498a2.pdf?productCode=C28646397"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27191,7 +27191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30 V 2 A Schottky barrier diode, SOD-323HE (US2H), Toshiba CUHS20F30,H3F"
+		(property "Description" "40 V 1 A Schottky barrier diode, SOD-323HE, TECH PUBLIC SS14HE"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27200,7 +27200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "757-CUHS20F30H3F"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27209,7 +27209,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5357828"
+		(property "LCSC" "C28646397"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27218,7 +27218,7 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_DVDD" ""
+		(property "MPN" "SS14HE"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27287,7 +27287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R0J475K050BC"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -27296,7 +27296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 6.3 V X5R +/-10% 0402 MLCC, TDK C1005X5R0J475K050BC"
+		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -27305,7 +27305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-C1005X5R0J475K"
+		(property "Manufacturer" "Yageo"
 			(at 190.5 78.74 90)
 			(effects
 				(font
@@ -28569,7 +28569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM03BR71A104KH"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0201KRX5R6BB104"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -28578,7 +28578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF +/-10% 10 V X7R 0201 carrier MCU decoupling capacitor, KYOCERA AVX KGM03BR71A104KH"
+		(property "Description" "100 nF +/-10% 10 V X5R 0201 carrier MCU decoupling capacitor, Yageo CC0201KRX5R6BB104"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -28587,7 +28587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-KGM03BR71A104KH"
+		(property "Manufacturer" "Yageo"
 			(at 228.6 78.74 90)
 			(effects
 				(font

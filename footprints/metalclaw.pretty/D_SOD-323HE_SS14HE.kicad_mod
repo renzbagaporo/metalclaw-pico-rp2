@@ -1,10 +1,10 @@
-(footprint "D_US2H_CUHS20F30"
+(footprint "D_SOD-323HE_SS14HE"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Toshiba US2H (SOD-323HE), land pattern per CUHS20F30 datasheet Fig. 8.1: cathode 2.0x1.1, gap 0.5, anode 0.8x1.1 mm")
-	(tags "diode schottky US2H SOD-323HE")
+	(descr "TECH PUBLIC SS14HE, SOD-323HE, 40 V 1 A Schottky; retained lands: cathode 2.0x1.1 and anode 0.8x1.1 mm; datasheet nominal lands 2.0x1.0 and 0.7x1.0 mm")
+	(tags "diode schottky SOD-323HE SS14HE")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "D_US2H_CUHS20F30"
+	(property "Value" "D_SOD-323HE_SS14HE"
 		(at 0 1.5 0)
 		(layer "F.Fab")
 		(uuid "e56c7558-4560-4fbe-b8ae-2c0c68f791bd")
