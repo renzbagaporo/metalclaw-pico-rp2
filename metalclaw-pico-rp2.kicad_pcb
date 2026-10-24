@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "MetalClaw Pico RP2")
+		(date "2026-10-24")
+		(rev "v1.r1")
+		(comment 1 "Author: Renz Bagaporo")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -29807,7 +29813,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_text "metalclaw\npico-rp2\nv1.r0"
+	(gr_text "metalclaw\npico-rp2\nv1.r1"
 		(at 163.81 121.85 0)
 		(layer "B.SilkS")
 		(uuid "34ef8ff9-71eb-4ef4-9664-f462d52a7648")

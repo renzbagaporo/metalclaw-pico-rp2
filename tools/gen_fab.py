@@ -7,6 +7,8 @@ Produces, under fab/:
   BOM_jlcpcb.csv    Comment, Designator, Footprint, LCSC Part #
   CPL_jlcpcb.csv    Designator, Mid X, Mid Y, Layer, Rotation
   <project>_assembly-review.zip  upload files plus assembly instructions/drawings
+  SOURCE.json      sheet revision, Git source state and source-file hashes
+  SHA256SUMS       checksums for the generated files
 
 Designators excluded from the CPL are those with no physical part to place:
   A1    the board-outline/castellated-contact footprint, not a component
@@ -18,6 +20,8 @@ The two files are cross-checked: their designator sets must be identical.
 Usage:  python3 tools/gen_fab.py
 """
 import csv
+import hashlib
+import json
 import re
 import shutil
 import subprocess
@@ -33,7 +37,8 @@ SCH = ROOT / f'{PROJECT}.kicad_sch'
 FAB = ROOT / 'fab'
 GERBERS = FAB / 'gerbers'
 
-KICAD_CLI = '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli'
+KICAD_CLI = (shutil.which('kicad-cli') or
+             '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli')
 
 LAYERS = ('F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,'
           'F.Silkscreen,B.Silkscreen,Edge.Cuts')
@@ -47,6 +52,56 @@ def run(*args):
     if r.returncode != 0:
         sys.exit(f'command failed: {" ".join(args)}\n{r.stdout}{r.stderr}')
     return r.stdout
+
+
+def hardware_revision():
+    revisions = []
+    for path in (SCH, PCB):
+        block = re.search(r'^\t\(title_block\n(.*?)^\t\)',
+                          path.read_text(), re.MULTILINE | re.DOTALL)
+        revision = re.search(r'\(rev "([^"]+)"\)', block[1]) if block else None
+        if not revision:
+            sys.exit(f'missing sheet revision in {path.name}')
+        revisions.append(revision[1])
+    if revisions[0] != revisions[1]:
+        sys.exit(f'schematic/PCB revision mismatch: {revisions}')
+    label = re.search(r'\(gr_text "metalclaw\\npico-rp2\\n([^"]+)"',
+                      PCB.read_text())
+    if not label or label[1] != revisions[0]:
+        sys.exit('PCB silkscreen revision does not match the sheet revision')
+    return revisions[0]
+
+
+def write_provenance(revision):
+    paths = [SCH, PCB, ROOT / f'{PROJECT}.kicad_pro',
+             ROOT / f'{PROJECT}.kicad_dru', ROOT / 'fp-lib-table',
+             Path(__file__).resolve()]
+    for folder in ('footprints', '3dmodels'):
+        paths.extend(p for p in (ROOT / folder).rglob('*')
+                     if p.is_file() and p.suffix in ('.kicad_mod', '.step', '.wrl'))
+    commit = subprocess.run(['git', '-C', str(ROOT), 'rev-parse', 'HEAD'],
+                            capture_output=True, text=True)
+    status = subprocess.run(['git', '-C', str(ROOT), 'status', '--porcelain'],
+                            capture_output=True, text=True)
+    metadata = {
+        'project': PROJECT,
+        'hardware_revision': revision,
+        'git_commit': commit.stdout.strip() if commit.returncode == 0 else None,
+        'working_tree_dirty': bool(status.stdout.strip()) if status.returncode == 0 else None,
+        'source_sha256': {
+            p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+            for p in sorted(paths)
+        },
+    }
+    (FAB / 'SOURCE.json').write_text(json.dumps(metadata, indent=2) + '\n')
+
+
+def write_checksums():
+    paths = sorted(p for p in FAB.rglob('*')
+                   if p.is_file() and p.name != 'SHA256SUMS')
+    (FAB / 'SHA256SUMS').write_text(''.join(
+        f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(FAB).as_posix()}\n'
+        for p in paths))
 
 
 def export():
@@ -109,7 +164,8 @@ def build_cpl():
 def bundle_assembly_review():
     """Keep instructions beside the BOM/CPL and the separate Gerber upload ZIP."""
     paths = [FAB / f'{PROJECT}_gerbers.zip',
-             FAB / 'BOM_jlcpcb.csv', FAB / 'CPL_jlcpcb.csv']
+             FAB / 'BOM_jlcpcb.csv', FAB / 'CPL_jlcpcb.csv', FAB / 'SOURCE.json',
+             ROOT / '3dmodels/README.md', ROOT / 'tools/gen_d1_model.py']
     paths += [ROOT / name for name in
               ('JLCPCB_ASSEMBLY.md', 'JLCPCB_SOURCING.md', 'JLCPCB_DFM_REVIEW.md')]
     for folder in ('docs/assembly', 'docs/dfm'):
@@ -124,6 +180,7 @@ def bundle_assembly_review():
 
 
 def main():
+    revision = hardware_revision()
     export()
     bom_rows, bom_refs, skipped = build_bom()
     cpl_rows, cpl_refs = build_cpl()
@@ -147,13 +204,16 @@ def main():
     (FAB / 'net_bom.xml').unlink()
     (FAB / 'pos_raw.csv').unlink()
     shutil.make_archive(str(FAB / f'{PROJECT}_gerbers'), 'zip', str(GERBERS))
+    write_provenance(revision)
     bundle_assembly_review()
+    write_checksums()
 
     drill = (GERBERS / f'{PROJECT}.drl').read_text()
     round_holes = re.findall(r'^X[\d.-]+Y[\d.-]+$', drill, re.MULTILINE)
     slots = re.findall(r'^X[\d.-]+Y[\d.-]+G85X[\d.-]+Y[\d.-]+$',
                        drill, re.MULTILINE)
     print(f'BOM   {len(bom_rows)} lines, {len(bom_refs)} placed parts')
+    print(f'rev   {revision}; provenance: fab/SOURCE.json; checksums: fab/SHA256SUMS')
     print(f'CPL   {len(cpl_rows)} placements, sides: '
           f'{sorted({r[3] for r in cpl_rows})}')
     print(f'excluded from both (no physical part): {skipped}')

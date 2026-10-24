@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c83ebc88-59c8-491c-acdb-d3cfac2d55f0")
 	(paper "B")
+	(title_block
+		(title "MetalClaw Pico RP2")
+		(date "2026-10-24")
+		(rev "v1.r1")
+		(comment 1 "Author: Renz Bagaporo")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

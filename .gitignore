@@ -43,6 +43,19 @@ fp-info-cache
 *.kicad_prl
 .DS_Store
 
+# Generated manufacturing packages belong on tagged releases.
+/fab/
+
+# Ad-hoc KiCad reports and experimental board archives.
+/DRC.rpt
+/ERC.rpt
+/docs/reviews/**/*.zip
+
+# Python tooling caches.
+__pycache__/
+*.py[cod]
+/.venv-docs/
+
 # Local engineering records and generated artifacts.
 /.internal/
 /AUDIT.md
@@ -51,9 +64,6 @@ fp-info-cache
 /JLCPCB_DFM_REVIEW.md
 /docs/reviews/
 /docs/dfm/
-/DRC.rpt
-/ERC.rpt
-/fab/
 /error.log
 
 # Local design, assembly and sourcing guides.
