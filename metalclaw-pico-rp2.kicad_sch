@@ -19789,7 +19789,7 @@
 				)
 			)
 		)
-		(property "Value" "FTSH-105-01-L-DV-K"
+		(property "Value" "FTSH-105-01-L-DV-K-P-TR"
 			(at 377.19 198.628 0)
 			(effects
 				(font
@@ -19806,7 +19806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.samtec.com/products/ftsh-105-01-l-dv-k"
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19815,7 +19815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10-pin 2-row 1.27 mm vertical SMT micro header with keying notch for SWD, Samtec FTSH-105-01-L-DV-K"
+		(property "Description" "10-pin 2-row 1.27 mm vertical SMT SWD header with compact plastic key, 3.05 mm mating posts, 10 microinch gold / matte tin, pick-and-place pad, tape and reel; Samtec FTSH-105-01-L-DV-K-P-TR"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19833,7 +19833,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FTSH-105-01-L-DV-K"
+		(property "MPN" "FTSH-105-01-L-DV-K-P-TR"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19842,7 +19842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "200-FTSH10501LDVK"
+		(property "Mouser" ""
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19851,7 +19851,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5155080"
+		(property "LCSC" "C2932107"
 			(at 375.92 187.96 0)
 			(effects
 				(font

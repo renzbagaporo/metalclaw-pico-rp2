@@ -21188,7 +21188,7 @@
 				)
 			)
 		)
-		(property "Value" "FTSH-105-01-L-DV-K"
+		(property "Value" "FTSH-105-01-L-DV-K-P-TR"
 			(at 0 4.285 90)
 			(layer "F.Fab")
 			(uuid "854aad2e-5ef5-48c7-8a8a-bc7d9dacd0b4")
@@ -21199,7 +21199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.samtec.com/products/ftsh-105-01-l-dv-k"
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21211,7 +21211,7 @@
 				)
 			)
 		)
-		(property "Description" "10-pin 2-row 1.27 mm vertical SMT micro header with keying notch for SWD, Samtec FTSH-105-01-L-DV-K"
+		(property "Description" "10-pin 2-row 1.27 mm vertical SMT SWD header with compact plastic key, 3.05 mm mating posts, 10 microinch gold / matte tin, pick-and-place pad, tape and reel; Samtec FTSH-105-01-L-DV-K-P-TR"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21236,7 +21236,7 @@
 				)
 			)
 		)
-		(property "MPN" "FTSH-105-01-L-DV-K"
+		(property "MPN" "FTSH-105-01-L-DV-K-P-TR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21249,7 +21249,7 @@
 				)
 			)
 		)
-		(property "Mouser" "200-FTSH10501LDVK"
+		(property "Mouser" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21262,7 +21262,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5155080"
+		(property "LCSC" "C2932107"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
