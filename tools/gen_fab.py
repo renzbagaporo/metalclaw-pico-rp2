@@ -32,7 +32,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJECT = 'metalclaw-pico-rp2'
-ASSEMBLY_EXPORT_REVISION = 'v1.r1-pcba.1'
 PCB = ROOT / f'{PROJECT}.kicad_pcb'
 SCH = ROOT / f'{PROJECT}.kicad_sch'
 FAB = ROOT / 'fab'
@@ -58,6 +57,18 @@ CPL_ROTATION_OFFSETS = {
     'J2': ('C27985146', -90.0),
 }
 
+# Placement heads in the exact selected JLCEDA/EasyEDA packages differ from
+# the KiCad body origins. Offsets are in exported CPL X/Y, not PCB screen Y.
+# J1 is derived from its signal row and independently checked against both
+# locating pegs and all four shell anchors. D1 is checked against both lands.
+# See docs/reviews/placement-2026-10-25.md. A new JLC preview must confirm the
+# runtime library registration before the assembly is approved.
+# ref: (purchasing code, reviewed raw KiCad angle, delta X, delta Y)
+CPL_POSITION_OFFSETS = {
+    'J1': ('C52209111', 180.0, 0.0, -1.3182),
+    'D1': ('C172430', 90.0, 0.0, 0.3000),
+}
+
 
 def jlc_rotation(ref, raw_rotation, lcsc):
     if ref not in CPL_ROTATION_OFFSETS:
@@ -67,6 +78,19 @@ def jlc_rotation(ref, raw_rotation, lcsc):
         raise ValueError(f'{ref}: rotation correction expects {expected_lcsc}, '
                          f'found {lcsc!r}; review the new part orientation')
     return f'{(float(raw_rotation) + offset) % 360:.6f}'
+
+
+def jlc_position(ref, raw_x, raw_y, raw_rotation, lcsc):
+    x, y = float(raw_x), float(raw_y)
+    if ref in CPL_POSITION_OFFSETS:
+        expected_lcsc, angle, dx, dy = CPL_POSITION_OFFSETS[ref]
+        if lcsc != expected_lcsc or abs(
+                (float(raw_rotation) - angle + 180) % 360 - 180) > 1e-6:
+            raise ValueError(f'{ref}: position correction expects {expected_lcsc} '
+                             f'at {angle:g} degrees; review the new placement')
+        x += dx
+        y += dy
+    return f'{x:.4f}mm', f'{y:.4f}mm'
 
 
 def run(*args):
@@ -108,7 +132,12 @@ def write_provenance(revision):
     metadata = {
         'project': PROJECT,
         'hardware_revision': revision,
-        'assembly_export_revision': ASSEMBLY_EXPORT_REVISION,
+        'placement_corrections': {
+            'rotation_offsets': CPL_ROTATION_OFFSETS,
+            'position_offsets_cpl_frame': CPL_POSITION_OFFSETS,
+            'review': 'docs/reviews/placement-2026-10-25.md',
+            'jlc_reimport_confirmation': 'pending',
+        },
         'git_commit': commit.stdout.strip() if commit.returncode == 0 else None,
         'working_tree_dirty': bool(status.stdout.strip()) if status.returncode == 0 else None,
         'source_sha256': {
@@ -181,18 +210,18 @@ def build_cpl():
             ref = row['Ref']
             if ref.startswith('#') or NOT_PLACED.match(ref):
                 continue
-            if ref in CPL_ROTATION_OFFSETS and row['Side'] != 'top':
-                raise ValueError(f'{ref}: rotation correction was reviewed for Top only')
-            rows.append([ref,
-                         f"{float(row['PosX']):.4f}mm",
-                         f"{float(row['PosY']):.4f}mm",
+            if ref in (CPL_ROTATION_OFFSETS.keys() | CPL_POSITION_OFFSETS.keys()) and row['Side'] != 'top':
+                raise ValueError(f'{ref}: placement correction was reviewed for Top only')
+            x, y = jlc_position(ref, row['PosX'], row['PosY'], row['Rot'],
+                                purchasing_codes.get(ref, ''))
+            rows.append([ref, x, y,
                          'Top' if row['Side'] == 'top' else 'Bottom',
                          jlc_rotation(ref, row['Rot'],
                                       purchasing_codes.get(ref, ''))])
     rows.sort()
     refs = {r[0] for r in rows}
-    if missing := CPL_ROTATION_OFFSETS.keys() - refs:
-        raise ValueError(f'rotation-reviewed components absent from CPL: {sorted(missing)}')
+    if missing := (CPL_ROTATION_OFFSETS.keys() | CPL_POSITION_OFFSETS.keys()) - refs:
+        raise ValueError(f'placement-reviewed components absent from CPL: {sorted(missing)}')
     return rows, refs
 
 
@@ -204,7 +233,8 @@ def bundle_assembly_review():
              ROOT / 'tools/gen_j2_model.py']
     paths += [ROOT / name for name in
               ('JLCPCB_ASSEMBLY.md', 'JLCPCB_SOURCING.md', 'JLCPCB_DFM_REVIEW.md')]
-    for folder in ('docs/assembly', 'docs/dfm'):
+    paths.append(ROOT / 'docs/reviews/placement-2026-10-25.md')
+    for folder in ('docs/assembly', 'docs/dfm', 'docs/reviews/placement-2026-10-25'):
         paths.extend(sorted(p for p in (ROOT / folder).rglob('*') if p.is_file()))
     missing = [str(p.relative_to(ROOT)) for p in paths if not p.is_file()]
     if missing:
@@ -249,7 +279,7 @@ def main():
     slots = re.findall(r'^X[\d.-]+Y[\d.-]+G85X[\d.-]+Y[\d.-]+$',
                        drill, re.MULTILINE)
     print(f'BOM   {len(bom_rows)} lines, {len(bom_refs)} placed parts')
-    print(f'rev   {revision}; assembly export: {ASSEMBLY_EXPORT_REVISION}; '
+    print(f'rev   {revision}; '
           'provenance: fab/SOURCE.json; checksums: fab/SHA256SUMS')
     print(f'CPL   {len(cpl_rows)} placements, sides: '
           f'{sorted({r[3] for r in cpl_rows})}')
