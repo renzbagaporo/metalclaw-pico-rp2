@@ -1,6 +1,6 @@
 # MetalClaw Pico RP2
 
-![MetalClaw Pico RP2](docs/images/board-v1.r1.png)
+![MetalClaw Pico RP2 with its USB-C connector and bare SWD header](docs/images/board-v1.r1.png)
 
 An RP2354B board for testing firmware on a Raspberry Pi Pico or Pico 2.
 [Metalclaw firmware](https://github.com/renzbagaporo/metalclaw-fw) provides
@@ -82,3 +82,7 @@ footprint is part of the carrier PCB, not a module to populate.
 
 Order files belong on [tagged releases](https://github.com/renzbagaporo/metalclaw-pico-rp2/releases).
 See [release preparation](docs/RELEASING.md) for export and archive details.
+
+## License
+
+[CC BY-SA 4.0](LICENSE). See [NOTICE.md](NOTICE.md) for attribution and third-party terms.

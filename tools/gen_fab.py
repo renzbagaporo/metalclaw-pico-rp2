@@ -61,7 +61,7 @@ CPL_ROTATION_OFFSETS = {
 # the KiCad body origins. Offsets are in exported CPL X/Y, not PCB screen Y.
 # J1 is derived from its signal row and independently checked against both
 # locating pegs and all four shell anchors. D1 is checked against both lands.
-# See docs/reviews/placement-2026-10-25.md. A new JLC preview must confirm the
+# See JLCPCB_ASSEMBLY.md. A new JLC preview must confirm the
 # runtime library registration before the assembly is approved.
 # ref: (purchasing code, reviewed raw KiCad angle, delta X, delta Y)
 CPL_POSITION_OFFSETS = {
@@ -121,7 +121,8 @@ def hardware_revision():
 def write_provenance(revision):
     paths = [SCH, PCB, ROOT / f'{PROJECT}.kicad_pro',
              ROOT / f'{PROJECT}.kicad_dru', ROOT / 'fp-lib-table',
-             Path(__file__).resolve(), ROOT / 'tools/gen_j2_model.py']
+             Path(__file__).resolve(), ROOT / 'tools/gen_j2_model.py',
+             ROOT / 'LICENSE', ROOT / 'NOTICE.md']
     for folder in ('footprints', '3dmodels'):
         paths.extend(p for p in (ROOT / folder).rglob('*')
                      if p.is_file() and p.suffix in ('.kicad_mod', '.step', '.wrl'))
@@ -135,7 +136,7 @@ def write_provenance(revision):
         'placement_corrections': {
             'rotation_offsets': CPL_ROTATION_OFFSETS,
             'position_offsets_cpl_frame': CPL_POSITION_OFFSETS,
-            'review': 'docs/reviews/placement-2026-10-25.md',
+            'orientation_guide': 'JLCPCB_ASSEMBLY.md',
             'jlc_reimport_confirmation': 'pending',
         },
         'git_commit': commit.stdout.strip() if commit.returncode == 0 else None,
@@ -229,12 +230,12 @@ def bundle_assembly_review():
     """Keep instructions beside the BOM/CPL and the separate Gerber upload ZIP."""
     paths = [FAB / f'{PROJECT}_gerbers.zip',
              FAB / 'BOM_jlcpcb.csv', FAB / 'CPL_jlcpcb.csv', FAB / 'SOURCE.json',
+             ROOT / 'LICENSE', ROOT / 'NOTICE.md',
              ROOT / '3dmodels/README.md', ROOT / 'tools/gen_d1_model.py',
              ROOT / 'tools/gen_j2_model.py']
     paths += [ROOT / name for name in
-              ('JLCPCB_ASSEMBLY.md', 'JLCPCB_SOURCING.md', 'JLCPCB_DFM_REVIEW.md')]
-    paths.append(ROOT / 'docs/reviews/placement-2026-10-25.md')
-    for folder in ('docs/assembly', 'docs/dfm', 'docs/reviews/placement-2026-10-25'):
+              ('JLCPCB_ASSEMBLY.md', 'JLCPCB_SOURCING.md')]
+    for folder in ('docs/assembly',):
         paths.extend(sorted(p for p in (ROOT / folder).rglob('*') if p.is_file()))
     missing = [str(p.relative_to(ROOT)) for p in paths if not p.is_file()]
     if missing:

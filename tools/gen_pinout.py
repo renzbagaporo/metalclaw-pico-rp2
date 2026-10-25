@@ -18,6 +18,7 @@ import tempfile
 import xml.etree.ElementTree as ET
 
 from PIL import Image
+from render_board import render_source
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJECT = 'metalclaw-pico-rp2'
@@ -276,8 +277,9 @@ def main():
         subprocess.run([cli,'sch','export','netlist','--format','kicadxml','--output',str(netlist),str(SCH)],check=True)
         image=args.board_image or Path(tmp)/'board.png'
         if args.board_image is None:
-            subprocess.run([cli,'pcb','render','--side','top','--quality','basic','--width','640','--height','1500',
-                            '--background','transparent','--zoom','0.90','--output',str(image),str(PCB)],check=True)
+            with render_source() as source:
+                subprocess.run([cli,'pcb','render','--define-var',f'KIPRJMOD={ROOT}','--side','top','--quality','basic','--width','640','--height','1500',
+                                '--background','transparent','--zoom','0.90','--output',str(image),str(source)],check=True)
         metadata=make_svg(image,connections(netlist))
         print(f'Generated {OUTPUT.relative_to(ROOT)}; 40 header pins, 43 GPIO branches, 4 control/debug branches.')
         print(f'Maximum render alignment error: {metadata["hole_alignment_error_pixels"]:.3f} px')
