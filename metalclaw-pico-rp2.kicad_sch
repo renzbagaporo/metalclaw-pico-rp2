@@ -13274,7 +13274,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6220B331MR-G"
+		(property "Value" "AP2112K-3.3TRG1"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -13291,7 +13291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.torexsemi.com/file/xc6220/XC6220.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP2112.pdf"
 			(at 86.36 99.06 0)
 			(effects
 				(font
@@ -13300,7 +13300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 A low-dropout regulator, fixed 3.3 V output, SOT-25, Torex XC6220B331MR-G"
+		(property "Description" "600 mA fixed 3.3 V low-dropout regulator, SOT-25, active-high enable; Diodes Incorporated AP2112K-3.3TRG1"
 			(at 67.31 73.66 0)
 			(effects
 				(font
@@ -13309,7 +13309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "865-XC6220B331MR-G"
+		(property "Mouser" ""
 			(at 67.31 73.66 0)
 			(effects
 				(font
@@ -13318,7 +13318,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86534"
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP2112K-3.3TRG1"
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C51118"
 			(at 67.31 73.66 0)
 			(effects
 				(font
@@ -19789,7 +19807,7 @@
 				)
 			)
 		)
-		(property "Value" "FTSH-105-01-L-DV-K-P-TR"
+		(property "Value" "HC-PZ127-7.2L-2x5PS"
 			(at 377.19 198.628 0)
 			(effects
 				(font
@@ -19797,7 +19815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MetalClaw:Samtec_FTSH-105-01-L-DV-K"
+		(property "Footprint" "MetalClaw:HCTL_HC-PZ127-7.2L-2x5PS"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19806,7 +19824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/6cceb9a5157e418f0d202dde8ff2fbeb.pdf?productCode=C27985146"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19815,7 +19833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10-pin 2-row 1.27 mm vertical SMT SWD header with compact plastic key, 3.05 mm mating posts, 10 microinch gold / matte tin, pick-and-place pad, tape and reel; Samtec FTSH-105-01-L-DV-K-P-TR"
+		(property "Description" "10-pin 2-row 1.27 mm vertical SMT unshrouded header, 0.40 mm square contacts, 4.0 mm mating posts; HCTL HC-PZ127-7.2L-2x5PS"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19824,7 +19842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec"
+		(property "Manufacturer" "HCTL"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19833,7 +19851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FTSH-105-01-L-DV-K-P-TR"
+		(property "MPN" "HC-PZ127-7.2L-2x5PS"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -19851,7 +19869,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2932107"
+		(property "LCSC" "C27985146"
 			(at 375.92 187.96 0)
 			(effects
 				(font
@@ -27171,7 +27189,7 @@
 				)
 			)
 		)
-		(property "Value" "SS14HE"
+		(property "Value" "LMBR140ET1G"
 			(at 343.8525 69.85 0)
 			(effects
 				(font
@@ -27188,7 +27206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/6c23897d9338a6092c7736bca8f498a2.pdf?productCode=C28646397"
+		(property "Datasheet" "https://www.lrc.cn/Upload/PDF/Product/SBD/LMBR140ET1G.pdf"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27197,7 +27215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40 V 1 A Schottky barrier diode, SOD-323HE, TECH PUBLIC SS14HE"
+		(property "Description" "40 V 1 A Schottky barrier diode, SOD-323HE, large underside cathode; LRC LMBR140ET1G"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27206,7 +27224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TECH PUBLIC"
+		(property "Manufacturer" "LRC"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27215,7 +27233,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28646397"
+		(property "LCSC" "C172430"
 			(at 344.17 73.66 0)
 			(effects
 				(font
@@ -27224,7 +27242,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SS14HE"
+		(property "MPN" "LMBR140ET1G"
 			(at 344.17 73.66 0)
 			(effects
 				(font

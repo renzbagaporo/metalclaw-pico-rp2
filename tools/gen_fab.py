@@ -75,7 +75,7 @@ def hardware_revision():
 def write_provenance(revision):
     paths = [SCH, PCB, ROOT / f'{PROJECT}.kicad_pro',
              ROOT / f'{PROJECT}.kicad_dru', ROOT / 'fp-lib-table',
-             Path(__file__).resolve()]
+             Path(__file__).resolve(), ROOT / 'tools/gen_j2_model.py']
     for folder in ('footprints', '3dmodels'):
         paths.extend(p for p in (ROOT / folder).rglob('*')
                      if p.is_file() and p.suffix in ('.kicad_mod', '.step', '.wrl'))
@@ -165,7 +165,8 @@ def bundle_assembly_review():
     """Keep instructions beside the BOM/CPL and the separate Gerber upload ZIP."""
     paths = [FAB / f'{PROJECT}_gerbers.zip',
              FAB / 'BOM_jlcpcb.csv', FAB / 'CPL_jlcpcb.csv', FAB / 'SOURCE.json',
-             ROOT / '3dmodels/README.md', ROOT / 'tools/gen_d1_model.py']
+             ROOT / '3dmodels/README.md', ROOT / 'tools/gen_d1_model.py',
+             ROOT / 'tools/gen_j2_model.py']
     paths += [ROOT / name for name in
               ('JLCPCB_ASSEMBLY.md', 'JLCPCB_SOURCING.md', 'JLCPCB_DFM_REVIEW.md')]
     for folder in ('docs/assembly', 'docs/dfm'):
