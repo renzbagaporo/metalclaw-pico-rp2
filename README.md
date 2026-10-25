@@ -34,8 +34,7 @@ the target's SWD interface.
 Several target pins have multiple carrier GPIO branches. Only one push-pull
 carrier branch may drive a given target net at a time. GP26–GP28 pass through
 permanent analogue filters and do not provide an unfiltered high-speed
-digital path. The [full mapping](DESIGN.md#3-authoritative-carrier-to-pico-assignment)
-also lists roles supplied through PIO.
+digital path.
 
 ## Connections and controls
 
@@ -62,9 +61,6 @@ Open [metalclaw-pico-rp2.kicad_pro](metalclaw-pico-rp2.kicad_pro) in KiCad 9.
 
 - [Schematic](metalclaw-pico-rp2.kicad_sch)
 - [PCB layout](metalclaw-pico-rp2.kicad_pcb)
-- [Design and pin assignments](DESIGN.md)
-- [Assembly instructions](JLCPCB_ASSEMBLY.md)
-- [Component sourcing](JLCPCB_SOURCING.md)
 
 Project-local footprints and models are in `footprints/` and `3dmodels/`.
 
@@ -81,7 +77,6 @@ the PCB, and `BOM_jlcpcb.csv` / `CPL_jlcpcb.csv` for assembly. The Pico outline
 footprint is part of the carrier PCB, not a module to populate.
 
 Order files belong on [tagged releases](https://github.com/renzbagaporo/metalclaw-pico-rp2/releases).
-See [release preparation](docs/RELEASING.md) for export and archive details.
 
 ## License
 

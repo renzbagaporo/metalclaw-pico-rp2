@@ -6,7 +6,7 @@ Produces, under fab/:
   <project>_gerbers.zip
   BOM_jlcpcb.csv    Comment, Designator, Footprint, LCSC Part #
   CPL_jlcpcb.csv    Designator, Mid X, Mid Y, Layer, Rotation
-  <project>_assembly-review.zip  upload files plus assembly instructions/drawings
+  <project>_assembly-review.zip  upload files, source provenance and licensing
   SOURCE.json      sheet revision, Git source state and source-file hashes
   SHA256SUMS       checksums for the generated files
 
@@ -61,8 +61,8 @@ CPL_ROTATION_OFFSETS = {
 # the KiCad body origins. Offsets are in exported CPL X/Y, not PCB screen Y.
 # J1 is derived from its signal row and independently checked against both
 # locating pegs and all four shell anchors. D1 is checked against both lands.
-# See JLCPCB_ASSEMBLY.md. A new JLC preview must confirm the
-# runtime library registration before the assembly is approved.
+# A new JLC preview must confirm the runtime library registration
+# before the assembly is approved.
 # ref: (purchasing code, reviewed raw KiCad angle, delta X, delta Y)
 CPL_POSITION_OFFSETS = {
     'J1': ('C52209111', 180.0, 0.0, -1.3182),
@@ -136,7 +136,6 @@ def write_provenance(revision):
         'placement_corrections': {
             'rotation_offsets': CPL_ROTATION_OFFSETS,
             'position_offsets_cpl_frame': CPL_POSITION_OFFSETS,
-            'orientation_guide': 'JLCPCB_ASSEMBLY.md',
             'jlc_reimport_confirmation': 'pending',
         },
         'git_commit': commit.stdout.strip() if commit.returncode == 0 else None,
@@ -227,16 +226,10 @@ def build_cpl():
 
 
 def bundle_assembly_review():
-    """Keep instructions beside the BOM/CPL and the separate Gerber upload ZIP."""
+    """Bundle the upload files with provenance and licensing."""
     paths = [FAB / f'{PROJECT}_gerbers.zip',
              FAB / 'BOM_jlcpcb.csv', FAB / 'CPL_jlcpcb.csv', FAB / 'SOURCE.json',
-             ROOT / 'LICENSE', ROOT / 'NOTICE.md',
-             ROOT / '3dmodels/README.md', ROOT / 'tools/gen_d1_model.py',
-             ROOT / 'tools/gen_j2_model.py']
-    paths += [ROOT / name for name in
-              ('JLCPCB_ASSEMBLY.md', 'JLCPCB_SOURCING.md')]
-    for folder in ('docs/assembly',):
-        paths.extend(sorted(p for p in (ROOT / folder).rglob('*') if p.is_file()))
+             ROOT / 'LICENSE', ROOT / 'NOTICE.md']
     missing = [str(p.relative_to(ROOT)) for p in paths if not p.is_file()]
     if missing:
         sys.exit(f'assembly package inputs missing: {missing}')
