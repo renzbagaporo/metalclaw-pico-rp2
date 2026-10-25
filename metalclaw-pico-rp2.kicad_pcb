@@ -3910,7 +3910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3922,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 MLCC, Murata GRM155R60J475ME47D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3934,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3947,7 +3947,20 @@
 				)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23568c2e-9122-4a58-9b89-7014afd45590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82453"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3960,7 +3973,7 @@
 				)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7539,7 +7552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7551,7 +7564,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 VREG_AVDD filter capacitor, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 VREG_AVDD filter capacitor, Murata GRM155R60J475ME47D"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7563,7 +7576,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7576,7 +7589,20 @@
 				)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97241db4-c4e5-458b-a770-d430ef2279ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82453"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7589,7 +7615,7 @@
 				)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16079,7 +16105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
+		(property "Datasheet" "https://www.mouser.com/ds/2/210/WR02X-247974.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16091,7 +16117,7 @@
 				)
 			)
 		)
-		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
+		(property "Description" "27 ohm +/-1% 50 mW 0201 USB data series resistor, Walsin WR02X27R0FAL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16103,7 +16129,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0201FR-0727RL"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16116,7 +16142,33 @@
 				)
 			)
 		)
-		(property "LCSC" "C273268"
+		(property "Manufacturer" "Walsin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a098ce5-ff74-45ee-b99e-682f486dd72e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "WR02X27R0FAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c210513e-e238-4042-82b1-ad340c5b35cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C367568"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21956,7 +22008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
+		(property "Datasheet" "https://www.mouser.com/ds/2/210/WR02X-247974.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21968,7 +22020,7 @@
 				)
 			)
 		)
-		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
+		(property "Description" "27 ohm +/-1% 50 mW 0201 USB data series resistor, Walsin WR02X27R0FAL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21980,7 +22032,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0201FR-0727RL"
+		(property "Mouser" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21993,7 +22045,33 @@
 				)
 			)
 		)
-		(property "LCSC" "C273268"
+		(property "Manufacturer" "Walsin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a59c6cea-a24b-4a53-904d-63df4597e6b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "WR02X27R0FAL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d28953b-78d2-4d4b-9a57-6de045cd1e7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C367568"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22144,7 +22222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22156,7 +22234,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 MLCC, Murata GRM155R60J475ME47D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22168,7 +22246,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22181,7 +22259,20 @@
 				)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a2cfa2b-67b4-4511-b6ae-f27f430ff09f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82453"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22194,7 +22285,7 @@
 				)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23511,7 +23602,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23523,7 +23614,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 MLCC, Murata GRM155R60J475ME47D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23535,7 +23626,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23548,7 +23639,20 @@
 				)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6aae999c-89c3-4194-b182-17e26bd2d11a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82453"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23561,7 +23665,7 @@
 				)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26772,7 +26876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26784,7 +26888,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 regulator input capacitor (CIN), Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 regulator input capacitor (CIN), Murata GRM155R60J475ME47D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26796,7 +26900,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26809,7 +26913,20 @@
 				)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91e98646-420b-487a-984e-239376f587ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C82453"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26822,7 +26939,7 @@
 				)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

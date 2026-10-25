@@ -16856,7 +16856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 177.8 78.74 0)
 			(effects
 				(font
@@ -16865,7 +16865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 regulator input capacitor (CIN), Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 regulator input capacitor (CIN), Murata GRM155R60J475ME47D"
 			(at 177.8 78.74 0)
 			(effects
 				(font
@@ -16874,7 +16874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 177.8 78.74 90)
 			(effects
 				(font
@@ -16883,7 +16883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
 			(at 177.8 78.74 90)
 			(effects
 				(font
@@ -16892,7 +16892,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC" "C82453"
+			(at 177.8 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 177.8 78.74 90)
 			(effects
 				(font
@@ -16972,7 +16981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
+		(property "Datasheet" "https://www.mouser.com/ds/2/210/WR02X-247974.pdf"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -16981,7 +16990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
+		(property "Description" "27 ohm +/-1% 50 mW 0201 USB data series resistor, Walsin WR02X27R0FAL"
 			(at 335.28 123.19 0)
 			(effects
 				(font
@@ -16990,7 +16999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0201FR-0727RL"
+		(property "Mouser" ""
 			(at 335.28 123.19 90)
 			(effects
 				(font
@@ -16999,7 +17008,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C273268"
+		(property "Manufacturer" "Walsin"
+			(at 335.28 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR02X27R0FAL"
+			(at 335.28 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C367568"
 			(at 335.28 123.19 90)
 			(effects
 				(font
@@ -20809,7 +20836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/YAGEO/RC0201FR-0727RL"
+		(property "Datasheet" "https://www.mouser.com/ds/2/210/WR02X-247974.pdf"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -20818,7 +20845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "27 ohm +/-1% 1/20 W 0201 USB data series resistor, Yageo RC0201FR-0727RL"
+		(property "Description" "27 ohm +/-1% 50 mW 0201 USB data series resistor, Walsin WR02X27R0FAL"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -20827,7 +20854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0201FR-0727RL"
+		(property "Mouser" ""
 			(at 335.28 120.65 90)
 			(effects
 				(font
@@ -20836,7 +20863,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C273268"
+		(property "Manufacturer" "Walsin"
+			(at 335.28 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR02X27R0FAL"
+			(at 335.28 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C367568"
 			(at 335.28 120.65 90)
 			(effects
 				(font
@@ -23870,7 +23915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -23879,7 +23924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 MLCC, Murata GRM155R60J475ME47D"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -23888,7 +23933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 184.15 78.74 90)
 			(effects
 				(font
@@ -23897,7 +23942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
 			(at 184.15 78.74 90)
 			(effects
 				(font
@@ -23906,7 +23951,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC" "C82453"
+			(at 184.15 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 184.15 78.74 90)
 			(effects
 				(font
@@ -24560,7 +24614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -24569,7 +24623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 VREG_AVDD filter capacitor, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 VREG_AVDD filter capacitor, Murata GRM155R60J475ME47D"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -24578,7 +24632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 171.45 78.74 90)
 			(effects
 				(font
@@ -24587,7 +24641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
 			(at 171.45 78.74 90)
 			(effects
 				(font
@@ -24596,7 +24650,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC" "C82453"
+			(at 171.45 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 171.45 78.74 90)
 			(effects
 				(font
@@ -25575,7 +25638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 266.7 78.74 0)
 			(effects
 				(font
@@ -25584,7 +25647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 MLCC, Murata GRM155R60J475ME47D"
 			(at 266.7 78.74 0)
 			(effects
 				(font
@@ -25593,7 +25656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -25602,7 +25665,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -25611,7 +25674,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC" "C82453"
+			(at 266.7 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -27311,7 +27383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R6BB475"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-17A.pdf"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -27320,7 +27392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 uF 10 V X5R +/-10% 0402 MLCC, Yageo CC0402KRX5R6BB475"
+		(property "Description" "4.7 uF 6.3 V X5R +/-20% 0402 MLCC, Murata GRM155R60J475ME47D"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -27329,7 +27401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 190.5 78.74 90)
 			(effects
 				(font
@@ -27338,7 +27410,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C326586"
+		(property "MPN" "GRM155R60J475ME47D"
 			(at 190.5 78.74 90)
 			(effects
 				(font
@@ -27347,7 +27419,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC MPN" "CC0402KRX5R6BB475"
+		(property "LCSC" "C82453"
+			(at 190.5 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC MPN" "GRM155R60J475ME47D"
 			(at 190.5 78.74 90)
 			(effects
 				(font
