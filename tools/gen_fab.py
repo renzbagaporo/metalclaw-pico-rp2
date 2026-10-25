@@ -32,6 +32,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJECT = 'metalclaw-pico-rp2'
+ASSEMBLY_EXPORT_REVISION = 'v1.r1-pcba.1'
 PCB = ROOT / f'{PROJECT}.kicad_pcb'
 SCH = ROOT / f'{PROJECT}.kicad_sch'
 FAB = ROOT / 'fab'
@@ -45,6 +46,27 @@ LAYERS = ('F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,'
 
 # Designators that are copper features, not placeable components.
 NOT_PLACED = re.compile(r'^(A1|NT\d+|TP\d+)$')
+
+# Measured against JLC's placement preview for these exact selected parts.
+# JLC CPL angles are positive counterclockwise; these offsets reconcile its
+# library zero angles with KiCad, without rotating the source footprints.
+# Ref + purchasing-code guards require a new review after a part substitution.
+CPL_ROTATION_OFFSETS = {
+    'U1': ('C51118', -90.0),
+    'U3': ('C5333729', -90.0),
+    'L1': ('C42411119', 180.0),
+    'J2': ('C27985146', -90.0),
+}
+
+
+def jlc_rotation(ref, raw_rotation, lcsc):
+    if ref not in CPL_ROTATION_OFFSETS:
+        return raw_rotation
+    expected_lcsc, offset = CPL_ROTATION_OFFSETS[ref]
+    if lcsc != expected_lcsc:
+        raise ValueError(f'{ref}: rotation correction expects {expected_lcsc}, '
+                         f'found {lcsc!r}; review the new part orientation')
+    return f'{(float(raw_rotation) + offset) % 360:.6f}'
 
 
 def run(*args):
@@ -86,6 +108,7 @@ def write_provenance(revision):
     metadata = {
         'project': PROJECT,
         'hardware_revision': revision,
+        'assembly_export_revision': ASSEMBLY_EXPORT_REVISION,
         'git_commit': commit.stdout.strip() if commit.returncode == 0 else None,
         'working_tree_dirty': bool(status.stdout.strip()) if status.returncode == 0 else None,
         'source_sha256': {
@@ -146,19 +169,31 @@ def build_bom():
 
 
 def build_cpl():
+    components = ET.parse(FAB / 'net_bom.xml').getroot()
+    purchasing_codes = {
+        comp.get('ref'): next((f.text or '' for f in comp.iter('field')
+                              if f.get('name') == 'LCSC'), '')
+        for comp in components.iter('comp')
+    }
     rows = []
     with open(FAB / 'pos_raw.csv') as fh:
         for row in csv.DictReader(fh):
             ref = row['Ref']
             if ref.startswith('#') or NOT_PLACED.match(ref):
                 continue
+            if ref in CPL_ROTATION_OFFSETS and row['Side'] != 'top':
+                raise ValueError(f'{ref}: rotation correction was reviewed for Top only')
             rows.append([ref,
                          f"{float(row['PosX']):.4f}mm",
                          f"{float(row['PosY']):.4f}mm",
                          'Top' if row['Side'] == 'top' else 'Bottom',
-                         row['Rot']])
+                         jlc_rotation(ref, row['Rot'],
+                                      purchasing_codes.get(ref, ''))])
     rows.sort()
-    return rows, {r[0] for r in rows}
+    refs = {r[0] for r in rows}
+    if missing := CPL_ROTATION_OFFSETS.keys() - refs:
+        raise ValueError(f'rotation-reviewed components absent from CPL: {sorted(missing)}')
+    return rows, refs
 
 
 def bundle_assembly_review():
@@ -214,7 +249,8 @@ def main():
     slots = re.findall(r'^X[\d.-]+Y[\d.-]+G85X[\d.-]+Y[\d.-]+$',
                        drill, re.MULTILINE)
     print(f'BOM   {len(bom_rows)} lines, {len(bom_refs)} placed parts')
-    print(f'rev   {revision}; provenance: fab/SOURCE.json; checksums: fab/SHA256SUMS')
+    print(f'rev   {revision}; assembly export: {ASSEMBLY_EXPORT_REVISION}; '
+          'provenance: fab/SOURCE.json; checksums: fab/SHA256SUMS')
     print(f'CPL   {len(cpl_rows)} placements, sides: '
           f'{sorted({r[3] for r in cpl_rows})}')
     print(f'excluded from both (no physical part): {skipped}')
